@@ -4,21 +4,17 @@ import './App.css';
 
 function Thumbnail(props) {
   return (
-    <div className="project">
-      <Link to={props.link}>
-        <div className="project-image relative">
-          <img src={props.image} alt="Project Image"/>
-          <div className="bg-white rounded-full  absolute top-4 left-4 py-2 px-6">
-            <div className="project-title font-semibold">
-              {props.title}
-            </div>
-            <div className="project-category">
-              {props.category}
-            </div>
+      <Link className="transform transition duration-500 hover:scale-101 rounded-3xl relative overflow-hidden" to={props.link}>
+        <img className="" src={props.image} alt="Project Image"/>
+        <div className="bg-brand-primary rounded-full  absolute bottom-2 right-2 py-2 px-6">
+          <div className="project-title text-xs font-semibold">
+            {props.title}
+          </div>
+          <div className="">
+            {props.category}
           </div>
         </div>
       </Link>
-    </div>
   );
 }
 

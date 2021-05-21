@@ -11,7 +11,7 @@ import "tailwindcss/tailwind.css";
 function App() {
   return (
   <BrowserRouter>
-    <div className="App">
+    <div className="App font-body bg-brand-primary">
       <Header/>
       <Hero/>
       <Projects/>
