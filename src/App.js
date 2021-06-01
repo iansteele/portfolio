@@ -21,4 +21,14 @@ function App() {
   );
 }
 
+const Aboutpage = () => {
+	return (
+		<div>
+				<Header/>
+				<h1>Aboutpage</h1>
+				<Link to='/'>Go to Aboutpage</Link>
+		</div>
+	)
+};
+
 export default App;

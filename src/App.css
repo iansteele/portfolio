@@ -3,9 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.App {
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
 
+  a {
+    @apply text-brand-secondary;
+  }
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

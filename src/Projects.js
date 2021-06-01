@@ -6,10 +6,10 @@ function Projects(props) {
   return (
     // Render a Thumbnail component
     <div className="text-white mx-auto">
-      <h2 className="mt-8 ml-6 text-2xl font-semibold text-left">
-        My Work
+      <h2 className="mt-8 ml-6 font-semibold text-left">
+        Work
       </h2>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 md:gap-8 mt-4 pt-4 px-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 pt-4 px-6">
         {/*  Digital Menus */}
         <Thumbnail
           link="/untappd-digital-menus"

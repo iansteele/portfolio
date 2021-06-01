@@ -7,7 +7,7 @@ import Button from './Button.js';
 function Footer(props) {
   return (
     // Render a Thumbnail component
-    <footer className="flex text-white items-center justify-between max-w-screen-2xltext-gray-900 mt-8 mx-auto py-8 px-6">
+    <footer className="flex text-white items-center justify-between text-gray-900 mt-8 mx-auto px-6 py-8">
       <div class="flex flex-col ">
         <p className="text-ss">Want to work together?</p>
         <Button className="bg-brand-secondary"
