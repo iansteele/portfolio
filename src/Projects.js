@@ -4,7 +4,6 @@ import './App.css';
 
 function Projects(props) {
   return (
-    // Render a Thumbnail component
     <div className="text-white mx-auto">
       <h2 className="mt-8 ml-6 font-semibold text-left">
         Work
@@ -19,7 +18,7 @@ function Projects(props) {
         />
         {/*  Virtual Fest */}
         <Thumbnail
-          link="/virtual-fest"
+          link="VirtualFest"
           image="img/ut/v-fest/thumb.jpg"
           title="Untappd Virtual Fest"
           category=""
