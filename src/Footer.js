@@ -6,7 +6,7 @@ import Button from './Button.js';
 function Footer(props) {
   return (
     <footer className="flex text-white items-center justify-between text-gray-900 mt-8 px-6 py-8">
-      <div class="flex flex-col space-y-4 ">
+      <div className="flex flex-col space-y-4 ">
         <p className="text-sm">Want to work together?</p>
         <Button className="bg-brand-secondary text-brand-primary"
           link="mailto:steeledesignco@gmail.com"

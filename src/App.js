@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  BrowserRouter
+} from "react-router-dom";
 import Header from './Header.js';
 import Home from './Home.js';
 import VirtualFest from './projects/VirtualFest.js';
+
 import Footer from './Footer.js';
 import "tailwindcss/tailwind.css";
 
@@ -12,11 +19,14 @@ function App() {
     <BrowserRouter>
       <main className="App grid grid-flow-row auto-rows-max ont-body bg-brand-primary">
         <Header/>
-        <switch>
-          <Route path="/" component={Home} exact/>
-          <Route path="./projects/VirtualFest"  component={VirtualFest} />
-          {/* <Route component={Error} /> */}
-        </switch>
+          <Switch>
+            <Route path="">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <VirtualFest />
+            </Route>
+          </Switch>
         <Footer/>
       </main>
     </BrowserRouter>
