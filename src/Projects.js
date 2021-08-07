@@ -10,33 +10,33 @@ function Projects(props) {
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 pt-4 px-6">
         {/*  Digital Menus */}
-        <Thumbnail
-          link="/untappd-digital-menus"
-          image="img/firetv/firetv_thumb.jpg"
-          title="Untappd Digital Menus"
-          category=""
-        />
-        {/*  Virtual Fest */}
-        <Thumbnail
-          link="VirtualFest"
-          image="img/ut/v-fest/thumb.jpg"
-          title="Untappd Virtual Fest"
-          category=""
-        />
-        {/*  Grading */}
-        <Thumbnail
-          link="/grading"
-          image="img/grading-thumb.png"
-          title="Assignment grading"
-          category=""
-        />
-        {/*  Illustrations */}
-        <Thumbnail
-          link="/grading"
-          image="img/illustrations/dietrying.jpg"
-          title="Illustrations"
-          category=""
-        />
+          <Thumbnail
+            link="/untappd-digital-menus"
+            image="img/firetv/firetv_thumb.jpg"
+            title="Untappd Digital Menus"
+            category=""
+          />
+          {/*  Virtual Fest */}
+          <Thumbnail
+            link="/VirtualFest"
+            image="img/ut/v-fest/thumb.jpg"
+            title="Untappd Virtual Fest"
+            category=""
+          />
+          {/*  Grading */}
+          <Thumbnail
+            link="/grading"
+            image="img/grading-thumb.png"
+            title="Assignment grading"
+            category=""
+          />
+          {/*  Illustrations */}
+          <Thumbnail
+            link="/grading"
+            image="img/illustrations/dietrying.jpg"
+            title="Illustrations"
+            category=""
+          />
       </div>
     </div>
   )

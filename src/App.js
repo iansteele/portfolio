@@ -16,20 +16,16 @@ import "tailwindcss/tailwind.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <main className="App grid grid-flow-row auto-rows-max ont-body bg-brand-primary">
         <Header/>
-          <Switch>
-            <Route path="">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <VirtualFest />
-            </Route>
-          </Switch>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/VirtualFest" component={VirtualFest}/>
+        </Switch>
         <Footer/>
       </main>
-    </BrowserRouter>
+    </Router>
   );
 }
 
