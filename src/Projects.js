@@ -5,9 +5,6 @@ import './App.css';
 function Projects(props) {
   return (
     <div className="text-white mx-auto">
-      <h2 className="mt-8 ml-6 font-semibold text-left">
-        Work
-      </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 pt-4 px-6">
         {/*  Digital Menus */}
           <Thumbnail
