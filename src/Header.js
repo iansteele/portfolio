@@ -12,9 +12,9 @@ function Header(props) {
         </svg>
         <h1 className="hidden brand-primary font-display tracking-narrow font-bold text-xl sm:block ml-2">Steele Design <span>co</span></h1>
       </Link >
-      <nav className="flex font-bold text-brand-secondary">
-        <a className="border-b-2 border-solid border-transparent hover:border-brand-secondary hover:text-white py-0.5 px-1 transition-colors" href="https://www.notion.so/Ian-Steele-ca6f009ed2204389be0a2d3a0ee99788">My Resume</a>
-        <a className="border-b-2 border-solid border-transparent hover:border-brand-secondary  hover:text-white ml-2 py-0.5 px-1 transition-colors" href="mailto:steeledesignco@gmail.com?subject=Reaching out from Steele Design Co" target="_blank">Contact</a>
+      <nav className="flex font-bold text-sm space-x-1 md:space-x-4 text-brand-secondary">
+        <a className=" hover:text-white py-0.5 px-1 transition-colors" href="https://www.notion.so/Ian-Steele-ca6f009ed2204389be0a2d3a0ee99788">My Resume</a>
+        <a className="  hover:text-white ml-2 py-0.5 px-1 transition-colors" href="mailto:steeledesignco@gmail.com?subject=Reaching out from Steele Design Co" target="_blank">Contact</a>
       </nav>
     </header>
   )

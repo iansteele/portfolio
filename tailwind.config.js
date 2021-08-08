@@ -5,7 +5,7 @@ module.exports = {
     colors: {
       black: '#1a151b',
       white: '#FFF',
-      gray: '#8e8e8e',
+      gray: '#a09a8f',
       brand: {
         primary: '#15161b',
         secondary: '#AF7247',
