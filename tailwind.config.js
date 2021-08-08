@@ -30,7 +30,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      'display': ['Roboto', 'serif'],
+      'display': ['DM Serif Text', 'serif'],
       'body': ['Roboto', 'sans-serif'],
     },
     scale: {
