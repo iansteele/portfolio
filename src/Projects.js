@@ -18,7 +18,7 @@ function Projects(props) {
           />
           {/*  Virtual Fest */}
           <Thumbnail
-            link="/VirtualFest"
+            link="/portfolio/virtual-fest"
             image="img/ut/v-fest/thumb.jpg"
             title="Untappd Virtual Fest"
             category=""

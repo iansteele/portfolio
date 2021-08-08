@@ -20,8 +20,8 @@ function App() {
       <main className="App grid grid-flow-row auto-rows-max ont-body bg-brand-primary">
         <Header/>
         <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/VirtualFest" component={VirtualFest}/>
+          <Route exact path="/portfolio" component={Home}/>
+          <Route path="/portfolio/virtual-fest" component={VirtualFest}/>
         </Switch>
         <Footer/>
       </main>
