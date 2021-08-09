@@ -4,11 +4,13 @@ module.exports = {
   theme: {
     colors: {
       black: '#1a151b',
-      white: '#FFF',
-      gray: '#a09a8f',
+      white: '#f5f0e5',
+      gray: '#5dadb3',
       brand: {
-        primary: '#15161b',
-        secondary: '#AF7247',
+        primary: '#131e1f',
+        // primary: '#15161b',
+        secondary: '#e8a440',
+        // secondary: '#AF7247',
         tertiary: '#f6f6f6',
       },
     },
