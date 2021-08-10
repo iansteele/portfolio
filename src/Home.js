@@ -5,7 +5,7 @@ import Projects from './Projects.js';
 
 function Home(props) {
   return (
-    <div>
+    <div class="flex-grow">
       <Hero/>
       <Projects/>
     </div>

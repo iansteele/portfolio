@@ -15,19 +15,10 @@ module.exports = {
       },
     },
     extend: {
+      gridTemplateRows: {
+        'layout': '200px minmax(900px, 1fr) 100px',
+      },
       scale: {
-        '0': '0',
-        '25': '.25',
-        '50': '.5',
-        '75': '.75',
-        '90': '.9',
-        '95': '.95',
-        '100': '1',
-        '105': '1.05',
-        '110': '1.1',
-        '125': '1.25',
-        '150': '1.5',
-        '200': '2',
         '101': '1.01',
       }
     },
@@ -35,12 +26,10 @@ module.exports = {
       'display': ['DM Serif Text', 'serif'],
       'body': ['Roboto', 'sans-serif'],
     },
-    scale: {
-      '101': '101',
-    }
   },
   variants: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }

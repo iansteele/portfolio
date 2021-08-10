@@ -17,14 +17,14 @@ import "tailwindcss/tailwind.css";
 function App() {
   return (
     <Router>
-      <div className="App h-full grid grid-flow-row auto-rows-max bg-brand-primary overflow-y-scroll">
+      <main className="App grid grid-flow-row auto-rows-max bg-brand-primary">
         <Header/>
         <Switch>
           <Route exact path="/portfolio" component={Home}/>
           <Route path="/portfolio/virtual-fest" component={VirtualFest}/>
         </Switch>
         <Footer/>
-      </div>
+      </main>
     </Router>
   );
 }
