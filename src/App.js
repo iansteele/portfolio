@@ -18,8 +18,8 @@ import "tailwindcss/tailwind.css";
 function App() {
   return (
     <Router>
-        <Header/>
-        <main className="flex-grow bg-brand-primary">
+        <Header className="max-w-screen-2xl"/>
+        <main className="flex-grow max-w-screen-2xl bg-brand-primary">
           <Switch>
             <Route exact path="/portfolio" component={Home}/>
             <Route path="/portfolio/virtual-fest" component={VirtualFest}/>
@@ -27,7 +27,7 @@ function App() {
             <Route path="/portfolio/grading" component={Grading}/>
           </Switch>
         </main>
-        <Footer/>
+        <Footer className="max-w-screen-2xl"/>
     </Router>
   );
 }
