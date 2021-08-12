@@ -11,6 +11,7 @@ import Header from './components/Header.js';
 import Home from './Home.js';
 import VirtualFest from './projects/VirtualFest.js';
 import Illustration from './projects/Illustration.js';
+import Grading from './projects/Grading.js';
 import Footer from './components/Footer.js';
 import "tailwindcss/tailwind.css";
 
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/portfolio" component={Home}/>
             <Route path="/portfolio/virtual-fest" component={VirtualFest}/>
             <Route path="/portfolio/illustration" component={Illustration}/>
+            <Route path="/portfolio/grading" component={Grading}/>
           </Switch>
         </main>
         <Footer/>

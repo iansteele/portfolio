@@ -2,9 +2,9 @@ import React from 'react';
 
 function VirtualFest(props) {
   return (
-   <div className="flex flex-col items-center flex-grow px-4 py-24 mx-auto text-center text-white max-w-screen-2xl">
-     <h1 className="text-4xl text-white">Virtual Fest!</h1>
-   </div>
+    <div className="px-6 pt-4 space-y-10">
+      <h2 className="text-5xl text-white font-display ">Virtual Fest</h2>
+    </div>
   )
 }
 

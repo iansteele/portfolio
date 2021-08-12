@@ -22,7 +22,7 @@ function Projects(props) {
           />
           {/*  Grading */}
           <Thumbnail
-            link="/grading"
+            link="/portfolio/grading"
             image="img/grading-thumb.png"
             title="Assignment grading"
             category=""
