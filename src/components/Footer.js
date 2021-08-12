@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 import Social from './Social.js';
 import Button from './Button.js';
 
 function Footer(props) {
   return (
-    <footer className="flex flex-col space-y-6 xs:space-y-0 text-white  xs:flex-row items-center justify-between text-gray-900 mt-8 sm:mt-0 px-6 py-10">
-      <div className="flex flex-col items-center sm:items-start space-y-4 ">
+    <footer className="flex flex-col items-center justify-between px-6 py-10 mt-8 space-y-10 text-white text-gray-900 sm:space-y-0 sm:flex-row sm:mt-0">
+      <div className="flex flex-col items-center space-y-4 sm:items-start ">
         <p className="text-sm">Want to work together?</p>
         <Button className="bg-brand-secondary text-brand-primary"
           link="mailto:steeledesignco@gmail.com"

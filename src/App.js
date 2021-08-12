@@ -7,24 +7,25 @@ import {
   Link,
   BrowserRouter
 } from "react-router-dom";
-import Header from './Header.js';
+import Header from './components/Header.js';
 import Home from './Home.js';
 import VirtualFest from './projects/VirtualFest.js';
-
-import Footer from './Footer.js';
+import Illustration from './projects/Illustration.js';
+import Footer from './components/Footer.js';
 import "tailwindcss/tailwind.css";
 
 function App() {
   return (
     <Router>
-      <main className="App grid grid-flow-row auto-rows-max bg-brand-primary">
         <Header/>
-        <Switch>
-          <Route exact path="/portfolio" component={Home}/>
-          <Route path="/portfolio/virtual-fest" component={VirtualFest}/>
-        </Switch>
+        <main className="flex-grow bg-brand-primary">
+          <Switch>
+            <Route exact path="/portfolio" component={Home}/>
+            <Route path="/portfolio/virtual-fest" component={VirtualFest}/>
+            <Route path="/portfolio/illustration" component={Illustration}/>
+          </Switch>
+        </main>
         <Footer/>
-      </main>
     </Router>
   );
 }

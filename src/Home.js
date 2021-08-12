@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Hero from './Hero.js';
-import Projects from './Projects.js';
+import Hero from './components/Hero.js';
+import Projects from './components/Projects.js';
 
 function Home(props) {
   return (
-    <div class="flex-grow">
+    <div className="flex-grow">
       <Hero/>
       <Projects/>
     </div>

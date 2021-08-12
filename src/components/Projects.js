@@ -1,11 +1,11 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import './App.css';
+import '../App.css';
 
 function Projects(props) {
   return (
-    <div className="text-white mx-auto">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 px-4 pt-4 md:px-6 auto-rows-max	">
+    <div className="mx-auto text-white">
+      <div className="grid gap-4 px-4 pt-4 mt-4 sm:grid-cols-2 lg:grid-cols-3 md:px-6 auto-rows-max ">
         {/*  Digital Menus */}
           <Thumbnail
             link="/untappd-digital-menus"
@@ -29,7 +29,7 @@ function Projects(props) {
           />
           {/*  Illustrations */}
           <Thumbnail
-            link="/grading"
+            link="/portfolio/illustration"
             image="img/illustrations/dietrying.jpg"
             title="Illustrations"
             category=""

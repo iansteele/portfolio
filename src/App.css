@@ -16,6 +16,11 @@
     @apply text-brand-secondary;
   }
 }
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
 
 
 @media (prefers-reduced-motion: no-preference) {

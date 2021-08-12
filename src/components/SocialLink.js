@@ -1,15 +1,15 @@
 import React from 'react'; // Import the Component component from React
 import {Link} from 'react-router-dom'; // Import the Link component
-import './App.css';
+import '../App.css';
 
 function SocialLink(props) {
   return (
-    <div className="project mt-4">
+    <div className="mt-4 project">
       <Link to={props.link}>
-        <div className="project-image relative">
+        <div className="relative project-image">
           <img src={props.image} alt="Project Image"/>
-          <div className="bg-white rounded-full  absolute top-4 left-4 py-2 px-6">
-            <div className="project-title font-semibold">
+          <div className="absolute px-6 py-2 bg-white rounded-full top-4 left-4">
+            <div className="font-semibold project-title">
               {props.title}
             </div>
             <div className="project-category">
