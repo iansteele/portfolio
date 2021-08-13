@@ -2,7 +2,7 @@ import React from 'react';
 
 function Illustration(props) {
   return (
-    <div className="px-6 pt-4 space-y-10">
+    <div className="px-6 pt-4 mt-16 space-y-10">
       <h2 className="text-5xl text-white font-display ">Illustrations</h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 auto-rows-max">
         <img className="rounded-xl" src={process.env.PUBLIC_URL + "/img/illustrations/got.jpg"} alt="Jon Snow Didn't kill the Night King"/>

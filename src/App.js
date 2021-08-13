@@ -21,10 +21,10 @@ function App() {
         <Header/>
         <main className="flex-grow w-full max-w-screen-2xl bg-brand-primary">
           <Switch>
-            <Route exact path="/portfolio" component={Home}/>
-            <Route path="/portfolio/virtual-fest" component={VirtualFest}/>
-            <Route path="/portfolio/illustration" component={Illustration}/>
-            <Route path="/portfolio/grading" component={Grading}/>
+            <Route exact path="/" component={Home}/>
+            <Route path="/virtual-fest" component={VirtualFest}/>
+            <Route path="/illustration" component={Illustration}/>
+            <Route path="/grading" component={Grading}/>
           </Switch>
         </main>
         <Footer/>

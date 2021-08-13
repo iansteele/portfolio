@@ -14,21 +14,21 @@ function Projects(props) {
         />
         {/*  Virtual Fest */}
         <Thumbnail
-          link="/portfolio/virtual-fest"
+          link="/virtual-fest"
           image="img/ut/v-fest/thumb.jpg"
           title="Untappd Virtual Fest"
           category=""
         />
         {/*  Grading */}
         <Thumbnail
-          link="/portfolio/grading"
+          link="/grading"
           image="img/grading-thumb.png"
           title="Assignment grading"
           category=""
         />
         {/*  Illustrations */}
         <Thumbnail
-          link="/portfolio/illustration"
+          link="/illustration"
           image="img/illustrations/dietrying.jpg"
           title="Illustrations"
           category=""
