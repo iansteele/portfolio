@@ -19,6 +19,7 @@ function Illustration(props) {
         <img className="rounded-xl" src={process.env.PUBLIC_URL + "/img/illustrations/spacedout.jpg"} alt="Redesigned reports page"/>
         <img className="rounded-xl" src={process.env.PUBLIC_URL + "/img/illustrations/launch.png"} alt="Redesigned reports page"/>
         <img className="rounded-xl" src={process.env.PUBLIC_URL + "/img/illustrations/sota.png"} alt="Redesigned reports page"/>
+        <img className="rounded-xl" src={process.env.PUBLIC_URL + "/img/illustrations/arcade.jpg"} alt="Redesigned reports page"/>
       </div>
     </div>
   )
