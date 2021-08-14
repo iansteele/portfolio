@@ -1,10 +1,9 @@
 import React from 'react';
+import CaseStudy from './CaseStudy.js';
 
 function VirtualFest(props) {
   return (
-    <div className="px-6 mx-auto mt-16 text-white max-w-prose">
-      <h2 className="text-5xl text-white font-display">Untappd Virtual Fest</h2>
-      <p className="mt-2 font-bold text-brand-secondary">Untappd</p>
+    <CaseStudy title="Virtual Fest" company="Untappd">
       <ul className="flex mt-2 space-x-4 text-xs text-gray"><li>Illustration</li><li>Web Design</li></ul>
       <div className="mt-10">
         <h3 className="text-3xl text-brand-secondary font-display">The Challenge</h3>
@@ -46,7 +45,7 @@ function VirtualFest(props) {
         </div>
         <img className="mt-16" src={process.env.PUBLIC_URL + "/img/ut/v-fest/fullpage.png"} alt="Redesigned reports page"/>
       </div>
-    </div>
+    </CaseStudy>
   )
 }
 
