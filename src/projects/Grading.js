@@ -2,7 +2,7 @@ import React from 'react';
 
 function Grading(props) {
   return (
-    <div className="max-w-screen-lg px-6 mx-auto mt-16 text-white">
+    <div className="max-w-screen-lg px-6 pb-24 mx-auto mt-16 text-white">
       <h2 className="text-5xl text-white font-display">Grading Assignments</h2>
       <p className="mt-2 font-bold text-brand-secondary">LearnZillion</p>
       <ul className="flex mt-2 space-x-4 text-xs text-gray">

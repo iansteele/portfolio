@@ -7,7 +7,7 @@ function Hero(props) {
       <img className="w-24 h-24 rounded-full md:w-32 md:h-32" src={process.env.PUBLIC_URL + "/img/ian2.png"} alt=""/>
       <h1 className="mt-4 text-5xl font-bold tracking-wide md:text-7xl font-display">Hi, I'm Ian!</h1>
       <p className="mt-4 text-lg ">I'm crafting a K-12 curriculum platform with the amazing folks @ <a className="font-semibold text-brand-secondary hover:text-white" href="https://www.learnzillion.com">LearnZillion</a></p>
-      <p className="mt-8 text-gray">Previously @  <a className="font-semibold hover:text-brand-secondary" href="https://www.untappd.com">Untappd</a></p>
+      <p className="mt-8 text-gray">Previously @  <a className="font-semibold hover:text-white" href="https://www.untappd.com">Untappd</a></p>
     </div>
   )
 }

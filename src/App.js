@@ -12,6 +12,7 @@ import Home from './Home.js';
 import VirtualFest from './projects/VirtualFest.js';
 import Illustration from './projects/Illustration.js';
 import Grading from './projects/Grading.js';
+import DigitalMenus from './projects/DigitalMenus.js';
 import Footer from './components/Footer.js';
 import "tailwindcss/tailwind.css";
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/virtual-fest" component={VirtualFest}/>
             <Route path="/illustration" component={Illustration}/>
             <Route path="/grading" component={Grading}/>
+            <Route path="/untappd-digital-menus" component={DigitalMenus}/>
           </Switch>
         </main>
         <Footer/>
