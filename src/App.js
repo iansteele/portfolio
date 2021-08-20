@@ -18,7 +18,7 @@ import "tailwindcss/tailwind.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Header/>
         <main className="flex-grow w-full max-w-screen-2xl bg-brand-primary">
           <Switch>
