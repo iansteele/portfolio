@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
-  BrowserRouter
+  HashRouter
 } from "react-router-dom";
 import Header from './components/Header.js';
 import Home from './Home.js';
@@ -18,7 +18,7 @@ import "tailwindcss/tailwind.css";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={"/"}>
         <Header/>
         <main className="flex-grow w-full max-w-screen-2xl bg-brand-primary">
           <Switch>
