@@ -6,6 +6,13 @@ function Projects(props) {
   return (
     <div className="grid gap-4 px-4 pt-4 mt-4 sm:grid-cols-2 lg:grid-cols-3 md:px-6 auto-rows-max ">
       {/*  Digital Menus */}
+      <Thumbnail
+          link="/lz-designops"
+          image="img/wood-texture.jpg"
+          title="LZ Design Ops"
+          category=""
+        />
+      {/*  Digital Menus */}
         <Thumbnail
           link="/untappd-digital-menus"
           image="img/firetv/firetv_thumb.jpg"

@@ -7,8 +7,9 @@ module.exports = {
       white: '#f5f0e5',
       gray: '#5dadb3',
       brand: {
-        primary: '#131e1f',
+        primary: '#1a151a',
         // primary: '#15161b',
+        // primary-blueish: '#131e1f',
         secondary: '#e8a440',
         // secondary: '#AF7247',
         tertiary: '#f6f6f6',

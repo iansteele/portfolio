@@ -1,13 +1,13 @@
 import React from 'react';
 
-function VirtualFest(props) {
+function LzDesignOps(props) {
   return (
-    <div className="max-w-screen-lg px-6r mx-auto mt-16 text-white">
-      <h2 className="text-5xl text-white font-display">Virtual Fest</h2>
-      <p className="mt-2 font-bold text-brand-secondary">Untappd</p>
+    <div className="max-w-screen-lg mx-auto mt-16 text-white px-6r">
+      <h2 className="text-5xl text-white font-display">Design Ops</h2>
+      <p className="mt-2 font-bold text-brand-secondary">LearnZillion</p>
       <ul className="flex mt-2 space-x-4 text-xs text-gray">
-        <li>Illustration</li>
-        <li>Web Design</li>
+        <li>Design Systems</li>
+        <li>Team Processes</li>
       </ul>
       <div className="mt-10 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">The Challenge</h3>
@@ -55,4 +55,4 @@ function VirtualFest(props) {
   )
 }
 
-export default VirtualFest;
+export default LzDesignOps;

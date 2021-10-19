@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Header from './components/Header.js';
 import Home from './Home.js';
+import LzDesignOps from './projects/LzDesignOps.js';
 import VirtualFest from './projects/VirtualFest.js';
 import Illustration from './projects/Illustration.js';
 import Grading from './projects/Grading.js';
@@ -23,6 +24,7 @@ function App() {
         <main className="flex-grow w-full max-w-screen-2xl bg-brand-primary">
           <Switch>
             <Route exact path="/" component={Home}/>
+            <Route path="/lz-designops" component={LzDesignOps}/>
             <Route path="/virtual-fest" component={VirtualFest}/>
             <Route path="/illustration" component={Illustration}/>
             <Route path="/grading" component={Grading}/>
