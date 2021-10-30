@@ -11,29 +11,23 @@ function LzDesignOps(props) {
       </ul>
       <div className="mt-10 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">The Challenge</h3>
-        <p className="mt-4 leading-5 "> During the middle of the COVID-19 pandemic, Untappd cancelled the 2nd Annual
-          Beer Festival. Given that the service industry had been hit so hard, Untappd
-          pivoted to host our first Virtual Beer Festival in order to raise money for
-          the
-          <a className="button--text" href="https://www.restaurantstrong.org/index.html">Restaurant Strong Fund</a>
-          .
-        </p>
-        <p className="mt-4 leading-5 "> Myself and my fellow designer were tasked with creating a marketing site
-          for the virtual festival. Due to our tight deadline, I focused on the graphics
-          of the page, while Rob tackled the typography and development. Together we
-          explored the organization of page content.
+        <p className="mt-4 leading-5 "> Previously, a lack of documented components led to designers or engineers writing/developing new components instead of leveraging existing ones. In order to reduce these inconsistencies, I wanted to better enable engineers and designers to speak the same language when discussing product work.
         </p>
       </div>
       <img className="mt-20" src={process.env.PUBLIC_URL + "/img/ut/v-fest/hero.jpg"} alt="Redesigned reports page"/>
       <img  src={process.env.PUBLIC_URL + "/img/ut/v-fest/howitworks.jpg"} alt="Redesigned reports page"/>
       <div className="mt-10 section">
-        <div className="max-w-prose">
-          <h3 className="text-3xl text-brand-secondary font-display">The Outcome</h3>
-          <p className="mt-4 text-sm leading-5 ">The Untappd Virtual fest was conceptualized, negotiated, put on sale,
-          developed, curated, rehearsed, and executed in 50 days. It took a ton of
-          effort and communication across teams, but together we were able to accomplish
-          the following:
+        <div className="space-y-4 max-w-prose">
+          <h3 className="text-3xl text-brand-secondary font-display">Discovery</h3>
+          <p className="text-sm leading-5 ">I set out to get a lay of the land in our code base to understand the largest problems our team faced. These included but were not limited to:
           </p>
+          <ul className="pl-4 space-y-2 list-disc">
+            <li>Engineers and Product designers were unsure where the most recent design lived</li>
+            <li>Engineers & designers needed a way to easily communicate existing components</li>
+            <li>Without any designers for 2 years our lzui documentation had become stale making it difficult for designers and engineers alike to know which components were available.</li>
+            <li>Each designer had different preferences in how they worked with engineers and how they documented their work.</li>
+            <li>Our team was in the process of implementing tailwind to combat a tangled web of improperly used classes.</li>
+          </ul>
         </div>
         <div className="flex mt-10">
           <div className="flex flex-col items-center flex-grow ">
@@ -49,8 +43,23 @@ function LzDesignOps(props) {
             <p className="text-gray">Chat messages</p>
           </div>
         </div>
-        <img className="mt-20" src={process.env.PUBLIC_URL + "/img/ut/v-fest/fullpage.png"} alt="Redesigned reports page"/>
       </div>
+      <div className="mt-10 section">
+        <div className="space-y-4 max-w-prose">
+          <h3 className="text-3xl text-brand-secondary font-display">Goals</h3>
+          <p className="text-sm leading-5 ">I set out to get a lay of the land in our code base to understand the largest problems our team faced. These included but were not limited to:
+          </p>
+          <ul className="pl-4 space-y-2 list-disc">
+            <li>Engineers and Product designers were unsure where the most recent design lived</li>
+            <li>Engineers & designers needed a way to easily communicate existing components</li>
+            <li>Without any designers for 2 years our lzui documentation had become stale making it difficult for designers and engineers alike to know which components were available.</li>
+            <li>Each designer had different preferences in how they worked with engineers and how they documented their work.</li>
+            <li>Our team was in the process of implementing tailwind to combat a tangled web of improperly used classes.</li>
+          </ul>
+        </div>
+      </div>
+      <img className="mt-20" src={process.env.PUBLIC_URL + "/img/ut/v-fest/fullpage.png"} alt="Redesigned reports page"/>
+
     </div>
   )
 }
