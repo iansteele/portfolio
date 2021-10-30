@@ -122,11 +122,11 @@ function DigitalMenus(props) {
     //   <img className="mt-10" src={process.env.PUBLIC_URL + "/img/manualgrading-bg.jpg"} alt="Redesigned reports page"/>
     //   <div className="mt-10 max-w-prose">
     //     <h3 className="text-3xl text-brand-secondary font-display">The Challenge</h3>
-    //     <p className="mt-4 leading-5"> When I began working at LearnZillion, our assessments allowed for single-part questions.
+    //     <p className="mt-4 leading-6"> When I began working at LearnZillion, our assessments allowed for single-part questions.
     //     </p>
-    //     <p className="mt-8 leading-5">
+    //     <p className="mt-8 leading-6">
     //       After integrating a feature-rich assessment authoring platform, LearnZillion broke free from only being able to have one item per question. Instead, a single question could now have multiple parts which could be any combination of auto-graded and/or manually graded.</p>
-    //     <p className="mt-8 leading-5">We needed a way to quickly let see teachers how their classes are doing, while allowing them to easily see which questions required their attention.</p>
+    //     <p className="mt-8 leading-6">We needed a way to quickly let see teachers how their classes are doing, while allowing them to easily see which questions required their attention.</p>
     //   </div>
     //   <div className="mt-16">
     //     <img src={process.env.PUBLIC_URL + "/img/grading-original.png"} alt="Redesigned reports page"/>

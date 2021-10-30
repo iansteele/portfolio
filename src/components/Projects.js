@@ -7,9 +7,9 @@ function Projects(props) {
     <div className="grid gap-4 px-4 pt-4 mt-4 sm:grid-cols-2 lg:grid-cols-3 md:px-6 auto-rows-max ">
       {/*  Digital Menus */}
       <Thumbnail
-          link="/lz-designops"
+          link="/untappd-trial"
           image="img/wood-texture.jpg"
-          title="LZ Design Ops"
+          title="Untappd Self Sign-up"
           category=""
         />
       {/*  Digital Menus */}

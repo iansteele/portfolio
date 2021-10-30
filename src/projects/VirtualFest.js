@@ -11,14 +11,14 @@ function VirtualFest(props) {
       </ul>
       <div className="mt-10 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">The Challenge</h3>
-        <p className="mt-4 leading-5 "> During the middle of the COVID-19 pandemic, Untappd cancelled the 2nd Annual
+        <p className="mt-4 leading-6 "> During the middle of the COVID-19 pandemic, Untappd cancelled the 2nd Annual
           Beer Festival. Given that the service industry had been hit so hard, Untappd
           pivoted to host our first Virtual Beer Festival in order to raise money for
           the
           <a className="button--text" href="https://www.restaurantstrong.org/index.html">Restaurant Strong Fund</a>
           .
         </p>
-        <p className="mt-4 leading-5 "> Myself and my fellow designer were tasked with creating a marketing site
+        <p className="mt-4 leading-6 "> Myself and my fellow designer were tasked with creating a marketing site
           for the virtual festival. Due to our tight deadline, I focused on the graphics
           of the page, while Rob tackled the typography and development. Together we
           explored the organization of page content.
@@ -29,7 +29,7 @@ function VirtualFest(props) {
       <div className="mt-10 section">
         <div className="max-w-prose">
           <h3 className="text-3xl text-brand-secondary font-display">The Outcome</h3>
-          <p className="mt-4 text-sm leading-5 ">The Untappd Virtual fest was conceptualized, negotiated, put on sale,
+          <p className="mt-4 text-sm leading-6 ">The Untappd Virtual fest was conceptualized, negotiated, put on sale,
           developed, curated, rehearsed, and executed in 50 days. It took a ton of
           effort and communication across teams, but together we were able to accomplish
           the following:
