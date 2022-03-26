@@ -8,7 +8,7 @@ function Projects(props) {
       {/*  Digital Menus */}
       <Thumbnail
           link="/untappd-trial"
-          image="img/wood-texture.jpg"
+          image="img/utfb-trial/Freetrial-thumb.jpg"
           title="Untappd Self Sign-up"
           category=""
         />
