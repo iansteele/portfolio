@@ -4,7 +4,7 @@ import '../App.css';
 
 function Projects(props) {
   return (
-    <div className="grid gap-4 px-4 pt-4 mt-4 sm:grid-cols-2 lg:grid-cols-3 md:px-6 auto-rows-max ">
+    <div className="grid grid-cols-1 gap-4 p-6 md:grid-cols-2 lg:grid-cols-3">
       {/*  Digital Menus */}
       <Thumbnail
           link="/untappd-trial"
