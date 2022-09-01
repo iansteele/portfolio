@@ -6,13 +6,15 @@ function Grading(props) {
       <h2 className="text-5xl text-white font-display">Grading Assignments</h2>
       <p className="mt-2 font-bold text-brand-secondary">LearnZillion</p>
       <ul className="flex mt-2 space-x-4 text-xs text-gray">
-        <li>UX/UI</li>
+        <li>User research</li>
+        <li>Design Thinking</li>
+        <li>Prototyping</li>
         <li></li>
       </ul>
       <img className="mt-10" src={process.env.PUBLIC_URL + "/img/manualgrading-bg.jpg"} alt="Redesigned reports page"/>
       <div className="mt-10 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">The Challenge</h3>
-        <p className="mt-4 leading-5"> When I began working at LearnZillion, our assessments allowed for single-part questions.
+        <p className="mt-4 leading-5"> When I began working at LearnZillion, our assessments allowed for single-part questions. We switched to a 3rd-party assessment authoring platform which led to 
         </p>
         <p className="mt-8 leading-5">
           After integrating a feature-rich assessment authoring platform, LearnZillion broke free from only being able to have one item per question. Instead, a single question could now have multiple parts which could be any combination of auto-graded and/or manually graded.</p>

@@ -4,9 +4,9 @@ import '../App.css';
 
 function Thumbnail(props) {
   return (
-      <Link className="relative w-full h-auto overflow-hidden transition-transform duration-500 rounded-xl aspect-auto basis-full md:basis-1/2 lg:basis-1/4 transform-gpu focus:outline-none focus:ring focus:ring-brand-secondary hover:scale-101 hover:ring-offset-2" to={props.link}>
+      <Link className="relative w-full h-auto overflow-hidden transition-transform duration-500 rounded-xl aspect-auto basis-full md:basis-1/2 lg:basis-1/4 transform-gpu focus:outline-none focus:ring focus:ring-brand-secondary hover:scale-101 hover:ring-offset-2 group" to={props.link}>
         <img src={process.env.PUBLIC_URL + "/"+ props.image} alt="Project Image"/>
-        <div className="absolute bottom-0 right-6">
+        <div className="absolute bottom-0 transition-transform duration-500 translate-y-7 right-6 group-hover:translate-y-0">
           <div className="px-4 pt-2 pb-1 text-xs font-semibold text-white rounded-tr-xl rounded-tl-xl bg-brand-primary project-title">
             {props.title}
           </div>

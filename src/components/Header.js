@@ -13,8 +13,8 @@ function Header(props) {
         <h1 className="hidden ml-2 text-base font-bold text-white brand-primary sm:block">STEELE DESIGN<span className="relative ml-1 text-sm tracking-wide border-b-2 text-brand-secondary -top-1 ">co</span></h1>
       </Link >
       <nav className="flex items-center space-x-3 text-sm font-bold md:space-x-4 text-brand-secondary">
-        <a className=" hover:text-white py-0.5 px-1 transition-colors" href="https://www.notion.so/Ian-Steele-ca6f009ed2204389be0a2d3a0ee99788">Resume</a>
-        <a className="  hover:text-white ml-2 py-0.5 px-1 transition-colors" href="mailto:steeledesignco@gmail.com?subject=Reaching out from Steele Design Co" target="_blank">Contact</a>
+        <a className=" hover:text-white py-0.5 px-1 transition-colors delay-200" href="https://www.notion.so/Ian-Steele-ca6f009ed2204389be0a2d3a0ee99788">Resume</a>
+        <a className="  hover:text-white ml-2 py-0.5 px-1 transition-colors delay-200" href="mailto:steeledesignco@gmail.com?subject=Reaching out from Steele Design Co" target="_blank">Contact</a>
         
       </nav>
     </header>
