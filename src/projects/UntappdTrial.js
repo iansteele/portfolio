@@ -1,8 +1,10 @@
 import React from 'react';
+import ContentWrapper from '../components/ContentWrapper.js';
 
 function UntappdTrial(props) {
   return (
-    <div className="grid grid-cols-2 gap-4 px-6 mx-auto mt-16 space-y-10 text-white md:gap-10">
+    <ContentWrapper>
+    <div className="grid grid-cols-2 gap-4 mx-auto space-y-10 text-white md:gap-10">
       <div class="col-span-2">
         <h2 className="text-4xl text-white font-display">Self Sign Up Experience</h2>
         <p className="mt-4 font-bold text-brand-secondary">Untappd for Business</p>
@@ -99,6 +101,7 @@ function UntappdTrial(props) {
          <iframe class="w-full rounded-lg aspect-video" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5hlw9Pa6VYR7cH3pj4olVu%2FUTFB_Self-SIgn-Up%3Fpage-id%3D602%253A4716%26node-id%3D683%253A12926%26viewport%3D343%252C48%252C0.04%26scaling%3Dscale-down-width%26starting-point-node-id%3D683%253A12926" allowfullscreen></iframe> */}
       </div>
     </div>
+    </ContentWrapper>
   )
 }
 

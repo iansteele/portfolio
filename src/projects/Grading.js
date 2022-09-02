@@ -1,8 +1,9 @@
 import React from 'react';
+import ContentWrapper from '../components/ContentWrapper.js';
 
 function Grading(props) {
   return (
-    <div className="max-w-screen-lg px-6 pb-24 mx-auto mt-16 text-white">
+    <ContentWrapper>
       <h2 className="text-5xl text-white font-display">Grading Assignments</h2>
       <p className="mt-2 font-bold text-brand-secondary">LearnZillion</p>
       <ul className="flex mt-2 space-x-4 text-xs text-gray">
@@ -58,7 +59,7 @@ function Grading(props) {
         <img className="w-full" src={process.env.PUBLIC_URL + "/img/grading_table-row.png"} alt="Redesigned reports page"/>
         <img className="w-full" src={process.env.PUBLIC_URL + "/img/grading-modal.png"} alt="Redesigned reports page"/>
       </div>
-    </div>
+    </ContentWrapper>
   )
 }
 
