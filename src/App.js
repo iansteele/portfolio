@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import {
   HashRouter as Router,
@@ -7,6 +7,7 @@ import {
   Link,
   HashRouter
 } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop.js';
 import Header from './components/Header.js';
 import Home from './Home.js';
 import UntappdTrial from './projects/UntappdTrial.js';
@@ -20,7 +21,9 @@ import "tailwindcss/tailwind.css";
 function App() {
   return (
     <Router basename={"/"}>
-        <Header/>
+      <Header/>
+      <Fragment>
+        <ScrollToTop/>
         <main className="flex-grow w-full max-w-screen-2xl bg-brand-primary">
           <Switch>
             <Route exact path="/" component={Home}/>
@@ -31,7 +34,8 @@ function App() {
             <Route path="/untappd-digital-menus" component={DigitalMenus}/>
           </Switch>
         </main>
-        <Footer/>
+      </Fragment>
+      <Footer/>
     </Router>
   );
 }
