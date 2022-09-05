@@ -7,15 +7,15 @@ import {
   Link,
   HashRouter
 } from "react-router-dom";
+
+import { Header , Footer} from './components/Index'
 import ScrollToTop from './components/ScrollToTop.js';
-import Header from './components/Header.js';
 import Home from './Home.js';
 import UntappdTrial from './projects/UntappdTrial.js';
 import VirtualFest from './projects/VirtualFest.js';
 import Illustration from './projects/Illustration.js';
 import Grading from './projects/Grading.js';
 import DigitalMenus from './projects/DigitalMenus.js';
-import Footer from './components/Footer.js';
 import "tailwindcss/tailwind.css";
 
 function App() {

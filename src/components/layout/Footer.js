@@ -1,7 +1,7 @@
 import React from 'react';
-import '../App.css';
-import Social from './Social.js';
-import Button from './Button.js';
+import '../../App.css';
+import Social from './../Social';
+import Button from './../Button';
 
 function Footer(props) {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentWrapper from '../components/ContentWrapper.js';
+import { ContentWrapper } from '../components/Index';
 
 function Grading(props) {
   return (

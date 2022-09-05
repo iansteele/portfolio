@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentWrapper from '../components/ContentWrapper.js';
+import { ContentWrapper } from '../components/Index';
 
 function UntappdTrial(props) {
   return (
@@ -101,7 +101,7 @@ function UntappdTrial(props) {
          <iframe class="w-full rounded-lg aspect-video" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5hlw9Pa6VYR7cH3pj4olVu%2FUTFB_Self-SIgn-Up%3Fpage-id%3D602%253A4716%26node-id%3D683%253A12926%26viewport%3D343%252C48%252C0.04%26scaling%3Dscale-down-width%26starting-point-node-id%3D683%253A12926" allowfullscreen></iframe> */}
       </div>
     </div>
-    </ContentWrapper>
+  </ContentWrapper>
   )
 }
 
