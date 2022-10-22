@@ -5,7 +5,7 @@ function UntappdTrial(props) {
   return (
     <ContentWrapper>
     <div className="grid grid-cols-2 gap-4 mx-auto space-y-10 text-white md:gap-10">
-      <div class="col-span-2">
+      <div className="col-span-2">
         <h2 className="text-4xl text-white font-display">Self Sign Up Experience</h2>
         <p className="mt-4 font-bold text-brand-secondary">Untappd for Business</p>
         <ul className="flex space-x-4 text-xs text-gray">
@@ -13,33 +13,24 @@ function UntappdTrial(props) {
           <li>Product Design</li>
         </ul>
       </div>
-      <h3 className="col-span-2 py-10 text-5xl leading-tight text-left text-white lg:text-center lg:py-20 lg:text-6xl max-w-prose font-display ">Lowering the barrier of entry for potential customers</h3>
-    
-      <div className="col-span-2 mx-auto mt-8 space-y-10 max-w-prose">
-        <h3 className="text-4xl text-brand-secondary font-display">The problem</h3>
-        <p className="leading-relaxed "> With COVID ravaging the service industry, 
-        businesses were short staffed and looking to find ways to keep customers in the know. 
-        Untappd for Business offered a one-stop location to manage menus across a variety of 
-        platforms. However, as a business owner looking to access the Untappd platform, I would
-         have to go through a sales funnel that averaged ~1 month from start to finish. This 
-         funnel required a time commitment that many businesses did not have all before ever 
-         trying the product out for themselves.</p>
-         <p> Our team was tasked with opening our platform up to customers via a product-led growth approach. Myself, VP of Product, and our Product Manager led the front on deciding what this meant for Untappd for Business.</p>
-        <hr class="mt-10 rounded-full text-brand-secondary"></hr>
-        <img className="flex-shrink-0 w-full h-auto" src={process.env.PUBLIC_URL + "/img/ut/trial/emailcadence.png"} alt="Redesigned reports page"/>
-        <img className="flex-shrink-0 w-full h-auto rounded-2xl" src={process.env.PUBLIC_URL + "/img/ut/trial/marketing-why utfb.jpg"} alt="Redesigned reports page"/>
+      <h3 className="col-span-2 py-10 text-5xl leading-tight text-left text-white lg:text-center lg:py-20 lg:text-6xl max-w-prose font-display ">Responsibly connect business owners with their customers</h3>
+      <img className="flex-shrink-0 w-full h-auto col-span-2" src={process.env.PUBLIC_URL + "/img/ut/trial/hero.jpg"} alt="Redesigned reports page"/>
+      <div className="col-span-2 mx-auto">
+        <div className="space-y-10 max-w-prose">
+          <h3 className="text-4xl text-brand-secondary font-display">The problem</h3>
+          <p className="leading-relaxed ">Untappd for Business offers a single platform to manage menus across print, digital displays, social media, and the Untappd consumer app. Business owners looking to access the Untappd platform, would trudge through a <span className="font-bold">sales funnel that averaged ~1 month</span> from start to finish.</p>
+          <p> Our team was tasked with opening our platform up to customers via a product-led growth approach. Myself, VP of Product, and our Product Manager led the front on deciding what this meant for Untappd for Business.</p>
+          <hr className="mt-10 rounded-full text-brand-secondary"></hr>
+        </div>
       </div>
 
       <div className="col-span-2 mx-auto mt-8 space-y-10 max-w-prose">
         <h3 className="text-4xl text-brand-secondary font-display">The solution</h3>
          <p> Our team was tasked with opening our platform up to customers via a product-led growth approach. Myself, VP of Product, and our Product Manager led the front on deciding what this meant for Untappd for Business.</p>
-        <hr class="mt-10 rounded-full text-brand-secondary"></hr>
         <h4 className="text-2xl text-brand-secondary font-display">A new marketing site</h4>
-        <img className="flex-shrink-0 w-full h-auto rounded-2xl" src={process.env.PUBLIC_URL + "/img/ut/trial/marketing-why utfb.jpg"} alt="Redesigned reports page"/>
       </div>
 
-
-      <img className="flex-shrink-0 w-full h-auto" src={process.env.PUBLIC_URL + "/img/ut/trial/emailcadence.png"} alt="Redesigned reports page"/>
+      <img className="flex-shrink-0 w-full h-auto col-span-2" src={process.env.PUBLIC_URL + "/img/ut/trial/trial-homepage.jpg"} alt="Redesigned reports page"/>
 
       <div className="col-span-2 mx-auto space-y-4 max-w-prose">
         <h3 className="text-4xl text-brand-secondary font-display">The Process</h3>
@@ -86,20 +77,21 @@ function UntappdTrial(props) {
           </ul>
         </div>
       </div>
-      <div class="bg-brand-tertiary col-span-2 lg:col-span-1 rounded-lg p-2">
+      <div className="col-span-2 p-2 rounded-lg bg-brand-tertiary lg:col-span-1">
         <img className="flex-shrink-0 w-full h-auto" src={process.env.PUBLIC_URL + "/img/ut/trial/self-signup.jpg"} alt="Redesigned reports page"/>
       </div>
-      <div class="col-span-2 flex gap-6 flex-col mx-auto lg:col-span-1">
+      <div className="flex flex-col col-span-2 gap-6 mx-auto lg:col-span-1">
         <div className="max-w-prose">
-          <h3 className="text-4xl text-brand-secondary font-display">The Solution</h3>
-          <p><a href="https://utfb.untappd.com/">A new website focusing on business offerings </a></p>
+          <h3 className="text-3xl text-brand-secondary font-display">The Solution</h3>
+          <p className="mt-10"><a href="https://utfb.untappd.com/">A new website focusing on business offerings </a></p>
           <p className="mt-4 leading-relaxed "> Simplify the journey to becoming an Untappd for Business customer. Showcase value early and often. Teach potential customers how to be succesful within the product.
           </p>
         </div>
-        <a class="bg-brand-tertiary flex-initial rounded text-black font-bold flex px-2 py-2" href="https://www.figma.com/proto/5hlw9Pa6VYR7cH3pj4olVu/UTFB_Self-SIgn-Up?node-id=683%3A12926&scaling=scale-down&page-id=602%3A4716&starting-point-node-id=683%3A12926">View the prototype</a>
+        <a className="flex px-4 py-2 text-sm font-bold text-black transition-colors rounded bg-brand-secondary hover:bg-brand-tertiary max-w-max" href="https://www.figma.com/proto/5hlw9Pa6VYR7cH3pj4olVu/UTFB_Self-SIgn-Up?node-id=683%3A12926&scaling=scale-down&page-id=602%3A4716&starting-point-node-id=683%3A12926">View the prototype</a>
         {/* Figma prototype
-         <iframe class="w-full rounded-lg aspect-video" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5hlw9Pa6VYR7cH3pj4olVu%2FUTFB_Self-SIgn-Up%3Fpage-id%3D602%253A4716%26node-id%3D683%253A12926%26viewport%3D343%252C48%252C0.04%26scaling%3Dscale-down-width%26starting-point-node-id%3D683%253A12926" allowfullscreen></iframe> */}
+         <iframe className="w-full rounded-lg aspect-video" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5hlw9Pa6VYR7cH3pj4olVu%2FUTFB_Self-SIgn-Up%3Fpage-id%3D602%253A4716%26node-id%3D683%253A12926%26viewport%3D343%252C48%252C0.04%26scaling%3Dscale-down-width%26starting-point-node-id%3D683%253A12926" allowfullscreen></iframe> */}
       </div>
+      <img className="flex-shrink-0 w-full h-auto col-span-2" src={process.env.PUBLIC_URL + "/img/ut/trial/Onboarding.jpg"} alt="Redesigned reports page"/>
     </div>
   </ContentWrapper>
   )

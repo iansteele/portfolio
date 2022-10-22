@@ -12,6 +12,10 @@
     @apply text-xl;
   }
 
+  p {
+    @apply lg:text-xl;
+  }
+
   a {
     @apply text-brand-secondary;
   }

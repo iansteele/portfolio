@@ -1,10 +1,10 @@
 import React from 'react';
-import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
+import Thumbnail from './Thumbnail.js';
 import '../App.css';
 
 function Projects(props) {
   return (
-    <div className="grid grid-cols-1 gap-4 p-6 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-3">
       {/*  Digital Menus */}
       <Thumbnail
           link="/untappd-trial"
