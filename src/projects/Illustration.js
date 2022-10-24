@@ -4,8 +4,10 @@ import { ContentWrapper } from '../components/Index';
 function Illustration(props) {
   return (
     <ContentWrapper>
-      <h2 className="text-5xl text-white font-display">Illustrations</h2>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 auto-rows-max">
+      <div className="col-span-2">
+        <h2 className="text-4xl text-white font-display">Illustrations</h2>
+      </div>
+      <div className="grid gap-4 mt-10 sm:grid-cols-2 lg:grid-cols-3 auto-rows-max">
         <img className="rounded-xl" src={process.env.PUBLIC_URL + "/img/illustrations/got.jpg"} alt="Jon Snow Didn't kill the Night King"/>
         <img className="rounded-xl" src={process.env.PUBLIC_URL + "/img/illustrations/hellyeah.jpg"} alt="Hell Yeah Typography"/>
         <img className="rounded-xl" src={process.env.PUBLIC_URL + "/img/illustrations/cruel.jpg"} alt="Inktober 2019 Illustration. Cruel: The Iron Bull"/>

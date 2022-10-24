@@ -10,6 +10,7 @@ function VirtualFest(props) {
           <li>Illustration</li>
           <li>Web Design</li>
         </ul>
+        <img className="mt-20" src={process.env.PUBLIC_URL + "/img/ut/v-fest/hero.jpg"} alt="Redesigned reports page"/>
         <div className="mt-10 max-w-prose">
           <h3 className="text-3xl text-brand-secondary font-display">The Challenge</h3>
           <p className="mt-4 leading-relaxed "> During the middle of the COVID-19 pandemic, Untappd cancelled the 2nd Annual
@@ -25,8 +26,11 @@ function VirtualFest(props) {
             explored the organization of page content.
           </p>
         </div>
-        <img className="mt-20" src={process.env.PUBLIC_URL + "/img/ut/v-fest/hero.jpg"} alt="Redesigned reports page"/>
-        <img  src={process.env.PUBLIC_URL + "/img/ut/v-fest/howitworks.jpg"} alt="Redesigned reports page"/>
+        <div className="flex flex-col items-stretch sm:flex-row">
+          <img  src={process.env.PUBLIC_URL + "/img/ut/v-fest/purchase.jpg"} alt="Redesigned reports page"/>
+          <img  src={process.env.PUBLIC_URL + "/img/ut/v-fest/receive.jpg"} alt="Redesigned reports page"/>
+          <img  src={process.env.PUBLIC_URL + "/img/ut/v-fest/enjoy.jpg"} alt="Redesigned reports page"/>
+        </div>
         <div className="mt-10 section">
           <div className="max-w-prose">
             <h3 className="text-3xl text-brand-secondary font-display">The Outcome</h3>
