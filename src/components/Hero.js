@@ -3,9 +3,9 @@ import "../App.css";
 
 function Hero(props) {
   return (
-    <div className="relative flex flex-col items-center flex-grow gap-10 px-6 py-10 mt-0 text-white md:gap-12 xl:py-20 md:flex-row rounded-xl ">
-      <div className="flex flex-col w-8/12 ">
-        <h1 className="font-bold text-7xl md:text-7xl font-display">
+    <div className="relative flex flex-col-reverse items-center flex-grow gap-8 px-6 py-10 mt-0 text-white md:gap-10 md:gap-12 xl:py-20 md:flex-row rounded-xl ">
+      <div className="flex flex-col md:w-8/12 ">
+        <h1 className="text-6xl font-bold tracking-wide md:text-7xl font-display">
           Hey there,
         </h1>
         <p className="mt-6 text-lg max-w-prose">
@@ -32,9 +32,9 @@ function Hero(props) {
           </a>
         </p>
       </div>
-      <div className="relative w-4/12 h-auto p-4 flex-srhink-0">
+      <div className="relative h-auto p-4 md:w-4/12 flex-srhink-0">
         <img
-          className="w-9/12 h-auto mx-auto rounded-full"
+          className="w-40 h-auto mx-auto rounded-full md:w-9/12"
           src={process.env.PUBLIC_URL + "/img/ian.png"}
           alt="A headshot photo of what I look like in person"
         />
