@@ -3,15 +3,8 @@ import "../App.css";
 
 function Hero(props) {
   return (
-    <div className="relative flex flex-col flex-grow gap-10 px-6 py-10 mt-0 text-white md:gap-12 xl:py-24 md:flex-row rounded-xl ">
-      <div className="relative w-32 h-auto md:w-56 flex-srhink-0">
-        <img
-          className="w-full h-auto rounded-full rounded-bl-none md:rounded-bl-full md:rounded-tr-none "
-          src={process.env.PUBLIC_URL + "/img/ian2.png"}
-          alt="A headshot photo of what I look like in person"
-        />
-      </div>
-      <div className="flex flex-col ">
+    <div className="relative flex flex-col items-center flex-grow gap-10 px-6 py-10 mt-0 text-white md:gap-12 xl:py-20 md:flex-row rounded-xl ">
+      <div className="flex flex-col w-8/12 ">
         <h1 className="font-bold text-7xl md:text-7xl font-display">
           Hey there,
         </h1>
@@ -38,6 +31,13 @@ function Hero(props) {
             Untappd
           </a>
         </p>
+      </div>
+      <div className="relative w-4/12 h-auto p-4 flex-srhink-0">
+        <img
+          className="w-9/12 h-auto mx-auto rounded-full"
+          src={process.env.PUBLIC_URL + "/img/ian.png"}
+          alt="A headshot photo of what I look like in person"
+        />
       </div>
     </div>
   );
