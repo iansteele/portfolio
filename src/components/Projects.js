@@ -5,6 +5,20 @@ import "../App.css";
 function Projects(props) {
   return (
     <div className="grid grid-cols-1 gap-4 px-4 py-16 md:grid-cols-2 lg:grid-cols-3">
+      {/*  Grading */}
+      <Thumbnail
+        link="/grading"
+        image="img/grading/ui-thumb.jpg"
+        title="Speed grading"
+        category=""
+      />
+      {/*  Grading */}
+      <Thumbnail
+        link="/annotation"
+        image="img/annotation/ui-thumb.jpg"
+        title="Annotation"
+        category=""
+      />
       {/*  Digital Menus */}
       <Thumbnail
         link="/untappd-trial"
@@ -24,13 +38,6 @@ function Projects(props) {
         link="/virtual-fest"
         image="img/ut/v-fest/thumb.jpg"
         title="Untappd Virtual Fest"
-        category=""
-      />
-      {/*  Grading */}
-      <Thumbnail
-        link="/grading"
-        image="img/grading/ui-thumb.jpg"
-        title="Speed grading"
         category=""
       />
       {/*  Illustrations */}
