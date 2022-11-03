@@ -29,8 +29,8 @@ function Projects(props) {
       {/*  Grading */}
       <Thumbnail
         link="/grading"
-        image="img/grading-thumb.png"
-        title="Assignment grading"
+        image="img/grading/ui-thumb.jpg"
+        title="Speed grading"
         category=""
       />
       {/*  Illustrations */}
