@@ -3,9 +3,9 @@ import "../App.css";
 
 function Hero(props) {
   return (
-    <div className="relative flex flex-col-reverse items-center flex-grow gap-8 px-6 py-10 mt-0 text-white md:gap-10 md:gap-12 xl:py-20 md:flex-row rounded-xl ">
+    <div className="relative flex flex-col-reverse items-center flex-grow gap-8 px-6 py-10 mt-0 text-white md:gap-10 md:gap-12 md:py-32 md:flex-row rounded-xl ">
       <div className="flex flex-col md:w-8/12 ">
-        <h1 className="text-6xl font-bold tracking-wide md:text-7xl font-display">
+        <h1 className="text-6xl font-bold tracking-tight md:text-7xl font-display">
           Hey there,
         </h1>
         <p className="mt-6 text-lg max-w-prose">
