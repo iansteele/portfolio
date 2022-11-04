@@ -10,10 +10,10 @@ function Thumbnail(props) {
     >
       <img
         src={process.env.PUBLIC_URL + "/" + props.image}
-        alt="Project Image"
+        alt={props.altLabel}
       />
-      <div className="absolute transition-transform duration-500 -bottom-1 translate-y-7 right-4 group-hover:translate-y-0">
-        <div className="px-4 pt-2 pb-1 text-xs font-semibold text-white rounded-tr-xl rounded-tl-xl bg-brand-primary project-title">
+      <div className="absolute transition-transform duration-500 translate-y-10 -bottom-0.5 right-4 group-hover:translate-y-0">
+        <div className="px-4 pt-2 pb-1 font-semibold text-white rounded-tr-xl rounded-tl-xl bg-brand-primary project-title">
           {props.title}
         </div>
         <div className="">{props.category}</div>

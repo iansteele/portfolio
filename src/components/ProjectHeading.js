@@ -1,47 +1,22 @@
-import React from 'react';
-import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import '../App.css';
+import React from "react";
+import "../App.css";
 
-function Projects(props) {
+function ProjectHeading(props) {
   return (
-    <div className="grid grid-cols-1 gap-4 p-6 md:grid-cols-2 lg:grid-cols-3">
-      {/*  Digital Menus */}
-      <Thumbnail
-          link="/untappd-trial"
-          image="img/utfb-trial/Freetrial-thumb.jpg"
-          title="Untappd Self Sign-up"
-          category=""
-        />
-      {/*  Digital Menus */}
-        <Thumbnail
-          link="/untappd-digital-menus"
-          image="img/firetv/firetv_thumb.jpg"
-          title="Untappd Digital Menus"
-          category=""
-        />
-        {/*  Virtual Fest */}
-        <Thumbnail
-          link="/virtual-fest"
-          image="img/ut/v-fest/thumb.jpg"
-          title="Untappd Virtual Fest"
-          category=""
-        />
-        {/*  Grading */}
-        <Thumbnail
-          link="/grading"
-          image="img/grading-thumb.png"
-          title="Assignment grading"
-          category=""
-        />
-        {/*  Illustrations */}
-        <Thumbnail
-          link="/illustration"
-          image="img/illustrations/dietrying.jpg"
-          title="Illustrations"
-          category=""
-        />
+    <div class="col-span-2">
+      <h2 className="text-5xl tracking-tight text-white font-display">
+        {props.title}
+      </h2>
+      <p className="mt-2 font-semibold tracking-wide text-brand-secondary">
+        {props.client}
+      </p>
+      <ul className="flex mt-2 space-x-4 text-xs text-white opacity-60">
+        <li>User research</li>
+        <li>Design Thinking</li>
+        <li>Prototyping</li>
+      </ul>
     </div>
-  )
+  );
 }
 
 export default Projects;

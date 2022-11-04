@@ -10,42 +10,42 @@ function Projects(props) {
         link="/grading"
         image="img/grading/ui-thumb.jpg"
         title="Speed grading"
-        category=""
+        altLabel="UI components that were created to improve the grading experience at Imagine Learning Classroom"
       />
-      {/*  Grading */}
+      {/*  Annotation */}
       <Thumbnail
         link="/annotation"
         image="img/annotation/ui-thumb.jpg"
         title="Annotation"
-        category=""
+        altLabel="Tool illustrations from the Annotation feature for Imagine Learning Classroom"
       />
       {/*  Digital Menus */}
       <Thumbnail
         link="/untappd-trial"
         image="/img/ut/trial/hero.jpg"
         title="Untappd Self Sign-up"
-        category=""
+        altLabel="Screenshots of the Untappd for Business free trial experience"
       />
       {/*  Digital Menus */}
       <Thumbnail
         link="/untappd-digital-menus"
         image="img/firetv/firetv_thumb.jpg"
         title="Untappd Digital Menus"
-        category=""
+        altLabel="Untappd Digital Board displaying the Menu Id from the Amazon Fire TV app"
       />
       {/*  Virtual Fest */}
       <Thumbnail
         link="/virtual-fest"
         image="img/ut/v-fest/thumb.jpg"
         title="Untappd Virtual Fest"
-        category=""
+        altLabel="Website design and marketing adds for the Untappd Virtual Festival campaign"
       />
       {/*  Illustrations */}
       <Thumbnail
         link="/illustration"
         image="img/illustrations/dietrying.jpg"
         title="Illustrations"
-        category=""
+        altLabel="Illustration of a headstone that reads Die Trying"
       />
     </div>
   );
