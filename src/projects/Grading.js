@@ -97,19 +97,19 @@ function Grading(props) {
           additional learning where necessary
         </p>
       </div>
-      <div className="flex flex-wrap items-stretch gap-4 mt-20">
+      <div className="flex flex-col flex-wrap gap-4 mt-20 md:flex-row">
         <img
-          className="flex-1 sm:w-4/12"
+          className="flex-1 min-w-0"
           src={process.env.PUBLIC_URL + "/img/gradingflow-sketch.png"}
           alt="Redesigned reports page"
         />
         <img
-          className="flex-1 sm:w-4/12"
+          className="flex-1 min-w-0"
           src={process.env.PUBLIC_URL + "/img/gradingmodal-sketch.png"}
           alt="Redesigned reports page"
         />
         <img
-          className="flex-1 sm:w-4/12"
+          className="flex-1 min-w-0"
           src={process.env.PUBLIC_URL + "/img/gradingicon-sketch.png"}
           alt="Redesigned reports page"
         />
