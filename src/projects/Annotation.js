@@ -41,7 +41,7 @@ function Annotation(props) {
       </div>
       <div className="mt-16">
         <img
-          src={process.env.PUBLIC_URL + "/img/grading-original.png"}
+          src={process.env.PUBLIC_URL + "/img/annotation/in-class.jpg"}
           alt="Redesigned reports page"
         />
         <span className="mt-8 text-xs text-gray">Original Design</span>
@@ -123,13 +123,7 @@ function Annotation(props) {
       </div>
       <div className="mt-10">
         <img
-          className="w-full"
-          src={process.env.PUBLIC_URL + "/img/grading_table-row.png"}
-          alt="Redesigned reports page"
-        />
-        <img
-          className="w-full"
-          src={process.env.PUBLIC_URL + "/img/grading-modal.png"}
+          src={process.env.PUBLIC_URL + "/img/annotation/in-app.jpg"}
           alt="Redesigned reports page"
         />
       </div>
