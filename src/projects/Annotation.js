@@ -4,9 +4,11 @@ import { ContentWrapper } from "../components/Index";
 function Annotation(props) {
   return (
     <ContentWrapper>
-      <h2 className="text-5xl text-white font-display">Annotation</h2>
-      <p className="mt-2 font-bold text-brand-secondary">IL Classroom</p>
-      <ul className="flex mt-2 space-x-4 text-xs text-gray">
+      <p className="font-bold text-brand-secondary">IL Classroom</p>
+      <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
+        Annotation
+      </h2>
+      <ul className="flex mt-4 space-x-4 text-sm text-white opacity-75">
         <li>User research</li>
         <li>Design Thinking</li>
         <li>Prototyping</li>

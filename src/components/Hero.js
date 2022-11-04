@@ -8,7 +8,7 @@ function Hero(props) {
         <h1 className="text-6xl font-bold tracking-tight md:text-7xl font-display">
           Hey there,
         </h1>
-        <p className="mt-6 text-lg max-w-prose">
+        <p className="mt-10 text-lg max-w-prose">
           My name is Ian Steele. I'm a multidisciplinary designer passionate
           about ethical, supportive, and playful products.
         </p>
@@ -33,11 +33,13 @@ function Hero(props) {
         </p>
       </div>
       <div className="relative h-auto p-4 md:w-4/12 flex-srhink-0">
-        <img
-          className="w-40 h-auto mx-auto rounded-full md:w-9/12"
-          src={process.env.PUBLIC_URL + "/img/ian.png"}
-          alt="A headshot photo of what I look like in person"
-        />
+        <div className="w-48 h-auto p-2 border border-4 rounded-full md:w-9/12 border-brand-secondary">
+          <img
+            className="mx-auto rounded-full "
+            src={process.env.PUBLIC_URL + "/img/ian.png"}
+            alt="A headshot photo of what I look like in person"
+          />
+        </div>
       </div>
     </div>
   );

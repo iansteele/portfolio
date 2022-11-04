@@ -9,10 +9,10 @@ function UntappdTrial(props) {
           <p className="font-bold tracking-wide text-brand-secondary">
             Untappd for Business
           </p>
-          <h2 className="mt-2 text-5xl text-white font-display">
+          <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
             Self Sign Up Experience
           </h2>
-          <ul className="flex mt-4 space-x-4 text-sm tracking-wide text-gray">
+          <ul className="flex mt-4 space-x-4 text-sm tracking-wide text-white opacity-75">
             <li>UX</li>
             <li>Product Design</li>
           </ul>

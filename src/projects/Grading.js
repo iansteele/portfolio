@@ -4,13 +4,13 @@ import { ContentWrapper } from "../components/Index";
 function Grading(props) {
   return (
     <ContentWrapper>
-      <h2 className="text-5xl tracking-tight text-white font-display">
-        An improved grading experience
-      </h2>
-      <p className="mt-2 font-semibold tracking-wide text-brand-secondary">
+      <p className="font-semibold tracking-wide text-brand-secondary">
         IL Classroom
       </p>
-      <ul className="flex mt-2 space-x-4 text-xs text-white opacity-60">
+      <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
+        Improving the grading experience
+      </h2>
+      <ul className="flex mt-4 space-x-4 text-sm text-white opacity-60">
         <li>User research</li>
         <li>Design Thinking</li>
         <li>Prototyping</li>

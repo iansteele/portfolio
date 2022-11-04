@@ -4,9 +4,13 @@ import { ContentWrapper } from "../components/Index";
 function VirtualFest(props) {
   return (
     <ContentWrapper>
-      <h2 className="text-5xl text-white font-display">Virtual Fest</h2>
-      <p className="mt-2 font-bold text-brand-secondary">Untappd</p>
-      <ul className="flex mt-2 space-x-4 text-xs text-gray">
+      <p className="font-bold tracking-wide text-brand-secondary">
+        Untappd for Business
+      </p>
+      <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
+        Virtual Fest
+      </h2>
+      <ul className="flex mt-4 space-x-4 text-sm text-white opacity-75">
         <li>Illustration</li>
         <li>Web Design</li>
       </ul>
