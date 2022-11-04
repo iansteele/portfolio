@@ -13,11 +13,11 @@ function Annotation(props) {
         <li></li>
       </ul>
       <img
-        className="mt-10"
-        src={process.env.PUBLIC_URL + "/img/manualgrading-bg.jpg"}
+        className="mt-20"
+        src={process.env.PUBLIC_URL + "/img/annotation/in-app.jpg"}
         alt="Redesigned reports page"
       />
-      <div className="mt-10 max-w-prose">
+      <div className="mt-20 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">
           The Challenge
         </h3>
@@ -46,7 +46,7 @@ function Annotation(props) {
         />
         <span className="mt-8 text-xs text-gray">Original Design</span>
       </div>
-      <div className="mt-10 max-w-prose">
+      <div className="mt-20 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">
           User insights
         </h3>
@@ -63,7 +63,7 @@ function Annotation(props) {
           their attention.
         </p>
       </div>
-      <div className="mt-10 max-w-prose">
+      <div className="mt-20 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">Concerns</h3>
         <div className="mt-4">
           <p className="mt-8">
@@ -78,7 +78,7 @@ function Annotation(props) {
           </p>
         </div>
       </div>
-      <div className="mt-10 max-w-prose">
+      <div className="mt-20 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">Ideation</h3>
         <p className="mt-8">
           I began sketching ways to funnel teachers to the reports page when an
@@ -93,7 +93,7 @@ function Annotation(props) {
           additional learning where necessary
         </p>
       </div>
-      <div className="flex flex-wrap mt-10">
+      <div className="flex flex-wrap mt-20">
         <img
           src={process.env.PUBLIC_URL + "/img/gradingflow-sketch.png"}
           alt="Redesigned reports page"
@@ -107,7 +107,7 @@ function Annotation(props) {
           alt="Redesigned reports page"
         />
       </div>
-      <div className="mt-10 max-w-prose">
+      <div className="mt-20 max-w-prose">
         <h3 className="text-3xl text-brand-secondary font-display">
           The Outcome
         </h3>
@@ -121,7 +121,7 @@ function Annotation(props) {
           difficulty discerning which items required their manual review.
         </p>
       </div>
-      <div className="mt-10">
+      <div className="mt-20">
         <img
           src={process.env.PUBLIC_URL + "/img/annotation/in-app.jpg"}
           alt="Redesigned reports page"

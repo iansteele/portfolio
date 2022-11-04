@@ -22,11 +22,11 @@ function UntappdTrial(props) {
           src={process.env.PUBLIC_URL + "/img/ut/trial/hero.jpg"}
           alt="Redesigned reports page"
         />
-        <div className="col-span-2 py-8 lg:py-20 max-w-prose">
+        <div className="col-span-2 py-8 mx-auto lg:py-20 max-w-prose lg:text-center">
           <h3 className="text-4xl text-brand-secondary font-display">
-            The objective.
+            The goal
           </h3>
-          <span className="block mt-4 text-5xl text-left text-white leading-12 lg:text-center lg:text-6xl font-display">
+          <span className="block mt-4 text-5xl text-white leading-12 lg:text-6xl font-display">
             Responsibly connect business owners with their customers
           </span>
         </div>
