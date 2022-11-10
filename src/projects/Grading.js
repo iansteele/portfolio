@@ -12,7 +12,7 @@ function Grading(props) {
       <img
         className="mt-20"
         src={process.env.PUBLIC_URL + "/img/grading/grading-main.jpg"}
-        alt="Redesigned reports page"
+        alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
       />
       <div className="mt-20 max-w-prose">
         <h3 className="text-4xl text-brand-secondary font-display">
