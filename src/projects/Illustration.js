@@ -1,15 +1,11 @@
 import React from "react";
-import { ContentWrapper } from "../components/Index";
+import { ContentWrapper, ProjectHeading } from "../components/Index";
 
 function Illustration(props) {
   return (
     <ContentWrapper>
-      <div className="col-span-2">
-        <h2 className="text-6xl font-bold tracking-tight md:text-7xl font-display">
-          Illustrations
-        </h2>
-      </div>
-      <div className="grid mt-10 g ap-4 sm:grid-cols-2 lg:grid-cols-3 auto-rows-max">
+      <ProjectHeading title="Illustration" />
+      <div className="grid gap-4 mt-10 sm:grid-cols-2 lg:grid-cols-3 auto-rows-max">
         <img
           className="rounded-xl"
           src={process.env.PUBLIC_URL + "/img/illustrations/got.jpg"}

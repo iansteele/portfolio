@@ -1,19 +1,14 @@
 import React from "react";
-import { ContentWrapper } from "../components/Index";
+import { ContentWrapper, ProjectHeading } from "../components/Index";
 
 function VirtualFest(props) {
   return (
     <ContentWrapper>
-      <p className="font-bold tracking-wide text-brand-secondary">
-        Untappd for Business
-      </p>
-      <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
-        Virtual Fest
-      </h2>
-      <ul className="flex mt-4 space-x-4 text-sm text-white opacity-75">
-        <li>Illustration</li>
-        <li>Web Design</li>
-      </ul>
+      <ProjectHeading
+        client="Untappd for Business"
+        title="Virtual Fest website & illustration"
+        roles={["Illustration", "Website design"]}
+      />
       <img
         className="mt-20"
         src={process.env.PUBLIC_URL + "/img/ut/v-fest/hero.jpg"}

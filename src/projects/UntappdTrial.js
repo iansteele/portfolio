@@ -1,22 +1,15 @@
 import React from "react";
-import { ContentWrapper } from "../components/Index";
+import { ContentWrapper, ProjectHeading } from "../components/Index";
 
 function UntappdTrial(props) {
   return (
     <ContentWrapper>
-      <div className="grid grid-cols-2 gap-4 mx-auto space-y-10 text-white md:gap-10">
-        <div className="col-span-2">
-          <p className="font-bold tracking-wide text-brand-secondary">
-            Untappd for Business
-          </p>
-          <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
-            Self Sign Up Experience
-          </h2>
-          <ul className="flex mt-4 space-x-4 text-sm tracking-wide text-white opacity-75">
-            <li>UX</li>
-            <li>Product Design</li>
-          </ul>
-        </div>
+      <ProjectHeading
+        client="Untappd for Business"
+        title="Free trial experience"
+        roles={["UX", "Product Design"]}
+      />
+      <div className="grid grid-cols-2 gap-4 mx-auto mt-20 space-y-10 text-white md:gap-10">
         <img
           className="flex-shrink-0 w-full h-auto col-span-2"
           src={process.env.PUBLIC_URL + "/img/ut/trial/hero.jpg"}

@@ -1,27 +1,24 @@
 import React from "react";
-import { ContentWrapper } from "../components/Index";
+import { ContentWrapper, ProjectHeading } from "../components/Index";
 
 function DigitalMenus(props) {
   return (
     <ContentWrapper>
-      <p className="font-bold text-brand-secondary">Untappd for Business</p>
-      <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
-        Digital Menus
-      </h2>
-      <ul className="flex mt-4 space-x-4 text-sm text-white opacity-75">
-        <li>UX/UI</li>
-        <li></li>
-      </ul>
+      <ProjectHeading
+        client="Untappd for Business"
+        title="Digital Menu Boards"
+        roles={["UX", "UI"]}
+      />
       <img
         className="mt-20"
         src={process.env.PUBLIC_URL + "/img/firetv/fireTV-collage.jpg"}
         alt="Untappd Digital Board display board entry screen"
       />
-      <div className="mt-10 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">
+      <div className="mt-20 max-w-prose">
+        <h3 className="text-3xl font-bold text-brand-secondary font-display">
           The Challenge
         </h3>
-        <p className="mt-4 leading-relaxed ">
+        <p className="mt-8 leading-relaxed ">
           {" "}
           At Untappd for Business, one of our core offerings is the ability to
           display digital menu boards in your business. These menus used
@@ -33,9 +30,11 @@ function DigitalMenus(props) {
           obsolete devices and at risk of losing one of our core value adds.
         </p>
       </div>
-      <div className="mt-10 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">Goals</h3>
-        <ul className="mt-4">
+      <div className="mt-20 max-w-prose">
+        <h3 className="text-3xl font-bold text-brand-secondary font-display">
+          Goals
+        </h3>
+        <ul className="mt-8">
           <li>
             <p>
               - No longer require Untappd to manage Chromebit/keyboard inventory
@@ -55,11 +54,11 @@ function DigitalMenus(props) {
           </li>
         </ul>
       </div>
-      <div className="mt-10 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">
+      <div className="mt-20 max-w-prose">
+        <h3 className="text-3xl font-bold text-brand-secondary font-display">
           Customer Pain Points
         </h3>
-        <p className="mt-4 leading-relaxed ">
+        <p className="mt-8 leading-relaxed ">
           {" "}
           Customers were required to purchase our Digital Board Kits at
           $129/screen and follow a complicated setup process. Due to the way

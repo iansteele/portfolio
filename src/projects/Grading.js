@@ -1,21 +1,14 @@
 import React from "react";
-import { ContentWrapper } from "../components/Index";
+import { ContentWrapper, ProjectHeading } from "../components/Index";
 
 function Grading(props) {
   return (
     <ContentWrapper>
-      <p className="font-semibold tracking-wide text-brand-secondary">
-        IL Classroom
-      </p>
-      <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
-        Improving the grading experience
-      </h2>
-      <ul className="flex mt-4 space-x-4 text-sm text-white opacity-60">
-        <li>User research</li>
-        <li>Design Thinking</li>
-        <li>Prototyping</li>
-        <li></li>
-      </ul>
+      <ProjectHeading
+        client="IL Classroom"
+        title="Improving the grading experience"
+        roles={["User research", "Design Thinking", "Prototyping"]}
+      />
       <img
         className="mt-20"
         src={process.env.PUBLIC_URL + "/img/grading/grading-main.jpg"}
@@ -25,19 +18,19 @@ function Grading(props) {
         <h3 className="text-4xl text-brand-secondary font-display">
           The Challenge
         </h3>
-        <p className="mt-6 leading-7">
+        <p className="mt-6 ">
           {" "}
           When I began working at LearnZillion, our assessments allowed for
           single-part questions. We switched to a 3rd-party assessment authoring
           platform which led to
         </p>
-        <p className="mt-6 leading-7">
+        <p className="mt-6 ">
           After integrating a feature-rich assessment authoring platform,
           LearnZillion broke free from only being able to have one item per
           question. Instead, a single question could now have multiple parts
           which could be any combination of auto-graded and/or manually graded.
         </p>
-        <p className="mt-6 leading-7">
+        <p className="mt-6 ">
           We needed a way to quickly let see teachers how their classes are
           doing, while allowing them to easily see which questions required
           their attention.

@@ -1,19 +1,15 @@
 import React from "react";
-import { ContentWrapper } from "../components/Index";
+import { ContentWrapper, ProjectHeading } from "../components/Index";
 
 function Annotation(props) {
   return (
     <ContentWrapper>
-      <p className="font-bold text-brand-secondary">IL Classroom</p>
-      <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
-        Annotation
-      </h2>
-      <ul className="flex mt-4 space-x-4 text-sm text-white opacity-75">
-        <li>User research</li>
-        <li>Design Thinking</li>
-        <li>Prototyping</li>
-        <li></li>
-      </ul>
+      <ProjectHeading
+        client="Imagine Learning Classroom"
+        title="Annotation tools"
+        roles={["UX", "Research", "UI", "HTML", "CSS", "Vue"]}
+      />
+
       <img
         className="mt-20"
         src={process.env.PUBLIC_URL + "/img/annotation/in-app.jpg"}

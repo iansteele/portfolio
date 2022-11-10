@@ -4,7 +4,7 @@ import "../App.css";
 
 function Projects(props) {
   return (
-    <div className="grid grid-cols-1 gap-4 px-4 py-16 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-4 px-4 mt-16 md:grid-cols-2 lg:grid-cols-3">
       {/*  Grading */}
       <Thumbnail
         link="/grading"
@@ -23,14 +23,14 @@ function Projects(props) {
       <Thumbnail
         link="/untappd-trial"
         image="/img/ut/trial/hero.jpg"
-        title="Untappd Self Sign-up"
+        title="UTFB Free Trial Experience"
         altLabel="Screenshots of the Untappd for Business free trial experience"
       />
       {/*  Digital Menus */}
       <Thumbnail
         link="/untappd-digital-menus"
         image="img/firetv/firetv_thumb.jpg"
-        title="Untappd Digital Menus"
+        title="UTFB Digital Menus"
         altLabel="Untappd Digital Board displaying the Menu Id from the Amazon Fire TV app"
       />
       {/*  Virtual Fest */}
