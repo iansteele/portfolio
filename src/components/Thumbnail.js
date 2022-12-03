@@ -5,7 +5,7 @@ import "../App.css";
 function Thumbnail(props) {
   return (
     <Link
-      className="relative w-full h-auto overflow-hidden transition-transform duration-500 rounded-xl aspect-auto basis-full md:basis-1/2 lg:basis-1/4 transform-gpu focus:outline-none focus:ring focus:ring-brand-secondary hover:scale-101 hover:ring-offset-2 group"
+      className="relative w-full h-auto overflow-hidden transition-transform duration-500 rounded-xl aspect-auto transform-gpu focus:outline-none focus:ring focus:ring-brand-secondary hover:scale-101 hover:ring-offset-2 group"
       to={props.link}
     >
       <img
@@ -13,7 +13,7 @@ function Thumbnail(props) {
         alt={props.altLabel}
       />
       <div className="absolute transition-all opacity-0 group-hover:opacity-100 duration-700 -translate-y-16 -top-0.5 left-4 group-hover:translate-y-0">
-        <div className="p-4 font-semibold text-white rounded-br-xl rounded-bl-xl bg-brand-primary project-title">
+        <div className="px-4 py-1 font-semibold text-white rounded-br-xl rounded-bl-xl bg-brand-primary project-title">
           {props.title}
         </div>
         <div className="">{props.category}</div>
