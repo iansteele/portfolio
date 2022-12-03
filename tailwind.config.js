@@ -1,36 +1,35 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      black: '#1a151b',
-      white: '#f5f0e5',
-      gray: '#5dadb3',
+      black: "#1a151b",
+      white: "#f5f0e5",
+      gray: "#5dadb3",
       brand: {
-        primary: '#1a151a',
+        primary: "#1a151a",
         // primary: '#15161b',
         // primary-blueish: '#131e1f',
-        secondary: '#e8a440',
+        secondary: "#e8a440",
         // secondary: '#AF7247',
-        tertiary: '#f6f6f6',
+        tertiary: "#f6f6f6",
       },
     },
     extend: {
       gridTemplateRows: {
-        'layout': '200px minmax(900px, 1fr) 100px',
+        layout: "200px minmax(900px, 1fr) 100px",
       },
       scale: {
-        '101': '1.01',
-      }
+        101: "1.01",
+      },
     },
     fontFamily: {
-      'display': ['DM Serif Text', 'serif'],
-      'body': ['Roboto', 'sans-serif'],
+      display: ["DM Serif Text", "serif"],
+      body: ["Roboto", "sans-serif"],
     },
   },
   variants: {
-    extend: {
-    },
+    extend: {},
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

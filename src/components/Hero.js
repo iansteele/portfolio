@@ -22,8 +22,8 @@ function Hero(props) {
             IL Classroom
           </a>
         </p>
-        <p className="mt-4 tet-lg">
-          Previously designing for businesses
+        <p className="mt-4">
+          Previously designing for businesses at
           <a
             className="ml-1.5 font-semibold transition-colors text-brand-secondary hover:text-white"
             href="https://www.untappd.com"

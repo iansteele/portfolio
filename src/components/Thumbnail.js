@@ -12,7 +12,7 @@ function Thumbnail(props) {
         src={process.env.PUBLIC_URL + "/" + props.image}
         alt={props.altLabel}
       />
-      <div className="absolute transition-transform duration-700 -translate-y-16 -top-0.5 left-4 group-hover:translate-y-0">
+      <div className="absolute transition-all opacity-0 group-hover:opacity-100 duration-700 -translate-y-16 -top-0.5 left-4 group-hover:translate-y-0">
         <div className="p-4 font-semibold text-white rounded-br-xl rounded-bl-xl bg-brand-primary project-title">
           {props.title}
         </div>

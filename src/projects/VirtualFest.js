@@ -1,5 +1,9 @@
 import React from "react";
-import { ContentWrapper, ProjectHeading } from "../components/Index";
+import {
+  ContentWrapper,
+  ProjectHeading,
+  SectionHeading,
+} from "../components/Index";
 
 function VirtualFest(props) {
   return (
@@ -15,10 +19,8 @@ function VirtualFest(props) {
         alt="Redesigned reports page"
       />
       <div className="mt-10 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">
-          The Challenge
-        </h3>
-        <p className="mt-4 leading-relaxed ">
+        <SectionHeading>The Challenge</SectionHeading>
+        <p className="mt-4 ">
           {" "}
           During the middle of the COVID-19 pandemic, Untappd cancelled the 2nd
           Annual Beer Festival. Given that the service industry had been hit so
@@ -32,7 +34,7 @@ function VirtualFest(props) {
           </a>
           .
         </p>
-        <p className="mt-4 leading-relaxed ">
+        <p className="mt-4 ">
           {" "}
           Myself and my fellow designer were tasked with creating a marketing
           site for the virtual festival. Due to our tight deadline, I focused on
@@ -59,10 +61,8 @@ function VirtualFest(props) {
       </div>
       <div className="mt-10 section">
         <div className="max-w-prose">
-          <h3 className="text-3xl text-brand-secondary font-display">
-            The Outcome
-          </h3>
-          <p className="mt-4 text-sm leading-relaxed ">
+          <SectionHeading>The Outcome</SectionHeading>
+          <p className="mt-4 ">
             The Untappd Virtual fest was conceptualized, negotiated, put on
             sale, developed, curated, rehearsed, and executed in 50 days. It
             took a ton of effort and communication across teams, but together we

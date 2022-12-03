@@ -1,12 +1,6 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import {
-  HashRouter as Router,
-  Switch,
-  Route,
-  Link,
-  HashRouter,
-} from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 import { Header, Footer } from "./components/Index";
 import ScrollToTop from "./components/ScrollToTop.js";
@@ -25,7 +19,7 @@ function App() {
       <Header />
       <Fragment>
         <ScrollToTop />
-        <main className="flex-grow w-full max-w-screen-2xl bg-brand-primary">
+        <main className="flex-grow w-full leading-relaxed max-w-screen-2xl ">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/untappd-trial" component={UntappdTrial} />

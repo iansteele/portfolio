@@ -1,5 +1,9 @@
 import React from "react";
-import { ContentWrapper, ProjectHeading } from "../components/Index";
+import {
+  ContentWrapper,
+  ProjectHeading,
+  SectionHeading,
+} from "../components/Index";
 
 function DigitalMenus(props) {
   return (
@@ -15,10 +19,8 @@ function DigitalMenus(props) {
         alt="Untappd Digital Board display board entry screen"
       />
       <div className="mt-20 max-w-prose">
-        <h3 className="text-3xl font-bold text-brand-secondary font-display">
-          The Challenge
-        </h3>
-        <p className="mt-8 leading-relaxed ">
+        <SectionHeading>The Challenge</SectionHeading>
+        <p className="mt-8 ">
           {" "}
           At Untappd for Business, one of our core offerings is the ability to
           display digital menu boards in your business. These menus used
@@ -31,9 +33,7 @@ function DigitalMenus(props) {
         </p>
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-3xl font-bold text-brand-secondary font-display">
-          Goals
-        </h3>
+        <SectionHeading>Goals</SectionHeading>
         <ul className="mt-8">
           <li>
             <p>
@@ -55,10 +55,8 @@ function DigitalMenus(props) {
         </ul>
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-3xl font-bold text-brand-secondary font-display">
-          Customer Pain Points
-        </h3>
-        <p className="mt-8 leading-relaxed ">
+        <SectionHeading>Customer Pain Points</SectionHeading>
+        <p className="mt-8 ">
           {" "}
           Customers were required to purchase our Digital Board Kits at
           $129/screen and follow a complicated setup process. Due to the way

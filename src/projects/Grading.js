@@ -1,5 +1,9 @@
 import React from "react";
-import { ContentWrapper, ProjectHeading } from "../components/Index";
+import {
+  ContentWrapper,
+  ProjectHeading,
+  SectionHeading,
+} from "../components/Index";
 
 function Grading(props) {
   return (
@@ -15,9 +19,7 @@ function Grading(props) {
         alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
       />
       <div className="mt-20 max-w-prose">
-        <h3 className="text-4xl text-brand-secondary font-display">
-          The Challenge
-        </h3>
+        <SectionHeading>The Challenge</SectionHeading>
         <p className="mt-6 ">
           {" "}
           When I began working at LearnZillion, our assessments allowed for
@@ -44,9 +46,7 @@ function Grading(props) {
         <span className="mt-8 text-xs text-gray">Original Design</span>
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-4xl text-brand-secondary font-display">
-          User insights
-        </h3>
+        <SectionHeading>User insights</SectionHeading>
         <p className="mt-8">
           {" "}
           On average, teachers spent 12 hours each week on non-compensated
@@ -61,7 +61,7 @@ function Grading(props) {
         </p>
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-4xl text-brand-secondary font-display">Concerns</h3>
+        <SectionHeading>Concerns</SectionHeading>
         <div className="mt-4">
           <p className="mt-8">
             Reports listed all classes together. This made it difficult for
@@ -76,7 +76,7 @@ function Grading(props) {
         </div>
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-4xl text-brand-secondary font-display">Ideation</h3>
+        <SectionHeading>Ideation</SectionHeading>
         <p className="mt-8">
           I began sketching ways to funnel teachers to the reports page when an
           assignment required their attention. Concepts included the use of
@@ -108,9 +108,7 @@ function Grading(props) {
         />
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-4xl text-brand-secondary font-display">
-          The Outcome
-        </h3>
+        <SectionHeading>The Outcome</SectionHeading>
         <p className="mt-8">
           The final functionality of this feature included the ability to switch
           between grading by student, or by question. The ability to switch to

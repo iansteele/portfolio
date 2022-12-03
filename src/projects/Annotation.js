@@ -1,5 +1,9 @@
 import React from "react";
-import { ContentWrapper, ProjectHeading } from "../components/Index";
+import {
+  ContentWrapper,
+  ProjectHeading,
+  SectionHeading,
+} from "../components/Index";
 
 function Annotation(props) {
   return (
@@ -9,29 +13,26 @@ function Annotation(props) {
         title="Annotation tools"
         roles={["UX", "Research", "UI", "HTML", "CSS", "Vue"]}
       />
-
       <img
         className="mt-20"
         src={process.env.PUBLIC_URL + "/img/annotation/in-app.jpg"}
         alt="Redesigned reports page"
       />
       <div className="mt-20 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">
-          The Challenge
-        </h3>
-        <p className="mt-4 leading-5">
+        <SectionHeading>The Challenge</SectionHeading>
+        <p className="mt-4">
           {" "}
           When I began working at LearnZillion, our assessments allowed for
           single-part questions. We switched to a 3rd-party assessment authoring
           platform which led to
         </p>
-        <p className="mt-8 leading-5">
+        <p className="mt-8">
           After integrating a feature-rich assessment authoring platform,
           LearnZillion broke free from only being able to have one item per
           question. Instead, a single question could now have multiple parts
           which could be any combination of auto-graded and/or manually graded.
         </p>
-        <p className="mt-8 leading-5">
+        <p className="mt-8">
           We needed a way to quickly let see teachers how their classes are
           doing, while allowing them to easily see which questions required
           their attention.
@@ -45,9 +46,7 @@ function Annotation(props) {
         <span className="mt-8 text-xs text-gray">Original Design</span>
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">
-          User insights
-        </h3>
+        <SectionHeading>User insights</SectionHeading>
         <p className="mt-8">
           {" "}
           On average, teachers spent 12 hours each week on non-compensated
@@ -62,7 +61,7 @@ function Annotation(props) {
         </p>
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">Concerns</h3>
+        <SectionHeading>Concerns</SectionHeading>
         <div className="mt-4">
           <p className="mt-8">
             Reports listed all classes together. This made it difficult for
@@ -77,7 +76,7 @@ function Annotation(props) {
         </div>
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">Ideation</h3>
+        <SectionHeading>Ideation</SectionHeading>
         <p className="mt-8">
           I began sketching ways to funnel teachers to the reports page when an
           assignment required their attention. Concepts included the use of
@@ -106,9 +105,7 @@ function Annotation(props) {
         />
       </div>
       <div className="mt-20 max-w-prose">
-        <h3 className="text-3xl text-brand-secondary font-display">
-          The Outcome
-        </h3>
+        <SectionHeading>The Outcome</SectionHeading>
         <p className="mt-8">
           The final functionality of this feature included the ability to switch
           between grading by student, or by question. The ability to switch to

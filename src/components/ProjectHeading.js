@@ -18,7 +18,7 @@ function ProjectHeading(props) {
 
   return (
     <div className="col-span-2">
-      <p className="mt-2 text-base font-semibold tracking-wide text-brand-secondary">
+      <p className="mt-2 font-semibold tracking-wide text-brand-secondary">
         {props.client}
       </p>
       <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
