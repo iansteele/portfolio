@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Fragment>
         <ScrollToTop />
-        <main className="flex-grow w-full leading-relaxed max-w-screen-2xl ">
+        <main className="flex-grow w-full max-w-screen-xl leading-relaxed ">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/untappd-trial" component={UntappdTrial} />
