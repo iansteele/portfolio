@@ -5,7 +5,7 @@ import "../App.css";
 function Thumbnail(props) {
   return (
     <Link
-      className="relative w-full h-auto overflow-hidden transition-transform duration-500 rounded-xl aspect-auto transform-gpu focus:outline-none focus:ring focus:ring-brand-secondary hover:scale-101 hover:ring-offset-2 group"
+      className="relative w-full h-auto overflow-hidden transition-transform duration-500 rounded aspect-auto transform-gpu focus:outline-none focus:ring focus:ring-brand-secondary hover:scale-101 hover:ring-offset-2 group hover:drop-shadow-xl"
       to={props.link}
     >
       <img

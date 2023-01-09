@@ -4,11 +4,11 @@ import { Link } from "react-router-dom"; // Import the Link component
 
 function Header(props) {
   return (
-    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 bg-brand-primary text-primary">
+    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 bg-black text-primary">
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           to="/"
-          className="inline-flex items-center flex-grow-0 text-white"
+          className="inline-flex items-center flex-grow-0 gap-3 text-white"
         >
           <svg
             className="w-8 h-8 fill-white"
@@ -21,26 +21,29 @@ function Header(props) {
               data-name="Layer 1"
             />
           </svg>
-          <h1 className="hidden ml-2 text-base font-bold tracking-normal text-white brand-primary sm:block">
-            STEELE DESIGN
-            <span className="relative ml-1 text-sm tracking-tight border-b-2 text-brand-secondary -top-1 ">
+          <h1 className="hidden text-lg font-bold tracking-wider text-white brand-primary sm:block">
+            IAN STEELE
+            {/* <span className="relative ml-1 text-sm tracking-tight border-b-2 text-brand-secondary -top-1 ">
               co
-            </span>
+            </span> */}
           </h1>
         </Link>
-        <nav className="flex items-center space-x-3 text-xs font-bold tracking-wide md:space-x-4 text-brand-secondary">
+        <nav className="flex items-center space-x-3 text-xs font-bold tracking-widest md:space-x-4 ">
           <a
-            className="px-1 py-3 uppercase transition-colors delay-200 hover:text-white"
+            className="relative px-1 py-3 uppercase transition-all transform text-brand-secondary hover:text-white group active:scale-90"
             href="https://www.notion.so/Ian-Steele-ca6f009ed2204389be0a2d3a0ee99788"
           >
             Resume
+            <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
           </a>
           <a
-            className="px-1 py-3 ml-2 uppercase transition-colors delay-200 hover:text-white"
-            href="mailto:steeledesignco@gmail.com?subject=Reaching out from Steele Design Co"
+            className="relative px-1 py-3 ml-2 uppercase transition-all transform text-brand-secondary hover:text-white group active:scale-90"
+            href="mailto:steeledesignco@gmail.com?subject=Reaching out from
+            Steele Design Co"
             target="_blank"
           >
             Contact
+            <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
           </a>
         </nav>
       </div>

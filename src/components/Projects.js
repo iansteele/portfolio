@@ -4,11 +4,11 @@ import "../App.css";
 
 function Projects(props) {
   return (
-    <div className="grid grid-cols-1 gap-4 px-4 mt-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="grid grid-cols-1 gap-4 px-6 md:grid-cols-2 lg:grid-cols-3">
       {/*  Grading */}
       <Thumbnail
         link="/grading"
-        image="img/grading/ui-thumb.jpg"
+        image="img/grading/grading-thumb.jpg"
         title="ILC Grading"
         altLabel="UI components that were created to improve the grading experience at Imagine Learning Classroom"
       />
@@ -16,7 +16,7 @@ function Projects(props) {
       <Thumbnail
         link="/annotation"
         image="img/annotation/ui-thumb.jpg"
-        title="Lesson annotation"
+        title="Annotation"
         altLabel="Tool illustrations from the Annotation feature for Imagine Learning Classroom"
       />
       {/*  Digital Menus */}

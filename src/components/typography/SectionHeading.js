@@ -4,7 +4,7 @@ import "../../App.css";
 function SectionHeading(props) {
   return (
     <h3>
-      <span className="text-3xl text-primary lg:text-5xlfont-display">
+      <span className="text-3xl font-bold text-primary font-display">
         {props.children}
       </span>
     </h3>

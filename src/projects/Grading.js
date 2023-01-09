@@ -10,7 +10,7 @@ function Grading(props) {
     <ContentWrapper>
       <ProjectHeading
         client="IL Classroom"
-        title="Improving the grading experience"
+        title="An improved grading workflow"
         roles={["User research", "Design Thinking", "Prototyping"]}
       />
       <img

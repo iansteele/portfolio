@@ -7,10 +7,11 @@ module.exports = {
       white: "#f5f0e5",
       gray: "#5dadb3",
       brand: {
-        primary: "#1a151a",
-        // primary: '#15161b',
+        primary: "#262628",
+        // primary: '#1a151a',
         // primary-blueish: '#131e1f',
-        secondary: "#e8a440",
+        // goldish secondary: "#e8a440",
+        secondary: "#55FFA7",
         // secondary: '#AF7247',
         tertiary: "#f6f6f6",
       },
@@ -24,8 +25,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      display: ["DM Serif Text", "serif"],
-      body: ["Roboto", "sans-serif"],
+      display: ["Outfit", "serif"],
+      body: ["Outfit", "sans-serif"],
     },
   },
   variants: {
