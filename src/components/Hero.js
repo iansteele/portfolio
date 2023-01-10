@@ -3,7 +3,7 @@ import "../App.css";
 
 function Hero(props) {
   return (
-    <div className="relative flex flex-col-reverse items-center justify-center flex-grow gap-6 px-6 py-24 mt-0 text-white min-h-[50vh] md:gap-10 md:flex-row rounded-xl ">
+    <div className="relative flex flex-col-reverse items-center justify-center md:justify-start flex-grow gap-6 px-6 py-24 mt-0 text-white min-h-[50vh] md:gap-10 md:flex-row rounded-xl ">
       <div className="flex flex-col w-full gap-4 max-w-prose">
         <p className="text-6xl font-bold tracking-tight md:text-7xl ">
           Hi, I'm Ian
