@@ -9,15 +9,17 @@ function Grading(props) {
   return (
     <ContentWrapper>
       <ProjectHeading
-        client="IL Classroom"
+        client="Imagine Learning Classroom"
         title="An improved grading workflow"
         roles={["User research", "Design Thinking", "Prototyping"]}
       />
-      <img
-        className="mt-20"
-        src={process.env.PUBLIC_URL + "/img/grading/grading-main.jpg"}
-        alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
-      />
+      <div className="mt-10 -mx-6 sm:mx-0">
+        <img
+          className="w-full h-auto"
+          src={process.env.PUBLIC_URL + "/img/grading/Grading-main.jpg"}
+          alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
+        />
+      </div>
       <div className="mt-20 max-w-prose">
         <SectionHeading>The Challenge</SectionHeading>
         <p className="mt-6 ">
