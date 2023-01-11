@@ -4,7 +4,7 @@ import "../App.css";
 
 function Social(props) {
   return (
-    <ul className="flex space-x-2">
+    <ul className="flex gap-10">
       <li>
         <a
           className="relative flex items-center justify-center w-10 h-10 cursor-pointer group"
