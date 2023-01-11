@@ -5,7 +5,7 @@ import Button from "./../Button";
 
 function Footer(props) {
   return (
-    <footer className="flex flex-col items-center w-full max-w-screen-xl gap-6 px-6 py-12 text-white text-gray-900 sm:py-24">
+    <footer className="flex flex-col items-center w-full max-w-screen-xl gap-6 px-6 py-20 text-gray-900 text-brand-tertiary">
       <h2 className="text-2xl font-bold text-center ">Don't be a stranger</h2>
 
       <Social />

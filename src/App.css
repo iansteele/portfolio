@@ -6,6 +6,24 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-black: #1a151b;
+    --color-white: #f5f0e5;
+    --color-gray: #5dadb3;
+    --color-brand-primary: #fff;
+    --color-brand-secondary: #3b7f5c;
+    --color-brand-tertiary: #262628;
+  }
+
+  .dark {
+    --color-black: #1a151b;
+    --color-white: #f5f0e5;
+    --color-gray: #5dadb3;
+    --color-brand-primary: #262628;
+    --color-brand-secondary: #55ffa7;
+    --color-brand-tertiary: #f6f6f6;
+  }
+
   h1 {
     @apply text-7xl;
   }

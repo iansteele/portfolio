@@ -13,7 +13,7 @@ function UntappdTrial(props) {
         title="Free trial experience"
         roles={["UX", "Product Design"]}
       />
-      <div className="grid grid-cols-2 gap-4 mx-auto mt-20 space-y-10 text-white md:gap-10">
+      <div className="grid grid-cols-2 gap-4 mx-auto mt-20 space-y-10 md:gap-10">
         <img
           className="flex-shrink-0 w-full h-auto col-span-2"
           src={process.env.PUBLIC_URL + "/img/ut/trial/hero.jpg"}
@@ -39,6 +39,7 @@ function UntappdTrial(props) {
               </span>{" "}
               from start to finish.
             </p>
+            v
             <p>
               {" "}
               Our team was tasked with opening our platform up to customers via

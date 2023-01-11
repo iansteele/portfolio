@@ -1,17 +1,18 @@
 import React from "react";
 import "../../App.css";
 import { Link } from "react-router-dom"; // Import the Link component
+import { ThemeSwitcher } from "../../components/Index";
 
 function Header(props) {
   return (
-    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 bg-black text-primary">
+    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 transition-colors duration-500 bg-brand-primary text-primary">
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           to="/"
-          className="inline-flex items-center flex-grow-0 gap-3 text-white"
+          className="inline-flex items-center flex-grow-0 gap-3 text-brand-tertiary"
         >
           <svg
-            className="w-8 h-8 fill-white"
+            className="w-8 h-8 fill-brand-tertiary"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 200 180"
           >
@@ -21,7 +22,7 @@ function Header(props) {
               data-name="Layer 1"
             />
           </svg>
-          <h1 className="hidden text-lg font-bold tracking-wider text-white brand-primary sm:block">
+          <h1 className="hidden text-lg font-bold tracking-wider sm:block">
             IAN STEELE
             {/* <span className="relative ml-1 text-sm tracking-tight border-b-2 text-brand-secondary -top-1 ">
               co
@@ -30,14 +31,14 @@ function Header(props) {
         </Link>
         <nav className="flex items-center space-x-3 text-xs font-bold tracking-widest md:space-x-4 ">
           <a
-            className="relative px-1 py-3 uppercase transition-all transform text-brand-secondary hover:text-white group active:scale-90"
+            className="relative px-1 py-3 uppercase transition-all transform text-brand-secondary hover:text-brand-tertiary group active:scale-90"
             href="https://www.notion.so/Ian-Steele-ca6f009ed2204389be0a2d3a0ee99788"
           >
             Resume
             <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
           </a>
           <a
-            className="relative px-1 py-3 ml-2 uppercase transition-all transform text-brand-secondary hover:text-white group active:scale-90"
+            className="relative px-1 py-3 ml-2 uppercase transition-all transform text-brand-secondary hover:text-brand-tertiary group active:scale-90"
             href="mailto:steeledesignco@gmail.com?subject=Reaching out from
             Steele Design Co"
             target="_blank"
@@ -45,6 +46,7 @@ function Header(props) {
             Contact
             <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
           </a>
+          <ThemeSwitcher />
         </nav>
       </div>
     </header>
