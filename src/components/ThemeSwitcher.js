@@ -25,7 +25,7 @@ function ThemeSwitcher(props) {
 
   return (
     <button
-      className="fixed bottom-0 right-0 p-4 rounded-tl-lg bg-brand-primary drop-shadow-md group"
+      className="fixed bottom-0 right-0 p-4 rounded-tl-lg dark:bg-brand-secondary bg-brand-primary drop-shadow-md group"
       onClick={toggleDarkMode}
     >
       <svg
@@ -34,7 +34,7 @@ function ThemeSwitcher(props) {
         viewBox="0 0 24 24"
         strokeWidth="2"
         stroke="currentColor"
-        className="w-5 h-5 transition-colors dark:text-brand-secondary text-brand-tertiary group "
+        className="w-5 h-5 transition-colors dark:text-brand-primary text-brand-tertiary group "
       >
         {isDarkMode ? (
           <path

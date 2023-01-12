@@ -8,7 +8,7 @@ function Hero(props) {
         <h2 className="text-6xl font-bold tracking-tight md:text-7xl ">
           Hi, I'm Ian
         </h2>
-        <p className="text-2xl font-regular text-brand-secondary">
+        <p className="text-2xl font-bold text-brand-secondary">
           A product designer & illustrator
         </p>
         <p className="text-lg md:font-regular">

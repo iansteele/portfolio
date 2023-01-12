@@ -6,7 +6,7 @@ function ProjectHeading(props) {
   function RoleList() {
     if (hasRoles) {
       return (
-        <ul className="flex mt-6 space-x-4 text-sm text-white opacity-75">
+        <ul className="flex mt-6 space-x-4 text-sm opacity-75 text-brand-tertiary">
           {props.roles.map(function (role, index) {
             return <li key={index}>{role}</li>;
           })}

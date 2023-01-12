@@ -12,7 +12,7 @@ function Social(props) {
           alt="Ian on Dribbble"
         >
           <svg
-            className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:fill-white group-hover:-translate-y-1 group-hover:scale-105 group-active:translate-y-0"
+            className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-hover:scale-105 group-active:translate-y-0"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 900 900"
           >
@@ -31,7 +31,7 @@ function Social(props) {
           alt="Ian on Instagram"
         >
           <svg
-            className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:scale-101 group-hover:fill-white group-hover:-translate-y-1 group-active:translate-y-0"
+            className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:scale-101 group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-active:translate-y-0"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 900 900"
           >
@@ -49,7 +49,7 @@ function Social(props) {
           alt="Ian on Github"
         >
           <svg
-            className="w-6 transition-all duration-500 transform group-hover:scale-105 fill-brand-secondary group-hover:fill-white group-hover:-translate-y-1 group-active:translate-y-0"
+            className="w-6 transition-all duration-500 transform group-hover:scale-105 fill-brand-secondary group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-active:translate-y-0"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >

@@ -13,11 +13,13 @@ function Annotation(props) {
         title="Annotation tools"
         roles={["UX", "Research", "UI", "HTML", "CSS", "Vue"]}
       />
-      <img
-        className="mt-20"
-        src={process.env.PUBLIC_URL + "/img/annotation/in-app.jpg"}
-        alt="Redesigned reports page"
-      />
+      <div className="mt-10 -mx-6 sm:mx-0">
+        <img
+          className="w-full h-auto"
+          src={process.env.PUBLIC_URL + "/img/annotation/in-app.jpg"}
+          alt="Redesigned reports page"
+        />
+      </div>
       <div className="mt-20 max-w-prose">
         <SectionHeading>The Challenge</SectionHeading>
         <p className="mt-4">
