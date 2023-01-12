@@ -13,7 +13,7 @@ function Thumbnail(props) {
         alt={props.altLabel}
       />
       <div className="absolute transition-all opacity-0 group-hover:opacity-100 duration-700 -translate-y-16 -top-0.5 left-4 group-hover:translate-y-0">
-        <div className="px-4 py-1 font-semibold text-white rounded-br-xl rounded-bl-xl bg-brand-primary project-title">
+        <div className="px-4 py-1 font-semibold text-brand-tertiary rounded-br-xl rounded-bl-xl bg-brand-primary project-title">
           {props.title}
         </div>
         <div className="">{props.category}</div>
