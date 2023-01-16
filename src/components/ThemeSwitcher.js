@@ -2,15 +2,15 @@ import React, { useState } from "react"; // Import the Component component from 
 import "../App.css";
 
 function ThemeSwitcher(props) {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    document.body.classList.toggle("dark");
-    if (document.body.classList.contains("dark")) {
-      localStorage.setItem("theme", "dark");
-    } else {
+    if (theme === "dark") {
+      setTheme("light");
       localStorage.setItem("theme", "light");
+    } else {
+      setTheme("dark");
+      localStorage.setItem("theme", "dark");
     }
   };
 
@@ -36,7 +36,7 @@ function ThemeSwitcher(props) {
         stroke="currentColor"
         className="w-5 h-5 transition-colors dark:text-brand-primary text-brand-primary group "
       >
-        {isDarkMode ? (
+        {theme === "dark" ? (
           <path
             className="transition-all group-active:fill-current group-hover:fill-current "
             strokeLinecap="round"
