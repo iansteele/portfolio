@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iansteele.design",
+  "homepage": "https://iansteele.github.io/portfolio/#/",
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@testing-library/jest-dom": "^5.11.10",
