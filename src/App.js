@@ -21,7 +21,7 @@ function App() {
         <ScrollToTop />
         <main className="flex-grow w-full max-w-screen-xl leading-relaxed ">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route path="/" component={Home} />
             <Route path="/untappd-trial" component={UntappdTrial} />
             <Route path="/virtual-fest" component={VirtualFest} />
             <Route path="/illustration" component={Illustration} />
