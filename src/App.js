@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { Header, Footer } from "./components/Index";
 import ScrollToTop from "./components/ScrollToTop.js";
@@ -18,17 +18,17 @@ function App() {
     <Router basename={"/"}>
       <Header />
       <Fragment>
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
         <main className="flex-grow w-full max-w-screen-xl leading-relaxed ">
-          <Switch>
-            <Route path="/" component={Home} />
-            <Route path="/untappd-trial" component={UntappdTrial} />
-            <Route path="/virtual-fest" component={VirtualFest} />
-            <Route path="/illustration" component={Illustration} />
-            <Route path="/grading" component={Grading} />
-            <Route path="/annotation" component={Annotation} />
-            <Route path="/untappd-digital-menus" component={DigitalMenus} />
-          </Switch>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/untappd-trial" element={<UntappdTrial />} />
+            <Route path="/virtual-fest" element={<VirtualFest />} />
+            <Route path="/illustration" element={<Illustration />} />
+            <Route path="/grading" element={<Grading />} />
+            <Route path="/annotation" element={<Annotation />} />
+            <Route path="/untappd-digital-menus" element={<DigitalMenus />} />
+          </Routes>
         </main>
       </Fragment>
       <Footer />

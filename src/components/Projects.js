@@ -19,10 +19,10 @@ function Projects(props) {
         title="Annotation"
         altLabel="Tool illustrations from the Annotation feature for Imagine Learning Classroom"
       />
-      {/*  Digital Menus */}
+      {/*  Untappd Trial */}
       <Thumbnail
         link="/untappd-trial"
-        image="/img/ut/trial/hero.jpg"
+        image="img/ut/trial/hero.jpg"
         title="UTFB Free Trial"
         altLabel="Screenshots of the Untappd for Business free trial experience"
       />
