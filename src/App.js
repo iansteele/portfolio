@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import { Header, Footer } from "./components/Index";
 import ScrollToTop from "./components/ScrollToTop.js";
 import Home from "./Home.js";
@@ -16,22 +15,22 @@ import "tailwindcss/tailwind.css";
 function App() {
   return (
     <Router basename={"/"}>
-      <Header />
-      <Fragment>
+      <ScrollToTop>
+        <Header />
         {/* <ScrollToTop /> */}
-        <main className="flex-grow w-full max-w-screen-xl leading-relaxed ">
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/untappd-trial" element={<UntappdTrial />} />
-            <Route path="/virtual-fest" element={<VirtualFest />} />
-            <Route path="/illustration" element={<Illustration />} />
-            <Route path="/grading" element={<Grading />} />
-            <Route path="/annotation" element={<Annotation />} />
-            <Route path="/untappd-digital-menus" element={<DigitalMenus />} />
-          </Routes>
-        </main>
-      </Fragment>
-      <Footer />
+
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/untappd-trial" element={<UntappdTrial />} />
+          <Route path="/virtual-fest" element={<VirtualFest />} />
+          <Route path="/illustration" element={<Illustration />} />
+          <Route path="/grading" element={<Grading />} />
+          <Route path="/annotation" element={<Annotation />} />
+          <Route path="/untappd-digital-menus" element={<DigitalMenus />} />
+        </Routes>
+
+        <Footer />
+      </ScrollToTop>
     </Router>
   );
 }

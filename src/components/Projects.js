@@ -4,7 +4,7 @@ import "../App.css";
 
 function Projects(props) {
   return (
-    <div className="grid grid-cols-1 gap-4 px-4 md:grid-cols-2 lg:grid-cols-3">
+    <ul className="grid max-w-screen-xl grid-cols-1 gap-4 px-4 md:grid-cols-2 lg:grid-cols-3">
       {/*  Grading */}
       <Thumbnail
         link="/grading"
@@ -47,7 +47,7 @@ function Projects(props) {
         title="Illustrations"
         altLabel="Illustration of a headstone that reads Die Trying"
       />
-    </div>
+    </ul>
   );
 }
 
