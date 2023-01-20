@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header, Footer } from "./components/Index";
 import ScrollToTop from "./components/ScrollToTop.js";
 import Home from "./Home.js";
