@@ -8,9 +8,11 @@ function ThemeSwitcher(props) {
     if (theme === "dark") {
       setTheme("light");
       localStorage.setItem("theme", "light");
+      document.body.classList.remove("dark");
     } else {
       setTheme("dark");
       localStorage.setItem("theme", "dark");
+      document.body.classList.add("dark");
     }
   };
 
