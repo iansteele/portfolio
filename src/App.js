@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Header, Footer } from "./components/Index";
+import { Header, Footer, ThemeSwitcher } from "./components/Index";
 import ScrollToTop from "./components/ScrollToTop.js";
 import Home from "./Home.js";
 import UntappdTrial from "./projects/UntappdTrial.js";
@@ -31,6 +31,7 @@ function App() {
 
         <Footer />
       </ScrollToTop>
+      <ThemeSwitcher />
     </Router>
   );
 }

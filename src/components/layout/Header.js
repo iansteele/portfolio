@@ -46,7 +46,6 @@ function Header(props) {
             Contact
             <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
           </a>
-          <ThemeSwitcher />
         </nav>
       </div>
     </header>
