@@ -4,7 +4,7 @@ import "../App.css";
 
 function Projects(props) {
   return (
-    <ul className="grid max-w-screen-xl grid-cols-1 gap-4 px-4 md:grid-cols-2 lg:grid-cols-3">
+    <ul className="grid w-full max-w-screen-xl grid-cols-1 gap-4 px-4 py-10 md:grid-cols-2 lg:grid-cols-3">
       {/*  Grading */}
       <Thumbnail
         link="/grading"
@@ -15,8 +15,8 @@ function Projects(props) {
       {/*  Annotation */}
       <Thumbnail
         link="/annotation"
-        image="img/annotation/ui-thumb.jpg"
-        title="Annotation"
+        image="img/annotation/project-thumb.jpg"
+        title="Annotation Tools"
         altLabel="Tool illustrations from the Annotation feature for Imagine Learning Classroom"
       />
       {/*  Untappd Trial */}

@@ -12,7 +12,7 @@ function Header(props) {
           className="inline-flex items-center flex-grow-0 gap-3 text-brand-tertiary"
         >
           <svg
-            className="w-8 h-8 fill-brand-tertiary"
+            className="flex-shrink-0 w-8 h-8 fill-brand-tertiary"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 200 180"
           >

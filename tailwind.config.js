@@ -17,6 +17,7 @@ module.exports = {
           primary: "var(--color-brand-primary)",
           secondary: "var(--color-brand-secondary)",
           tertiary: "var(--color-brand-tertiary)",
+          muted: "var(--color-brand-tertiary--muted)",
         },
       },
     },
