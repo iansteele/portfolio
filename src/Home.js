@@ -5,7 +5,7 @@ import Projects from "./components/Projects.js";
 function Home(props) {
   return (
     <React.Fragment>
-      <div className="relative max-w-screen-xl overflow-hidden md:rounded-2xl px-6  flex flex-col items-center md:items-center justify-center w-full  md:justify-start flex-grow gap-10  text-brand-tertiary min-h-[50vh] md:gap-10 md:flex-row ">
+      <div className="relative flex flex-col items-center justify-center flex-grow w-full max-w-screen-xl gap-8 px-6 py-8 overflow-hidden md:py-16 md:rounded-2xl md:items-center md:justify-start text-brand-tertiary md:flex-row ">
         <div className="flex-grow w-56 max-w-xs overflow-hidden rounded-full md:w-1/3 ">
           <img
             className="flex-shrink-0 w-full mx-auto aspect-square"

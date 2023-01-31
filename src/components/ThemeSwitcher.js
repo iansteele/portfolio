@@ -3,22 +3,30 @@ import "../App.css";
 
 function ThemeSwitcher(props) {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-
+  console.log(theme);
   const toggleDarkMode = () => {
-    if (theme === "dark") {
-      setTheme("light");
-      localStorage.setItem("theme", "light");
-      document.body.classList.toggle("dark");
-    } else {
-      setTheme("dark");
+    if (!localStorage.getItem("theme")) {
       localStorage.setItem("theme", "dark");
-      document.body.classList.toggle("dark");
+    } else {
+      if (localStorage.getItem("theme") === "light") {
+        document.body.classList.add("light");
+      }
+    }
+    if (theme === "light") {
+      setTheme("dark");
+      localStorage.setItem("theme", "light");
+      document.body.classList.toggle("light");
+    } else {
+      setTheme("light");
+      localStorage.setItem("theme", "dark");
+      document.body.classList.toggle("light");
     }
   };
+  console.log(theme);
 
   return (
     <button
-      className="fixed bottom-0 right-0 p-4 rounded-tl-lg dark:bg-brand-secondary bg-brand-tertiary drop-shadow-md group"
+      className="fixed bottom-0 right-0 z-50 p-4 rounded-tl-lg cursor-pointer bg-brand-tertiary drop-shadow-md group"
       onClick={toggleDarkMode}
     >
       <svg

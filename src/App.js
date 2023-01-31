@@ -16,9 +16,8 @@ function App() {
   return (
     <Router basename={"/"}>
       <ScrollToTop>
+        <ThemeSwitcher />
         <Header />
-        {/* <ScrollToTop /> */}
-
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/untappd-trial" element={<UntappdTrial />} />
@@ -31,7 +30,6 @@ function App() {
 
         <Footer />
       </ScrollToTop>
-      <ThemeSwitcher />
     </Router>
   );
 }
