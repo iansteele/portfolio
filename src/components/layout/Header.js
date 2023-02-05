@@ -5,7 +5,7 @@ import { ThemeSwitcher } from "../../components/Index";
 
 function Header(props) {
   return (
-    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 transition-colors duration-500 bg-brand-primary text-primary">
+    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 bg-brand-primary text-primary">
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           to="/"

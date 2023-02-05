@@ -3,15 +3,7 @@ import "../App.css";
 
 function ThemeSwitcher(props) {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-  console.log(theme);
   const toggleDarkMode = () => {
-    if (!localStorage.getItem("theme")) {
-      localStorage.setItem("theme", "dark");
-    } else {
-      if (localStorage.getItem("theme") === "light") {
-        document.body.classList.add("light");
-      }
-    }
     if (theme === "light") {
       setTheme("dark");
       localStorage.setItem("theme", "light");
@@ -22,7 +14,6 @@ function ThemeSwitcher(props) {
       document.body.classList.toggle("light");
     }
   };
-  console.log(theme);
 
   return (
     <button
@@ -37,7 +28,7 @@ function ThemeSwitcher(props) {
         stroke="currentColor"
         className="w-5 h-5 transition-colors dark:text-brand-primary text-brand-primary group "
       >
-        {theme === "dark" ? (
+        {theme === "light" ? (
           <path
             className="transition-all group-active:fill-current group-hover:fill-current "
             strokeLinecap="round"

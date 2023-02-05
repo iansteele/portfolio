@@ -16,22 +16,19 @@ function App() {
   return (
     <Router basename={"/"}>
       <ScrollToTop>
-        <div className="z-10 flex flex-col items-center w-full mx-auto transition-colors duration-500 bg-brand-primary">
-          <ThemeSwitcher />
-          <Header />
+        <ThemeSwitcher />
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/untappd-trial" element={<UntappdTrial />} />
+          <Route path="/virtual-fest" element={<VirtualFest />} />
+          <Route path="/illustration" element={<Illustration />} />
+          <Route path="/grading" element={<Grading />} />
+          <Route path="/annotation" element={<Annotation />} />
+          <Route path="/untappd-digital-menus" element={<DigitalMenus />} />
+        </Routes>
 
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/untappd-trial" element={<UntappdTrial />} />
-            <Route path="/virtual-fest" element={<VirtualFest />} />
-            <Route path="/illustration" element={<Illustration />} />
-            <Route path="/grading" element={<Grading />} />
-            <Route path="/annotation" element={<Annotation />} />
-            <Route path="/untappd-digital-menus" element={<DigitalMenus />} />
-          </Routes>
-
-          <Footer />
-        </div>
+        <Footer />
       </ScrollToTop>
     </Router>
   );
