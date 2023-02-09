@@ -21,7 +21,7 @@ function Home(props) {
             A product designer & illustrator
           </p>
           <p className="max-w-lg text-lg md:font-regular">
-            I am building a digital core curriculum platform for k-12 schools
+            I am building a digital core curriculum platform for K-12 schools
             with the amazing folks at Imagine Learning Classroom
           </p>
         </div>
