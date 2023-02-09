@@ -3,11 +3,11 @@ import "../../App.css";
 
 function SectionHeading(props) {
   return (
-    <h3>
+    <h2 className="inline-flex text-brand-secondary max-w-prose">
       <span className="text-3xl font-bold text-primary font-display">
         {props.children}
       </span>
-    </h3>
+    </h2>
   );
 }
 

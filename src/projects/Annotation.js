@@ -13,41 +13,40 @@ function Annotation(props) {
         title="Annotation tools"
         roles={["UX", "Research", "UI", "HTML", "CSS", "Vue"]}
       />
-      <div className="mt-10 -mx-6 sm:mx-0">
+      <div className="mt-10 -mx-6 sm:mx-0 ">
         <img
           className="w-full h-auto"
           src={process.env.PUBLIC_URL + "/img/annotation/in-app.jpg"}
           alt="Redesigned reports page"
         />
       </div>
-      <div className="mt-20 max-w-prose">
-        <SectionHeading>The Challenge</SectionHeading>
-        <p className="mt-4">
+      <div className="py-24 mx-auto space-y-8 max-w-prose">
+        <SectionHeading>How might we</SectionHeading>
+
+        <p className="text-5xl font-light leading-tight tracking-tight">
+          <span className="font-bold">Elaborate on ideas</span> and{" "}
+          <span className="font-bold">demonstrate understanding</span>
+        </p>
+        <p>
           {" "}
-          When I began working at LearnZillion, our assessments allowed for
-          single-part questions. We switched to a 3rd-party assessment authoring
-          platform which led to
-        </p>
-        <p className="mt-8">
-          After integrating a feature-rich assessment authoring platform,
-          LearnZillion broke free from only being able to have one item per
-          question. Instead, a single question could now have multiple parts
-          which could be any combination of auto-graded and/or manually graded.
-        </p>
-        <p className="mt-8">
-          We needed a way to quickly let see teachers how their classes are
-          doing, while allowing them to easily see which questions required
-          their attention.
+          IL Classroom empowers teachers to spend more time meeting student need
+          and less time building student-facing materials from scratch. Our
+          digital and print products offered solutions for pre-planned lessons,
+          but required substantial effort to expand on ideas or demonstrate
+          student understanding in the moment.
         </p>
       </div>
-      <div className="mt-16">
+
+      <div className="mx-auto max-w-prose">
         <img
           src={process.env.PUBLIC_URL + "/img/annotation/in-class.jpg"}
           alt="Redesigned reports page"
         />
-        <span className="mt-8 text-xs text-gray">Original Design</span>
+        <span className="mt-8 text-xs text-brand-tertiary">
+          Teacher using third party software to present our lesson content
+        </span>
       </div>
-      <div className="mt-20 max-w-prose">
+      <div className="mx-auto mt-20 max-w-prose">
         <SectionHeading>User insights</SectionHeading>
         <p className="mt-8">
           {" "}
@@ -62,7 +61,7 @@ function Annotation(props) {
           their attention.
         </p>
       </div>
-      <div className="mt-20 max-w-prose">
+      <div className="mx-auto mt-20 max-w-prose">
         <SectionHeading>Concerns</SectionHeading>
         <div className="mt-4">
           <p className="mt-8">
@@ -77,45 +76,45 @@ function Annotation(props) {
           </p>
         </div>
       </div>
-      <div className="mt-20 max-w-prose">
+      <div className="mx-auto mt-20 max-w-prose">
         <SectionHeading>Ideation</SectionHeading>
         <p className="mt-8">
-          I began sketching ways to funnel teachers to the reports page when an
-          assignment required their attention. Concepts included the use of
-          notifications, visual cues in the site nav, or allowing for the
-          creation of due-dates when assigning. However, a restriction of our
-          third party integration limited us to only being able to pull 50
-          student reports at a time. Once there, a system of colors and shapes
-          provided a quick reference to student performance instead of
-          misleading scores. Allowing teachers to toggle grading by question
-          instead of by student saved teachers time, allowing them to focus
-          additional learning where necessary
+          Something about the steps we took for prototyping ideas
         </p>
+        <img
+          src={process.env.PUBLIC_URL + "/img/annotation/annotations_mvp.png"}
+          alt="Redesigned reports page"
+          className="mt-8"
+        />
       </div>
+
       <div className="flex flex-wrap mt-20">
         <img
-          src={process.env.PUBLIC_URL + "/img/gradingflow-sketch.png"}
+          className="flex-1 min-w-0 aspect-square"
+          src={
+            process.env.PUBLIC_URL + "/img/annotation/inclass-annotations.png"
+          }
           alt="Redesigned reports page"
         />
         <img
-          src={process.env.PUBLIC_URL + "/img/gradingmodal-sketch.png"}
+          className="flex-1 min-w-0 aspect-square"
+          src={
+            process.env.PUBLIC_URL + "/img/annotation/inclass-annotations2.jpg"
+          }
           alt="Redesigned reports page"
         />
         <img
-          src={process.env.PUBLIC_URL + "/img/gradingicon-sketch.png"}
+          className="flex-1 min-w-0 aspect-square"
+          src={process.env.PUBLIC_URL + "/img/annotation/colorpicker.jpg"}
           alt="Redesigned reports page"
         />
       </div>
-      <div className="mt-20 max-w-prose">
+      <div className="mx-auto mt-20 max-w-prose">
         <SectionHeading>The Outcome</SectionHeading>
         <p className="mt-8">
-          The final functionality of this feature included the ability to switch
-          between grading by student, or by question. The ability to switch to
-          grading by question allowed for teachers to quickly grade all items
-          that required their attention. Giving them more time to prepare for
-          subsequent lessons, or to help those students not at expectation.
-          Following up with users after release we learned that teachers had no
-          difficulty discerning which items required their manual review.
+          A breakdown of what we delivered, what our next plans are, and any
+          metrics I can share. Maybe the image below is a bunch of screens of
+          annotated content.
         </p>
       </div>
       <div className="mt-20">
