@@ -24,6 +24,9 @@ function ProjectHeading(props) {
       <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
         {props.title}
       </h2>
+      <p className="opacity-75 text-brand-tertiary max-w-prose">
+        {props.description}
+      </p>
       <RoleList />
     </div>
   );
