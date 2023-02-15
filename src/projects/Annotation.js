@@ -21,11 +21,11 @@ function Annotation(props) {
           alt="Redesigned reports page"
         />
       </div>
-      <div className="pt-24 mx-auto space-y-8 max-w-prose">
+      <div className="pt-16 mx-auto space-y-8 max-w-prose">
         <SectionHeading>Overview</SectionHeading>
 
         <p className="text-5xl font-light leading-tight tracking-tight">
-          <span className="font-bold">Elaborate on ideas</span> and{" "}
+          <span className="font-bold">Expand on ideas</span> and{" "}
           <span className="font-bold">demonstrate understanding</span>
         </p>
         <p>
@@ -42,57 +42,74 @@ function Annotation(props) {
         </p>
       </div>
 
-      <div className="pt-24 mx-auto space-y-8 max-w-prose">
+      <div className="pt-16 mx-auto space-y-4 max-w-prose">
         <SectionHeading>My role</SectionHeading>
-        <p> Lead design & researcher</p>
+        <p>
+          {" "}
+          Our team consisted of myself as lead designer, a product manager, an
+          engineer, a supporting designer, director of product marketing, and a
+          customer success manager.
+        </p>
+        <p className="font-bold">My responsibilities include:</p>
+        <ul className="list-disc list-inside">
+          <li>
+            Conducting surveys and moderated user interviews with customers
+          </li>
+          <li>Competitive research & analysis</li>
+          <li>Led brainstorming workshops</li>
+          <li>Prototyping & testing</li>
+          <li>Collaborating and writing production code</li>
+        </ul>
       </div>
 
-      <div className="mx-auto mt-20 max-w-prose">
-        <SectionHeading>Understanding the problem</SectionHeading>
+      <div className="pt-16 mx-auto max-w-prose">
+        <SectionHeading>Empathize & Define</SectionHeading>
         <p className="mt-8">
           {" "}
           Leveraging fullstory recordings, feedback from customer support, and
-          customer-interviews, our team gathered as much information about the
-          way classrooms were set up, how teachers understood X. We used
-          affinity mapping to dial in what the most common problems our users
-          faced when presenting to their classrooms.{" "}
+          customer-interviews, our team built an understanding of the classroom
+          set up post COVID, how and when devices are used in the classroom.
+          Through affinity mapping we grouped customer feedback. After
+          brainstorming potential solutions to these groups, we leveraged a
+          Value/Effort matrix to determine what we would deliver.{" "}
         </p>
-      </div>
-      <div className="mx-auto mt-20 max-w-prose">
-        <SectionHeading>Insights</SectionHeading>
-        <div className="mt-4">
-          <p className="mt-8">
-            Reports listed all classes together. This made it difficult for
-            teachers to distinguish how their individual classrooms were
-            performing, and prevented teachers from knowing which class each
-            student belonged to.
-          </p>
-          <p className="mt-4">
-            Assignment questions can now be multi-part. How do we display
-            completion, scoring, and need for manual grading?
-          </p>
+
+        <div className="pt-16 mx-auto max-w-prose">
+          <img
+            className="rounded-xl"
+            src={process.env.PUBLIC_URL + "/img/annotation/in-class.jpg"}
+            alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
+          />
         </div>
       </div>
 
       <div className="mx-auto mt-16 max-w-prose">
-        <img
-          src={process.env.PUBLIC_URL + "/img/annotation/in-class.jpg"}
-          alt="Redesigned reports page"
-        />
-        <span className="mt-8 text-xs text-brand-tertiary">
-          Teacher using third party software to present our lesson content
-        </span>
-      </div>
-      <div className="mx-auto mt-20 max-w-prose">
         <SectionHeading>Ideation</SectionHeading>
         <p className="mt-8">
-          Something about the steps we took for prototyping ideas
+          To begin the process, we wanted to stress-test what annotating on our
+          lesson cards would look like. How would the annotations scale with
+          content? Would they fall apart on responsive layouts? What tools are
+          currently available in our product that have similar functionality? If
+          there are any, can they fit our use case?
         </p>
-        <img
-          src={process.env.PUBLIC_URL + "/img/annotation/annotations_mvp.png"}
-          alt="Redesigned reports page"
-          className="mt-8"
-        />
+        <p className="mt-8">
+          We leveraged a third-party annotation tool to get us up and running
+          quickly to test these questions. It wasn't pretty, but it taught us:
+        </p>
+        <ul className="mt-8 list-disc list-inside">
+          <li>Annotations quickly fell apart with responsive content</li>
+          <li>Which tools teachers felt were most valuable</li>
+        </ul>
+        <div className="p-4 mt-12 bg-white rounded-xl">
+          <img
+            src={process.env.PUBLIC_URL + "/img/annotation/annotations_mvp.png"}
+            alt="Redesigned reports page"
+          />
+        </div>
+      </div>
+
+      <div className="mx-auto mt-16 max-w-prose">
+        <SectionHeading>What we delivered</SectionHeading>
       </div>
 
       <div className="flex flex-wrap mt-20 ">
@@ -117,14 +134,13 @@ function Annotation(props) {
         />
       </div>
       <div className="mx-auto mt-20 max-w-prose">
-        <SectionHeading>The Outcome</SectionHeading>
+        <SectionHeading>What's next</SectionHeading>
         <p className="mt-8">
-          A breakdown of what we delivered, what our next plans are, and any
-          metrics I can share. Maybe the image below is a bunch of screens of
-          annotated content.
+          A breakdown of what we plan to improve/add in future updates to
+          annotation tools.
         </p>
       </div>
-      <div className="flex items-center justify-center p-40 mt-20 text-2xl font-bold bg-brand-secondary text-brand-primary rounded-2xl">
+      <div className="flex items-center justify-center w-full px-16 py-40 mt-20 text-2xl font-bold text-center bg-brand-secondary text-brand-primary rounded-2xl">
         Soon to be last screenshot of the feature!
       </div>
     </ContentWrapper>

@@ -14,9 +14,9 @@ function Home(props) {
           />
         </div>
         <div className="relative flex flex-col flex-grow min-w-0 gap-4 md:w-2/3 ">
-          <h2 className="text-6xl font-bold tracking-tight md:text-7xl ">
+          <h1 className="text-6xl font-bold tracking-tight md:text-7xl ">
             Hi, I'm Ian
-          </h2>
+          </h1>
           <p className="text-2xl font-bold text-brand-secondary">
             A product designer & illustrator
           </p>

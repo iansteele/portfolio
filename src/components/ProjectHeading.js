@@ -21,9 +21,9 @@ function ProjectHeading(props) {
       <p className="mt-2 font-semibold tracking-wide text-brand-secondary">
         {props.client}
       </p>
-      <h2 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
+      <h1 className="mt-2 text-6xl font-bold tracking-tight md:text-7xl font-display">
         {props.title}
-      </h2>
+      </h1>
       <p className="opacity-75 text-brand-tertiary max-w-prose">
         {props.description}
       </p>

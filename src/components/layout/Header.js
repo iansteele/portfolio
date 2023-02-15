@@ -22,12 +22,12 @@ function Header(props) {
               data-name="Layer 1"
             />
           </svg>
-          <h1 className="hidden text-lg font-bold tracking-wider sm:block">
+          <div className="hidden text-lg font-bold tracking-wider sm:block">
             IAN STEELE
             {/* <span className="relative ml-1 text-sm tracking-tight border-b-2 text-brand-secondary -top-1 ">
               co
             </span> */}
-          </h1>
+          </div>
         </Link>
         <nav className="flex items-center space-x-3 text-xs font-bold tracking-widest md:space-x-4 ">
           <a
