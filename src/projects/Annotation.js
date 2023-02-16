@@ -94,11 +94,14 @@ function Annotation(props) {
         </p>
         <p className="mt-8">
           We leveraged a third-party annotation tool to get us up and running
-          quickly to test these questions. It wasn't pretty, but it taught us:
+          quickly to test these hypothesis.
         </p>
-        <ul className="mt-8 list-disc list-inside">
+
+        <p className="w-auto mt-8 font-bold">Key takeaways</p>
+        <ul className="mt-4 list-disc list-inside">
           <li>Annotations quickly fell apart with responsive content</li>
-          <li>Which tools teachers felt were most valuable</li>
+          <li>Expectaatios of what tools were available</li>
+          <li>Location to initiate annotation mode</li>
         </ul>
         <div className="p-4 mt-12 bg-white rounded-xl">
           <img
@@ -110,26 +113,29 @@ function Annotation(props) {
 
       <div className="mx-auto mt-16 max-w-prose">
         <SectionHeading>What we delivered</SectionHeading>
+        <p className="mt-8">
+          For the first release of Annotations, we released strictly to our
+          teacher users.
+        </p>
       </div>
 
-      <div className="flex flex-wrap mt-20 ">
+      <div className="flex flex-col flex-wrap gap-4 mt-16 sm:flex-row ">
+        <video
+          className="flex-1 min-w-0 rounded-xl aspect-square"
+          src={process.env.PUBLIC_URL + "/img/annotation/color selector.mov"}
+        />
         <img
-          className="flex-1 min-w-0 aspect-square"
+          className="flex-1 min-w-0 rounded-xl aspect-square"
           src={
             process.env.PUBLIC_URL + "/img/annotation/inclass-annotations.png"
           }
           alt="Redesigned reports page"
         />
         <img
-          className="flex-1 min-w-0 aspect-square"
+          className="flex-1 min-w-0 rounded-xl aspect-square"
           src={
-            process.env.PUBLIC_URL + "/img/annotation/inclass-annotations2.jpg"
+            process.env.PUBLIC_URL + "/img/annotation/inclass-annotations.jpg"
           }
-          alt="Redesigned reports page"
-        />
-        <img
-          className="flex-1 min-w-0 aspect-square"
-          src={process.env.PUBLIC_URL + "/img/annotation/colorpicker.jpg"}
           alt="Redesigned reports page"
         />
       </div>

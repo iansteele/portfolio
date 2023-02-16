@@ -37,8 +37,13 @@
     @apply text-4xl text-brand-secondary font-display;
   }
 
-  p {
+  p,
+  li {
     @apply leading-relaxed lg:text-xl;
+  }
+
+  li {
+    @apply marker:text-brand-secondary;
   }
 
   a {
