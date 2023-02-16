@@ -15,7 +15,7 @@ function Projects(props) {
       {/*  Annotation */}
       <Thumbnail
         link="/annotation"
-        image="img/annotation/project-thumb.jpg"
+        image="img/annotation/project-thumb2.jpg"
         title="Annotation Tools"
         altLabel="Tool illustrations from the Annotation feature for Imagine Learning Classroom"
       />
@@ -27,12 +27,12 @@ function Projects(props) {
         altLabel="Screenshots of the Untappd for Business free trial experience"
       />
       {/*  Digital Menus */}
-      <Thumbnail
+      {/* <Thumbnail
         link="/untappd-digital-menus"
         image="img/firetv/firetv_thumb.jpg"
         title="Digital Menus"
         altLabel="Untappd Digital Board displaying the Menu Id from the Amazon Fire TV app"
-      />
+      /> */}
       {/*  Virtual Fest */}
       <Thumbnail
         link="/virtual-fest"

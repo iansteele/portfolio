@@ -103,12 +103,19 @@ function Annotation(props) {
           <li>Expectaatios of what tools were available</li>
           <li>Location to initiate annotation mode</li>
         </ul>
-        <div className="p-4 mt-12 bg-white rounded-xl">
+      </div>
+      <div className="flex flex-col gap-4 mt-16 sm:flex-row">
+        <div className="flex items-center flex-grow h-full p-4 bg-white rounded-xl">
           <img
             src={process.env.PUBLIC_URL + "/img/annotation/annotations_mvp.png"}
             alt="Redesigned reports page"
           />
         </div>
+        <img
+          className="sm:w-1/3 rounded-xl aspect-auto"
+          src={process.env.PUBLIC_URL + "/img/annotation/sketches.jpg"}
+          alt="Redesigned reports page"
+        />
       </div>
 
       <div className="mx-auto mt-16 max-w-prose">
@@ -119,20 +126,20 @@ function Annotation(props) {
         </p>
       </div>
 
-      <div className="flex flex-col flex-wrap gap-4 mt-16 sm:flex-row ">
+      <div className="grid items-start gap-4 mt-16 sm:grid-cols-2 lg:grid-cols-3">
         <video
-          className="flex-1 min-w-0 rounded-xl aspect-square"
+          className=" rounded-xl aspect-square"
           src={process.env.PUBLIC_URL + "/img/annotation/color selector.mov"}
         />
         <img
-          className="flex-1 min-w-0 rounded-xl aspect-square"
+          className=" rounded-xl aspect-square"
           src={
             process.env.PUBLIC_URL + "/img/annotation/inclass-annotations.png"
           }
           alt="Redesigned reports page"
         />
         <img
-          className="flex-1 min-w-0 rounded-xl aspect-square"
+          className=" rounded-xl aspect-square"
           src={
             process.env.PUBLIC_URL + "/img/annotation/inclass-annotations.jpg"
           }
