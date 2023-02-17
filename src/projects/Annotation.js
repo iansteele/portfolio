@@ -104,16 +104,34 @@ function Annotation(props) {
           <li>Location to initiate annotation mode</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 mt-16 sm:flex-row">
-        <div className="flex items-center flex-grow h-full p-4 bg-white rounded-xl">
-          <img
-            src={process.env.PUBLIC_URL + "/img/annotation/annotations_mvp.png"}
-            alt="Redesigned reports page"
-          />
-        </div>
+      <div className="grid items-start gap-4 mt-16 sm:grid-cols-2 sm:flex-row">
         <img
-          className="sm:w-1/3 rounded-xl aspect-auto"
-          src={process.env.PUBLIC_URL + "/img/annotation/sketches.jpg"}
+          className=" rounded-xl aspect-auto"
+          src={process.env.PUBLIC_URL + "/img/annotation/sketches1.jpg"}
+          alt="Redesigned reports page"
+        />
+        <img
+          className=" rounded-xl aspect-auto"
+          src={process.env.PUBLIC_URL + "/img/annotation/Style exploration.jpg"}
+          alt="Redesigned reports page"
+        />
+        <img
+          className=" rounded-xl aspect-auto"
+          src={
+            process.env.PUBLIC_URL + "/img/annotation/Style exploration2.jpg"
+          }
+          alt="Redesigned reports page"
+        />
+        <img
+          className=" rounded-xl aspect-auto"
+          src={process.env.PUBLIC_URL + "/img/annotation/text-highlighting.jpg"}
+          alt="Redesigned reports page"
+        />
+      </div>
+      <div className="flex items-center mt-8 flex-grow h-full p-4 bg-[#EFF2FB] rounded-xl">
+        <img
+          className="shadow-lg rounded-xl"
+          src={process.env.PUBLIC_URL + "/img/annotation/Annotation_mvp.gif"}
           alt="Redesigned reports page"
         />
       </div>
