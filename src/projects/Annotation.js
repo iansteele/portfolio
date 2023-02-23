@@ -206,6 +206,7 @@ function Annotation(props) {
           autoPlay
           muted
           loop
+          playsInline
         ></video>
         <img
           className=" rounded-xl aspect-square"
