@@ -18,7 +18,7 @@ function Home(props) {
             with the amazing folks at Imagine Learning Classroom
           </p>
         </div>
-        <div className="flex-grow w-full max-w-sm max-w-full mx-auto overflow-hidden md:w-1/2 ">
+        <div className="flex-grow w-full max-w-sm mx-auto overflow-hidden md:max-w-full md:w-1/2 ">
           <img
             className="flex-shrink-0 w-full mx-auto aspect-square"
             src={process.env.PUBLIC_URL + "/img/hero.png"}

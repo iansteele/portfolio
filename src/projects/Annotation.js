@@ -202,8 +202,11 @@ function Annotation(props) {
       <div className="grid items-start gap-4 mt-16 sm:grid-cols-2 lg:grid-cols-3">
         <video
           className=" rounded-xl aspect-square"
-          src={process.env.PUBLIC_URL + "/img/annotation/color selector.mov"}
-        />
+          src={process.env.PUBLIC_URL + "/img/annotation/colorselector.mp4"}
+          autoPlay
+          muted
+          loop
+        ></video>
         <img
           className=" rounded-xl aspect-square"
           src={
