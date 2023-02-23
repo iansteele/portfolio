@@ -5,16 +5,9 @@ import Projects from "./components/Projects.js";
 function Home(props) {
   return (
     <React.Fragment>
-      <div className="relative flex flex-col items-center justify-center flex-grow w-full max-w-screen-xl gap-8 px-6 py-8 overflow-hidden md:py-16 md:rounded-2xl md:items-center md:justify-start text-brand-tertiary md:flex-row ">
-        <div className="flex-grow w-56 max-w-xs overflow-hidden rounded-full md:w-1/3 ">
-          <img
-            className="flex-shrink-0 w-full mx-auto aspect-square"
-            src={process.env.PUBLIC_URL + "/img/ian-splatters-2.png"}
-            alt="Redesigned reports page"
-          />
-        </div>
+      <div className="relative flex flex-col-reverse items-start justify-center flex-grow w-full max-w-screen-xl gap-0 px-6 py-8 overflow-hidden md:items-center md:py-10 md:rounded-2xl md:justify-start text-brand-tertiary md:flex-row ">
         <div className="relative flex flex-col flex-grow min-w-0 gap-4 md:w-2/3 ">
-          <h1 className="text-6xl font-bold tracking-tight md:text-7xl ">
+          <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
             Hi, I'm Ian
           </h1>
           <p className="text-2xl font-bold text-brand-secondary">
@@ -24,6 +17,18 @@ function Home(props) {
             I am building a digital core curriculum platform for K-12 schools
             with the amazing folks at Imagine Learning Classroom
           </p>
+        </div>
+        <div className="flex-grow w-full max-w-sm max-w-full mx-auto overflow-hidden md:w-1/2 ">
+          <img
+            className="flex-shrink-0 w-full mx-auto aspect-square"
+            src={process.env.PUBLIC_URL + "/img/hero.png"}
+            alt="Redesigned reports page"
+          />
+          {/* <img
+            className="flex-shrink-0 w-full mx-auto aspect-square"
+            src={process.env.PUBLIC_URL + "/img/ian-splatters-2.png"}
+            alt="Redesigned reports page"
+          /> */}
         </div>
       </div>
       <Projects />

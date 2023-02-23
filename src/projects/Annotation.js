@@ -50,8 +50,8 @@ function Annotation(props) {
           engineer, a supporting designer, director of product marketing, and a
           customer success manager.
         </p>
-        <p className="font-bold">My responsibilities include:</p>
-        <ul className="list-disc list-inside">
+        <h3 className="text-lg font-bold">My responsibilities include:</h3>
+        <ul className="pl-5 list-disc">
           <li>
             Conducting surveys and moderated user interviews with customers
           </li>
@@ -62,8 +62,21 @@ function Annotation(props) {
         </ul>
       </div>
 
+      <div className="mx-auto mt-16 max-w-prose">
+        <SectionHeading>Our Process</SectionHeading>
+        <div className="flex flex-col p-4 mt-16 text-black bg-white rounded-lg max-w-max">
+          <p className="text-xl font-bold leading-6">Define</p>
+          <p className="text-sm">Understand what we think we're solving</p>
+        </div>
+      </div>
+
       <div className="pt-16 mx-auto max-w-prose">
         <SectionHeading>Empathize & Define</SectionHeading>
+        <img
+          className="mt-8"
+          src={process.env.PUBLIC_URL + "/img/annotation/post-its.svg"}
+          alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
+        />
         <p className="mt-8">
           {" "}
           Leveraging fullstory recordings, feedback from customer support, and
@@ -73,6 +86,48 @@ function Annotation(props) {
           brainstorming potential solutions to these groups, we leveraged a
           Value/Effort matrix to determine what we would deliver.{" "}
         </p>
+        <div className="mt-10">
+          <h3 className="text-xl font-bold ">What we learned</h3>
+          <div className="grid gap-4 mt-10 md:grid-cols-2">
+            {/* Comment 1 */}
+            <div className="relative px-6 py-4 text-black bg-white rounded-lg shadow-md">
+              {/* <span className="absolute left-0 text-black text-7xl -top-5">
+                "
+              </span> */}
+              <p className="text-xl">
+                I spend so much time recreating your lesson slides because I
+                can’t draw on top of them when presenting to my classroom
+              </p>
+            </div>
+            <div className="relative px-6 py-4 text-black bg-white rounded-lg shadow-md">
+              {/* <span className="absolute left-0 text-black text-7xl -top-5">
+                "
+              </span> */}
+              <p className="text-xl">
+                I know you can edit and save slides, but is there a way to write
+                on them DURING the lesson as you present to your class?
+              </p>
+            </div>
+            <div className="relative px-6 py-4 text-black bg-white rounded-lg shadow-md">
+              {/* <span className="absolute left-0 text-black text-7xl -top-5">
+                "
+              </span> */}
+              <p className="text-xl">
+                Is there a way that I can annotate over the lesson cards when
+                presenting? Is there a tool in the platform for this?
+              </p>
+            </div>
+            <div className="relative px-6 py-4 text-black bg-white rounded-lg shadow-md">
+              {/* <span className="absolute left-0 text-black text-7xl -top-5">
+                "
+              </span> */}{" "}
+              <p className="text-xl">
+                Getting out devices eats up so much class time, and I have no
+                way to know if they are on task.
+              </p>
+            </div>
+          </div>
+        </div>
 
         <div className="pt-16 mx-auto max-w-prose">
           <img
@@ -86,11 +141,11 @@ function Annotation(props) {
       <div className="mx-auto mt-16 max-w-prose">
         <SectionHeading>Ideation</SectionHeading>
         <p className="mt-8">
-          To begin the process, we wanted to stress-test what annotating on our
-          lesson cards would look like. How would the annotations scale with
-          content? Would they fall apart on responsive layouts? What tools are
-          currently available in our product that have similar functionality? If
-          there are any, can they fit our use case?
+          We wanted to stress-test what annotating on our lesson cards would
+          look like. How would the annotations scale with content? Would they
+          fall apart on responsive layouts? What tools are currently available
+          in our product that have similar functionality? If there are any, can
+          they fit our use case?
         </p>
         <p className="mt-8">
           We leveraged a third-party annotation tool to get us up and running
@@ -98,7 +153,7 @@ function Annotation(props) {
         </p>
 
         <p className="w-auto mt-8 font-bold">Key takeaways</p>
-        <ul className="mt-4 list-disc list-inside">
+        <ul className="pl-5 mt-4 list-disc ">
           <li>Annotations quickly fell apart with responsive content</li>
           <li>Expectaatios of what tools were available</li>
           <li>Location to initiate annotation mode</li>
