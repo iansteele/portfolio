@@ -80,10 +80,11 @@ function Annotation(props) {
           brainstorming potential solutions to these groups, we leveraged a
           Value/Effort matrix to determine what we would deliver.
         </p>
-        <h3 className="text-xl font-bold text-brand-tertiary ">
-          What we learned
-        </h3>
+
         <div className="space-y-4">
+          <h3 className="text-xl font-bold text-brand-tertiary ">
+            What we learned
+          </h3>
           <p>
             Teachers were using a variety of methods to annotate on top of our
             content. This ranged from smartboards, to whiteboards, to overhead
@@ -91,44 +92,46 @@ function Annotation(props) {
             management, students did not have access to devices but instead
             followed along with the teacher.
           </p>
-          <div className="space-y-2">
-            {/* Comment */}
-            <div className="relative px-8 py-4 text-black bg-white rounded shadow-md">
-              <p className="text-lg leading-6">
-                I spend so much time recreating lesson slides because I can’t
-                draw on top of them when presenting to my classroom.
-              </p>
-            </div>
-            {/* Comment */}
-            <div className="relative px-8 py-4 text-black bg-white rounded shadow-md">
-              <p className="text-lg leading-6">
-                I know I can edit and save slides, but is there a way to write
-                on them DURING the lesson as I present to my class?
-              </p>
-            </div>
-            {/* Comment */}
-            <div className="relative px-8 py-4 text-black bg-white rounded shadow-md">
-              <p className="text-lg leading-6">
-                Is there a way that I can annotate over the lesson cards when
-                presenting? Is there a tool in the platform for this?
-              </p>
-            </div>
-            {/* Comment */}
-            <div className="relative px-8 py-4 text-black bg-white rounded shadow-md">
-              <p className="text-lg leading-6">
-                I use my smartboard to draw on your slides, but when I scroll or
-                move the page, my annotations do not move with the content.
-              </p>
-            </div>
+          <div className="-mx-6 sm:mx-0 max-w-prose">
+            <img
+              className="sm:rounded-xl"
+              src={process.env.PUBLIC_URL + "/img/annotation/in-class.jpg"}
+              alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
+            />
           </div>
         </div>
+        <div className="space-y-4"></div>
 
-        <div className="mx-auto max-w-prose">
-          <img
-            className="rounded-xl"
-            src={process.env.PUBLIC_URL + "/img/annotation/in-class.jpg"}
-            alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
-          />
+        <h3 className="text-xl font-bold text-brand-tertiary ">Key insights</h3>
+        <div className="space-y-2">
+          {/* Comment */}
+          <div className="relative p-4 text-black bg-white rounded-md shadow-md">
+            <p className="text-lg leading-6">
+              I spend so much time recreating lesson slides because I can’t draw
+              on top of them when presenting to my classroom.
+            </p>
+          </div>
+          {/* Comment */}
+          <div className="relative p-4 text-black bg-white rounded-md shadow-md">
+            <p className="text-lg leading-6">
+              I know I can edit and save slides, but is there a way to write on
+              them DURING the lesson as I present to my class?
+            </p>
+          </div>
+          {/* Comment */}
+          <div className="relative p-4 text-black bg-white rounded-md shadow-md">
+            <p className="text-lg leading-6">
+              Is there a way that I can annotate over the lesson cards when
+              presenting? Is there a tool in the platform for this?
+            </p>
+          </div>
+          {/* Comment */}
+          <div className="relative p-4 text-black bg-white rounded-md shadow-md">
+            <p className="text-lg leading-6">
+              I use my smartboard to draw on your slides, but when I scroll or
+              move the page, my annotations do not move with the content.
+            </p>
+          </div>
         </div>
       </div>
 
