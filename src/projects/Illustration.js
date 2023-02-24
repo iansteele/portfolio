@@ -4,8 +4,19 @@ import { ContentWrapper, ProjectHeading } from "../components/Index";
 function Illustration(props) {
   return (
     <ContentWrapper>
-      <ProjectHeading title="Illustration" />
-      <div className="grid gap-4 mt-10 sm:grid-cols-2 lg:grid-cols-3 auto-rows-max">
+      <ProjectHeading
+        title="Illustration"
+        description="I am a huge fan of illustration. Sometimes I find opportunities to incorporate it into product work, other times it is pure fun. Enjoy!"
+        roles={["Vector", "Digital Art", "3D"]}
+      />
+      <div className="grid gap-4 mt-10 sm:grid-cols-2 place-items-center lg:grid-cols-3 auto-rows-max">
+        <img
+          className="rounded-xl"
+          src={
+            process.env.PUBLIC_URL + "/img/illustrations/Kitchen-Lighting.jpg"
+          }
+          alt="A 3D rendering of an isometric kitchen scene"
+        />
         <img
           className="rounded-xl"
           src={process.env.PUBLIC_URL + "/img/illustrations/got.jpg"}

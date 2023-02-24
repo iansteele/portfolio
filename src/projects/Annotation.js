@@ -11,17 +11,17 @@ function Annotation(props) {
       <ProjectHeading
         client="Imagine Learning Classroom"
         title="Annotation tools"
-        desciption="Promoting dialogue in the classroom"
+        description="Promoting dialogue in the classroom"
         roles={["UX", "Research", "UI", "HTML", "CSS", "Vue"]}
       />
-      <div className="mt-10 -mx-6 sm:mx-0 ">
+      <div className="-mx-6 sm:mx-0">
         <img
           className="w-full h-auto sm:rounded-xl"
           src={process.env.PUBLIC_URL + "/img/annotation/hero.jpg"}
           alt="Redesigned reports page"
         />
       </div>
-      <div className="pt-16 mx-auto space-y-8 max-w-prose">
+      <div className="mx-auto space-y-8 max-w-prose">
         <SectionHeading>Overview</SectionHeading>
 
         <p className="text-5xl font-light leading-tight tracking-tight">
@@ -42,7 +42,7 @@ function Annotation(props) {
         </p>
       </div>
 
-      <div className="pt-16 mx-auto space-y-4 max-w-prose">
+      <div className="mx-auto space-y-4 max-w-prose">
         <SectionHeading>My role</SectionHeading>
         <p>
           {" "}
@@ -62,7 +62,7 @@ function Annotation(props) {
         </ul>
       </div>
 
-      <div className="mx-auto mt-16 max-w-prose">
+      <div className="mx-auto max-w-prose">
         <SectionHeading>Our Process</SectionHeading>
         <div className="flex flex-col p-4 mt-16 text-black bg-white rounded-lg max-w-max">
           <p className="text-xl font-bold leading-6">Define</p>
@@ -70,66 +70,60 @@ function Annotation(props) {
         </div>
       </div>
 
-      <div className="pt-16 mx-auto max-w-prose">
+      <div className="mx-auto space-y-8 max-w-prose">
         <SectionHeading>Empathize & Define</SectionHeading>
-        <img
-          className="mt-8"
-          src={process.env.PUBLIC_URL + "/img/annotation/post-its.svg"}
-          alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
-        />
-        <p className="mt-8">
-          {" "}
+        <p>
           Leveraging fullstory recordings, feedback from customer support, and
           customer-interviews, our team built an understanding of the classroom
           set up post COVID, how and when devices are used in the classroom.
           Through affinity mapping we grouped customer feedback. After
           brainstorming potential solutions to these groups, we leveraged a
-          Value/Effort matrix to determine what we would deliver.{" "}
+          Value/Effort matrix to determine what we would deliver.
         </p>
-        <div className="mt-10">
-          <h3 className="text-xl font-bold ">What we learned</h3>
-          <div className="grid gap-4 mt-10 md:grid-cols-2">
-            {/* Comment 1 */}
-            <div className="relative px-6 py-4 text-black bg-white rounded-lg shadow-md">
-              {/* <span className="absolute left-0 text-black text-7xl -top-5">
-                "
-              </span> */}
-              <p className="text-xl">
-                I spend so much time recreating your lesson slides because I
-                can’t draw on top of them when presenting to my classroom
+        <h3 className="text-xl font-bold text-brand-tertiary ">
+          What we learned
+        </h3>
+        <div className="space-y-4">
+          <p>
+            Teachers were using a variety of methods to annotate on top of our
+            content. This ranged from smartboards, to whiteboards, to overhead
+            projectors. To promote classroom participation and classroom
+            management, students did not have access to devices but instead
+            followed along with the teacher.
+          </p>
+          <div className="space-y-2">
+            {/* Comment */}
+            <div className="relative px-8 py-4 text-black bg-white rounded shadow-md">
+              <p className="text-lg leading-6">
+                I spend so much time recreating lesson slides because I can’t
+                draw on top of them when presenting to my classroom.
               </p>
             </div>
-            <div className="relative px-6 py-4 text-black bg-white rounded-lg shadow-md">
-              {/* <span className="absolute left-0 text-black text-7xl -top-5">
-                "
-              </span> */}
-              <p className="text-xl">
-                I know you can edit and save slides, but is there a way to write
-                on them DURING the lesson as you present to your class?
+            {/* Comment */}
+            <div className="relative px-8 py-4 text-black bg-white rounded shadow-md">
+              <p className="text-lg leading-6">
+                I know I can edit and save slides, but is there a way to write
+                on them DURING the lesson as I present to my class?
               </p>
             </div>
-            <div className="relative px-6 py-4 text-black bg-white rounded-lg shadow-md">
-              {/* <span className="absolute left-0 text-black text-7xl -top-5">
-                "
-              </span> */}
-              <p className="text-xl">
+            {/* Comment */}
+            <div className="relative px-8 py-4 text-black bg-white rounded shadow-md">
+              <p className="text-lg leading-6">
                 Is there a way that I can annotate over the lesson cards when
                 presenting? Is there a tool in the platform for this?
               </p>
             </div>
-            <div className="relative px-6 py-4 text-black bg-white rounded-lg shadow-md">
-              {/* <span className="absolute left-0 text-black text-7xl -top-5">
-                "
-              </span> */}{" "}
-              <p className="text-xl">
-                Getting out devices eats up so much class time, and I have no
-                way to know if they are on task.
+            {/* Comment */}
+            <div className="relative px-8 py-4 text-black bg-white rounded shadow-md">
+              <p className="text-lg leading-6">
+                I use my smartboard to draw on your slides, but when I scroll or
+                move the page, my annotations do not move with the content.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="pt-16 mx-auto max-w-prose">
+        <div className="mx-auto max-w-prose">
           <img
             className="rounded-xl"
             src={process.env.PUBLIC_URL + "/img/annotation/in-class.jpg"}
@@ -138,7 +132,7 @@ function Annotation(props) {
         </div>
       </div>
 
-      <div className="mx-auto mt-16 max-w-prose">
+      <div className="mx-auto max-w-prose">
         <SectionHeading>Ideation</SectionHeading>
         <p className="mt-8">
           We wanted to stress-test what annotating on our lesson cards would
@@ -183,7 +177,7 @@ function Annotation(props) {
           alt="Redesigned reports page"
         />
       </div>
-      <div className="flex items-center mt-8 flex-grow h-full p-4 bg-[#EFF2FB] rounded-xl">
+      <div className="flex items-center flex-grow h-full p-4 bg-[#EFF2FB] rounded-xl">
         <img
           className="shadow-lg rounded-xl"
           src={process.env.PUBLIC_URL + "/img/annotation/Annotation_mvp.gif"}
@@ -191,7 +185,7 @@ function Annotation(props) {
         />
       </div>
 
-      <div className="mx-auto mt-16 max-w-prose">
+      <div className="mx-auto max-w-prose">
         <SectionHeading>What we delivered</SectionHeading>
         <p className="mt-8">
           For the first release of Annotations, we released strictly to our
@@ -199,7 +193,7 @@ function Annotation(props) {
         </p>
       </div>
 
-      <div className="grid items-start gap-4 mt-16 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <video
           className=" rounded-xl aspect-square"
           src={process.env.PUBLIC_URL + "/img/annotation/colorselector.mp4"}
@@ -223,14 +217,14 @@ function Annotation(props) {
           alt="Redesigned reports page"
         />
       </div>
-      <div className="mx-auto mt-20 max-w-prose">
+      <div className="mx-auto max-w-prose">
         <SectionHeading>What's next</SectionHeading>
         <p className="mt-8">
           A breakdown of what we plan to improve/add in future updates to
           annotation tools.
         </p>
       </div>
-      <div className="flex items-center justify-center w-full px-16 py-40 mt-20 text-2xl font-bold text-center bg-brand-secondary text-brand-primary rounded-2xl">
+      <div className="flex items-center justify-center w-full px-16 py-40 text-2xl font-bold text-center bg-brand-secondary text-brand-primary rounded-2xl">
         Soon to be last screenshot of the feature!
       </div>
     </ContentWrapper>
