@@ -1,5 +1,4 @@
 import React, { useState } from "react"; // Import the Component component from React
-import "../App.css";
 
 function ThemeSwitcher(props) {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");

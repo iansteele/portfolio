@@ -1,6 +1,6 @@
 import React from "react";
-import "../../App.css";
-import { Link } from "react-router-dom"; // Import the Link component
+// // import "../../App.css";
+// import { Link } from "react-router-dom"; // Import the Link component
 
 function ContentWrapper(props) {
   return (

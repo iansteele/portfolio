@@ -1,16 +1,14 @@
-import React, { Fragment } from "react";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Header, Footer, ThemeSwitcher } from "./components/Index";
-import ScrollToTop from "./components/ScrollToTop.js";
-import Home from "./Home.js";
-import UntappdTrial from "./projects/UntappdTrial.js";
-import VirtualFest from "./projects/VirtualFest.js";
-import Illustration from "./projects/Illustration.js";
-import Grading from "./projects/Grading.js";
-import Annotation from "./projects/Annotation.js";
-import DigitalMenus from "./projects/DigitalMenus.js";
-import "tailwindcss/tailwind.css";
+import React from "react";
+
+import { Header, Footer, ThemeSwitcher } from "../pages/components/Index";
+import ScrollToTop from "../pages/components/ScrollToTop.js";
+import Home from "../pages/Home.js";
+import UntappdTrial from "../pages/projects/UntappdTrial.js";
+import VirtualFest from "../pages/projects/VirtualFest.js";
+import Illustration from "../pages/projects/Illustration.js";
+import Grading from "../pages/projects/Grading.js";
+import Annotation from "../pages/projects/Annotation.js";
+import DigitalMenus from "../pages/projects/DigitalMenus.js";
 
 function App() {
   return (

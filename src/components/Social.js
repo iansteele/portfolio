@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+
 //import SocialLink from '../components/SocialLink.js'
 
 function Social(props) {

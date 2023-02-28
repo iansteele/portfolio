@@ -1,5 +1,4 @@
 import React from "react"; // Import the Component component from React
-import "../App.css";
 
 function Button(props) {
   return (

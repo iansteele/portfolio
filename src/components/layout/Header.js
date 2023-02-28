@@ -1,7 +1,7 @@
 import React from "react";
-import "../../App.css";
-import { Link } from "react-router-dom"; // Import the Link component
-import { ThemeSwitcher } from "../../components/Index";
+// import "../../App.css";
+// import { Link } from "react-router-dom"; // Import the Link component
+import { ThemeSwitcher } from "../Index";
 
 function Header(props) {
   return (

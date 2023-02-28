@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 
 function ProjectHeading(props) {
   const hasRoles = props.roles;
