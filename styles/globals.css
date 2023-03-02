@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-black: #1a151b;
+    --color-white: #f5f0e5;
+    --color-gray: #5dadb3;
+    --color-brand-primary: #242429;
+    --color-brand-secondary: #55ffa7;
+    --color-brand-tertiary: #f6f6f6;
+    --color-brand-tertiary--muted: #f6f6f60d;
+  }
+
+  .light {
+    --color-black: #1a151b;
+    --color-white: #f5f0e5;
+    --color-gray: #5dadb3;
+    --color-brand-primary: #e6e6e5;
+    --color-brand-secondary: #3b7f5c;
+    --color-brand-tertiary: #242429;
+    --color-brand-tertiary--muted: #2424290d;
+  }
+
+  body {
+    @apply bg-brand-primary;
+    margin: 0;
+    font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+
+  h1 {
+    @apply text-6xl font-bold;
+  }
+  h2 {
+    @apply text-brand-secondary text-5xl font-bold;
+  }
+
+  h3 {
+    @apply text-4xl text-brand-tertiary font-bold font-display;
+  }
+
+  h4 {
+    @apply text-3xl;
+  }
+
+  p,
+  li {
+    @apply leading-relaxed lg:text-xl;
+  }
+
+  li {
+    @apply marker:text-brand-secondary;
+  }
+
+  a {
+    @apply text-brand-secondary;
+  }
+}
+
+@layer components {
+}
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
