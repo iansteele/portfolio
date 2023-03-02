@@ -1,6 +1,6 @@
 import React from "react";
 
-import Projects from "../src/components/Projects.js";
+import Projects from "../components/Projects.js";
 
 function Home(props) {
   return (
