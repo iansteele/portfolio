@@ -1,5 +1,5 @@
 import React from "react";
-import { PageWrapper } from "../../components/ComponentIndex";
+import { PageWrapper } from "./ComponentIndex";
 
 function Typography(props) {
   return (
