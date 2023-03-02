@@ -3,7 +3,7 @@ import {
   ProjectWrapper,
   ProjectHeading,
   SectionHeading,
-} from "components/Index";
+} from "../../components/ComponentIndex";
 
 function UntappdTrial(props) {
   return (
