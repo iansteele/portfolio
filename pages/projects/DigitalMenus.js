@@ -16,7 +16,7 @@ function DigitalMenus(props) {
       <div className="mt-10 -mx-6 sm:mx-0">
         <img
           className="w-full h-auto"
-          src={process.env.PUBLIC_URL + "/img/firetv/fireTV-collage.jpg"}
+          src={"../img/firetv/fireTV-collage.jpg"}
           alt="Untappd Digital Board display board entry screen"
         />
       </div>

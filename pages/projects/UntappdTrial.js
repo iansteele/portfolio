@@ -19,7 +19,7 @@ function UntappdTrial(props) {
           <div className="col-span-2 mt-10 -mx-6 sm:mx-0">
             <img
               className="w-full h-auto"
-              src={process.env.PUBLIC_URL + "/img/ut/trial/hero.jpg"}
+              src={"../img/ut/trial/hero.jpg"}
               alt="Redesigned reports page"
             />
           </div>
@@ -186,13 +186,13 @@ function UntappdTrial(props) {
             </div>
             <img
               className="flex-shrink-0 w-full h-auto col-span-2 mt-10"
-              src={process.env.PUBLIC_URL + "/img/ut/trial/trial-homepage.jpg"}
+              src={"../img/ut/trial/trial-homepage.jpg"}
               alt="Redesigned reports page"
             />
             <div className="col-span-2 p-2 rounded-lg bg-brand-tertiary lg:col-span-1">
               <img
                 className="flex-shrink-0 w-full h-auto"
-                src={process.env.PUBLIC_URL + "/img/ut/trial/self-signup.jpg"}
+                src={"../img/ut/trial/self-signup.jpg"}
                 alt="Redesigned reports page"
               />
             </div>
@@ -202,7 +202,7 @@ function UntappdTrial(props) {
           </div>
           <img
             className="flex-shrink-0 w-full h-auto col-span-2"
-            src={process.env.PUBLIC_URL + "/img/ut/trial/Onboarding.jpg"}
+            src={"../img/ut/trial/Onboarding.jpg"}
             alt="Redesigned reports page"
           />
         </div>

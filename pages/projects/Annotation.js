@@ -93,7 +93,7 @@ function Annotation(props) {
               followed along with the teacher.
             </p>
             <img
-              className="sm:rounded-xl mt-8 -mx-6 sm:mx-0 max-w-prose"
+              className="w-full mt-8 sm:rounded-xl sm:mx-0"
               src={"../img/annotation/in-class.jpg"}
               alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
             />
@@ -101,7 +101,7 @@ function Annotation(props) {
           <div className="space-y-4"></div>
           <div>
             <h3 className="mt-16">Key insights</h3>
-            <div className=" mt-8 space-y-2">
+            <div className="mt-8 space-y-2 ">
               {/* Comment */}
               <div className="relative p-4 text-black bg-white rounded-md shadow-md">
                 <p className="text-lg leading-6">
@@ -150,22 +150,22 @@ function Annotation(props) {
 
           <div className="grid items-start gap-2 mt-16 sm:grid-cols-2 sm:flex-row">
             <img
-              className=" rounded-lg aspect-auto"
+              className="rounded-lg aspect-auto"
               src={"../img/annotation/sketches1.jpg"}
               alt="Redesigned reports page"
             />
             <img
-              className=" rounded-lg aspect-auto"
+              className="rounded-lg aspect-auto"
               src={"../img/annotation/Style exploration.jpg"}
               alt="Redesigned reports page"
             />
             <img
-              className=" rounded-lg aspect-auto"
+              className="rounded-lg aspect-auto"
               src={"../img/annotation/Style exploration2.jpg"}
               alt="Redesigned reports page"
             />
             <img
-              className=" rounded-lg aspect-auto"
+              className="rounded-lg aspect-auto"
               src={"../img/annotation/text-highlighting.jpg"}
               alt="Redesigned reports page"
             />
@@ -210,9 +210,7 @@ function Annotation(props) {
           />
           <img
             className=" rounded-xl aspect-square"
-            src={
-              process.env.PUBLIC_URL + "/img/annotation/inclass-annotations.jpg"
-            }
+            src={"../img/annotation/inclass-annotations.jpg"}
             alt="Redesigned reports page"
           />
         </div>

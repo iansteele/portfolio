@@ -16,7 +16,7 @@ function VirtualFest(props) {
       <div className="mt-10 -mx-6 sm:mx-0">
         <img
           className="w-full h-auto"
-          src={process.env.PUBLIC_URL + "/img/ut/v-fest/hero.jpg"}
+          src={"../img/ut/v-fest/hero.jpg"}
           alt="Redesigned reports page"
         />
       </div>
@@ -47,17 +47,17 @@ function VirtualFest(props) {
       <div className="flex flex-col mt-10 sm:flex-row">
         <img
           className="w-full h-auto sm:w-1/3"
-          src={process.env.PUBLIC_URL + "/img/ut/v-fest/purchase.jpg"}
+          src={"../img/ut/v-fest/purchase.jpg"}
           alt="Redesigned reports page"
         />
         <img
           className="w-full h-auto sm:w-1/3"
-          src={process.env.PUBLIC_URL + "/img/ut/v-fest/receive.jpg"}
+          src={"../img/ut/v-fest/receive.jpg"}
           alt="Redesigned reports page"
         />
         <img
           className="w-full h-auto sm:w-1/3"
-          src={process.env.PUBLIC_URL + "/img/ut/v-fest/enjoy.jpg"}
+          src={"../img/ut/v-fest/enjoy.jpg"}
           alt="Redesigned reports page"
         />
       </div>
@@ -87,7 +87,7 @@ function VirtualFest(props) {
         </div>
         <img
           className="mt-20"
-          src={process.env.PUBLIC_URL + "/img/ut/v-fest/fullpage.png"}
+          src={"../img/ut/v-fest/fullpage.png"}
           alt="Redesigned reports page"
         />
       </div>

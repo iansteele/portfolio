@@ -18,7 +18,7 @@ function Grading(props) {
         <div className="mt-10 -mx-6 sm:mx-0">
           <img
             className="w-full h-auto"
-            src={process.env.PUBLIC_URL + "/img/grading/Grading-main.jpg"}
+            src={"../img/grading/Grading-main.jpg"}
             alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
           />
         </div>
@@ -45,7 +45,7 @@ function Grading(props) {
         </div>
         <div className="mt-16">
           <img
-            src={process.env.PUBLIC_URL + "/img/grading-original.png"}
+            src={"../img/grading-original.png"}
             alt="Redesigned reports page"
           />
           <span className="mt-8 text-xs text-gray">Original Design</span>
@@ -100,17 +100,17 @@ function Grading(props) {
         <div className="flex flex-col flex-wrap gap-4 mt-20 md:flex-row">
           <img
             className="flex-1 min-w-0"
-            src={process.env.PUBLIC_URL + "/img/gradingflow-sketch.png"}
+            src={"../img/gradingflow-sketch.png"}
             alt="Redesigned reports page"
           />
           <img
             className="flex-1 min-w-0"
-            src={process.env.PUBLIC_URL + "/img/gradingmodal-sketch.png"}
+            src={"../img/gradingmodal-sketch.png"}
             alt="Redesigned reports page"
           />
           <img
             className="flex-1 min-w-0"
-            src={process.env.PUBLIC_URL + "/img/gradingicon-sketch.png"}
+            src={"../img/gradingicon-sketch.png"}
             alt="Redesigned reports page"
           />
         </div>
@@ -130,12 +130,12 @@ function Grading(props) {
         <div className="mt-20">
           <img
             className="w-full"
-            src={process.env.PUBLIC_URL + "/img/grading_table-row.png"}
+            src={"../img/grading_table-row.png"}
             alt="Redesigned reports page"
           />
           <img
             className="w-full"
-            src={process.env.PUBLIC_URL + "/img/grading-modal.png"}
+            src={"../img/grading-modal.png"}
             alt="Redesigned reports page"
           />
         </div>

@@ -21,12 +21,12 @@ function Home(props) {
         <div className="flex-grow w-full max-w-sm mx-auto overflow-hidden md:max-w-full md:w-1/2 ">
           <img
             className="flex-shrink-0 w-full mx-auto drop-shadow-lg aspect-square"
-            src={process.env.PUBLIC_URL + "/img/hero.png"}
+            src={"../img/hero.png"}
             alt="Redesigned reports page"
           />
           {/* <img
             className="flex-shrink-0 w-full mx-auto aspect-square"
-            src={process.env.PUBLIC_URL + "/img/ian-splatters-2.png"}
+            src={"../img/ian-splatters-2.png"}
             alt="Redesigned reports page"
           /> */}
         </div>
