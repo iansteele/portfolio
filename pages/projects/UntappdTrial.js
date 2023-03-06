@@ -26,7 +26,7 @@ function UntappdTrial(props) {
           <div className="col-span-2 py-8 mx-auto lg:py-20 max-w-prose lg:text-center">
             <SectionHeading>The goal</SectionHeading>
             <span className="block mt-4 text-5xl text-white leading-12 lg:text-6xl font-display">
-              Responsibly connect business owners with their customers
+              Responsibly connect businesses with their customers
             </span>
           </div>
 
@@ -67,10 +67,7 @@ function UntappdTrial(props) {
             </p>
             <img
               className="flex-shrink-0 w-full h-auto"
-              src={
-                process.env.PUBLIC_URL +
-                "/img/ut/trial/Current State UTFB Customer Journey.pdf"
-              }
+              src={"../img/ut/trial/journeymap.jpg"}
               alt="Redesigned reports page"
             />
             <img src="https://placekitten.com/480/375" />
