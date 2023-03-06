@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Header from "components/layout/Header";
-import Footer from "components/layout/Footer";
+import { Header, Footer } from "../../components/ComponentIndex";
 import { useRouter } from "next/router";
 
 export default function ContainerBlock({ children, ...customMeta }) {

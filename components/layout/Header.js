@@ -1,7 +1,6 @@
 import React from "react";
 // import "../../App.css";
 import Link from "next/link"; // Import the Link component
-import { ThemeSwitcher } from "../../components/ComponentIndex";
 
 function Header(props) {
   return (
