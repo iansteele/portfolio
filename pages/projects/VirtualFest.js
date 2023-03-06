@@ -20,7 +20,7 @@ function VirtualFest(props) {
           alt="Redesigned reports page"
         />
       </div>
-      <div className="mt-10 max-w-prose">
+      <div className="mx-auto mt-10 max-w-prose">
         <SectionHeading>The Challenge</SectionHeading>
         <p className="mt-4 ">
           {" "}
@@ -44,7 +44,7 @@ function VirtualFest(props) {
           development. Together we explored the organization of page content.
         </p>
       </div>
-      <div className="flex flex-col mt-10 sm:flex-row">
+      <div className="flex flex-col mx-auto mt-10 sm:flex-row">
         <img
           className="w-full h-auto sm:w-1/3"
           src={"../img/ut/v-fest/purchase.jpg"}
@@ -62,7 +62,7 @@ function VirtualFest(props) {
         />
       </div>
       <div className="mt-10 section">
-        <div className="max-w-prose">
+        <div className="mx-auto max-w-prose">
           <SectionHeading>The Outcome</SectionHeading>
           <p className="mt-4 ">
             The Untappd Virtual fest was conceptualized, negotiated, put on

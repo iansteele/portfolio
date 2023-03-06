@@ -128,43 +128,41 @@ function UntappdTrial(props) {
               </ul>
             </div>
           </div>
-          <div className="flex flex-col col-span-2 gap-6 mx-auto lg:col-span-1">
-            <div className="space-y-4 max-w-prose">
-              <SectionHeading className="text-3xl text-brand-secondary font-display">
-                Goals
-              </SectionHeading>
-              <p>
-                I set out to get a lay of the land in our code base to
-                understand the largest problems our team faced. These included
-                but were not limited to:
-              </p>
-              <ul className="pl-4 space-y-2 list-disc">
-                <li>
-                  Engineers and Product designers were unsure where the most
-                  recent design lived
-                </li>
-                <li>
-                  Engineers & designers needed a way to easily communicate
-                  existing components
-                </li>
-                <li>
-                  Without any designers for 2 years our lzui documentation had
-                  become stale making it difficult for designers and engineers
-                  alike to know which components were available.
-                </li>
-                <li>
-                  Each designer had different preferences in how they worked
-                  with engineers and how they documented their work.
-                </li>
-                <li>
-                  Our team was in the process of implementing tailwind to combat
-                  a tangled web of improperly used classes.
-                </li>
-              </ul>
-            </div>
+          <div className="flex flex-col justify-center col-span-2 gap-6 mx-auto max-w-prose">
+            <SectionHeading className="text-3xl text-brand-secondary font-display">
+              Goals
+            </SectionHeading>
+            <p>
+              I set out to get a lay of the land in our code base to understand
+              the largest problems our team faced. These included but were not
+              limited to:
+            </p>
+            <ul className="pl-4 space-y-2 list-disc">
+              <li>
+                Engineers and Product designers were unsure where the most
+                recent design lived
+              </li>
+              <li>
+                Engineers & designers needed a way to easily communicate
+                existing components
+              </li>
+              <li>
+                Without any designers for 2 years our lzui documentation had
+                become stale making it difficult for designers and engineers
+                alike to know which components were available.
+              </li>
+              <li>
+                Each designer had different preferences in how they worked with
+                engineers and how they documented their work.
+              </li>
+              <li>
+                Our team was in the process of implementing tailwind to combat a
+                tangled web of improperly used classes.
+              </li>
+            </ul>
           </div>
           <hr className="col-span-2 mt-10 text-white rounded-full opacity-10"></hr>
-          <div className="flex flex-col col-span-2 gap-6 mx-auto lg:col-span-1">
+          <div className="flex flex-col col-span-2 gap-6 mx-auto ">
             <div className="max-w-prose">
               <SectionHeading className="text-3xl text-brand-secondary font-display">
                 The Solution
@@ -186,22 +184,17 @@ function UntappdTrial(props) {
               src={"../img/ut/trial/trial-homepage.jpg"}
               alt="Redesigned reports page"
             />
-            <div className="col-span-2 p-2 rounded-lg bg-brand-tertiary lg:col-span-1">
-              <img
-                className="flex-shrink-0 w-full h-auto"
-                src={"../img/ut/trial/self-signup.jpg"}
-                alt="Redesigned reports page"
-              />
-            </div>
-
-            {/* Figma prototype
-         <iframe className="w-full rounded-lg aspect-video" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5hlw9Pa6VYR7cSectionHeadingpj4olVu%2FUTFB_Self-SIgn-Up%3Fpage-id%3D602%253A4716%26node-id%3D683%253A12926%26viewport%3D343%252C48%252C0.04%26scaling%3Dscale-down-width%26starting-point-node-id%3D683%253A12926" allowfullscreen></iframe> */}
+            <img
+              className="flex-shrink-0 w-full h-auto"
+              src={"../img/ut/trial/self-signup.jpg"}
+              alt="Redesigned reports page"
+            />
+            <img
+              className="flex-shrink-0 w-full h-auto col-span-2"
+              src={"../img/ut/trial/Onboarding.jpg"}
+              alt="Redesigned reports page"
+            />
           </div>
-          <img
-            className="flex-shrink-0 w-full h-auto col-span-2"
-            src={"../img/ut/trial/Onboarding.jpg"}
-            alt="Redesigned reports page"
-          />
         </div>
       </ProjectWrapper>
     </PageWrapper>
