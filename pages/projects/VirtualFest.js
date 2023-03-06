@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  PageWrapper
   ProjectWrapper,
   ProjectHeading,
   SectionHeading,
@@ -7,6 +8,7 @@ import {
 
 function VirtualFest(props) {
   return (
+    <PageWrapper>
     <ProjectWrapper>
       <ProjectHeading
         client="Untappd for Business"
@@ -92,6 +94,7 @@ function VirtualFest(props) {
         />
       </div>
     </ProjectWrapper>
+    </PageWrapper>
   );
 }
 
