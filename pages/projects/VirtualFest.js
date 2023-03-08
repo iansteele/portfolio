@@ -11,9 +11,9 @@ function VirtualFest(props) {
     <PageWrapper>
       <ProjectWrapper>
         <ProjectHeading
-          client="Untappd for Business"
-          title="Virtual Fest website & illustration"
-          roles={["Illustration", "Website design"]}
+          client="Untappd"
+          title="Virtual Fest illustration"
+          roles={["Illustration"]}
         />
         <div className="mt-10 -mx-6 sm:mx-0">
           <img
@@ -40,9 +40,10 @@ function VirtualFest(props) {
           </p>
           <p className="mt-4 ">
             {" "}
-            Myself and my fellow designer were tasked with creating a marketing
-            site for the virtual festival. Due to our tight deadline, I focused
-            on the graphics of the page, while Rob tackled the typography and
+            I was tasked with creating the illustration elements for the event,
+            while the Untappd consumer designer handled layout for the virtual
+            festival marketing site. Due to our tight deadline, I focused on the
+            graphics of the page, while Rob tackled the typography and
             development. Together we explored the organization of page content.
           </p>
         </div>
