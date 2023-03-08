@@ -3,7 +3,7 @@ import { ProjectHeading } from "../../components/ComponentIndex";
 
 function ProjectWrapper(props) {
   return (
-    <div className="w-full space-y-16 max-w-screen-lg px-6 mx-auto text-brand-tertiary">
+    <div className="w-full max-w-screen-lg px-6 mx-auto space-y-16 text-brand-tertiary">
       {props.children}
     </div>
   );

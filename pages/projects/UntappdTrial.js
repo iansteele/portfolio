@@ -17,7 +17,7 @@ function UntappdTrial(props) {
         />
         <div className="grid grid-cols-2 gap-4 mx-auto space-y-10 md:gap-10">
           <img
-            className="w-full h-auto -mx-6 sm:mx-0"
+            className="w-full h-auto col-span-2 sm:mx-0"
             src={"../img/ut/trial/hero.jpg"}
             alt="Redesigned reports page"
           />
@@ -41,7 +41,6 @@ function UntappdTrial(props) {
                 </span>{" "}
                 from start to finish.
               </p>
-              v
               <p>
                 {" "}
                 Our team was tasked with opening our platform up to customers
@@ -49,11 +48,10 @@ function UntappdTrial(props) {
                 our Product Manager led the front on deciding what this meant
                 for Untappd for Business.
               </p>
-              <hr className="mt-10 text-white rounded-full opacity-10"></hr>
             </div>
           </div>
 
-          <div className="col-span-2 mx-auto space-y-4 max-w-prose">
+          <div className="col-span-2 mx-auto space-y-8 max-w-prose">
             <SectionHeading>The Process</SectionHeading>
             <p>
               {" "}
@@ -170,28 +168,24 @@ function UntappdTrial(props) {
                 customer. Showcase value early and often. Teach potential
                 customers how to be succesful within the product.
               </p>
-              <a
-                className="flex px-4 py-2 mt-10 text-sm font-bold text-black transition-colors rounded bg-brand-secondary hover:bg-brand-tertiary max-w-max"
-                href="https://www.figma.com/proto/5hlw9Pa6VYR7cSectionHeadingpj4olVu/UTFB_Self-SIgn-Up?node-id=683%3A12926&scaling=scale-down&page-id=602%3A4716&starting-point-node-id=683%3A12926"
-              >
-                View the prototype
-              </a>
             </div>
             <img
               className="flex-shrink-0 w-full h-auto col-span-2 mt-10"
               src={"../img/ut/trial/trial-homepage.jpg"}
               alt="Redesigned reports page"
             />
-            <img
-              className="flex-shrink-0 w-full h-auto"
-              src={"../img/ut/trial/self-signup.jpg"}
-              alt="Redesigned reports page"
-            />
+
             <img
               className="flex-shrink-0 w-full h-auto col-span-2"
               src={"../img/ut/trial/Onboarding.jpg"}
               alt="Redesigned reports page"
             />
+            <a
+              className="flex px-4 py-2 mt-10 text-sm font-bold text-black transition-colors rounded bg-brand-secondary hover:bg-brand-tertiary max-w-max"
+              href="https://www.figma.com/proto/5hlw9Pa6VYR7cSectionHeadingpj4olVu/UTFB_Self-SIgn-Up?node-id=683%3A12926&scaling=scale-down&page-id=602%3A4716&starting-point-node-id=683%3A12926"
+            >
+              View the prototype
+            </a>
           </div>
         </div>
       </ProjectWrapper>

@@ -14,7 +14,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     ...customMeta,
   };
   return (
-    <div className="flex flex-col items-center mx-auto overflow-x-hidden bg-brand-primary">
+    <div className="flex flex-col items-center w-full mx-auto overflow-x-hidden bg-brand-primary">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
