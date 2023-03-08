@@ -16,13 +16,11 @@ function UntappdTrial(props) {
           roles={["UX", "Product Design"]}
         />
         <div className="grid grid-cols-2 gap-4 mx-auto space-y-10 md:gap-10">
-          <div className="col-span-2 mt-10 -mx-6 sm:mx-0">
-            <img
-              className="w-full h-auto"
-              src={"../img/ut/trial/hero.jpg"}
-              alt="Redesigned reports page"
-            />
-          </div>
+          <img
+            className="w-full h-auto -mx-6 sm:mx-0"
+            src={"../img/ut/trial/hero.jpg"}
+            alt="Redesigned reports page"
+          />
           <div className="col-span-2 py-8 mx-auto lg:py-20 max-w-prose lg:text-center">
             <SectionHeading>The goal</SectionHeading>
             <span className="block mt-4 text-5xl text-white leading-12 lg:text-6xl font-display">

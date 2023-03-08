@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Ian Steele - Digital product designer and Illustrator",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: "/avatar.png",
+    description: `I am a digital product designer & Illustrator with 10+ years of experience. Get in touch with me to know more.`,
+    image: "/ian.png",
     type: "website",
     ...customMeta,
   };
@@ -21,11 +21,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
+          content={`https://iansteele.design${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
+          href={`https://iansteele.design${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
