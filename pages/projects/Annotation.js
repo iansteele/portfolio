@@ -221,9 +221,6 @@ function Annotation(props) {
             annotation tools.
           </p>
         </div>
-        <div className="flex items-center justify-center w-full px-16 py-40 text-2xl font-bold text-center bg-brand-secondary text-brand-primary rounded-2xl">
-          Soon to be last screenshot of the feature!
-        </div>
       </ProjectWrapper>
     </PageWrapper>
   );

@@ -59,6 +59,10 @@
   a {
     @apply text-brand-secondary;
   }
+
+  .focus-base {
+    @apply outline-none ring-offset-brand-primary focus-visible:ring-4 focus-visible:ring-offset-4 focus-visible:ring-brand-secondary;
+  }
 }
 
 @layer components {

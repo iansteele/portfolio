@@ -7,12 +7,12 @@ function Social(props) {
     <ul className="flex gap-10">
       <li>
         <a
-          className="relative flex items-center justify-center w-10 h-10 cursor-pointer group"
+          className="relative flex items-center justify-center w-10 h-10 rounded cursor-pointer focus-base group"
           href="http://www.dribbble.com/iansteele"
           alt="Ian on Dribbble"
         >
           <svg
-            className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-hover:scale-105 group-active:translate-y-0"
+            className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-hover:scale-105 group-focus:scale-101 group-focus:fill-brand-tertiary group-focus:-translate-y-1 group-active:translate-y-0"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 900 900"
           >
@@ -26,12 +26,12 @@ function Social(props) {
       </li>
       <li>
         <a
-          className="relative flex items-center justify-center w-10 h-10 cursor-pointer group"
+          className="relative flex items-center justify-center w-10 h-10 rounded cursor-pointer focus-base group"
           href="http://www.instagram.com/steeledesign.co"
           alt="Ian on Instagram"
         >
           <svg
-            className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:scale-101 group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-active:translate-y-0"
+            className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:scale-101 group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-focus:scale-101 group-focus:fill-brand-tertiary group-focus:-translate-y-1 group-active:translate-y-0"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 900 900"
           >
@@ -44,18 +44,18 @@ function Social(props) {
       </li>
       <li>
         <a
-          className="relative flex items-center justify-center w-10 h-10 cursor-pointer group"
+          className="relative flex items-center justify-center w-10 h-10 rounded cursor-pointer focus-base group"
           href="http://www.github.com/iansteele"
           alt="Ian on Github"
         >
           <svg
-            className="w-6 transition-all duration-500 transform group-hover:scale-105 fill-brand-secondary group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-active:translate-y-0"
+            className="w-6 transition-all duration-500 transform group-hover:scale-105 fill-brand-secondary group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-focus:scale-101 group-focus:fill-brand-tertiary group-focus:-translate-y-1 group-active:translate-y-0"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
             <path d="M16 24c-0.6 0-1-0.4-1-1v-3.9c0.1-0.8-0.2-1.4-0.7-1.9 -0.3-0.3-0.4-0.7-0.2-1 0.1-0.4 0.5-0.6 0.8-0.7 2.9-0.3 5.6-1.3 5.6-6 0-1.1-0.4-2.2-1.2-3.1 -0.3-0.3-0.3-0.7-0.2-1 0.3-0.8 0.3-1.6 0.1-2.4 -0.5 0.1-1.3 0.4-2.6 1.3 -0.2 0.2-0.5 0.2-0.8 0.1 -2.1-0.6-4.4-0.6-6.5 0C9 4.5 8.7 4.5 8.4 4.3 7.2 3.4 6.3 3.1 5.8 3 5.6 3.8 5.6 4.6 5.9 5.4c0.1 0.4 0.1 0.8-0.2 1C4.9 7.3 4.5 8.4 4.5 9.5c0 4.7 2.7 5.7 5.6 6 0.4 0 0.7 0.3 0.8 0.7 0.1 0.4 0 0.8-0.2 1 -0.5 0.5-0.7 1.1-0.7 1.8l0 0.9c0 0 0 0.1 0 0.1l0 2.9c0 0.6-0.4 1-1 1s-1-0.4-1-1v-1.7c-3 0.5-4.3-1.2-5.2-2.3 -0.4-0.5-0.7-0.9-1.1-1 -0.5-0.1-0.9-0.7-0.7-1.2 0.1-0.5 0.7-0.9 1.2-0.7 1 0.3 1.6 1 2.2 1.7 0.8 1.1 1.5 1.9 3.6 1.5v-0.1c0-0.6 0.1-1.3 0.3-1.8 -2.8-0.6-5.8-2.4-5.8-7.7 0-1.5 0.5-2.9 1.4-4C3.5 4.2 3.6 2.9 4.2 1.6 4.3 1.3 4.5 1.1 4.8 1c0.4-0.1 1.7-0.3 4.4 1.4 2.2-0.5 4.5-0.5 6.6 0 2.6-1.7 4-1.5 4.4-1.4 0.3 0.1 0.5 0.3 0.6 0.6 0.5 1.3 0.6 2.6 0.3 3.9 0.9 1.1 1.4 2.5 1.4 4 0 5.7-3.4 7.2-5.8 7.8 0.2 0.6 0.3 1.3 0.3 1.9l0 3.8C17 23.6 16.6 24 16 24z" />
           </svg>
-          <span className="absolute rounded-full left-0 w-full h-0 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:h-1 opacity-0 group-hover:opacity-100 group-active:h-0.5"></span>
+          <span className="absolute  rounded-full left-0 w-full h-0 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:h-1 opacity-0 group-hover:opacity-100 group-active:h-0.5"></span>
         </a>
       </li>
     </ul>

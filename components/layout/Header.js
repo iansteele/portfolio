@@ -8,7 +8,7 @@ function Header(props) {
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           href="/"
-          className="inline-flex items-center flex-grow-0 gap-3 text-brand-tertiary"
+          className="inline-flex items-center flex-grow-0 gap-3 rounded focus-base text-brand-tertiary"
         >
           <svg
             className="flex-shrink-0 w-8 h-8 fill-brand-tertiary"
@@ -30,20 +30,20 @@ function Header(props) {
         </Link>
         <nav className="flex items-center space-x-3 text-xs font-bold tracking-widest md:space-x-4 ">
           <a
-            className="relative px-1 py-3 uppercase transition-all transform text-brand-secondary hover:text-brand-tertiary group active:scale-90"
+            className="relative px-1 py-3 uppercase transition-all transform rounded focus-base text-brand-secondary hover:text-brand-tertiary focus-visible:text-brand-tertiary group active:scale-90"
             href="https://www.notion.so/Ian-Steele-ca6f009ed2204389be0a2d3a0ee99788"
           >
             Resume
             <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
           </a>
           <a
-            className="relative px-1 py-3 ml-2 uppercase transition-all transform text-brand-secondary hover:text-brand-tertiary group active:scale-90"
+            className="relative px-1 py-3 ml-2 uppercase transition-all transform rounded focus-base text-brand-secondary focus-visible:text-brand-tertiary hover:text-brand-tertiary group active:scale-90"
             href="mailto:steeledesignco@gmail.com?subject=Reaching out from
             Steele Design Co"
             target="_blank"
           >
             Contact
-            <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
+            <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary  -bottom-0.5 group-hover:w-full"></span>
           </a>
         </nav>
       </div>
