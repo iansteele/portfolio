@@ -13,7 +13,7 @@ function Footer(props) {
         href="mailto:steeledesignco@gmail.com"
         className="relative p-1 text-xl font-bold transition-colors rounded cursor-pointer focus-base group text-brand-secondary hover:text-brand-tertiary focus-visible:text-brand-tertiary"
       >
-        steeledesignco@gmail.com
+        Email me
         <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
       </a>
     </footer>

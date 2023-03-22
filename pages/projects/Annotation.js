@@ -52,8 +52,8 @@ function Annotation(props) {
             engineer, a supporting designer, director of product marketing, and
             a customer success manager.
           </p>
-          <h3 className="text-lg font-bold">My responsibilities include:</h3>
-          <ul className="pl-5 list-disc">
+          <p className="text-2xl font-bold">My responsibilities include:</p>
+          <ul className="pl-5 space-y-4 list-disc">
             <li>
               Conducting surveys and moderated user interviews with customers
             </li>
@@ -64,16 +64,16 @@ function Annotation(props) {
           </ul>
         </div>
 
-        <div className="mx-auto max-w-prose">
+        <div className="w-full mx-auto max-w-prose">
           <SectionHeading>Our Process</SectionHeading>
-          <div className="flex flex-col p-4 mt-16 text-black bg-white rounded-lg max-w-max">
-            <p className="text-xl font-bold leading-6">Define</p>
-            <p className="text-sm">Understand what we think we're solving</p>
+          <div className="flex flex-col w-full p-4 mt-16 text-black bg-white rounded-lg sm:max-w-max">
+            <p className="text-xl font-bold leading-6">(Re)Define</p>
+            <p className="text-sm">Aligning on the problem</p>
           </div>
         </div>
 
         <div className="mx-auto space-y-8 max-w-prose">
-          <SectionHeading>Empathize & Define</SectionHeading>
+          <SectionHeading>Understanding the classroom</SectionHeading>
           <p>
             Leveraging fullstory recordings, feedback from customer support, and
             customer-interviews, our team built an understanding of the

@@ -66,7 +66,6 @@ function UntappdTrial(props) {
               src={"../img/ut/trial/journeymap.jpg"}
               alt="Redesigned reports page"
             />
-            <img src="https://placekitten.com/480/375" />
             <p>
               {" "}
               With the help of a UX researcher our product team + stakeholders
@@ -158,7 +157,7 @@ function UntappdTrial(props) {
             </ul>
           </div>
           <hr className="col-span-2 mt-10 text-white rounded-full opacity-10"></hr>
-          <div className="flex flex-col col-span-2 gap-6 mx-auto ">
+          <div className="flex flex-col items-center col-span-2 gap-6 mx-auto ">
             <div className="max-w-prose">
               <SectionHeading className="text-3xl text-brand-secondary font-display">
                 The Solution

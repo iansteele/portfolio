@@ -12,45 +12,29 @@ function Grading(props) {
       <ProjectWrapper>
         <ProjectHeading
           client="Imagine Learning Classroom"
-          title="An improved grading workflow"
+          title="Assignment grading"
+          description="How we helped teachers spend less time grading"
           roles={["User research", "Design Thinking", "Prototyping"]}
         />
-        <div className="mt-10 -mx-6 sm:mx-0">
+        <div className="mt-8 -mx-6 sm:mx-0">
           <img
             className="w-full h-auto"
             src={"../img/grading/Grading-main.jpg"}
             alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
           />
         </div>
-        <div className="mt-20 max-w-prose">
+        <div className="mx-auto mt-16 space-y-8 max-w-prose">
           <SectionHeading>The Challenge</SectionHeading>
-          <p className="mt-6 ">
+          <p>
             {" "}
-            When I began working at LearnZillion, our assessments allowed for
-            single-part questions. We switched to a 3rd-party assessment
-            authoring platform which led to
-          </p>
-          <p className="mt-6 ">
-            After integrating a feature-rich assessment authoring platform,
-            LearnZillion broke free from only being able to have one item per
-            question. Instead, a single question could now have multiple parts
-            which could be any combination of auto-graded and/or manually
-            graded.
-          </p>
-          <p className="mt-6 ">
-            We needed a way to quickly let see teachers how their classes are
-            doing, while allowing them to easily see which questions required
-            their attention.
+            When I began working at Imagine Learning Classroom, our teachers
+            regularly voiced concerns about how painfully slow grading was on
+            our platform. Teachers would skip grading entirely which led to
+            inaccurate data their districts, decreasing our perceived value.
           </p>
         </div>
-        <div className="mt-16">
-          <img
-            src={"../img/grading-original.png"}
-            alt="Redesigned reports page"
-          />
-          <span className="mt-8 text-xs text-gray">Original Design</span>
-        </div>
-        <div className="mt-20 max-w-prose">
+
+        <div className="mx-auto mt-16 space-y-8 max-w-prose">
           <SectionHeading>User insights</SectionHeading>
           <p className="mt-8">
             {" "}
@@ -67,7 +51,7 @@ function Grading(props) {
             their attention.
           </p>
         </div>
-        <div className="mt-20 max-w-prose">
+        <div className="mx-auto mt-16 space-y-8 max-w-prose">
           <SectionHeading>Concerns</SectionHeading>
           <div className="mt-4">
             <p className="mt-8">
@@ -82,7 +66,7 @@ function Grading(props) {
             </p>
           </div>
         </div>
-        <div className="mt-20 max-w-prose">
+        <div className="mx-auto mt-16 space-y-8 max-w-prose">
           <SectionHeading>Ideation</SectionHeading>
           <p className="mt-8">
             I began sketching ways to funnel teachers to the reports page when
@@ -97,7 +81,7 @@ function Grading(props) {
             additional learning where necessary
           </p>
         </div>
-        <div className="flex flex-col flex-wrap gap-4 mt-20 md:flex-row">
+        <div className="flex flex-col flex-wrap gap-4 mt-16 md:flex-row">
           <img
             className="flex-1 min-w-0"
             src={"../img/gradingflow-sketch.png"}
@@ -114,7 +98,7 @@ function Grading(props) {
             alt="Redesigned reports page"
           />
         </div>
-        <div className="mt-20 max-w-prose">
+        <div className="mx-auto mt-16 space-y-8 max-w-prose">
           <SectionHeading>The Outcome</SectionHeading>
           <p className="mt-8">
             The final functionality of this feature included the ability to
@@ -127,18 +111,7 @@ function Grading(props) {
             manual review.
           </p>
         </div>
-        <div className="mt-20">
-          <img
-            className="w-full"
-            src={"../img/grading_table-row.png"}
-            alt="Redesigned reports page"
-          />
-          <img
-            className="w-full"
-            src={"../img/grading-modal.png"}
-            alt="Redesigned reports page"
-          />
-        </div>
+        <div className="mx-auto mt-16 space-y-8 max-w-prose"></div>
       </ProjectWrapper>
     </PageWrapper>
   );
