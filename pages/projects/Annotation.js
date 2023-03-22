@@ -36,7 +36,7 @@ function Annotation(props) {
             student need and less time building student-facing materials from
             scratch. In 2021, our digital and print products offered solutions
             for pre-planned lessons, but{" "}
-            <span className="font-bold">
+            <span className="highlight">
               required substantial effort to expand on concepts or demonstrate
               student understanding
             </span>{" "}

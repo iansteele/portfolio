@@ -15,7 +15,7 @@ function VirtualFest(props) {
           title="Virtual Fest illustration"
           roles={["Illustration"]}
         />
-        <div className="mt-10 -mx-6 sm:mx-0">
+        <div className="-mx-6 sm:mx-0">
           <img
             className="w-full h-auto"
             src={"../img/ut/v-fest/hero.jpg"}

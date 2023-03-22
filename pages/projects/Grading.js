@@ -36,7 +36,7 @@ function Grading(props) {
 
         <div className="mx-auto mt-16 space-y-8 max-w-prose">
           <SectionHeading>User insights</SectionHeading>
-          <p className="mt-8">
+          <p>
             {" "}
             On average, teachers spent 12 hours each week on non-compensated
             school-related activities such as grading papers, bus duty, and club
@@ -45,7 +45,7 @@ function Grading(props) {
               - National Education Association
             </span>
           </p>
-          <p className="mt-4">
+          <p>
             We needed a way to quickly let see teachers how their classes are
             doing, while allowing them to easily see which questions required
             their attention.

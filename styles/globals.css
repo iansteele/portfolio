@@ -63,6 +63,10 @@
   .focus-base {
     @apply outline-none ring-offset-brand-primary focus-visible:ring-4 focus-visible:ring-offset-4 focus-visible:ring-brand-secondary;
   }
+
+  .highlight {
+    @apply underline underline-offset-4  decoration-brand-secondary decoration-2 font-bold;
+  }
 }
 
 @layer components {
