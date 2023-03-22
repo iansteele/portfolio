@@ -38,13 +38,12 @@ function Annotation(props) {
             for pre-planned lessons, but{" "}
             <span className="highlight">
               required substantial effort to expand on concepts or demonstrate
-              student understanding
-            </span>{" "}
-            mid-lesson.
+              student understanding mid-lesson.
+            </span>
           </p>
         </div>
 
-        <div className="mx-auto space-y-4 max-w-prose">
+        <div className="mx-auto space-y-8 max-w-prose">
           <SectionHeading>My role</SectionHeading>
           <p>
             {" "}
@@ -52,7 +51,7 @@ function Annotation(props) {
             engineer, a supporting designer, director of product marketing, and
             a customer success manager.
           </p>
-          <p className="text-2xl font-bold">My responsibilities include:</p>
+          <h3>My responsibilities include:</h3>
           <ul className="pl-5 space-y-4 list-disc">
             <li>
               Conducting surveys and moderated user interviews with customers
@@ -64,11 +63,13 @@ function Annotation(props) {
           </ul>
         </div>
 
-        <div className="w-full mx-auto max-w-prose">
+        <div className="w-full space-y-8 mx-autos max-w-prose">
           <SectionHeading>Our Process</SectionHeading>
-          <div className="flex flex-col w-full p-4 mt-16 text-black bg-white rounded-lg sm:max-w-max">
-            <p className="text-xl font-bold leading-6">(Re)Define</p>
-            <p className="text-sm">Aligning on the problem</p>
+          <div className="flex flex-col w-full p-4 text-black border-2 rounded-lg border-brand-tertiary sm:max-w-max">
+            <p className="text-xl leading-6 text-brand-tertiary ">(Re)Define</p>
+            <p className="text-bold text-brand-secondary">
+              Aligning on the problem
+            </p>
           </div>
         </div>
 

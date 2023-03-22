@@ -65,7 +65,7 @@
   }
 
   .highlight {
-    @apply underline underline-offset-4  decoration-brand-secondary decoration-2 font-bold;
+    @apply underline underline-offset-2  decoration-brand-secondary decoration-2 font-bold;
   }
 }
 
