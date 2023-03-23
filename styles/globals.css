@@ -40,7 +40,7 @@
   }
 
   h3 {
-    @apply text-xl lg:text-2xl text-brand-tertiary font-bold font-display;
+    @apply text-xl lg:text-2xl text-brand-tertiary font-semibold font-display;
   }
 
   h4 {
@@ -49,7 +49,7 @@
 
   p,
   li {
-    @apply text-base leading-relaxed lg:text-lg;
+    @apply text-lg leading-relaxed lg:text-xl;
   }
 
   li {

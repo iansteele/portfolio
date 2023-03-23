@@ -67,32 +67,32 @@ function Annotation(props) {
           <SectionHeading>Our Process</SectionHeading>
           <div className="flex flex-col w-full p-4 text-black border-2 rounded-lg border-brand-tertiary sm:max-w-max">
             <p className="text-xl leading-6 text-brand-tertiary ">(Re)Define</p>
-            <p className="text-bold text-brand-secondary">
-              Aligning on the problem
-            </p>
+            <p className="text-bold text-brand-secondary">Scope the problem</p>
           </div>
         </div>
 
         <div className="mx-auto space-y-8 max-w-prose">
           <SectionHeading>Understanding the classroom</SectionHeading>
           <p>
-            Leveraging fullstory recordings, feedback from customer support, and
-            customer-interviews, our team built an understanding of the
-            classroom set up post COVID, how and when devices are used in the
-            classroom. Through affinity mapping we grouped customer feedback.
-            After brainstorming potential solutions to these groups, we
-            leveraged a Value/Effort matrix to determine what we would deliver.
+            Through customer interviews, fullstory recordings, and feedback from
+            customer support, our team sought to understand the classroom
+            environment post-COVID.
           </p>
 
-          <div>
-            <h3 className="mt-16">What we learned</h3>
-            <p className="mt-8">
-              Teachers were using a variety of methods to annotate on top of our
-              content. This ranged from smartboards, to whiteboards, to overhead
-              projectors. To promote classroom participation and classroom
-              management, students did not have access to devices but instead
-              followed along with the teacher.
-            </p>
+          <div className="space-y-8">
+            <h3>What we learned</h3>
+            <ol className="pl-5 space-y-4 list-disc">
+              <li>
+                Teachers were using a variety of methods to annotate on top of
+                our content. This ranged from smartboards, whiteboards, to
+                overhead projectors and more.
+              </li>
+              <li>
+                To promote classroom participation and classroom management,
+                students did not have access to devices but instead followed
+                along with the teacher.
+              </li>
+            </ol>
             <img
               className="w-full mt-8 sm:rounded-xl sm:mx-0"
               src={"../img/annotation/in-class.jpg"}
@@ -135,7 +135,7 @@ function Annotation(props) {
           </div>
         </div>
 
-        <div className="mx-auto max-w-prose">
+        <div className="mx-auto space-y-8 max-w-prose">
           <SectionHeading>Ideation</SectionHeading>
           <p className="mt-8">
             We wanted to stress-test what annotating on our lesson cards would
@@ -149,6 +149,23 @@ function Annotation(props) {
             quickly to test these hypothesis.
           </p>
 
+          <div className="flex items-center mt-2 flex-grow h-full p-4 bg-[#EFF2FB] rounded-lg">
+            <img
+              className="shadow-lg rounded-xl"
+              src={"../img/annotation/Annotation_mvp.gif"}
+              alt="Redesigned reports page"
+            />
+          </div>
+          <p>
+            We leveraged a third-party annotation tool to get us up and running
+            quickly to test these hypothesis.
+          </p>
+          <h3 className="w-auto font-bold">Testing takeaways</h3>
+          <ul className="pl-5 space-y-4 list-disc ">
+            <li>Annotations quickly fell apart with responsive content</li>
+            <li>Prioritzation and understanding of tools</li>
+            <li>Location to initiate annotation mode</li>
+          </ul>
           <div className="grid items-start gap-2 mt-16 sm:grid-cols-2 sm:flex-row">
             <img
               className="rounded-lg aspect-auto"
@@ -171,20 +188,6 @@ function Annotation(props) {
               alt="Redesigned reports page"
             />
           </div>
-          <div className="flex items-center mt-2 flex-grow h-full p-4 bg-[#EFF2FB] rounded-lg">
-            <img
-              className="shadow-lg rounded-xl"
-              src={"../img/annotation/Annotation_mvp.gif"}
-              alt="Redesigned reports page"
-            />
-          </div>
-
-          <h3 className="w-auto mt-16 font-bold">Testing takeaways</h3>
-          <ul className="pl-5 mt-8 space-y-4 list-disc ">
-            <li>Annotations quickly fell apart with responsive content</li>
-            <li>Prioritzation and understanding of tools</li>
-            <li>Location to initiate annotation mode</li>
-          </ul>
         </div>
 
         <div className="mx-auto max-w-prose">
