@@ -29,8 +29,8 @@ export default function Home() {
               <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
                 Hi, I'm Ian
               </h1>
-              <p className="text-2xl font-bold text-brand-secondary">
-                A product designer & illustrator
+              <p className="text-2xl text-brand-secondary">
+                A product designer, front-end dev & illustrator
               </p>
               <p className="max-w-lg text-lg md:font-regular">
                 I am building a digital core curriculum platform for K-12

@@ -15,7 +15,7 @@ function UntappdTrial(props) {
           title="Free trial experience"
           roles={["UX", "Product Design"]}
         />
-        <div className="grid grid-cols-2 gap-4 mx-auto space-y-10 md:gap-10">
+        <div className="grid grid-cols-2 gap-4 mx-auto md:gap-8">
           <img
             className="w-full h-auto col-span-2 sm:mx-0"
             src={"../img/ut/trial/hero.jpg"}

@@ -4,6 +4,7 @@ import {
   ProjectWrapper,
   ProjectHeading,
   SectionHeading,
+  SectionWrapper,
 } from "../../components/ComponentIndex";
 
 function Annotation(props) {
@@ -23,7 +24,7 @@ function Annotation(props) {
             alt="Redesigned reports page"
           />
         </div>
-        <div className="mx-auto space-y-8 max-w-prose">
+        <SectionWrapper>
           <SectionHeading>Overview</SectionHeading>
 
           <p className="text-5xl font-light leading-tight tracking-tight">
@@ -41,12 +42,11 @@ function Annotation(props) {
               student understanding mid-lesson.
             </span>
           </p>
-        </div>
+        </SectionWrapper>
 
-        <div className="mx-auto space-y-8 max-w-prose">
+        <SectionWrapper>
           <SectionHeading>My role</SectionHeading>
           <p>
-            {" "}
             Our team consisted of myself as lead designer, a product manager, an
             engineer, a supporting designer, director of product marketing, and
             a customer success manager.
@@ -61,17 +61,39 @@ function Annotation(props) {
             <li>Prototyping & testing</li>
             <li>Collaborating and writing production code</li>
           </ul>
-        </div>
+        </SectionWrapper>
 
-        <div className="w-full space-y-8 mx-autos max-w-prose">
+        {/* <div className="w-full mx-auto space-y-8 ">
           <SectionHeading>Our Process</SectionHeading>
-          <div className="flex flex-col w-full p-4 text-black border-2 rounded-lg border-brand-tertiary sm:max-w-max">
-            <p className="text-xl leading-6 text-brand-tertiary ">(Re)Define</p>
-            <p className="text-bold text-brand-secondary">Scope the problem</p>
+          <div className="flex flex-wrap w-full gap-2">
+            <div className="flex flex-col flex-1 w-full p-4 text-black border-2 rounded-lg border-brand-tertiary ">
+              <p className="text-xl leading-6 text-brand-tertiary">
+                (Re)Define
+              </p>
+              <p className="text-bold text-brand-secondary">
+                Scope the problem
+              </p>
+            </div>
+            <div className="flex flex-col flex-1 w-full p-4 text-black border-2 rounded-lg border-brand-tertiary ">
+              <p className="text-xl leading-6 text-brand-tertiary ">
+                (Re)Define
+              </p>
+              <p className="text-bold text-brand-secondary">
+                Scope the problem
+              </p>
+            </div>
+            <div className="flex flex-col flex-1 w-full p-4 text-black border-2 rounded-lg border-brand-tertiary ">
+              <p className="text-xl leading-6 text-brand-tertiary ">
+                (Re)Define
+              </p>
+              <p className="text-bold text-brand-secondary">
+                Scope the problem
+              </p>
+            </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="mx-auto space-y-8 max-w-prose">
+        <SectionWrapper>
           <SectionHeading>Understanding the classroom</SectionHeading>
           <p>
             Through customer interviews, fullstory recordings, and feedback from
@@ -83,9 +105,9 @@ function Annotation(props) {
             <h3>What we learned</h3>
             <ol className="pl-5 space-y-4 list-disc">
               <li>
-                Teachers were using a variety of methods to annotate on top of
-                our content. This ranged from smartboards, whiteboards, to
-                overhead projectors and more.
+                Teachers use a variety of methods to annotate on top of our
+                content. This ranged from smartboards, whiteboards, to overhead
+                projectors and more.
               </li>
               <li>
                 To promote classroom participation and classroom management,
@@ -99,9 +121,8 @@ function Annotation(props) {
               alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
             />
           </div>
-          <div className="space-y-4"></div>
-          <div>
-            <h3 className="mt-16">Key insights</h3>
+          <div className="space-y-8">
+            <h3>Key insights</h3>
             <div className="mt-8 space-y-2 ">
               {/* Comment */}
               <div className="relative p-4 text-black bg-white rounded-md shadow-md">
@@ -133,9 +154,9 @@ function Annotation(props) {
               </div>
             </div>
           </div>
-        </div>
+        </SectionWrapper>
 
-        <div className="mx-auto space-y-8 max-w-prose">
+        <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
           <p className="mt-8">
             We wanted to stress-test what annotating on our lesson cards would
@@ -166,7 +187,7 @@ function Annotation(props) {
             <li>Prioritzation and understanding of tools</li>
             <li>Location to initiate annotation mode</li>
           </ul>
-          <div className="grid items-start gap-2 mt-16 sm:grid-cols-2 sm:flex-row">
+          <div className="grid items-start gap-2 sm:grid-cols-2 sm:flex-row">
             <img
               className="rounded-lg aspect-auto"
               src={"../img/annotation/sketches1.jpg"}
@@ -188,7 +209,7 @@ function Annotation(props) {
               alt="Redesigned reports page"
             />
           </div>
-        </div>
+        </SectionWrapper>
 
         <div className="mx-auto max-w-prose">
           <SectionHeading>What we delivered</SectionHeading>

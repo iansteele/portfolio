@@ -11,7 +11,7 @@ function Home(props) {
             Hi, I'm Ian
           </h1>
           <p className="text-2xl font-bold text-brand-secondary">
-            A product designer & illustrator
+            A product designer, front-end dev & illustrator
           </p>
           <p className="max-w-lg text-lg md:font-regular">
             I am building a digital core curriculum platform for K-12 schools

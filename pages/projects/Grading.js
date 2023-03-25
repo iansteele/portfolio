@@ -3,6 +3,7 @@ import {
   PageWrapper,
   ProjectWrapper,
   ProjectHeading,
+  SectionWrapper,
   SectionHeading,
 } from "../../components/ComponentIndex";
 
@@ -23,7 +24,7 @@ function Grading(props) {
             alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
           />
         </div>
-        <div className="mx-auto mt-16 space-y-8 max-w-prose">
+        <SectionWrapper>
           <SectionHeading>The Challenge</SectionHeading>
           <p>
             {" "}
@@ -32,9 +33,9 @@ function Grading(props) {
             our platform. Teachers would skip grading entirely which led to
             inaccurate data their districts, decreasing our perceived value.
           </p>
-        </div>
+        </SectionWrapper>
 
-        <div className="mx-auto mt-16 space-y-8 max-w-prose">
+        <SectionWrapper>
           <SectionHeading>User insights</SectionHeading>
           <p>
             {" "}
@@ -50,8 +51,8 @@ function Grading(props) {
             doing, while allowing them to easily see which questions required
             their attention.
           </p>
-        </div>
-        <div className="mx-auto mt-16 space-y-8 max-w-prose">
+        </SectionWrapper>
+        <SectionWrapper>
           <SectionHeading>Concerns</SectionHeading>
           <div className="mt-4">
             <p className="mt-8">
@@ -65,8 +66,8 @@ function Grading(props) {
               completion, scoring, and need for manual grading?
             </p>
           </div>
-        </div>
-        <div className="mx-auto mt-16 space-y-8 max-w-prose">
+        </SectionWrapper>
+        <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
           <p className="mt-8">
             I began sketching ways to funnel teachers to the reports page when
@@ -80,7 +81,7 @@ function Grading(props) {
             instead of by student saved teachers time, allowing them to focus
             additional learning where necessary
           </p>
-        </div>
+        </SectionWrapper>
         <div className="flex flex-col flex-wrap gap-4 mt-16 md:flex-row">
           <img
             className="flex-1 min-w-0"
@@ -98,7 +99,7 @@ function Grading(props) {
             alt="Redesigned reports page"
           />
         </div>
-        <div className="mx-auto mt-16 space-y-8 max-w-prose">
+        <SectionWrapper>
           <SectionHeading>The Outcome</SectionHeading>
           <p className="mt-8">
             The final functionality of this feature included the ability to
@@ -110,8 +111,7 @@ function Grading(props) {
             teachers had no difficulty discerning which items required their
             manual review.
           </p>
-        </div>
-        <div className="mx-auto mt-16 space-y-8 max-w-prose"></div>
+        </SectionWrapper>
       </ProjectWrapper>
     </PageWrapper>
   );
