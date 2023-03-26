@@ -49,7 +49,11 @@
 
   p,
   li {
-    @apply text-lg leading-relaxed lg:text-xl;
+    @apply text-lg leading-relaxed lg:text-xl font-light;
+  }
+
+  ul {
+    @apply pl-5 space-y-4 list-disc;
   }
 
   li {

@@ -3,7 +3,7 @@ import Thumbnail from "./Thumbnail.js";
 
 function Projects(props) {
   return (
-    <ul className="grid w-full max-w-screen-xl grid-cols-1 gap-4 px-4 py-10 md:grid-cols-2 lg:grid-cols-3">
+    <ul className="grid w-full max-w-screen-xl grid-cols-1 gap-4 px-4 py-10 space-y-0 list-none md:grid-cols-2 lg:grid-cols-3">
       {/*  Annotation */}
       <Thumbnail
         link="/projects/Annotation"

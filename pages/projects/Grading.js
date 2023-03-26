@@ -25,61 +25,75 @@ function Grading(props) {
           />
         </div>
         <SectionWrapper>
+          <SectionHeading>Overview</SectionHeading>
+          <p>
+            Imagine Learning Classroom is a digital K-12 curriculum platform
+            that supports teachers from planning through grading and
+            remediation. In 2022, the grading experience held several pain
+            points that resulted in limited use or abandonment altogether.
+          </p>
+
+          <p>
+            Abandonment in the grading phase negatively impacted data available
+            to teachers and their districts. Data which informed teachers in
+            planning and remediaton for their students.
+          </p>
+        </SectionWrapper>
+        <SectionWrapper>
+          <SectionHeading>My role</SectionHeading>
+          <p>
+            I worked with my PM and engineering partners to define and frame
+            in-scope problems. My role within the team was to facilitate user
+            workshops/interviews and as design lead.
+          </p>
+        </SectionWrapper>
+        <SectionWrapper>
           <SectionHeading>The Challenge</SectionHeading>
           <p>
-            {" "}
-            When I began working at Imagine Learning Classroom, our teachers
-            regularly voiced concerns about how painfully slow grading was on
-            our platform. Teachers would skip grading entirely which led to
-            inaccurate data their districts, decreasing our perceived value.
+            In IL Classroom, teachers use assignments to gain an understanding
+            of how their students are performing. For the 2021 school year, our
+            data had shown that only 20% of teachers were grading student work.
           </p>
         </SectionWrapper>
 
         <SectionWrapper>
           <SectionHeading>User insights</SectionHeading>
           <p>
-            {" "}
-            On average, teachers spent 12 hours each week on non-compensated
-            school-related activities such as grading papers, bus duty, and club
-            advising.{" "}
-            <span className="text--credit">
-              - National Education Association
-            </span>
+            I worked closely with our product manager on facilitating customer
+            satisfaction interviews. During these conversations with teachers
+            our goal was to build an understanding of what is and what wasn't
+            working in the grading workflow.
           </p>
-          <p>
-            We needed a way to quickly let see teachers how their classes are
-            doing, while allowing them to easily see which questions required
-            their attention.
-          </p>
+          <ul>
+            <li>
+              Teachers had to wait ~5 seconds for every student's scores to save
+              before they could continue to the next student.
+            </li>
+            <li>It was unclear where one question ended and the next began</li>
+            <li>
+              Teachers could not switch between the same question for different
+              students
+            </li>
+            <li>It was unclear where one question ended and the next began</li>
+          </ul>
         </SectionWrapper>
         <SectionWrapper>
-          <SectionHeading>Concerns</SectionHeading>
+          <SectionHeading>Constraints</SectionHeading>
           <div className="mt-4">
             <p className="mt-8">
-              Reports listed all classes together. This made it difficult for
-              teachers to distinguish how their individual classrooms were
-              performing, and prevented teachers from knowing which class each
-              student belonged to.
-            </p>
-            <p className="mt-4">
-              Assignment questions can now be multi-part. How do we display
-              completion, scoring, and need for manual grading?
+              Our assessment questions were build on a third-party authoring
+              platform that placed restrictions on what was possible with
+              student responses. A few examples include limiting the speed in
+              which scores could save and the number of responses we could
+              render on the page at a time.
             </p>
           </div>
         </SectionWrapper>
         <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
           <p className="mt-8">
-            I began sketching ways to funnel teachers to the reports page when
-            an assignment required their attention. Concepts included the use of
-            notifications, visual cues in the site nav, or allowing for the
-            creation of due-dates when assigning. However, a restriction of our
-            third party integration limited us to only being able to pull 50
-            student reports at a time. Once there, a system of colors and shapes
-            provided a quick reference to student performance instead of
-            misleading scores. Allowing teachers to toggle grading by question
-            instead of by student saved teachers time, allowing them to focus
-            additional learning where necessary
+            After speaking with teachers, it was clear that there were a lot of
+            small victories to be had as well as major overhauls.
           </p>
         </SectionWrapper>
         <div className="flex flex-col flex-wrap gap-4 mt-16 md:flex-row">
@@ -100,7 +114,7 @@ function Grading(props) {
           />
         </div>
         <SectionWrapper>
-          <SectionHeading>The Outcome</SectionHeading>
+          <SectionHeading>What we delivered</SectionHeading>
           <p className="mt-8">
             The final functionality of this feature included the ability to
             switch between grading by student, or by question. The ability to

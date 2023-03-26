@@ -14,7 +14,7 @@ export default function Home() {
           <title>Ian Steele - Digital product designer and Illustrator</title>
           <meta
             name="description"
-            content="I am a digital product designer & Illustrator with 10+ years of experience. Get in touch with me to know more."
+            content="An Illinois-based digital product designer & Illustrator with 10+ years of experience. Get in touch with me to know more."
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
@@ -30,7 +30,7 @@ export default function Home() {
                 Hi, I'm Ian
               </h1>
               <p className="text-2xl text-brand-secondary">
-                A product designer, front-end dev & illustrator
+                An Illinois-based product designer, developer & illustrator
               </p>
               <p className="max-w-lg text-lg md:font-regular">
                 I am building a digital core curriculum platform for K-12
