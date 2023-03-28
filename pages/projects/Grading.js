@@ -14,7 +14,7 @@ function Grading(props) {
         <ProjectHeading
           client="Imagine Learning Classroom"
           title="Assignment grading"
-          description="How we helped teachers spend less time grading"
+          description="How we reminagined our grading experience to be faster and more flexible"
           roles={["User research", "Design Thinking", "Prototyping"]}
         />
         <div className="mt-8 -mx-6 sm:mx-0">
@@ -134,10 +134,8 @@ function Grading(props) {
           </p>
           <h3>Class dashboard</h3>
           <p>
-            Taking some of what the ability to switch between grading by
-            student, or by question. The ability to switch to grading by
-            question allowed for teachers to quickly grade all items that
-            required their attention.
+            At this level, we prioritized letting teachers know if an assignment
+            warranted their attention by providing completion data.
           </p>
           <div className="w-full p-2 text-center text-brand-primary bg-brand-secondary">
             Images of work go here
