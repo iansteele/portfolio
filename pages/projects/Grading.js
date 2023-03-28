@@ -139,6 +139,9 @@ function Grading(props) {
             question allowed for teachers to quickly grade all items that
             required their attention.
           </p>
+          <div className="w-full p-2 text-center text-brand-primary bg-brand-secondary">
+            Images of work go here
+          </div>
           <h3>Assignment submissions</h3>
           <p>
             Taking some of what the ability to switch between grading by
@@ -149,6 +152,9 @@ function Grading(props) {
             Following up with users after release we learned that teachers had
             no difficulty discerning which items required their manual review.
           </p>
+          <div className="w-full p-2 text-center text-brand-primary bg-brand-secondary">
+            Images of work go here
+          </div>
           <h3>Grading view</h3>
           <p>
             This view is where the granular grading and review work is
@@ -157,6 +163,9 @@ function Grading(props) {
             grade by student or by question to more easily identify patterns in
             their students' thinking
           </p>
+          <div className="w-full p-2 text-center text-brand-primary bg-brand-secondary">
+            Images of work go here
+          </div>
         </SectionWrapper>
       </ProjectWrapper>
     </PageWrapper>
