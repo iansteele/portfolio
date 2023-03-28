@@ -24,6 +24,12 @@ function Grading(props) {
             alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
           />
         </div>
+        <div className="col-span-2 py-8 mx-auto text-center lg:py-20 max-w-prose">
+          <SectionHeading>The goal</SectionHeading>
+          <span className="block mt-4 text-5xl leading-tight text-white lg:text-6xl lg:leading-tight font-display">
+            Less time grading, more time growing
+          </span>
+        </div>
         <SectionWrapper>
           <SectionHeading>Overview</SectionHeading>
           <p>
@@ -33,7 +39,7 @@ function Grading(props) {
             points that resulted in limited use or abandonment altogether.
           </p>
 
-          <p>
+          <p className="highlight">
             Abandonment in the grading phase negatively impacted data available
             to teachers and their districts. Data which informed teachers in
             planning and remediaton for their students.
@@ -54,41 +60,48 @@ function Grading(props) {
             of how their students are performing. For the 2021 school year, our
             data had shown that only 20% of teachers were grading student work.
           </p>
+          <p className="mt-8">
+            Our assessments were built with a third-party authoring platform
+            that placed restrictions on what was possible with student
+            responses.{" "}
+            <span className="highlight">
+              This includes but is not limited to the speed in which scores
+              saved and the number of responses we could display.
+            </span>
+          </p>
         </SectionWrapper>
 
         <SectionWrapper>
           <SectionHeading>User insights</SectionHeading>
           <p>
-            I worked closely with our product manager on facilitating customer
-            satisfaction interviews. During these conversations with teachers
+            The product manager and I facilitating customer satisfaction
+            interviews to learn about the frequency in which teachers assigned
+            and graded student work. During these conversations with teachers
             our goal was to build an understanding of what is and what wasn't
             working in the grading workflow.
           </p>
+          <h3>What we learned</h3>
+          <p>
+            Teachers were using a variety of methods to annotate on top of our
+            content. This ranged from smartboards, to whiteboards, to overhead
+            projectors. To promote classroom participation and classroom
+            management, students did not have access to devices but instead
+            followed along with the teacher.
+          </p>
+
           <ul>
             <li>
               Teachers had to wait ~5 seconds for every student's scores to save
               before they could continue to the next student.
             </li>
-            <li>It was unclear where one question ended and the next began</li>
+            <li>It was unclear where one question ends and the next begins</li>
             <li>
-              Teachers could not switch between the same question for different
-              students
+              Viewing the same question for across all students helps to
+              identify patterns
             </li>
-            <li>It was unclear where one question ended and the next began</li>
           </ul>
         </SectionWrapper>
-        <SectionWrapper>
-          <SectionHeading>Constraints</SectionHeading>
-          <div className="mt-4">
-            <p className="mt-8">
-              Our assessment questions were build on a third-party authoring
-              platform that placed restrictions on what was possible with
-              student responses. A few examples include limiting the speed in
-              which scores could save and the number of responses we could
-              render on the page at a time.
-            </p>
-          </div>
-        </SectionWrapper>
+
         <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
           <p className="mt-8">
@@ -116,14 +129,33 @@ function Grading(props) {
         <SectionWrapper>
           <SectionHeading>What we delivered</SectionHeading>
           <p className="mt-8">
-            The final functionality of this feature included the ability to
-            switch between grading by student, or by question. The ability to
-            switch to grading by question allowed for teachers to quickly grade
-            all items that required their attention. Giving them more time to
-            prepare for subsequent lessons, or to help those students not at
-            expectation. Following up with users after release we learned that
-            teachers had no difficulty discerning which items required their
-            manual review.
+            There were three main views that we chose to focus our attention on
+            when it came to a teachers grading workflow.
+          </p>
+          <h3>Class dashboard</h3>
+          <p>
+            Taking some of what the ability to switch between grading by
+            student, or by question. The ability to switch to grading by
+            question allowed for teachers to quickly grade all items that
+            required their attention.
+          </p>
+          <h3>Assignment submissions</h3>
+          <p>
+            Taking some of what the ability to switch between grading by
+            student, or by question. The ability to switch to grading by
+            question allowed for teachers to quickly grade all items that
+            required their attention. Giving them more time to prepare for
+            subsequent lessons, or to help those students not at expectation.
+            Following up with users after release we learned that teachers had
+            no difficulty discerning which items required their manual review.
+          </p>
+          <h3>Grading view</h3>
+          <p>
+            This view is where the granular grading and review work is
+            completed. Teachers have the option to filter out students in
+            several ways depending on what they are looking for. They can then
+            grade by student or by question to more easily identify patterns in
+            their students' thinking
           </p>
         </SectionWrapper>
       </ProjectWrapper>

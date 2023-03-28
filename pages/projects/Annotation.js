@@ -190,6 +190,11 @@ function Annotation(props) {
           <div className="grid items-start gap-2 sm:grid-cols-2 sm:flex-row">
             <img
               className="rounded-lg aspect-auto"
+              src={"../img/annotation/Card break.jpg"}
+              alt="Redesigned reports page"
+            />
+            <img
+              className="rounded-lg aspect-auto"
               src={"../img/annotation/sketches1.jpg"}
               alt="Redesigned reports page"
             />
@@ -222,7 +227,7 @@ function Annotation(props) {
         <div className="grid items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <video
             className=" rounded-xl aspect-square"
-            src={"../img/annotation/colorselector.mp4"}
+            src={"../img/annotation/colorpicker.mp4"}
             autoPlay
             muted
             loop
