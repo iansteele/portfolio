@@ -30,7 +30,7 @@ export default function Home() {
                 Hi, I'm Ian
               </h1>
               <p className="text-2xl text-brand-secondary">
-                An product designer, developer & illustrator
+                A product designer, developer & illustrator
               </p>
               <p className="max-w-lg text-lg md:font-regular">
                 I am building a digital core curriculum platform for K-12
