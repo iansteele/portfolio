@@ -35,7 +35,7 @@ function Grading(props) {
           <p>
             Imagine Learning Classroom is a digital K-12 curriculum platform
             that supports teachers from planning through grading and
-            remediation. In 2022, the grading experience held several pain
+            remediation. In 2021, the grading experience held several pain
             points that resulted in limited use or abandonment altogether.
           </p>
 
@@ -48,9 +48,10 @@ function Grading(props) {
         <SectionWrapper>
           <SectionHeading>My role</SectionHeading>
           <p>
-            I worked with my PM and engineering partners to define and frame
-            in-scope problems. My role within the team was to facilitate user
-            workshops/interviews and as design lead.
+            I worked with my PM an engineer, and two customer success
+            stakeholders to define and frame in-scope problems. My role within
+            the team was to facilitate user workshops/interviews and serve as
+            design lead from research to design handoff.
           </p>
         </SectionWrapper>
         <SectionWrapper>
@@ -132,16 +133,26 @@ function Grading(props) {
             There were three main views that we chose to focus our attention on
             when it came to a teachers grading workflow.
           </p>
-          <h3>Class dashboard</h3>
-          <p>
-            At this level, we prioritized letting teachers know if an assignment
-            warranted their attention by providing completion data.
-          </p>
-          <div className="w-full p-2 text-center text-brand-primary bg-brand-secondary">
-            Images of work go here
+        </SectionWrapper>
+        <div>
+          <div className="gap-4 mx-auto max-w-prose">
+            <h3>Class dashboard</h3>
+            <p className="mt-4">
+              At this level, we prioritized letting teachers know if an
+              assignment warranted their attention by providing completion data.
+            </p>
           </div>
-          <h3>Assignment submissions</h3>
-          <p>
+          <div className="w-full mt-8 text-center sm:p-2 ">
+            <img
+              className="flex-1 min-w-0 rounded-lg"
+              src={"../img/grading/assignment-cards.jpg"}
+              alt="Redesigned reports page"
+            />
+          </div>
+        </div>
+        <SectionWrapper>
+          <h3 className="mt-20">Assignment submissions</h3>
+          <p className="mt-4">
             Taking some of what the ability to switch between grading by
             student, or by question. The ability to switch to grading by
             question allowed for teachers to quickly grade all items that
@@ -150,18 +161,18 @@ function Grading(props) {
             Following up with users after release we learned that teachers had
             no difficulty discerning which items required their manual review.
           </p>
-          <div className="w-full p-2 text-center text-brand-primary bg-brand-secondary">
+          <div className="w-full p-2 mt-10 text-center text-brand-primary bg-brand-secondary">
             Images of work go here
           </div>
-          <h3>Grading view</h3>
-          <p>
+          <h3 className="mt-20">Grading view</h3>
+          <p className="mt-4">
             This view is where the granular grading and review work is
             completed. Teachers have the option to filter out students in
             several ways depending on what they are looking for. They can then
             grade by student or by question to more easily identify patterns in
             their students' thinking
           </p>
-          <div className="w-full p-2 text-center text-brand-primary bg-brand-secondary">
+          <div className="w-full p-2 mt-10 text-center text-brand-primary bg-brand-secondary">
             Images of work go here
           </div>
         </SectionWrapper>
