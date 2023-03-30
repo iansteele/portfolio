@@ -134,32 +134,27 @@ function Grading(props) {
             when it came to a teachers grading workflow.
           </p>
         </SectionWrapper>
-        <div>
-          <div className="gap-4 mx-auto max-w-prose">
-            <h3>Class dashboard</h3>
-            <p className="mt-4">
-              At this level, we prioritized letting teachers know if an
-              assignment warranted their attention by providing completion data.
-            </p>
-          </div>
-          <div className="w-full mt-8 text-center sm:p-2 ">
-            <img
-              className="flex-1 min-w-0 rounded-lg"
-              src={"../img/grading/assignment-cards.jpg"}
-              alt="Redesigned reports page"
-            />
-          </div>
+        <SectionWrapper>
+          <h3>Informative assignment cards</h3>
+          <p className="mt-4">
+            When viewing a class, teachers had to go into an assignment to see
+            who has completed it, and how many students needed to be graded. By
+            updating the assignment cards, teachers were able to quickly see
+            student progress and whether it required their attention.
+          </p>
+        </SectionWrapper>
+        <div className="w-full mt-8 text-center sm:p-2 ">
+          <img
+            className="flex-1 min-w-0 rounded-lg"
+            src={"../img/grading/assignment-cards.jpg"}
+            alt="Redesigned reports page"
+          />
         </div>
         <SectionWrapper>
-          <h3 className="mt-20">Assignment submissions</h3>
+          <h3>Updates to the assignment overview</h3>
           <p className="mt-4">
-            Taking some of what the ability to switch between grading by
-            student, or by question. The ability to switch to grading by
-            question allowed for teachers to quickly grade all items that
-            required their attention. Giving them more time to prepare for
-            subsequent lessons, or to help those students not at expectation.
-            Following up with users after release we learned that teachers had
-            no difficulty discerning which items required their manual review.
+            During interviews, we learned of several opportunities to improve
+            this overhead view of assignments.
           </p>
         </SectionWrapper>
         <div className="w-full mt-8 text-center sm:p-2 ">
@@ -170,7 +165,7 @@ function Grading(props) {
           />
         </div>
         <SectionWrapper>
-          <h3 className="mt-20">Grading view</h3>
+          <h3>Grading view</h3>
           <p className="mt-4">
             This view is where the granular grading and review work is
             completed. Teachers have the option to filter out students in
