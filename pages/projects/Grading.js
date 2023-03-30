@@ -151,7 +151,7 @@ function Grading(props) {
           />
         </div>
         <SectionWrapper>
-          <h3>Updates to the assignment overview</h3>
+          <h3>A bird's-eye view</h3>
           <p className="mt-4">
             During interviews, we learned of several opportunities to improve
             this overhead view of assignments.
@@ -165,7 +165,7 @@ function Grading(props) {
           />
         </div>
         <SectionWrapper>
-          <h3>Grading view</h3>
+          <h3>A grading overhaul</h3>
           <p className="mt-4">
             This view is where the granular grading and review work is
             completed. Teachers have the option to filter out students in
@@ -177,7 +177,7 @@ function Grading(props) {
         <div className="w-full mt-8 text-center sm:p-2 ">
           <img
             className="flex-1 min-w-0 rounded-lg"
-            src={"../img/grading/Grading.jpg"}
+            src={"../img/grading/Grading.png"}
             alt="Redesigned reports page"
           />
         </div>
