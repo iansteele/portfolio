@@ -161,9 +161,15 @@ function Grading(props) {
             Following up with users after release we learned that teachers had
             no difficulty discerning which items required their manual review.
           </p>
-          <div className="w-full p-2 mt-10 text-center text-brand-primary bg-brand-secondary">
-            Images of work go here
-          </div>
+        </SectionWrapper>
+        <div className="w-full mt-8 text-center sm:p-2 ">
+          <img
+            className="flex-1 min-w-0 rounded-lg"
+            src={"../img/grading/Student Submissions.jpg"}
+            alt="Redesigned reports page"
+          />
+        </div>
+        <SectionWrapper>
           <h3 className="mt-20">Grading view</h3>
           <p className="mt-4">
             This view is where the granular grading and review work is
@@ -172,10 +178,14 @@ function Grading(props) {
             grade by student or by question to more easily identify patterns in
             their students' thinking
           </p>
-          <div className="w-full p-2 mt-10 text-center text-brand-primary bg-brand-secondary">
-            Images of work go here
-          </div>
         </SectionWrapper>
+        <div className="w-full mt-8 text-center sm:p-2 ">
+          <img
+            className="flex-1 min-w-0 rounded-lg"
+            src={"../img/grading/Grading.jpg"}
+            alt="Redesigned reports page"
+          />
+        </div>
       </ProjectWrapper>
     </PageWrapper>
   );
