@@ -160,7 +160,7 @@ function Grading(props) {
         <div className="w-full mt-8 text-center sm:p-2 ">
           <img
             className="flex-1 min-w-0 rounded-lg"
-            src={"../img/grading/Student Submissions.jpg"}
+            src={"../img/grading/student-submissions.jpg"}
             alt="Redesigned reports page"
           />
         </div>
@@ -174,12 +174,20 @@ function Grading(props) {
             their students' thinking
           </p>
         </SectionWrapper>
-        <div className="w-full mt-8 text-center sm:p-2 ">
+        <div className="w-full space-y-8 text-center sm:p-2 ">
           <img
             className="flex-1 min-w-0 rounded-lg"
             src={"../img/grading/Grading.png"}
             alt="Redesigned reports page"
           />
+          <video
+            className=" rounded-xl"
+            src={"../img/grading/Quick Grader.mp4"}
+            autoPlay
+            muted
+            loop
+            playsInline
+          ></video>
         </div>
       </ProjectWrapper>
     </PageWrapper>
