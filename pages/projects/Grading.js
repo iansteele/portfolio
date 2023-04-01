@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import gradingFlowSketch from "public/img/gradingflow-sketch.png";
+import gradingModalSketch from "public/img/gradingmodal-sketch.png";
+import gradingIconSketch from "public/img/gradingicon-sketch.png";
 import {
   PageWrapper,
   ProjectWrapper,
@@ -18,10 +22,12 @@ function Grading(props) {
           roles={["User research", "Design Thinking", "Prototyping"]}
         />
         <div className="mt-8 -mx-6 sm:mx-0">
-          <img
-            className="w-full h-auto"
-            src={"../img/grading/Grading-main.jpg"}
-            alt="Grading view for teachers displaying a sidebar, quick student switcher, and speed grader"
+          <Image
+            src={"/img/grading/Grading-main.jpg"}
+            alt="Screenshot of the new grading UI"
+            width={1440}
+            height={810}
+            priority
           />
         </div>
         <div className="col-span-2 py-8 mx-auto text-center lg:py-20 max-w-prose">
@@ -110,21 +116,18 @@ function Grading(props) {
             small victories to be had as well as major overhauls.
           </p>
         </SectionWrapper>
-        <div className="flex flex-col flex-wrap gap-4 mt-16 md:flex-row">
-          <img
-            className="flex-1 min-w-0"
-            src={"../img/gradingflow-sketch.png"}
-            alt="Redesigned reports page"
+        <div className="grid grid-cols-1 gap-4 mt-16 md:grid-cols-3 md:flex-row">
+          <Image
+            src={gradingFlowSketch}
+            alt="A low-fidelity sketch of early grading layouts"
           />
-          <img
-            className="flex-1 min-w-0"
-            src={"../img/gradingmodal-sketch.png"}
-            alt="Redesigned reports page"
+          <Image
+            src={gradingModalSketch}
+            alt="Original grading modal sketch "
           />
-          <img
-            className="flex-1 min-w-0"
-            src={"../img/gradingicon-sketch.png"}
-            alt="Redesigned reports page"
+          <Image
+            src={gradingIconSketch}
+            alt="Examples of iconography portraying student score"
           />
         </div>
         <SectionWrapper>
@@ -147,7 +150,7 @@ function Grading(props) {
           <img
             className="flex-1 min-w-0 rounded-lg"
             src={"../img/grading/assignment-cards.jpg"}
-            alt="Redesigned reports page"
+            alt="Assignment list items portraying student activity"
           />
         </div>
         <SectionWrapper>
@@ -161,24 +164,25 @@ function Grading(props) {
           <img
             className="flex-1 min-w-0 rounded-lg"
             src={"../img/grading/student-submissions.jpg"}
-            alt="Redesigned reports page"
+            alt="The student submissions table displaying scores on an assignment."
           />
         </div>
         <SectionWrapper>
-          <h3>A grading overhaul</h3>
+          <h3>An overhauled grading experience</h3>
           <p className="mt-4">
-            This view is where the granular grading and review work is
-            completed. Teachers have the option to filter out students in
-            several ways depending on what they are looking for. They can then
-            grade by student or by question to more easily identify patterns in
-            their students' thinking
+            We gave teachers the option to filter out students in several ways
+            depending on their grading preferences. They can then grade by
+            student or by question to more easily identify patterns in their
+            students' thinking. Share responses with the class while keeping
+            student names anonymous.
           </p>
         </SectionWrapper>
         <div className="w-full space-y-8 text-center sm:p-2 ">
-          <img
-            className="flex-1 min-w-0 rounded-lg"
-            src={"../img/grading/Grading.png"}
+          <Image
+            src={"/img/grading/Grading.png"}
             alt="Redesigned reports page"
+            width="1440"
+            height="810"
           />
           <video
             className=" rounded-xl"

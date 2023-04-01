@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { PageWrapper } from "../components/ComponentIndex";
 import Projects from "../components/Projects";
+import HeroImg from "public/img/hero.png";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,8 +25,8 @@ export default function Home() {
           />
         </Head>
         <main>
-          <div className="relative flex flex-col-reverse items-start justify-center flex-grow w-full max-w-screen-xl gap-8 px-6 pb-8 overflow-hidden md:items-center md:py-10 md:rounded-2xl md:justify-start text-brand-tertiary md:flex-row ">
-            <div className="relative flex flex-col flex-grow min-w-0 gap-4 md:w-2/3 ">
+          <div className="relative grid items-start justify-center flex-grow w-full max-w-screen-xl grid-cols-1 gap-8 px-6 pb-8 overflow-hidden md:grid-cols-2 lg:grid-cols-3 md:items-center md:py-10 md:rounded-2xl md:justify-start text-brand-tertiary md:flex-row ">
+            <div className="relative flex flex-col flex-grow min-w-0 col-span-1 lg:col-span-2 ">
               <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
                 Hi, I'm Ian
               </h1>
@@ -37,13 +38,13 @@ export default function Home() {
                 schools with the amazing folks at Imagine Learning Classroom
               </p>
             </div>
-            <div className="flex-grow w-full max-w-sm mx-auto overflow-hidden md:max-w-full md:w-1/2 ">
-              <img
-                className="flex-shrink-0 w-full mx-auto drop-shadow-lg aspect-square"
-                src="./img/hero.png"
-                alt="Redesigned reports page"
-              />
-            </div>
+
+            <Image
+              className="flex-shrink-0 w-full col-span-1 mx-auto drop-shadow-lg aspect-square"
+              src={HeroImg}
+              alt="Redesigned reports page"
+              priority
+            />
           </div>
           <Projects />
         </main>
