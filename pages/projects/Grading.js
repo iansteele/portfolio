@@ -17,17 +17,18 @@ function Grading(props) {
       <ProjectWrapper>
         <ProjectHeading
           client="Imagine Learning Classroom"
-          title="Assignment grading"
-          description="How we reminagined our grading experience to be faster and more flexible"
+          title="Grading redux"
+          description="How we refactored existing functionality to improve the assignment grading experience"
           roles={["User research", "Design Thinking", "Prototyping"]}
         />
-        <div className="mt-8 -mx-6 sm:mx-0">
+        <div className="-mx-6 sm:mx-0">
           <Image
             src={"/img/grading/Grading-main.jpg"}
             alt="Screenshot of the new grading UI"
             width={1440}
             height={810}
             priority
+            className="rounded-xl"
           />
         </div>
         <div className="col-span-2 py-8 mx-auto text-center lg:py-20 max-w-prose">
@@ -183,6 +184,18 @@ function Grading(props) {
             alt="Redesigned reports page"
             width="1440"
             height="810"
+          />
+          <Image
+            src={"/img/grading/Tips.png"}
+            alt="Redesigned reports page"
+            width="400"
+            height="300"
+          />
+          <Image
+            src={"/img/grading/Quickgrader.png"}
+            alt="Redesigned reports page"
+            width="400"
+            height="300"
           />
           <video
             className=" rounded-xl"

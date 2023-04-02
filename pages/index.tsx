@@ -26,7 +26,7 @@ export default function Home() {
         </Head>
         <main>
           <div className="relative grid items-start justify-center flex-grow w-full max-w-screen-xl grid-cols-1 gap-8 px-6 pb-8 overflow-hidden md:grid-cols-2 lg:grid-cols-3 md:items-center md:py-10 md:rounded-2xl md:justify-start text-brand-tertiary md:flex-row ">
-            <div className="relative flex flex-col flex-grow min-w-0 col-span-1 lg:col-span-2 ">
+            <div className="relative flex flex-col flex-grow min-w-0 col-span-1 space-y-4 lg:col-span-2 ">
               <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
                 Hi, I'm Ian
               </h1>
