@@ -185,17 +185,17 @@ function Grading(props) {
             width="1440"
             height="810"
           />
-          <Image
+          {/* <Image
             src={"/img/grading/Tips.png"}
             alt="Redesigned reports page"
             width="400"
             height="300"
-          />
+          /> */}
           <Image
-            src={"/img/grading/Quickgrader.png"}
-            alt="Redesigned reports page"
-            width="400"
-            height="300"
+            src={"/img/grading/quickgrader.png"}
+            alt="Overview of the response card component structure"
+            width="1440"
+            height="810"
           />
           <video
             className=" rounded-xl"
