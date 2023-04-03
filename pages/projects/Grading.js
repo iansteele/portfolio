@@ -192,10 +192,11 @@ function Grading(props) {
             height="300"
           /> */}
           <Image
-            src={"/img/grading/quickgrader.png"}
+            src={"/img/grading/quickgrader.jpg"}
             alt="Overview of the response card component structure"
             width="1440"
             height="810"
+            className="rounded-xl"
           />
           <video
             className=" rounded-xl"
