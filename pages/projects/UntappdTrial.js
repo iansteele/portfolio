@@ -17,7 +17,7 @@ function UntappdTrial(props) {
         />
         <div className="grid grid-cols-2 gap-4 mx-auto md:gap-8">
           <img
-            className="w-full h-auto col-span-2 sm:mx-0"
+            className="w-full h-auto col-span-2 rounded-xl sm:mx-0"
             src={"../img/ut/trial/hero.jpg"}
             alt="Redesigned reports page"
           />

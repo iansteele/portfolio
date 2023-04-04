@@ -5,16 +5,20 @@ function Thumbnail(props) {
   return (
     <li>
       <Link
-        className="relative flex w-full h-auto overflow-hidden transition-transform duration-500 rounded-xl aspect-auto transform-gpu focus-base hover:scale-101 focus-visible:scale-101 group hover:drop-shadow-xl"
+        className="relative flex flex-col w-full h-auto overflow-hidden duration-500 aspect-auto rounded-xl focus-base hover:drop-shadow-xl"
         href={props.link}
       >
-        <img src={"../" + props.image} alt={props.altLabel} />
-        <div className="absolute transition-all opacity-0 group-hover:opacity-100 duration-700 -translate-y-16 -top-0.5 left-4 group-hover:translate-y-0">
-          <p className="px-4 py-1 text-sm font-semibold text-brand-tertiary rounded-br-xl rounded-bl-xl bg-brand-primary project-title">
-            {props.title}
-          </p>
-          <div className="">{props.category}</div>
+        <div className="w-full h-full overflow-hidden group rounded-xl">
+          <img
+            className="transition-transform transform-gpu group-hover:scale-105 group-focus-visible:scale-101"
+            src={"../" + props.image}
+            alt={props.altLabel}
+          />
         </div>
+        <p className="px-2 py-4 text-lg font-semibold text-brand-tertiary rounded-br-xl opacity-60 rounded-bl-xl bg-brand-primary">
+          {props.title}
+        </p>
+        <div className="">{props.category}</div>
       </Link>
     </li>
   );
