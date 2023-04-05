@@ -4,17 +4,15 @@ import {
   ProjectWrapper,
   ProjectHeading,
   SectionHeading,
+  Project,
 } from "../../components/ComponentIndex";
 
 function VirtualFest(props) {
+  const project = Project.find((p) => p.title === "Virtual Fest");
   return (
     <PageWrapper>
       <ProjectWrapper>
-        <ProjectHeading
-          client="Untappd"
-          title="Virtual Fest illustration"
-          roles={["Illustration"]}
-        />
+        <ProjectHeading project={project} />
         <div className="-mx-6 sm:mx-0">
           <img
             className="w-full h-auto"

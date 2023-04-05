@@ -3,17 +3,16 @@ import {
   PageWrapper,
   ProjectWrapper,
   ProjectHeading,
+  Project,
 } from "../../components/ComponentIndex";
 
 function Illustration(props) {
+  const project = Project.find((p) => p.title === "Illustrations");
+
   return (
     <PageWrapper>
       <ProjectWrapper>
-        <ProjectHeading
-          title="Illustration"
-          description="I am a huge fan of illustration. Sometimes I find opportunities to incorporate it into product work, other times it is pure fun. Enjoy!"
-          roles={["Vector", "Digital Art", "3D"]}
-        />
+        <ProjectHeading project={project} />
         <div className="grid gap-4 mt-10 sm:grid-cols-2 place-items-center lg:grid-cols-3 auto-rows-max">
           <img
             className="rounded-xl"

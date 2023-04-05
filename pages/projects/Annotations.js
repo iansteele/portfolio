@@ -5,18 +5,16 @@ import {
   ProjectHeading,
   SectionHeading,
   SectionWrapper,
+  Project,
 } from "../../components/ComponentIndex";
 
-function Annotation(props) {
+function Annotations(props) {
+  const project = Project.find((p) => p.title === "Annotations");
+
   return (
     <PageWrapper>
       <ProjectWrapper>
-        <ProjectHeading
-          client="Imagine Learning Classroom"
-          title="Annotation tools"
-          description="Promoting dialogue during classroom discussion"
-          roles={["UX", "Research", "UI", "HTML", "CSS", "Vue"]}
-        />
+        <ProjectHeading project={project} />
         <div className="-mx-6 sm:mx-0">
           <img
             className="w-full h-auto sm:rounded-xl"
@@ -256,4 +254,4 @@ function Annotation(props) {
   );
 }
 
-export default Annotation;
+export default Annotations;

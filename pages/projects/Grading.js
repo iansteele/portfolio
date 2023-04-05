@@ -9,18 +9,16 @@ import {
   ProjectHeading,
   SectionWrapper,
   SectionHeading,
+  Project,
 } from "../../components/ComponentIndex";
 
 function Grading(props) {
+  const project = Project.find((p) => p.title === "Grading Redux");
+
   return (
     <PageWrapper>
       <ProjectWrapper>
-        <ProjectHeading
-          client="Imagine Learning Classroom"
-          title="Grading redux"
-          description="How we refactored existing functionality to improve the assignment grading experience"
-          roles={["User research", "Design Thinking", "Prototyping"]}
-        />
+        <ProjectHeading project={project} />
         <div className="-mx-6 sm:mx-0">
           <Image
             src={"/img/grading/Grading-main.jpg"}

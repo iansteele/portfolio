@@ -4,17 +4,15 @@ import {
   ProjectWrapper,
   ProjectHeading,
   SectionHeading,
+  Project,
 } from "../../components/ComponentIndex";
 
 function UntappdTrial(props) {
+  const project = Project.find((p) => p.title === "Untappd Trial");
   return (
     <PageWrapper>
       <ProjectWrapper>
-        <ProjectHeading
-          client="Untappd for Business"
-          title="Free trial experience"
-          roles={["UX", "Product Design"]}
-        />
+        <ProjectHeading project={project} />
         <div className="grid grid-cols-2 gap-4 mx-auto md:gap-8">
           <img
             className="w-full h-auto col-span-2 rounded-xl sm:mx-0"

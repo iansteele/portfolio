@@ -1,15 +1,15 @@
 import React from "react";
 import Thumbnail from "./Thumbnail.js";
-import { project } from "./Project.js";
+import Project from "./Project.js";
 
 export default function ProjectList() {
-  const thumbnails = project.map((project, index) => {
+  const thumbnails = Project.map((Project, index) => {
     return (
       <Thumbnail
-        title={project.title}
-        link={project.link}
-        image={project.image}
-        alt={project.altLabel}
+        title={Project.title}
+        link={Project.link}
+        image={Project.image}
+        alt={Project.altLabel}
         // Pass other props as needed
       />
     );
