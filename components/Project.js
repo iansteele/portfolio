@@ -54,6 +54,23 @@ const Project = [
     client: "",
     description: "",
   },
+  {
+    title: "Digital Menus",
+    link: "/projects/DigitalMenus",
+    image: "../img/firetv/firetv_thumb.jpg",
+    altLabel: "Illustration of a headstone that reads Die Trying",
+    id: 6,
+    roles: [],
+    client: "Untappd",
+    description: "Displaying digital menus in your Untappd venue",
+    draft: true,
+  },
 ];
+
+Project.forEach((Project) => {
+  if (!("draft" in Project)) {
+    Project.draft = false;
+  }
+});
 
 export default Project;

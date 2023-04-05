@@ -3,16 +3,15 @@ import {
   ProjectWrapper,
   ProjectHeading,
   SectionHeading,
+  Project,
 } from "../../components/ComponentIndex";
 
 function DigitalMenus(props) {
+  const project = Project.find((p) => p.title === "Digital Menus");
+
   return (
     <ProjectWrapper>
-      <ProjectHeading
-        client="Untappd for Business"
-        title="Digital Menu Boards"
-        roles={["UX", "UI"]}
-      />
+      <ProjectHeading project={project} />
       <div className="mt-10 -mx-6 sm:mx-0">
         <img
           className="w-full h-auto"
