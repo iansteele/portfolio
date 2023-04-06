@@ -2,6 +2,7 @@ export { default as PageWrapper } from "../components/layout/PageWrapper";
 export { default as Header } from "../components/layout/Header";
 export { default as ProjectWrapper } from "../components/layout/ProjectWrapper";
 export { default as ProjectHeading } from "../components/ProjectHeading";
+export { default as PrevNextProject } from "../components/PrevNextProject";
 export { default as Footer } from "../components/layout/Footer";
 export { SectionHeading, SectionWrapper } from "./layout/Sections";
 export { default as ThemeSwitcher } from "./ThemeSwitcher";

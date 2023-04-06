@@ -9,7 +9,7 @@ function Social(props) {
         <a
           className="relative flex items-center justify-center w-10 h-10 rounded cursor-pointer focus-base group"
           href="http://www.dribbble.com/iansteele"
-          alt="Ian on Dribbble"
+          aria-label="Dribbble"
         >
           <svg
             className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-hover:scale-105 group-focus:scale-101 group-focus:fill-brand-tertiary group-focus:-translate-y-1 group-active:translate-y-0"
@@ -28,7 +28,7 @@ function Social(props) {
         <a
           className="relative flex items-center justify-center w-10 h-10 rounded cursor-pointer focus-base group"
           href="http://www.instagram.com/steeledesign.co"
-          alt="Ian on Instagram"
+          aria-label="Instagram"
         >
           <svg
             className="w-6 transition-all duration-500 transform fill-brand-secondary group-hover:scale-101 group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-focus:scale-101 group-focus:fill-brand-tertiary group-focus:-translate-y-1 group-active:translate-y-0"
@@ -46,7 +46,7 @@ function Social(props) {
         <a
           className="relative flex items-center justify-center w-10 h-10 rounded cursor-pointer focus-base group"
           href="http://www.github.com/iansteele"
-          alt="Ian on Github"
+          aria-label="Github"
         >
           <svg
             className="w-6 transition-all duration-500 transform group-hover:scale-105 fill-brand-secondary group-hover:fill-brand-tertiary group-hover:-translate-y-1 group-focus:scale-101 group-focus:fill-brand-tertiary group-focus:-translate-y-1 group-active:translate-y-0"

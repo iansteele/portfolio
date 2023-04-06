@@ -10,6 +10,7 @@ export default function ProjectList() {
         link={Project.link}
         image={Project.image}
         alt={Project.altLabel}
+        key={Project.id}
         description={Project.description}
         // Pass other props as needed
       />
