@@ -12,7 +12,7 @@ function Thumbnail(props) {
         <div className="w-full h-full overflow-hidden group-hover:drop-shadow-xl will-change-transform rounded-xl">
           <Image
             className="overflow-hidden transition-transform duration-500 transform-gpu group-hover:scale-105 group-focus-visible:scale-101"
-            src={`/img/${props.image}`}
+            src={props.image}
             alt={props.alt}
             width={800}
             height={600}
