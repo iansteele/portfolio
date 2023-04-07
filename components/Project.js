@@ -32,7 +32,7 @@ const Project = [
     description: "How we lowered the barrier of entry for our businesses",
   },
   {
-    title: "Untappd's First Virtual Fest",
+    title: "Untappds First Virtual Fest",
     link: "/projects/VirtualFest",
     image: "/img/ut/v-fest/thumb.jpg",
     altLabel:
