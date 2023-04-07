@@ -9,7 +9,7 @@ import {
 
 function VirtualFest(props) {
   const project = Project.find(
-    (p) => p.title === "Untappd's First Virtual Fest"
+    (p) => p.title === "Untappds First Virtual Fest"
   );
   return (
     <PageWrapper>
