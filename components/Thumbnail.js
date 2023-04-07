@@ -6,20 +6,20 @@ function Thumbnail(props) {
   return (
     <li>
       <Link
-        className="relative flex flex-col w-full h-auto aspect-auto rounded-xl focus-base group "
+        className="relative flex flex-col w-full h-full p-2 space-y-4 transition duration-500 transform border border-opacity-50 shadow-xl hover:border-opacity-90 active:translate-y-1 active:shadow-none hover:shadow-lg border-zinc-600 shadow-zinc-900 bg-gradient-to-b from-brand-muted to-brand-primary aspect-auto rounded-xl focus-base group "
         href={props.link}
       >
-        <div className="w-full h-full overflow-hidden group-hover:drop-shadow-xl will-change-transform rounded-xl">
+        <div className="w-full h-auto overflow-hidden rounded-md will-change-transform">
           <Image
-            className="overflow-hidden transition-transform duration-500 transform-gpu group-hover:scale-105 group-focus-visible:scale-101"
+            className="overflow-hidden transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101"
             src={props.image}
             alt={props.alt}
             width={800}
             height={600}
           />
         </div>
-        <div className="flex flex-col justify-center px-2 py-4">
-          <p className="text-lg font-semibold text-brand-tertiary rounded-br-xl rounded-bl-xl bg-brand-primary">
+        <div className="flex flex-col justify-center px-2 pb-2">
+          <p className="text-lg font-semibold text-brand-tertiary">
             {props.title}
           </p>
           {props.description ? ( // Conditionally render the second paragraph

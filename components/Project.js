@@ -19,8 +19,7 @@ const Project = [
     id: 2,
     roles: ["User research", "Design Thinking", "Prototyping"],
     client: "Imagine Learning Classroom",
-    description:
-      "How we refactored existing functionality to improve the assignment grading experience",
+    description: "How we supercharged the assignment grading experience",
   },
   {
     title: "Untappd Trial",
@@ -30,11 +29,10 @@ const Project = [
     id: 3,
     roles: ["UX", "Product Design"],
     client: "Untappd for Business",
-    description:
-      "Lowering the barrier of entry into the Untappd for Business platform",
+    description: "How we lowered the barrier of entry for our businesses",
   },
   {
-    title: "Virtual Fest",
+    title: "Untappd's First Virtual Fest",
     link: "/projects/VirtualFest",
     image: "/img/ut/v-fest/thumb.jpg",
     altLabel:
@@ -42,7 +40,7 @@ const Project = [
     id: 4,
     roles: ["Illustration"],
     client: "Untappd",
-    description: "Untappd's first virtual beer festival",
+    description: "Celebrating beer... pandemic style",
   },
   {
     title: "Illustrations",
