@@ -15,7 +15,7 @@ function Thumbnail(props) {
             className="overflow-hidden transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101"
             src={props.image}
             alt={props.alt}
-            className={`duration-700 ease-in-out group-hover:opacity-75
+            className={`duration-700 ease-in-out group-hover:scale-101
             ${
               isLoading
                 ? "scale-110 blur-2xl grayscale"

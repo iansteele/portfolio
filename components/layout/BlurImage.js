@@ -13,7 +13,7 @@ export default function BlurImage(props) {
         layout="fill"
         objectFit="cover"
         className={`
-                duration-700 ease-in-out group-hover:opacity-75
+                duration-700 ease-in-out  group-hover:opacity-75
                 ${
                   isLoading
                     ? "scale-110 blur-2xl grayscale"
