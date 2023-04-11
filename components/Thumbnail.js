@@ -12,10 +12,9 @@ function Thumbnail(props) {
       >
         <div className="w-full h-auto overflow-hidden rounded-md will-change-transform">
           <Image
-            className="overflow-hidden transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101"
             src={props.image}
             alt={props.alt}
-            className={`duration-700 ease-in-out group-hover:scale-101
+            className={`overflow-hidden ease-in-out transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101
             ${
               isLoading
                 ? "scale-110 blur-2xl grayscale"
