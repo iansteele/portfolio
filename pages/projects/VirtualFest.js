@@ -5,6 +5,7 @@ import {
   ProjectHeading,
   SectionHeading,
   Project,
+  BlurImage,
 } from "../../components/ComponentIndex";
 
 function VirtualFest(props) {
@@ -15,11 +16,14 @@ function VirtualFest(props) {
     <PageWrapper>
       <ProjectWrapper>
         <ProjectHeading project={project} />
-        <div className="-mx-6 sm:mx-0">
-          <img
-            className="w-full h-auto"
-            src={"../img/ut/v-fest/hero.jpg"}
-            alt="Redesigned reports page"
+        <div className="-mx-6 sm:mx-0  overflow-hidden sm:rounded-xl aspect-[21/9]">
+          <BlurImage
+            className="w-full h-auto "
+            src={"/img/ut/v-fest/hero.jpg"}
+            alt="Primary illustration for Virtual Fest event marketing materials"
+            width={1440}
+            height={810}
+            priority
           />
         </div>
         <div className="mx-auto mt-10 max-w-prose">

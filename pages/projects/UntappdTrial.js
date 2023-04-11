@@ -5,6 +5,7 @@ import {
   ProjectHeading,
   SectionHeading,
   Project,
+  BlurImage,
 } from "../../components/ComponentIndex";
 
 function UntappdTrial(props) {
@@ -13,12 +14,17 @@ function UntappdTrial(props) {
     <PageWrapper>
       <ProjectWrapper>
         <ProjectHeading project={project} />
-        <div className="grid grid-cols-2 gap-4 mx-auto md:gap-8">
-          <img
-            className="w-full h-auto col-span-2 rounded-xl sm:mx-0"
-            src={"../img/ut/trial/hero.jpg"}
-            alt="Redesigned reports page"
+        <div className="-mx-6 sm:mx-0  overflow-hidden sm:rounded-xl aspect-[4/3]">
+          <BlurImage
+            className="w-full h-auto "
+            src={"/img/ut/trial/hero.jpg"}
+            alt="Screenshots of the landing page for free trialers"
+            width={1440}
+            height={810}
+            priority
           />
+        </div>
+        <div className="grid grid-cols-2 gap-4 mx-auto md:gap-8">
           <div className="col-span-2 py-8 mx-auto lg:py-20 max-w-prose lg:text-center">
             <SectionHeading>The goal</SectionHeading>
             <span className="block mt-4 text-5xl text-white leading-12 lg:text-6xl font-display">
