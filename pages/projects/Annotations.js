@@ -7,6 +7,7 @@ import {
   SectionHeading,
   SectionWrapper,
   Project,
+  BlurImage,
 } from "../../components/ComponentIndex";
 
 function Annotations(props) {
@@ -16,11 +17,14 @@ function Annotations(props) {
     <PageWrapper>
       <ProjectWrapper>
         <ProjectHeading project={project} />
-        <div className="-mx-6 sm:mx-0">
-          <img
-            className="w-full h-auto sm:rounded-xl"
-            src={"../img/annotation/hero.jpg"}
+        <div className="-mx-6 sm:mx-0  overflow-hidden sm:rounded-xl aspect-[4/3]">
+          <BlurImage
+            className="w-full h-auto "
+            src={"/img/annotation/hero.jpg"}
             alt="Redesigned reports page"
+            width={1440}
+            height={810}
+            priority
           />
         </div>
         <SectionWrapper>

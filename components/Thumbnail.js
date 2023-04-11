@@ -1,8 +1,9 @@
-import React from "react"; // Import the Component component from React
+import React, { useState } from "react"; // Import the Component component from React
 import Link from "next/link"; // Import the Link component
 import Image from "next/image";
 
 function Thumbnail(props) {
+  const [isLoading, setLoading] = useState(true);
   return (
     <li>
       <Link
@@ -14,6 +15,13 @@ function Thumbnail(props) {
             className="overflow-hidden transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101"
             src={props.image}
             alt={props.alt}
+            className={`duration-700 ease-in-out group-hover:opacity-75
+            ${
+              isLoading
+                ? "scale-110 blur-2xl grayscale"
+                : "scale-100 blur-0 grayscale-0"
+            })`}
+            onLoadingComplete={() => setLoading(false)}
             width={800}
             height={600}
           />

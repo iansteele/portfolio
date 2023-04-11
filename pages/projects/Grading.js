@@ -10,6 +10,7 @@ import {
   SectionWrapper,
   SectionHeading,
   Project,
+  BlurImage,
 } from "../../components/ComponentIndex";
 
 function Grading(props) {
@@ -19,8 +20,8 @@ function Grading(props) {
     <PageWrapper>
       <ProjectWrapper>
         <ProjectHeading project={project} />
-        <div className="-mx-6 sm:mx-0">
-          <Image
+        <div className="-mx-6 sm:mx-0  overflow-hidden sm:rounded-xl aspect-[4/3]">
+          <BlurImage
             src={"/img/grading/Grading-main.jpg"}
             alt="Screenshot of the new grading UI"
             width={1440}
