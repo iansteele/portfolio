@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { PageWrapper } from "../components/ComponentIndex";
+import { PageWrapper, ThemeButton } from "../components/ComponentIndex";
 import Projects from "../components/Projects";
 import HeroImg from "public/img/hero.png";
 import { Inter } from "next/font/google";
@@ -59,6 +59,7 @@ export default function Home() {
           <Projects />
         </main>
       </PageWrapper>
+      <ThemeButton />
     </>
   );
 }
