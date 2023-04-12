@@ -14,7 +14,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     ...customMeta,
   };
   return (
-    <div className="flex flex-col items-center w-full mx-auto overflow-x-hidden transition-colors duration-500 bg-brand-primary">
+    <div className="flex flex-col items-center w-full h-screen mx-auto overflow-x-hidden transition-colors duration-500 bg-brand-primary">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -43,7 +43,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       </Head>
 
       <Header />
-      <main className="py-10">{children}</main>
+      <main className="h-full py-10">{children}</main>
       <Footer />
       <ThemeButton />
     </div>
