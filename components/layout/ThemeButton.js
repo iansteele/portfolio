@@ -8,6 +8,7 @@ const Button = () => {
 
   return (
     <button
+      aria-label="Toggle light/dark mode"
       onClick={() => (theme == "dark" ? setTheme("light") : setTheme("dark"))}
       className="box-content fixed bottom-0 right-0 flex items-center justify-center transition-all rounded-tl-lg w-11 h-11 group r-0 text-brand-primary bg-brand-tertiary "
     >
