@@ -43,7 +43,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       </Head>
 
       <Header />
-      <main className="h-full py-10">{children}</main>
+      <main className="flex-grow py-10">{children}</main>
       <Footer />
       <ThemeButton />
     </div>

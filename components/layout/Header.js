@@ -4,14 +4,14 @@ import Link from "next/link"; // Import the Link component
 
 function Header(props) {
   return (
-    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 text-primary">
+    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 transition-colors duration-500 bg-brand-primary text-primary">
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           href="/"
-          className="inline-flex items-center flex-grow-0 gap-3 rounded focus-base text-brand-tertiary"
+          className="inline-flex items-center flex-grow-0 gap-3 transition-colors duration-500 rounded focus-base text-brand-tertiary"
         >
           <svg
-            className="flex-shrink-0 w-8 h-8 fill-brand-tertiary"
+            className="flex-shrink-0 w-8 h-8 transition-all duration-500 fill-brand-tertiary"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 200 180"
           >
