@@ -7,7 +7,7 @@ function Thumbnail(props) {
   return (
     <li>
       <Link
-        className="relative flex flex-col w-full h-full p-2 space-y-4 transition duration-500 transform border border-opacity-50 shadow-xl hover:border-opacity-90 active:translate-y-1 active:shadow-none hover:shadow-lg border-zinc-600 shadow-zinc-900 bg-gradient-to-b from-brand-muted to-brand-primary aspect-auto rounded-xl focus-base group "
+        className="relative flex flex-col w-full h-full p-2 space-y-4 transition duration-500 transform border shadow-xl shadow-neutral-300 border-brand-muted hover:border-opacity-90 active:translate-y-1 active:shadow-none hover:shadow-lg dark:border-zinc-600 dark:shadow-zinc-900 bg-gradient-to-b dark:from-brand-muted from-neutral-100 to-neutral-50 dark:to-brand-primary aspect-auto rounded-xl focus-base group "
         href={props.link}
       >
         <div className="w-full h-auto overflow-hidden rounded-md will-change-transform">
