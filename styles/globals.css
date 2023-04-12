@@ -25,11 +25,21 @@
   }
 
   body {
-    @apply duration-500 transition-colors bg-brand-primary;
+    @apply bg-brand-primary;
     margin: 0;
     font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI",
       "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  li {
+    @apply transition-colors duration-100;
   }
 
   h1 {

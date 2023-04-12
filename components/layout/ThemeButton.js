@@ -9,7 +9,7 @@ const Button = () => {
   return (
     <button
       onClick={() => (theme == "dark" ? setTheme("light") : setTheme("dark"))}
-      className="fixed flex items-center justify-center transition-all duration-100 rounded-lg right-1 bottom-1 group r-0 text-brand-primary h-11 w-11 bg-brand-tertiary"
+      className="box-content fixed bottom-0 right-0 flex items-center justify-center transition-all rounded-tl-lg w-11 h-11 group r-0 text-brand-primary bg-brand-tertiary "
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const Button = () => {
       >
         {theme === "dark" ? (
           <path
-            className="transition-all group-active:fill-current group-hover:fill-current "
+            className="transition-all origin-center group-active:fill-current group-hover:fill-current animate group-hover:animate-spin"
             strokeLinecap="round"
             strokeLinejoin="round"
             fillOpacity=".5"
@@ -29,7 +29,7 @@ const Button = () => {
           />
         ) : (
           <path
-            className="transition-all group-active:fill-current group-hover:fill-current "
+            className="transition-all origin-center group-active:fill-current group-hover:fill-current animate group-hover:animate-pulse"
             strokeLinecap="round"
             strokeLinejoin="round"
             fillOpacity=".5"

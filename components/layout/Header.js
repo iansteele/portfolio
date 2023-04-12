@@ -4,7 +4,7 @@ import Link from "next/link"; // Import the Link component
 
 function Header(props) {
   return (
-    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 bg-brand-primary text-primary">
+    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 text-primary">
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           href="/"

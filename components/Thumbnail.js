@@ -7,14 +7,14 @@ function Thumbnail(props) {
   return (
     <li>
       <Link
-        className="relative flex flex-col w-full h-full p-2 space-y-4 transition duration-500 transform border shadow-xl shadow-neutral-300 border-brand-muted hover:border-opacity-90 active:translate-y-1 active:shadow-none hover:shadow-lg dark:border-zinc-600 dark:shadow-zinc-900 bg-gradient-to-b dark:from-brand-muted from-neutral-100 to-neutral-50 dark:to-brand-primary aspect-auto rounded-xl focus-base group "
+        className="relative flex flex-col w-full h-full p-2 space-y-4 transition-all duration-500 transform border shadow-neutral-300 border-brand-muted hover:border-opacity-90 active:translate-y-1 active:shadow-none hover:shadow-lg dark:border-zinc-600 dark:shadow-zinc-900 bg-gradient-to-b dark:from-brand-muted from-neutral-100 to-neutral-50 dark:to-brand-primary aspect-auto rounded-xl focus-base group "
         href={props.link}
       >
         <div className="w-full h-auto overflow-hidden rounded-md will-change-transform">
           <Image
             src={props.image}
             alt={props.alt}
-            className={`overflow-hidden ease-in-out transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101
+            className={`overflow-hidden pointer-events-none ease-in-out transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101
             ${
               isLoading
                 ? "scale-110 blur-2xl grayscale"

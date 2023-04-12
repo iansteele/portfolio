@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Header, Footer } from "../../components/ComponentIndex";
+import { Header, Footer, ThemeButton } from "../../components/ComponentIndex";
 import { useRouter } from "next/router";
 
 export default function ContainerBlock({ children, ...customMeta }) {
@@ -14,7 +14,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     ...customMeta,
   };
   return (
-    <div className="flex flex-col items-center w-full mx-auto overflow-x-hidden bg-brand-primary">
+    <div className="flex flex-col items-center w-full mx-auto overflow-x-hidden transition-colors duration-500 bg-brand-primary">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -45,6 +45,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       <Header />
       <main className="py-10">{children}</main>
       <Footer />
+      <ThemeButton />
     </div>
   );
 }
