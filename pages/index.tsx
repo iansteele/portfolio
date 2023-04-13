@@ -45,15 +45,17 @@ export default function Home() {
               alt="Redesigned reports page"
               priority
             />
-            <div className="absolute flex items-center p-2 mx-auto -mt-4 transform -translate-x-1/2 bg-opacity-50 rounded-full left-1/2 md:hidden shadow-zinc-900 bottom-2 animate-bounce bg-brand-primary border-brand-primary text-brand-tertiary">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5"
-              >
-                <path d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" />
-              </svg>
+            <div className="absolute -mt-4 transform -translate-x-1/2 left-1/2 md:hidden bottom-2 ">
+              <div className="flex items-center justify-center flex-shrink-0 p-2 origin-top bg-opacity-50 rounded-full md:hidden shadow-zinc-900 animate-bounce bg-brand-primary border-brand-primary text-brand-tertiary ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="w-5 h-5"
+                >
+                  <path d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" />
+                </svg>
+              </div>
             </div>
           </div>
           <Projects />
