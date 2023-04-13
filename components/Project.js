@@ -22,14 +22,14 @@ const Project = [
     description: "How we supercharged the assignment grading experience",
   },
   {
-    title: "Untappd Trial",
+    title: "Untappd for Business Trial",
     link: "/projects/UntappdTrial",
     image: "/img/ut/trial/hero.jpg",
     altLabel: "Screenshots of the Untappd for Business free trial experience",
     id: 3,
     roles: ["UX", "Product Design"],
     client: "Untappd for Business",
-    description: "How we lowered the barrier of entry for our businesses",
+    description: "Connecting businesses & customers",
   },
   {
     title: "Untappds First Virtual Fest",
