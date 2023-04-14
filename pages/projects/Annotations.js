@@ -3,7 +3,6 @@ import {
   PageWrapper,
   ProjectWrapper,
   ProjectHeading,
-  PrevNextProject,
   SectionHeading,
   SectionWrapper,
   Project,
@@ -255,7 +254,7 @@ function Annotations(props) {
           </p>
         </div>
       </ProjectWrapper>
-      <PrevNextProject project={Project} currentProject={project} />
+      {/* <PrevNextProject project={Project} currentProject={project} /> */}
     </PageWrapper>
   );
 }

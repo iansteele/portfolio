@@ -9,7 +9,7 @@ import {
 } from "../../components/ComponentIndex";
 
 function UntappdTrial(props) {
-  const project = Project.find((p) => p.title === "Untappd Trial");
+  const project = Project.find((p) => p.title === "Untappd for Business Trial");
   return (
     <PageWrapper>
       <ProjectWrapper>
@@ -27,7 +27,7 @@ function UntappdTrial(props) {
         <div className="grid grid-cols-2 gap-4 mx-auto md:gap-8">
           <div className="col-span-2 py-8 mx-auto lg:py-20 max-w-prose lg:text-center">
             <SectionHeading>The goal</SectionHeading>
-            <span className="block mt-4 text-5xl text-white leading-12 lg:text-6xl font-display">
+            <span className="block mt-4 text-5xl text-brand-tertiary leading-12 lg:text-6xl font-display">
               Responsibly connect businesses with their customers
             </span>
           </div>
