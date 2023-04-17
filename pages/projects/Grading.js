@@ -32,7 +32,7 @@ function Grading(props) {
         </div>
         <div className="col-span-2 py-8 mx-auto text-center lg:py-20 max-w-prose">
           <SectionHeading>The goal</SectionHeading>
-          <span className="block mt-4 text-5xl leading-tight text-white lg:text-6xl lg:leading-tight font-display">
+          <span className="block mt-4 text-5xl leading-tight text-brand-tertiary lg:text-6xl lg:leading-tight font-display">
             Less time grading, more time growing
           </span>
         </div>
