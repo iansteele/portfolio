@@ -47,13 +47,13 @@ function Annotations(props) {
         </SectionWrapper>
 
         <SectionWrapper>
-          <SectionHeading>My role</SectionHeading>
+          <SectionHeading>The team</SectionHeading>
           <p>
             Our team consisted of myself as lead designer, a product manager, an
             engineer, a supporting designer, director of product marketing, and
             a customer success manager.
           </p>
-          <h3>My responsibilities include:</h3>
+          <h3>My responsibilities included:</h3>
           <ul className="pl-5 space-y-4 list-disc">
             <li>
               Conducting surveys and moderated user interviews with customers
