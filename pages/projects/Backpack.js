@@ -8,7 +8,7 @@ import {
   BlurImage,
 } from "../../components/ComponentIndex";
 
-function UntappdTrial(props) {
+function Backpack(props) {
   const project = Project.find((p) => p.title === "Untappd for Business Trial");
   return (
     <PageWrapper>
