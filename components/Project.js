@@ -1,3 +1,9 @@
+function addIdsToProjects(projects) {
+  projects.forEach((project, index) => {
+    project.id = index;
+  });
+}
+
 const Project = [
   {
     title: "Annotations",
@@ -5,7 +11,6 @@ const Project = [
     image: "/img/annotation/project-thumb2.jpg",
     altLabel:
       "Tool illustrations from the Annotation feature for Imagine Learning Classroom",
-    id: 1,
     roles: ["UX", "Research", "UI", "Front-end dev"],
     client: "Imagine Learning Classroom",
     description: "Promoting dialogue during classroom discussion",
@@ -16,17 +21,26 @@ const Project = [
     image: "/img/grading/grading-thumb.jpg",
     altLabel:
       "UI components that were created to improve the grading experience at Imagine Learning Classroom",
-    id: 2,
     roles: ["User research", "Design Thinking", "Prototyping"],
     client: "Imagine Learning Classroom",
     description: "How we supercharged the assignment grading experience",
+  },
+  {
+    title: "Backpack",
+    link: "/projects/Grading",
+    image: "/img/backpack/thumb.jpg",
+    altLabel:
+      "UI components that were created to improve the grading experience at Imagine Learning Classroom",
+    roles: ["User research", "Design Thinking", "Prototyping"],
+    client: "Imagine Learning Classroom",
+    description: "How we supercharged the assignment grading experience",
+    draft: true,
   },
   {
     title: "Untappd for Business Trial",
     link: "/projects/UntappdTrial",
     image: "/img/ut/trial/hero.jpg",
     altLabel: "Screenshots of the Untappd for Business free trial experience",
-    id: 3,
     roles: ["UX", "Product Design"],
     client: "Untappd for Business",
     description: "Connecting businesses & customers",
@@ -37,7 +51,6 @@ const Project = [
     image: "/img/ut/v-fest/thumb.jpg",
     altLabel:
       "Website design and marketing adds for the Untappd Virtual Festival campaign",
-    id: 4,
     roles: ["Illustration"],
     client: "Untappd",
     description: "Celebrating beer... pandemic style",
@@ -47,7 +60,6 @@ const Project = [
     link: "/projects/Illustration",
     image: "/img/illustrations/dietrying.jpg",
     altLabel: "Illustration of a headstone that reads Die Trying",
-    id: 5,
     roles: [],
     client: "",
     description: "",
@@ -57,13 +69,14 @@ const Project = [
     link: "/projects/DigitalMenus",
     image: "/img/firetv/firetv_thumb.jpg",
     altLabel: "Illustration of a headstone that reads Die Trying",
-    id: 6,
     roles: [],
     client: "Untappd",
     description: "Displaying digital menus in your Untappd venue",
     draft: true,
   },
 ];
+
+addIdsToProjects(Project);
 
 Project.forEach((Project) => {
   if (!("draft" in Project)) {

@@ -4,7 +4,7 @@ import React from "react";
 
 function Social(props) {
   return (
-    <ul className="flex gap-10 space-y-0 list-none">
+    <ul className="flex gap-10 pl-0 space-y-0 list-none">
       <li>
         <a
           className="relative flex items-center justify-center w-10 h-10 rounded cursor-pointer focus-base group"
