@@ -75,7 +75,7 @@
   }
 
   .focus-base {
-    @apply outline-none ring-offset-brand-primary focus-visible:ring-4 focus-visible:ring-offset-4 focus-visible:ring-brand-secondary;
+    @apply outline-none ring-offset-brand-primary group-focus-visible:ring-4 group-focus-visible:ring-offset-4 group-focus-visible:ring-brand-secondary focus-visible:ring-4 focus-visible:ring-offset-4 focus-visible:ring-brand-secondary;
   }
 
   .highlight {
