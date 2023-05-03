@@ -28,17 +28,16 @@ function UntappdTrial(props) {
         <SectionWrapper>
           <SectionHeading>Overview</SectionHeading>
           <span className="block mt-4 text-5xl text-brand-tertiary leading-12 lg:text-6xl font-display">
-            Responsibly connect businesses with their customers
+            Responsibly connect restaurants with customers
           </span>
           <p>
             Untappd for Business (UTFB) offers a single platform to manage menus
-            across print, digital displays, social media, and the Untappd
-            consumer app. Business owners looking to access the Untappd
-            platform, would trudge through a{" "}
+            across the Untappd consumer app, print, digital displays, and social
+            media.{" "}
             <span className="highlight">
-              sales funnel that averaged ~1 month
-            </span>{" "}
-            from start to finish.
+              Business owners looking to access the Untappd platform, had to
+              trudge through a sales funnel that averaged ~1 month.
+            </span>
           </p>
         </SectionWrapper>
         <SectionWrapper>
@@ -62,26 +61,35 @@ function UntappdTrial(props) {
             understand where the larger pain points that coorelated with
             customer churn.
           </p>
-          <img
-            className="flex-shrink-0 w-full h-auto"
-            src={"../img/ut/trial/journeymap.jpg"}
-            alt="Redesigned reports page"
-          />
         </SectionWrapper>
+        <img
+          className="flex-shrink-0 w-full h-auto"
+          src={"../img/ut/trial/journeymap.jpg"}
+          alt="Redesigned reports page"
+        />
         <SectionWrapper>
           <SectionHeading className="text-3xl text-brand-secondary font-display">
-            Empathizing with our customers
+            Empathizing with businesses
           </SectionHeading>
-          <ul className="pl-4 space-y-2 list-disc">
-            <li>The primary user is not always the one paying</li>
-            <li>Untappd & UTFB users often overlap.</li>
-            <li>
-              Customers who went through the sales funnel were instructed how to
-              use the product, but by the time their account was setup they
-              couldn't remember what to do.
-            </li>
-          </ul>
+          <p>
+            UTFB is used by a wide variety of businesses ranging from
+            small-medium breweries all the way to enterprise-level franchises.
+          </p>
+          {/* Describe persona's and how they differed/overlapped. what did we choose to solve for */}
+          <div className="space-y-8">
+            <h3>Persona overlap</h3>
+            <ul className="pl-4 space-y-2 list-disc">
+              <li>The primary user is not always the one paying</li>
+              <li>Untappd & UTFB users often overlap.</li>
+              <li>
+                Customers who went through the sales funnel were instructed how
+                to use the product, but by the time their account was setup they
+                couldn't remember what to do.
+              </li>
+            </ul>
+          </div>
         </SectionWrapper>
+
         <SectionWrapper>
           <SectionHeading className="text-3xl text-brand-secondary font-display">
             Business goals
@@ -105,9 +113,6 @@ function UntappdTrial(props) {
             <SectionHeading className="text-3xl text-brand-secondary font-display">
               What we delivered
             </SectionHeading>
-            <p className="mt-4 ">
-              A refreshed marketing site prioritizing the free-trial experience.
-            </p>
           </div>
           <div className="space-y-8">
             <h3>A marketing site facelift</h3>
@@ -122,49 +127,60 @@ function UntappdTrial(props) {
             </p>
           </div>
         </SectionWrapper>
-
+        <div className="aspect-[4/3] overflow-hidden rounded-lg">
+          <BlurImage
+            src={"/img/ut/trial/trial-homepage.jpg"}
+            alt="Screenshots of the landing page for free trialers"
+            width={1440}
+            height={1024}
+            priority
+          />
+        </div>
+        <p className="mx-auto max-w-prose">
+          A marketing site alone wouldn't cut it. We needed to set trialers up
+          for success by showcasing value quickly and early and a smooth
+          conversion.
+        </p>
         <img
-          className="flex-shrink-0 w-full h-auto col-span-2 mt-10"
-          src={"../img/ut/trial/trial-homepage.jpg"}
+          className="flex-shrink-0 w-full h-auto col-span-2 rounded-lg"
+          src={"../img/ut/trial/userflow-problem.jpg"}
           alt="Redesigned reports page"
         />
-
         <SectionWrapper>
           <div className="space-y-8">
             <h3>Guided walkthroughs</h3>
             <p>
-              I designed and helped develop a landing page that guided trialers
-              down the path of success via guided walkthroughs of the most
-              important features within UTFB.
-            </p>
-            <p className="highlight">
               This landing paged highlighted crucial steps for success such as
-              how to create your first menu and what to do with it.
+              how to create your first menu and how it serves as the building
+              block for other features.
             </p>
           </div>
         </SectionWrapper>
-        <img
-          className="flex-shrink-0 w-full h-auto col-span-2"
-          src={"../img/ut/trial/Onboarding.jpg"}
-          alt="Redesigned reports page"
-        />
+
+        <div className="aspect-[4/3] overflow-hidden rounded-lg">
+          <BlurImage
+            src={"/img/ut/trial/Freetrial-thumb.jpg"}
+            alt="Screenshots of the landing page for free trialers"
+            width={1440}
+            height={1024}
+            priority
+          />
+        </div>
+
         <SectionWrapper>
           <div className="space-y-8">
             <h3>Feature-gating</h3>
             <p>
               To protect Untappd consumer users & the beer data within, we
-              needed a way to prevent bad data from getting into the consumer
-              app.
+              needed a way to prevent incorrect data from getting into the
+              consumer app.
             </p>
           </div>
         </SectionWrapper>
-        <BlurImage
-          className="w-full h-auto"
-          src={"/img/ut/trial/userflow-problem.jpg"}
+        <img
+          className="flex-shrink-0 w-full h-auto col-span-2 rounded-lg"
+          src={"../img/ut/trial/feature-gating.jpg"}
           alt="Redesigned reports page"
-          width={1440}
-          height={810}
-          priority
         />
       </ProjectWrapper>
     </PageWrapper>

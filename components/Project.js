@@ -26,14 +26,13 @@ const Project = [
     description: "How we supercharged the assignment grading experience",
   },
   {
-    title: "Backpack",
-    link: "/projects/Grading",
+    title: "Backpack UI",
+    link: "/projects/BackpackUI",
     image: "/img/backpack/thumb.jpg",
-    altLabel:
-      "UI components that were created to improve the grading experience at Imagine Learning Classroom",
+    altLabel: "IL Classroom's UI Kit",
     roles: ["User research", "Design Thinking", "Prototyping"],
     client: "Imagine Learning Classroom",
-    description: "How we supercharged the assignment grading experience",
+    description: "Increasing IL Classroom's designer/developer efficiency",
     draft: true,
   },
   {
