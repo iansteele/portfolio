@@ -4,7 +4,7 @@ import React from "react";
 
 function SectionWrapper(props) {
   return (
-    <div className="mx-auto mt-16 space-y-8 max-w-prose">{props.children}</div>
+    <div className="mx-auto my-24 space-y-12 max-w-prose">{props.children}</div>
   );
 }
 

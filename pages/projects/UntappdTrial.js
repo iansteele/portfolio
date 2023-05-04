@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 import {
   PageWrapper,
   ProjectWrapper,
@@ -7,6 +7,7 @@ import {
   SectionHeading,
   Project,
   BlurImage,
+  ImgFullBleed,
 } from "../../components/ComponentIndex";
 
 function UntappdTrial(props) {
@@ -89,7 +90,6 @@ function UntappdTrial(props) {
             </ul>
           </div>
         </SectionWrapper>
-
         <SectionWrapper>
           <SectionHeading className="text-3xl text-brand-secondary font-display">
             Business goals
@@ -107,7 +107,6 @@ function UntappdTrial(props) {
             <li>Allow trialers to convert at any point during the trial</li>
           </ul>
         </SectionWrapper>
-
         <SectionWrapper>
           <div className="max-w-prose">
             <SectionHeading className="text-3xl text-brand-secondary font-display">
@@ -127,49 +126,18 @@ function UntappdTrial(props) {
             </p>
           </div>
         </SectionWrapper>
-        <div className="aspect-[4/3] overflow-hidden rounded-lg">
-          <BlurImage
+        <ImgFullBleed>
+          <Image
             src={"/img/ut/trial/trial-homepage.jpg"}
             alt="Screenshots of the landing page for free trialers"
             width={1440}
             height={1024}
             priority
           />
-        </div>
-        <p className="mx-auto max-w-prose">
-          A marketing site alone wouldn't cut it. We needed to set trialers up
-          for success by showcasing value quickly and early and a smooth
-          conversion.
-        </p>
-        <img
-          className="flex-shrink-0 w-full h-auto col-span-2 rounded-lg"
-          src={"../img/ut/trial/userflow-problem.jpg"}
-          alt="Redesigned reports page"
-        />
+        </ImgFullBleed>
         <SectionWrapper>
           <div className="space-y-8">
-            <h3>Guided walkthroughs</h3>
-            <p>
-              This landing paged highlighted crucial steps for success such as
-              how to create your first menu and how it serves as the building
-              block for other features.
-            </p>
-          </div>
-        </SectionWrapper>
-
-        <div className="aspect-[4/3] overflow-hidden rounded-lg">
-          <BlurImage
-            src={"/img/ut/trial/Freetrial-thumb.jpg"}
-            alt="Screenshots of the landing page for free trialers"
-            width={1440}
-            height={1024}
-            priority
-          />
-        </div>
-
-        <SectionWrapper>
-          <div className="space-y-8">
-            <h3>Feature-gating</h3>
+            <h3>Value without impacting the Untappd community</h3>
             <p>
               To protect Untappd consumer users & the beer data within, we
               needed a way to prevent incorrect data from getting into the
@@ -177,11 +145,84 @@ function UntappdTrial(props) {
             </p>
           </div>
         </SectionWrapper>
-        <img
-          className="flex-shrink-0 w-full h-auto col-span-2 rounded-lg"
-          src={"../img/ut/trial/feature-gating.jpg"}
-          alt="Redesigned reports page"
-        />
+        <ImgFullBleed>
+          <img
+            className="flex-shrink-0 w-full h-auto col-span-2 sm:rounded-lg"
+            src={"../img/ut/trial/feature-gating.jpg"}
+            alt="Redesigned reports page"
+          />
+        </ImgFullBleed>
+        <ImgFullBleed>
+          <Image
+            className="flex-shrink-0 w-full h-auto col-span-2 dark:hidden "
+            src={"/img/ut/trial/userflow-problem.png"}
+            alt="Redesigned reports page"
+            width={1440}
+            height={1024}
+          />
+          <Image
+            className="flex-shrink-0 hidden w-full h-auto col-span-2 dark:block "
+            src={"/img/ut/trial/userflow-problem--light.png"}
+            alt="Redesigned reports page"
+            width={1440}
+            height={1024}
+          />
+        </ImgFullBleed>
+        <SectionWrapper>
+          <div className="space-y-8">
+            <h3>Building value through guided walkthroughs</h3>
+            <p>
+              A marketing site alone wouldn't cut it. Feedback from new
+              customers informed us that users weren't quite sure what to do
+              next once they had built their first menu.
+            </p>
+            <p>
+              We sought to set trialers up for success by showcasing value
+              quickly and early and a smooth conversion.
+            </p>
+            <p>
+              We wanted anyone at a business trying out UTFB to have access to
+              core feature walkthroughs. The free-trial landing page serves as a
+              place for trialers to gain an understanding of what features are
+              available, what they get with a UTFB subscription, and guided
+              walkthroughs of core features.
+            </p>
+            <p>
+              Most importantly, the trial landing page offered easy access to
+              the conversion funnel with additional access to the funnel via
+              gated features.
+            </p>
+          </div>
+        </SectionWrapper>
+        <div className="space-y-8">
+          <ImgFullBleed>
+            <img
+              className="flex-shrink-0 w-full h-auto col-span-2 sm:rounded-lg"
+              src={"../img/ut/trial/Freetrial-thumb.jpg"}
+              alt="Redesigned reports page"
+            />
+          </ImgFullBleed>
+          <ImgFullBleed>
+            <img
+              className="flex-shrink-0 w-full h-auto col-span-2 sm:rounded-lg"
+              src={"../img/ut/trial/Walkthroughs.jpg"}
+              alt="Redesigned reports page"
+            />
+          </ImgFullBleed>
+        </div>
+        <SectionWrapper>
+          <SectionHeading>The outcome</SectionHeading>
+          <p>
+            We slowly released the free trial experience into different markets.
+            Over the course of the 2021 UTFB{" "}
+            <span className="highlight">
+              converted 30% of sales from the free trial experience
+            </span>
+            . We were able to gain an additional 10% of customers from the
+            qualified leads who had signed up, but not converted during the
+            trial.
+          </p>
+        </SectionWrapper>
       </ProjectWrapper>
     </PageWrapper>
   );
