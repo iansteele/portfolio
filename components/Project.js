@@ -32,8 +32,7 @@ const Project = [
     altLabel: "IL Classroom's UI Kit",
     roles: ["User research", "Design Thinking", "Prototyping"],
     client: "Imagine Learning Classroom",
-    description: "Increasing IL Classroom's designer/developer efficiency",
-    draft: true,
+    description: "Building IL Classroom's component library",
   },
   {
     title: "Untappd for Business Trial",
