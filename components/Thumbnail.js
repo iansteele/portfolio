@@ -1,9 +1,8 @@
-import React, { useState } from "react"; // Import the Component component from React
+import React from "react"; // Import the Component component from React
 import Link from "next/link"; // Import the Link component
 import Image from "next/image";
 
 function Thumbnail(props) {
-  const [isLoading, setLoading] = useState(true);
   return (
     <li>
       <Link className="outline-none group" href={props.link}>
@@ -12,25 +11,19 @@ function Thumbnail(props) {
             <Image
               src={props.image}
               alt={props.alt}
-              className={`overflow-hidden pointer-events-none ease-in-out transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101
-            ${
-              isLoading
-                ? "scale-110 blur-2xl grayscale"
-                : "scale-100 blur-0 grayscale-0"
-            })`}
-              onLoadingComplete={() => setLoading(false)}
+              className={`overflow-hidden pointer-events-none ease-in-out transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101`}
               width={800}
               height={600}
             />
           </div>
           <div className="flex flex-col justify-center px-2 pb-2">
-            <p className="text-lg font-semibold text-brand-tertiary">
+            <span className="text-lg font-semibold leading-8 text-brand-tertiary">
               {props.title}
-            </p>
+            </span>
             {props.description ? ( // Conditionally render the second paragraph
-              <p className="text-sm opacity-60 text-brand-tertiary">
+              <span className="text-sm leading-6 opacity-60 text-brand-tertiary">
                 {props.description}
-              </p>
+              </span>
             ) : null}
           </div>
         </div>
