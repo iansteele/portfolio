@@ -10,7 +10,7 @@ const Project = [
     link: "/projects/BackpackUI",
     image: "/img/backpack/thumb.jpg",
     altLabel: "IL Classroom's UI Kit",
-    roles: ["User research", "Design Thinking", "Prototyping"],
+    roles: ["Design ops", "Design Systems"],
     client: "Imagine Learning Classroom",
     description: "Building IL Classroom's component library",
   },

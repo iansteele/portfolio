@@ -30,10 +30,10 @@ export default function Home() {
               <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
                 Hi, I'm Ian
               </h1>
-              <p className="text-2xl text-brand-secondary">
+              <p className="text-2xl lg:text-3xl text-brand-secondary">
                 A product designer, developer & illustrator
               </p>
-              <p className="max-w-lg text-lg md:font-regular">
+              <p className="max-w-lg ">
                 I am building a digital core curriculum platform for K-12
                 schools with the amazing folks at Imagine Learning Classroom
               </p>

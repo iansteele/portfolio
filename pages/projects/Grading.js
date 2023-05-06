@@ -30,14 +30,12 @@ function Grading(props) {
             className="rounded-xl"
           />
         </div>
-        <div className="col-span-2 py-8 mx-auto text-center lg:py-20 max-w-prose">
-          <SectionHeading>The goal</SectionHeading>
+
+        <SectionWrapper>
+          <SectionHeading>Overview</SectionHeading>
           <span className="block mt-4 text-5xl leading-tight text-brand-tertiary lg:text-6xl lg:leading-tight font-display">
             Less time grading, more time growing
           </span>
-        </div>
-        <SectionWrapper>
-          <SectionHeading>Overview</SectionHeading>
           <p>
             Imagine Learning Classroom is a digital K-12 curriculum platform
             that supports teachers from planning through grading and
@@ -54,7 +52,8 @@ function Grading(props) {
         <SectionWrapper>
           <SectionHeading>My role</SectionHeading>
           <p>
-            I worked with my PM an engineer, and two customer success
+            I worked with closely with a PM and an engineer. takeholders
+            directly involved in this work were two customer success
             stakeholders to define and frame in-scope problems. My role within
             the team was to facilitate user workshops/interviews and serve as
             design lead from research to design handoff.
@@ -63,11 +62,18 @@ function Grading(props) {
         <SectionWrapper>
           <SectionHeading>The Challenge</SectionHeading>
           <p>
-            In IL Classroom, teachers use assignments to gain an understanding
-            of how their students are performing. For the 2021 school year, our
-            data had shown that only 20% of teachers were grading student work.
+            Teachers assign work to students to gain check student comprehension
+            and benchmark key milestones. For the 2021 school year, our data had
+            shown that only 20% of teachers were grading student work.
           </p>
-          <p className="mt-8">
+          <p className="highlight">
+            By not grading student work, teachers and their districts could not
+            use data to paint an accurate picture of overall student
+            performance.
+          </p>
+
+          <h3>Constraints</h3>
+          <p className="">
             Our assessments were built with a third-party authoring platform
             that placed restrictions on what was possible with student
             responses.{" "}
@@ -87,7 +93,6 @@ function Grading(props) {
             our goal was to build an understanding of what is and what wasn't
             working in the grading workflow.
           </p>
-          <h3>What we learned</h3>
           <p>
             Teachers were using a variety of methods to annotate on top of our
             content. This ranged from smartboards, to whiteboards, to overhead
@@ -111,7 +116,7 @@ function Grading(props) {
 
         <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
-          <p className="mt-8">
+          <p>
             After speaking with teachers, it was clear that there were a lot of
             small victories to be had as well as major overhauls.
           </p>
@@ -132,14 +137,14 @@ function Grading(props) {
         </div>
         <SectionWrapper>
           <SectionHeading>What we delivered</SectionHeading>
-          <p className="mt-8">
+          <p>
             There were three main views that we chose to focus our attention on
             when it came to a teachers grading workflow.
           </p>
         </SectionWrapper>
         <SectionWrapper>
           <h3>Informative assignment cards</h3>
-          <p className="mt-4">
+          <p>
             When viewing a class, teachers had to go into an assignment to see
             who has completed it, and how many students needed to be graded. By
             updating the assignment cards, teachers were able to quickly see

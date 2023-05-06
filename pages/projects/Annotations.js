@@ -47,7 +47,7 @@ function Annotations(props) {
         </SectionWrapper>
 
         <SectionWrapper>
-          <SectionHeading>The team</SectionHeading>
+          <h3>The team</h3>
           <p>
             Our team consisted of myself as lead designer, a product manager, an
             engineer, a supporting designer, director of product marketing, and
@@ -103,26 +103,19 @@ function Annotations(props) {
             environment post-COVID.
           </p>
 
-          <div className="space-y-8">
-            <h3>What we learned</h3>
-            <ol className="pl-5 space-y-4 list-disc">
-              <li>
-                Teachers use a variety of methods to annotate on top of our
-                content. This ranged from smartboards, whiteboards, to overhead
-                projectors and more.
-              </li>
-              <li>
-                To promote classroom participation and classroom management,
-                students did not have access to devices but instead followed
-                along with the teacher.
-              </li>
-            </ol>
-            <img
-              className="w-full mt-8 sm:rounded-xl sm:mx-0"
-              src={"../img/annotation/in-class.jpg"}
-              alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
-            />
-          </div>
+          <ol className="pl-5 space-y-4 list-disc">
+            <li>
+              Teachers use a variety of methods to annotate on top of our
+              content. This ranged from smartboards, whiteboards, to overhead
+              projectors and more.
+            </li>
+            <li>
+              To promote classroom participation and classroom management,
+              students did not have access to devices but instead followed along
+              with the teacher.
+            </li>
+          </ol>
+
           <div className="space-y-8 transition-colors duration-500 ">
             <h3>Key insights</h3>
             <div className="grid items-stretch grid-cols-1 gap-2 mt-8 sm:grid-cols-2 auto-rows-max">
@@ -168,11 +161,16 @@ function Annotations(props) {
               </div>
             </div>
           </div>
+          <img
+            className="w-full mt-16 sm:rounded-xl sm:mx-0"
+            src={"../img/annotation/in-class.jpg"}
+            alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
+          />
         </SectionWrapper>
 
         <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
-          <p className="mt-8">
+          <p>
             We wanted to stress-test what annotating on our lesson cards would
             look like. How would the annotations scale with content? Would they
             fall apart on responsive layouts? What tools are currently available
@@ -184,24 +182,23 @@ function Annotations(props) {
             quickly to test these hypothesis.
           </p>
 
-          <div className="flex items-center mt-2 flex-grow h-full p-4 bg-[#EFF2FB] rounded-lg">
+          <div className="flex items-center mt-16 flex-grow h-full p-4 bg-[#EFF2FB] rounded-lg">
             <img
               className="shadow-lg rounded-xl"
               src={"../img/annotation/Annotation_mvp.gif"}
               alt="Redesigned reports page"
             />
           </div>
-          <p>
-            We leveraged a third-party annotation tool to get us up and running
-            quickly to test these hypothesis.
-          </p>
-          <h3 className="w-auto font-bold">Testing takeaways</h3>
-          <ul className="pl-5 space-y-4 list-disc ">
-            <li>Annotations quickly fell apart with responsive content</li>
-            <li>Prioritzation and understanding of tools</li>
-            <li>Location to initiate annotation mode</li>
-          </ul>
-          <div className="grid items-start gap-2 sm:grid-cols-2 sm:flex-row">
+          <SectionWrapper>
+            <h3 className="w-auto mt-16 font-bold">Testing takeaways</h3>
+            <ul className="pl-5 space-y-4 list-disc ">
+              <li>Annotations quickly fell apart with responsive content</li>
+              <li>Prioritzation and understanding of tools</li>
+              <li>Location to initiate annotation mode</li>
+              <li>Functionality expectations</li>
+            </ul>
+          </SectionWrapper>
+          <div className="grid items-start gap-2 mt-16 sm:grid-cols-2 sm:flex-row">
             <img
               className="rounded-lg aspect-auto"
               src={"../img/annotation/Card break.jpg"}
