@@ -3,7 +3,9 @@ import React from "react";
 /* Wraps and centers a section of text with appropriate reading width */
 
 function SectionWrapper(props) {
-  return <div className="mx-auto mt-16 max-w-prose">{props.children}</div>;
+  return (
+    <section className="mx-auto mt-16 max-w-prose">{props.children}</section>
+  );
 }
 
 function SectionHeading(props) {

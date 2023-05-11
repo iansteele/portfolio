@@ -24,42 +24,40 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <main>
-          <div className="relative grid items-start justify-center flex-grow w-full max-w-screen-xl grid-cols-1 gap-8 px-6 py-8 overflow-hidden md:grid-cols-2 lg:grid-cols-2 md:items-center md:py-10 md:rounded-2xl md:justify-start text-brand-tertiary md:flex-row ">
-            <div className="relative flex flex-col flex-grow min-w-0 col-span-1 space-y-4 ">
-              <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
-                Hi, I'm Ian
-              </h1>
-              <p className="text-2xl lg:text-3xl text-brand-secondary">
-                A product designer, developer & illustrator
-              </p>
-              <p className="max-w-lg ">
-                I am building a digital core curriculum platform for K-12
-                schools with the amazing folks at Imagine Learning Classroom
-              </p>
-            </div>
+        <div className="relative grid items-start justify-center flex-grow w-full max-w-screen-xl grid-cols-1 gap-8 px-6 py-8 overflow-hidden md:grid-cols-2 lg:grid-cols-2 md:items-center md:py-10 md:rounded-2xl md:justify-start text-brand-tertiary md:flex-row ">
+          <div className="relative flex flex-col flex-grow min-w-0 col-span-1 space-y-4 ">
+            <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
+              Hi, I'm Ian
+            </h1>
+            <p className="text-2xl lg:text-3xl text-brand-secondary">
+              A product designer, developer & illustrator
+            </p>
+            <p className="max-w-lg ">
+              I am building a digital core curriculum platform for K-12 schools
+              with the amazing folks at Imagine Learning Classroom
+            </p>
+          </div>
 
-            <Image
-              className="flex-shrink-0 w-3/4 col-span-1 mx-auto drop-shadow-lg aspect-square"
-              src={HeroImg}
-              alt="Redesigned reports page"
-              priority
-            />
-            <div className="absolute -mt-4 transform -translate-x-1/2 left-1/2 md:hidden bottom-2 ">
-              <div className="flex items-center justify-center flex-shrink-0 p-2 origin-top bg-opacity-50 rounded-full md:hidden shadow-zinc-900 animate-bounce bg-brand-primary border-brand-primary text-brand-tertiary ">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="w-5 h-5"
-                >
-                  <path d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" />
-                </svg>
-              </div>
+          <Image
+            className="flex-shrink-0 w-3/4 col-span-1 mx-auto drop-shadow-lg aspect-square"
+            src={HeroImg}
+            alt="Redesigned reports page"
+            priority
+          />
+          <div className="absolute -mt-4 transform -translate-x-1/2 left-1/2 md:hidden bottom-2 ">
+            <div className="flex items-center justify-center flex-shrink-0 p-2 origin-top bg-opacity-50 rounded-full md:hidden shadow-zinc-900 animate-bounce bg-brand-primary border-brand-primary text-brand-tertiary ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-5 h-5"
+              >
+                <path d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" />
+              </svg>
             </div>
           </div>
-          <Projects />
-        </main>
+        </div>
+        <Projects />
       </PageWrapper>
     </>
   );

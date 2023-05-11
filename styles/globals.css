@@ -50,7 +50,7 @@
   }
 
   h3 {
-    @apply text-2xl font-bold opacity-50 mt-16 mb-8 text-brand-tertiary font-display;
+    @apply text-2xl font-bold opacity-50 my-8 text-brand-tertiary font-display;
   }
 
   h4 {

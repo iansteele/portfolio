@@ -181,7 +181,21 @@ function Annotations(props) {
             We leveraged a third-party annotation tool to get us up and running
             quickly to test these hypothesis.
           </p>
-
+          <h3 className="w-auto font-bold">Testing takeaways</h3>
+          <ul className="pl-5 space-y-4 list-disc ">
+            <li>
+              Annotations quickly fell apart with our reording of content on
+              smaller screens
+            </li>
+            <li>
+              Prioritzation and understanding of the iconography and
+              functionality of tools
+            </li>
+            <li>Where teachers and students expected to annotate</li>
+            <li>
+              Learned how long teachers expected annotations to be visible.
+            </li>
+          </ul>
           <div className="flex items-center mt-16 flex-grow h-full p-4 bg-[#EFF2FB] rounded-lg">
             <img
               className="shadow-lg rounded-xl"
@@ -189,15 +203,6 @@ function Annotations(props) {
               alt="Redesigned reports page"
             />
           </div>
-          <SectionWrapper>
-            <h3 className="w-auto mt-16 font-bold">Testing takeaways</h3>
-            <ul className="pl-5 space-y-4 list-disc ">
-              <li>Annotations quickly fell apart with responsive content</li>
-              <li>Prioritzation and understanding of tools</li>
-              <li>Location to initiate annotation mode</li>
-              <li>Functionality expectations</li>
-            </ul>
-          </SectionWrapper>
           <div className="grid items-start gap-2 mt-16 sm:grid-cols-2 sm:flex-row">
             <img
               className="rounded-lg aspect-auto"
@@ -229,9 +234,16 @@ function Annotations(props) {
 
         <div className="mx-auto max-w-prose">
           <SectionHeading>What we delivered</SectionHeading>
-          <p className="mt-8">
-            For the first release of Annotations, we released strictly to our
-            teacher users.
+          <p>
+            Annotations v.1 was released to teachers for Back to School 2022.
+            With the ability to customize card content, we chose to forego
+            saving annotations to further promote the "in the moment"
+            discussions.
+          </p>
+          <p>
+            Teachers are able to annotate both in class settings as well as in
+            the teacher-led Live Learn feature where Annotations would appear on
+            student devices in real-time.
           </p>
         </div>
 
