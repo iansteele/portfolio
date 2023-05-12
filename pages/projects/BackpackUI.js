@@ -53,7 +53,7 @@ function BackpackUI(props) {
             IL Classroom went through a 2-year gap without designers on the
             team. During this period, many updates had been made to existing web
             components that were not documented. When designers joined the team,
-            they found that they were designing from scratch every time, or and
+            they found that they were designing from scratch every time, or
             stitching together screenshots for design work. "Frankencomps" as we
             like to call them.
           </p>
@@ -68,6 +68,7 @@ function BackpackUI(props) {
         </SectionWrapper>
         <SectionWrapper>
           <SectionHeading>The process</SectionHeading>
+          <h3>Getting a lay of the land</h3>
           <p>
             To understand the scope of the problem, I first mapped out the
             production components and their Vue properties. From this audit, I
@@ -75,7 +76,15 @@ function BackpackUI(props) {
             core building blocks for all other features in the product. These
             were the things like our core text, color, grid, and shadow styles.
           </p>
-
+          <h3>Laying the foundation</h3>
+          <p>
+            Before diving into building components, I converted our production
+            styles into styles within Backpack UI. During this stage, I met with
+            the rest of the design team to refine our production styles. I took
+            this opportunity to establish naming conventions that made sense to
+            designers, but also provided easy access to the tailwind classes
+            that would generate the proper styles.
+          </p>
           <Image
             src="/img/backpack/color-tokens.jpg"
             alt="A low-fidelity sketch of early grading layouts"
