@@ -20,14 +20,18 @@ function ProjectHeading({ project }) {
   }
 
   return (
-    <div className="col-span-2 space-y-4">
-      <p className="tracking-wide text-brand-secondary">{project.client}</p>
-      <h1 className="font-bold tracking-tight font-display">{project.title}</h1>
-      <p className="opacity-100 text-brand-tertiary max-w-prose">
-        {project.description}
-      </p>
-      <RoleList />
-    </div>
+    <>
+      <div className="col-span-2 space-y-4">
+        <p className="tracking-wide text-brand-secondary">{project.client}</p>
+        <h1 className="font-bold tracking-tight font-display">
+          {project.title}
+        </h1>
+        <p className="opacity-100 text-brand-tertiary max-w-prose">
+          {project.description}
+        </p>
+        <RoleList />
+      </div>
+    </>
   );
 }
 

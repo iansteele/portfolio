@@ -37,7 +37,7 @@ function Grading(props) {
             Less time grading, more time growing
           </span>
           <p>
-            Imagine Learning Classroom is a digital K-12 curriculum platform
+            a Imagine Learning Classroom is a digital K-12 curriculum platform
             that supports teachers from planning through grading and
             remediation. In 2021, the grading experience held several pain
             points that resulted in limited use or abandonment altogether.
@@ -186,20 +186,20 @@ function Grading(props) {
           <Image
             src={"/img/grading/Grading.png"}
             alt="Redesigned reports page"
-            width="1440"
-            height="810"
+            width={1440}
+            height={810}
           />
           {/* <Image
             src={"/img/grading/Tips.png"}
             alt="Redesigned reports page"
-            width="400"
-            height="300"
+            width={400}
+            height={300}
           /> */}
           <Image
             src={"/img/grading/quickgrader.jpg"}
             alt="Overview of the response card component structure"
-            width="1440"
-            height="810"
+            width={1440}
+            height={810}
             className="rounded-xl"
           />
           <video
