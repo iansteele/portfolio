@@ -85,6 +85,7 @@ function BackpackUI(props) {
             designers, but also provided easy access to the tailwind classes
             that would generate the proper styles.
           </p>
+
           <Image
             src="/img/backpack/color-tokens.jpg"
             alt="A low-fidelity sketch of early grading layouts"
@@ -105,11 +106,26 @@ function BackpackUI(props) {
             They also added slots to allow designers to add content just like an
             engineer would in production.
           </p>
-          <p>
-            The design team worked closely with the development team to ensure
-            that the Backpack library was compatible with the production
-            components. They also tested the components in real-world scenarios
-            to ensure that they functioned as expected.
+          <div className="mt-10 space-y-4">
+            <Image
+              src="/img/backpack/templates.jpg"
+              alt="A low-fidelity sketch of early grading layouts"
+              width={1440}
+              height={480}
+            />
+            <Image
+              src="/img/backpack/accordion-spec.jpg"
+              alt="A low-fidelity sketch of early grading layouts"
+              width={1440}
+              height={480}
+            />
+          </div>
+          <p className="mt-10">
+            I worked closely with the development team to ensure our Figma
+            component properties mapped naming conventions to ensure Backpack
+            components were compatible with the production components. They also
+            tested the components in real-world scenarios to ensure that they
+            functioned as expected.
           </p>
         </SectionWrapper>
         <SectionWrapper>
@@ -131,16 +147,11 @@ function BackpackUI(props) {
         </SectionWrapper>
         <div>
           <Image
-            src="/img/backpack/templates.jpg"
+            src="/img/backpack/components.jpg"
             alt="A low-fidelity sketch of early grading layouts"
             width={1440}
-            height={480}
-          />
-          <Image
-            src="/img/backpack/accordion-spec.jpg"
-            alt="A low-fidelity sketch of early grading layouts"
-            width={1440}
-            height={480}
+            height={1024}
+            className="mt-10 rounded-lg"
           />
         </div>
         <SectionWrapper>
