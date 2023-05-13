@@ -131,18 +131,9 @@ function BackpackUI(props) {
         <SectionWrapper>
           <SectionHeading>The results</SectionHeading>
           <p>
-            The Backpack library has been a huge success for the team. Designers
-            now have a clear set of guidelines and standards to follow, which
-            has reduced design time and improved consistency in design and
-            development. The library has also helped to inform the team about
-            why and how to use components in Figma.
-          </p>
-          <p>
-            The Backpack library has also reduced the need for developers to
-            create custom components, which has saved development time and
-            increased productivity. The library has also improved communication
-            between design and development teams, which has led to a better
-            understanding of each other's workflows.
+            Backpack UI has been a huge success for the team. Designers now have
+            a clear set of guidelines and standards to follow, which has reduced
+            design time and improved consistency in design and development.
           </p>
         </SectionWrapper>
         <div>
@@ -166,9 +157,9 @@ function BackpackUI(props) {
           </p>
           <p>
             The structure and functionality of Backpack UI has been well
-            received from the larger Imagine Learning organization, influencing
-            other design teams approach to maintaining their own component
-            libraries.
+            received praise from the larger Imagine Learning organization,
+            influencing other design teams approach to maintaining their own
+            component libraries.
           </p>
         </SectionWrapper>
       </ProjectWrapper>
