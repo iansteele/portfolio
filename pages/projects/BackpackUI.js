@@ -42,9 +42,9 @@ function BackpackUI(props) {
           <p>
             The goal of Backpack UI is to streamline the design process, reduce
             design time, and provide clarity about how elements should be built.
-            It is designed to mimic the production components Vue properties,
-            and it allows designers to add content using slots just as an
-            engineer would in production.
+            It was designed to mimic the existing production components, and
+            provide guidance on best practices for future component nomenclature
+            and structure
           </p>
         </SectionWrapper>
         <SectionWrapper>
@@ -52,18 +52,20 @@ function BackpackUI(props) {
           <p>
             IL Classroom went through a 2-year gap without designers on the
             team. During this period, many updates had been made to existing web
-            components that were not documented. When designers joined the team,
-            they found that they were designing from scratch every time, or
-            stitching together screenshots for design work. "Frankencomps" as we
-            like to call them.
+            components that were not documented.
           </p>
           <p className="highlight">
-            This led to inconsistencies when building the product because there
-            were no clear rules around... well anything really.
+            When designers were tasked with a challenge, they struggled knowing
+            what components existed. To combat this, they were designing from
+            scratch or using the inspector to stitch together screenshots to
+            create designs. "Frankencomps" as we like to call them. This led to
+            inconsistencies when building the product because there were no
+            clear rules around... well anything really.
           </p>
           <p>
-            The team needed a solution to build consistency between design and
-            development and reduce design time.
+            I sought to build a Figma library that reduced this knowledge gap
+            and empowered designers to understand how a component works and the
+            properties that came with it.
           </p>
         </SectionWrapper>
         <SectionWrapper>

@@ -89,7 +89,7 @@
   }
 
   .highlight {
-    @apply underline underline-offset-2  decoration-brand-secondary decoration-2 font-bold;
+    @apply underline tracking-wider underline-offset-2  decoration-brand-secondary decoration-2 font-bold;
   }
 }
 
