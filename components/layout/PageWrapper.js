@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Script from "next/script";
 import { Header, Footer, ThemeButton } from "../../components/ComponentIndex";
 import { useRouter } from "next/router";
 
@@ -40,6 +41,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
+        ;
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-JGCF7JM0W2"
+        ></Script>
       </Head>
 
       <Header />
