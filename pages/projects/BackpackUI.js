@@ -18,7 +18,7 @@ function BackpackUI(props) {
         <ProjectHeading project={project} />
         <div className="-mx-6 sm:mx-0  overflow-hidden sm:rounded-xl aspect-[4/3]">
           <BlurImage
-            src={"/img/backpack/thumb.jpg"}
+            src={"/img/backpack/components.jpg"}
             alt="Screenshot of the new grading UI"
             width={1440}
             height={810}
