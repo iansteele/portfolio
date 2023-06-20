@@ -69,31 +69,40 @@ function BackpackUI(props) {
           </p>
         </SectionWrapper>
         <SectionWrapper>
-          <SectionHeading>The process</SectionHeading>
+          <SectionHeading>Planning</SectionHeading>
           <h3>Getting a lay of the land</h3>
           <p>
             To understand the scope of the problem, I first mapped out the
             production components and their Vue properties. From this audit, I
-            established prioritized list of components that would serve as the
-            core building blocks for all other features in the product. These
-            were the things like our core text, color, grid, and shadow styles.
+            established a prioritized list of components that would serve as the
+            core building blocks for all other features in the product.
           </p>
           <h3>Laying the foundation</h3>
           <p>
             Before diving into building components, I converted our production
-            styles into styles within Backpack UI. During this stage, I met with
-            the rest of the design team to refine our production styles. I took
-            this opportunity to establish naming conventions that made sense to
-            designers, but also provided easy access to the tailwind classes
-            that would generate the proper styles.
+            styles into styles (like color, type, and elevation) into Backpack
+            UI in a way that kept the most common styles at the top of the list.{" "}
           </p>
-
+          <p>
+            During this stage, I met with the rest of the design team to refine
+            our production styles. I took this opportunity to establish naming
+            conventions that made sense to designers, but also provided easy
+            access to the tailwind classes that would generate the proper
+            styles.
+          </p>
+          <Image
+            src="/img/backpack/tokens-color.jpg"
+            alt="A low-fidelity sketch of early grading layouts"
+            width={1440}
+            height={1024}
+            className="mt-10 rounded-lg"
+          />
           <Image
             src="/img/backpack/color-tokens.jpg"
             alt="A low-fidelity sketch of early grading layouts"
             width={1440}
             height={1024}
-            className="mt-10 rounded-lg"
+            className="mt-4 rounded-lg"
           />
           <Image
             src="/img/backpack/breakpoints.jpg"
@@ -102,26 +111,30 @@ function BackpackUI(props) {
             height={886}
             className="mt-4 rounded-lg"
           />
-          <p className="mt-10">
-            I then created component properties in Figma that mimicked those
-            properties to ensure consistency between design and development.
-            They also added slots to allow designers to add content just like an
-            engineer would in production.
-          </p>
-          <div className="mt-10 space-y-4">
-            <Image
-              src="/img/backpack/templates.jpg"
-              alt="A low-fidelity sketch of early grading layouts"
-              width={1440}
-              height={480}
-            />
-            <Image
-              src="/img/backpack/accordion-spec.jpg"
-              alt="A low-fidelity sketch of early grading layouts"
-              width={1440}
-              height={480}
-            />
-          </div>
+          <SectionWrapper>
+            <SectionHeading>Leveraging atomic methodologies</SectionHeading>
+            <h3>Starting small</h3>
+            <p className="">
+              For the initial release, I mapped the most common UI elements to
+              our production equivalents. V1 consisted of the bare essentials
+              such as buttons, inputs, checkboxes, radio buttons, labels,
+              badges,
+            </p>
+            <div className="mt-10 space-y-4">
+              <Image
+                src="/img/backpack/atom-Buttons.jpg"
+                alt="A birds-eye view of the button variants in the Figma file"
+                width={1440}
+                height={480}
+              />
+              <Image
+                src="/img/backpack/atom-badges.jpg"
+                alt="A low-fidelity sketch of early grading layouts"
+                width={1440}
+                height={480}
+              />
+            </div>
+          </SectionWrapper>
           <p className="mt-10">
             I worked closely with the development team to ensure our Figma
             component properties mapped naming conventions to ensure Backpack

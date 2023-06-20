@@ -45,7 +45,7 @@ const Project = [
     description: "Connecting businesses & customers",
   },
   {
-    title: "Untappds First Virtual Fest",
+    title: "Untappd Virtual Fest",
     link: "/projects/VirtualFest",
     image: "/img/ut/v-fest/thumb.jpg",
     altLabel:

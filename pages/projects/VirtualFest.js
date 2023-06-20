@@ -9,9 +9,7 @@ import {
 } from "../../components/ComponentIndex";
 
 function VirtualFest(props) {
-  const project = Project.find(
-    (p) => p.title === "Untappds First Virtual Fest"
-  );
+  const project = Project.find((p) => p.title === "Untappd Virtual Fest");
   return (
     <PageWrapper>
       <ProjectWrapper>
