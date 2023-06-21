@@ -114,34 +114,56 @@ function BackpackUI(props) {
           <SectionWrapper>
             <SectionHeading>Leveraging atomic methodologies</SectionHeading>
             <h3>Starting small</h3>
-            <p className="">
+            <p>
               For the initial release, I mapped the most common UI elements to
               our production equivalents. V1 consisted of the bare essentials
               such as buttons, inputs, checkboxes, radio buttons, labels,
               badges,
             </p>
-            <div className="mt-10 space-y-4">
+            <p>
+              This early phase allowed for designers to familiarize themselves
+              with the component structure and their associated properties. The
+              ui-kit consumers stress-tested these core components to identify
+              any issues before moving on to more complex components.
+            </p>
+            <div>
               <Image
                 src="/img/backpack/atom-Buttons.jpg"
                 alt="A birds-eye view of the button variants in the Figma file"
                 width={1440}
                 height={480}
+                className="rounded-lg"
               />
               <Image
                 src="/img/backpack/atom-badges.jpg"
                 alt="A low-fidelity sketch of early grading layouts"
                 width={1440}
                 height={480}
+                className="rounded-lg"
+              />
+            </div>
+            <h3 className="mt-16">Combining components</h3>
+            <p>
+              After fine-tuning the core components, I built out the next set of
+              components that were most frequently used in our product and fall
+              under the "Molecules" level of components.{" "}
+            </p>
+            <p>
+              I worked closely with the development team to check consistency in
+              naming conventions of components and their properties. They also
+              tested the components in real-world scenarios to ensure that they
+              functioned as expected.
+            </p>
+            <div className="mt-10 space-y-4">
+              <Image
+                src="/img/backpack/molecule-card.jpg"
+                alt="An example of a card component using slots to provide flexible content"
+                width={1440}
+                height={480}
+                className="rounded-lg"
               />
             </div>
           </SectionWrapper>
-          <p className="mt-10">
-            I worked closely with the development team to ensure our Figma
-            component properties mapped naming conventions to ensure Backpack
-            components were compatible with the production components. They also
-            tested the components in real-world scenarios to ensure that they
-            functioned as expected.
-          </p>
         </SectionWrapper>
         <SectionWrapper>
           <SectionHeading>The results</SectionHeading>
