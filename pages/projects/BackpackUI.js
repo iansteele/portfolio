@@ -126,7 +126,7 @@ function BackpackUI(props) {
               ui-kit consumers stress-tested these core components to identify
               any issues before moving on to more complex components.
             </p>
-            <div>
+            <div className="mt-10 space-y-4">
               <Image
                 src="/img/backpack/atom-Buttons.jpg"
                 alt="A birds-eye view of the button variants in the Figma file"
@@ -173,7 +173,7 @@ function BackpackUI(props) {
             design time and improved consistency in design and development.
           </p>
         </SectionWrapper>
-        <div>
+        <div className="mt-10 space-y-4">
           <Image
             src="/img/backpack/components.jpg"
             alt="A low-fidelity sketch of early grading layouts"

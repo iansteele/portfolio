@@ -5,7 +5,7 @@ function ProjectHeading({ project }) {
   function RoleList() {
     if (hasRoles) {
       return (
-        <ul className="flex gap-4 pl-0 space-y-0 list-none opacity-60 text-brand-tertiary">
+        <ul className="flex gap-4 pl-0 mt-2 space-y-0 list-none opacity-60 text-brand-tertiary">
           {project.roles.map(function (role, index) {
             return (
               <li className="text-xs" key={index}>
@@ -21,9 +21,11 @@ function ProjectHeading({ project }) {
 
   return (
     <>
-      <div className="col-span-2 space-y-4">
-        <p className="tracking-wide text-brand-secondary">{project.client}</p>
-        <h1 className="font-bold tracking-tight font-display">
+      <div className="col-span-2">
+        <p className="text-sm tracking-widest uppercase text-brand-secondary">
+          {project.client}
+        </p>
+        <h1 className="mt-2 font-bold tracking-tight font-display">
           {project.title}
         </h1>
         <p className="opacity-100 text-brand-tertiary max-w-prose">
