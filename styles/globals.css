@@ -48,11 +48,11 @@
     @apply text-5xl lg:text-6xl font-bold;
   }
   h2 {
-    @apply text-3xl font-bold text-brand-tertiary lg:text-4xl;
+    @apply text-xl font-bold text-brand-secondary uppercase tracking-widest lg:text-xl;
   }
 
   h3 {
-    @apply text-2xl font-bold opacity-50 my-8 text-brand-tertiary font-display;
+    @apply text-xl font-bold  my-8 text-brand-tertiary font-display;
   }
 
   h4 {

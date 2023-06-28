@@ -65,36 +65,6 @@ function Annotations(props) {
           </ul>
         </SectionWrapper>
 
-        {/* <div className="w-full mx-auto space-y-8 ">
-          <SectionHeading>Our Process</SectionHeading>
-          <div className="flex flex-wrap w-full gap-2">
-            <div className="flex flex-col flex-1 w-full p-4 text-black border-2 rounded-lg border-brand-tertiary ">
-              <p className="text-xl leading-6 text-brand-tertiary">
-                (Re)Define
-              </p>
-              <p className="text-bold text-brand-secondary">
-                Scope the problem
-              </p>
-            </div>
-            <div className="flex flex-col flex-1 w-full p-4 text-black border-2 rounded-lg border-brand-tertiary ">
-              <p className="text-xl leading-6 text-brand-tertiary ">
-                (Re)Define
-              </p>
-              <p className="text-bold text-brand-secondary">
-                Scope the problem
-              </p>
-            </div>
-            <div className="flex flex-col flex-1 w-full p-4 text-black border-2 rounded-lg border-brand-tertiary ">
-              <p className="text-xl leading-6 text-brand-tertiary ">
-                (Re)Define
-              </p>
-              <p className="text-bold text-brand-secondary">
-                Scope the problem
-              </p>
-            </div>
-          </div>
-        </div> */}
-
         <SectionWrapper>
           <SectionHeading>Understanding the classroom</SectionHeading>
           <p>
@@ -269,9 +239,16 @@ function Annotations(props) {
         </div>
         <div className="mx-auto max-w-prose">
           <SectionHeading>What's next</SectionHeading>
-          <p className="mt-8">
-            A breakdown of what we plan to improve/add in future updates to
-            annotation tools.
+          <p>
+            Over the course of 2023, we are monitoring annotation usage via
+            FullStory and Mixpanel. We are also keeping an eye out for feedback
+            from the customer support team.
+          </p>
+          <p>
+            We'll be looking to spot unexpected uses and requests of the
+            annotation tools. We have a hunch that teachers will want to
+            leverage annotations when reviewing student work in order to mark up
+            student responses.
           </p>
         </div>
       </ProjectWrapper>

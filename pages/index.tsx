@@ -24,12 +24,12 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative grid items-start justify-center flex-grow w-full max-w-screen-xl grid-cols-1 gap-4 px-6 overflow-hidden md:grid-cols-2 lg:grid-cols-2 md:items-center md:py-10 md:justify-start text-brand-tertiary md:flex-row ">
-          <div className="relative flex flex-col flex-grow min-w-0 pt-6 md:pl-8">
+        <div className="relative grid items-start justify-center flex-grow w-full max-w-screen-xl grid-cols-1 gap-4 px-8 overflow-hidden md:grid-cols-2 lg:grid-cols-2 md:items-center md:py-10 md:justify-start text-brand-tertiary md:flex-row ">
+          <div className="relative flex flex-col flex-grow min-w-0 pt-6 ">
             <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
               Hi, I'm Ian
             </h1>
-            <p className="mt-2 text-xl lg:text-2xl text-brand-secondary">
+            <p className="mt-2 text-xl font-semibold lg:text-2xl text-brand-secondary">
               A product designer, developer & illustrator
             </p>
             <p className="max-w-lg mt-2 leading-8">

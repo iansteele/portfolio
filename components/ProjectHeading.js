@@ -22,7 +22,7 @@ function ProjectHeading({ project }) {
   return (
     <>
       <div className="col-span-2">
-        <p className="text-sm tracking-widest uppercase text-brand-secondary">
+        <p className="text-sm font-semibold tracking-widest uppercase text-brand-secondary">
           {project.client}
         </p>
         <h1 className="mt-2 font-bold tracking-tight font-display">
