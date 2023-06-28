@@ -49,7 +49,7 @@ export default function PageWrapper({ children, ...customMeta }) {
       </Head>
 
       <Header />
-      <main>{children}</main>
+      <main className="flex-grow">{children}</main>
       <Footer />
       <ThemeButton />
     </div>
