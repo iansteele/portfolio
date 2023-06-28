@@ -7,10 +7,10 @@ function Header(props) {
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           href="/"
-          className="inline-flex items-center flex-grow-0 gap-3 transition-colors duration-500 rounded focus-base text-brand-tertiary"
+          className="inline-flex items-center flex-grow-0 gap-3 transition-colors duration-500 rounded group focus-base text-brand-tertiary"
         >
           <svg
-            className="flex-shrink-0 w-8 h-8 transition-all duration-500 fill-brand-tertiary"
+            className="flex-shrink-0 w-8 h-8 transition-all duration-500 transform group-hover:scale-110 group-hover:fill-brand-secondary fill-brand-tertiary"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 200 180"
           >
@@ -20,8 +20,9 @@ function Header(props) {
               data-name="Layer 1"
             />
           </svg>
-          <div className="hidden text-lg font-bold tracking-wider sm:block">
+          <div className="relative hidden text-lg font-bold tracking-wider sm:block">
             IAN STEELE
+            <span className="absolute left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary -bottom-1 group-hover:w-full"></span>
           </div>
         </Link>
         <nav className="flex items-center space-x-3 text-xs font-bold tracking-widest md:space-x-4 ">
