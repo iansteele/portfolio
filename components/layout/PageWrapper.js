@@ -4,7 +4,7 @@ import Script from "next/script";
 import { Header, Footer, ThemeButton } from "../../components/ComponentIndex";
 import { useRouter } from "next/router";
 
-export default function ContainerBlock({ children, ...customMeta }) {
+export default function PageWrapper({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {

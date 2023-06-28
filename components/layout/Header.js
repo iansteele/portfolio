@@ -1,10 +1,9 @@
 import React from "react";
-// import "../../App.css";
 import Link from "next/link"; // Import the Link component
 
 function Header(props) {
   return (
-    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-3 transition-colors duration-500 bg-brand-primary text-primary">
+    <header className="sticky top-0 z-10 flex items-center w-full px-6 py-4 transition-colors duration-500 bg-brand-primary text-primary">
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           href="/"
@@ -23,9 +22,6 @@ function Header(props) {
           </svg>
           <div className="hidden text-lg font-bold tracking-wider sm:block">
             IAN STEELE
-            {/* <span className="relative ml-1 text-sm tracking-tight border-b-2 text-brand-secondary -top-1 ">
-              co
-            </span> */}
           </div>
         </Link>
         <nav className="flex items-center space-x-3 text-xs font-bold tracking-widest md:space-x-4 ">
@@ -36,15 +32,13 @@ function Header(props) {
             Resume
             <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
           </a>
-          <a
+          <Link
             className="relative px-1 py-3 ml-2 uppercase transition-all transform rounded focus-base text-brand-secondary focus-visible:text-brand-tertiary hover:text-brand-tertiary group active:scale-90"
-            href="mailto:steeledesignco@gmail.com?subject=Reaching out from
-            Steele Design Co"
-            target="_blank"
+            href="About"
           >
-            Contact
+            About
             <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary  -bottom-0.5 group-hover:w-full"></span>
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

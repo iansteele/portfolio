@@ -67,7 +67,7 @@
 
   p,
   li {
-    @apply text-lg leading-relaxed lg:text-xl lg:leading-normal font-normal;
+    @apply text-lg leading-relaxed lg:text-xl opacity-90 lg:leading-normal font-light;
   }
 
   ul {
