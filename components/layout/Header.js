@@ -35,7 +35,7 @@ function Header(props) {
           </a>
           <Link
             className="relative px-1 py-3 ml-2 uppercase transition-all transform rounded focus-base text-brand-secondary focus-visible:text-brand-tertiary hover:text-brand-tertiary group active:scale-90"
-            href="About"
+            href="../About"
           >
             About
             <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary  -bottom-0.5 group-hover:w-full"></span>
