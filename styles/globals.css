@@ -48,7 +48,7 @@
     @apply text-5xl lg:text-6xl font-bold;
   }
   h2 {
-    @apply text-xl font-bold text-brand-secondary uppercase tracking-widest lg:text-xl;
+    @apply text-sm font-bold text-brand-secondary uppercase tracking-widest;
   }
 
   h3 {

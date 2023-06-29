@@ -170,7 +170,17 @@ function BackpackUI(props) {
           <p>
             Backpack UI has been a huge success for the team. Designers now have
             a clear set of guidelines and standards to follow, which has reduced
-            design time and improved consistency in design and development.
+            design time and improved consistency in design and development. It
+            has helped to streamline the design process by clearly showcasing
+            what components designers have available to them, increased
+            consistency across the product, and drastically improved
+            communication and collaboration between the design and development
+            teams.
+          </p>
+          <p>
+            The structure and functionality of Backpack UI has received praise
+            from the larger Imagine Learning organization, influencing other
+            design teams approach to maintaining their own component libraries.
           </p>
         </SectionWrapper>
         <div className="mt-10 space-y-4">
@@ -182,23 +192,6 @@ function BackpackUI(props) {
             className="mt-10 rounded-lg"
           />
         </div>
-        <SectionWrapper>
-          <SectionHeading>Conclusion</SectionHeading>
-          <p>
-            Backpack UI has been a huge time-saver for the IL Classroom team. It
-            has helped to streamline the design process by clearly showcasing
-            what components designers have available to them, increased
-            consistency across the product, and drastically improved
-            communication and collaboration between the design and development
-            teams.
-          </p>
-          <p>
-            The structure and functionality of Backpack UI has been well
-            received praise from the larger Imagine Learning organization,
-            influencing other design teams approach to maintaining their own
-            component libraries.
-          </p>
-        </SectionWrapper>
       </ProjectWrapper>
     </PageWrapper>
   );
