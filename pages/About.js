@@ -31,18 +31,14 @@ function App() {
 
           <h2 className="mt-10">But like... what about NOT work stuff? </h2>
           <p>
-            I am a husband, father of 3, lover of the outdoors, and a 4-stripe
-            white belt in Brazillian Jiu Jitsu. I'm a firm believer that Knocked
-            Loose, Kendrick, and Brand New will get you through just about
-            anything.
+            I am a husband, father of 3, lover of the outdoors, huge fan of all
+            things spooky, and a 4-stripe white belt in Brazillian Jiu Jitsu.
+            Currently cycling through Knocked Loose, Kendrick, and Brand New.
           </p>
           <p className="font-bold">
             In a nutshell, I am a lifelong learner having fun along the way.
           </p>
-          <p>
-            If you have any questions or want to chat, reach out on one of the
-            platforms below.
-          </p>
+          <p>Want to know anything else? Feel free to reach out!</p>
         </div>
       </div>
     </PageWrapper>

@@ -16,7 +16,7 @@ export function Custom404() {
           />
         </span>
         <h2 className="mt-4 text-center whitespace-nowrap sm:whitespace-normal">
-          Here lies the link you requested
+          Here lies the page you requested
         </h2>
       </div>
     </PageWrapper>
