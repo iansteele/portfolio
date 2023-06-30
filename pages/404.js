@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import { PageWrapper } from "../components/ComponentIndex";
 
-function App() {
+export function Custom404() {
   return (
     <PageWrapper>
-      <div className="grid flex-grow w-full py-16 md:py-24 place-items-center">
-        <span className="w-3/4 overflow-hidden transition-colors rounded-t-full rounded-b-lg md:w-1/2 lg:w-1/4 bg-brand-muted">
+      <div className="grid flex-grow w-full px-12 py-16 sm:px-0 md:py-24 place-items-center">
+        <span className="w-full max-w-xs overflow-hidden transition-colors rounded-t-full rounded-b-lg sm:w-72 bg-brand-muted">
           <Image
             src="/img/404.svg"
             alt="A low-fidelity sketch of early grading layouts"
@@ -15,10 +15,12 @@ function App() {
             className="w-full rounded-b-2xl"
           />
         </span>
-        <h2 className="mt-4">Here lies that link you requested</h2>
+        <h2 className="mt-4 text-center whitespace-nowrap sm:whitespace-normal">
+          Here lies the link you requested
+        </h2>
       </div>
     </PageWrapper>
   );
 }
 
-export default App;
+export default Custom404;
