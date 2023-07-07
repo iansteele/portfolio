@@ -18,7 +18,7 @@ function BackpackUI(props) {
         <ProjectHeading project={project} />
         <div className="-mx-6 sm:mx-0  overflow-hidden sm:rounded-xl aspect-[4/3]">
           <BlurImage
-            src={"/img/backpack/components.jpg"}
+            src={"/img/backpack/thumb.jpg"}
             alt="Screenshot of the new grading UI"
             width={1440}
             height={810}
@@ -54,13 +54,19 @@ function BackpackUI(props) {
             team. During this period, many updates had been made to existing web
             components that were not documented.
           </p>
-          <p className="highlight">
-            When designers were tasked with a challenge, they struggled knowing
-            what components existed. To combat this, they were designing from
-            scratch or using the inspector to stitch together screenshots to
-            create designs. "Frankencomps" as we like to call them. This led to
-            inconsistencies when building the product because there were no
-            clear rules around... well anything really.
+          <p>
+            <span className="highlight">
+              When designers were tasked with a challenge, they struggled
+              knowing what components existed and how those components
+              could/should be used.
+            </span>
+          </p>
+          <p>
+            To combat this, they were designing from scratch or using the
+            inspector to stitch together screenshots to create designs.
+            "Frankencomps" as we like to call them. This led to inconsistencies
+            when building the product because there were no clear rules
+            around... well anything really.
           </p>
           <p>
             I sought to build a Figma library that reduced this knowledge gap
@@ -80,8 +86,9 @@ function BackpackUI(props) {
           <h3>Laying the foundation</h3>
           <p>
             Before diving into building components, I converted our production
-            styles into styles (like color, type, and elevation) into Backpack
-            UI in a way that kept the most common styles at the top of the list.{" "}
+            styles into Figma styles (like color, type, and elevation) into
+            Backpack UI in a way that kept the most common styles at the top of
+            the list.{" "}
           </p>
           <p>
             During this stage, I met with the rest of the design team to refine
@@ -115,10 +122,10 @@ function BackpackUI(props) {
             <SectionHeading>Leveraging atomic methodologies</SectionHeading>
             <h3>Starting small</h3>
             <p>
-              For the initial release, I mapped the most common UI elements to
-              our production equivalents. V1 consisted of the bare essentials
-              such as buttons, inputs, checkboxes, radio buttons, labels,
-              badges,
+              For the initial release, I created Figma components from our 50
+              "Shared" vue components used in production. V1 consisted of the
+              bare essentials such as buttons, inputs, checkboxes, radio
+              buttons, labels, badges,
             </p>
             <p>
               This early phase allowed for designers to familiarize themselves
