@@ -7,7 +7,7 @@ function App() {
     <PageWrapper>
       <div className="flex flex-col items-center px-6 py-8 md:items-start ">
         <Image
-          src="/img/ian-styled.jpg"
+          src="/img/hero.png"
           alt="A low-fidelity sketch of early grading layouts"
           width={200}
           height={200}
@@ -36,7 +36,8 @@ function App() {
             Currently cycling through Knocked Loose, Kendrick, and Brand New.
           </p>
           <p className="font-bold">
-            In a nutshell, I am a lifelong learner having fun along the way.
+            I'm a life-long learner who enjoys tinkering, problem-solving, and
+            being a part of a team.
           </p>
           <p>Want to know anything else? Feel free to reach out!</p>
         </div>

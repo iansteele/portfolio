@@ -6,7 +6,7 @@
 @layer base {
   :root {
     --color-black: #1a151b;
-    --color-white: #f5f0e5;
+    --color-white: #f1f1f1;
     --color-gray: #5dadb3;
     /* --color-brand-primary: #242429; */
     --color-brand-primary: #001418;
@@ -17,12 +17,12 @@
 
   .light {
     --color-black: #1a151b;
-    --color-white: #f5f0e5;
+    --color-white: #f5fffa;
     --color-gray: #5dadb3;
     --color-brand-primary: #f1f7f4;
     --color-brand-secondary: #127c42;
     --color-brand-tertiary: #242429;
-    --color-brand-tertiary--muted: #2424290d;
+    --color-brand-tertiary--muted: #f1f7f40d;
   }
 
   body {

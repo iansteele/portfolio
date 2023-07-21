@@ -24,26 +24,25 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative grid items-start justify-center flex-grow w-full max-w-screen-xl grid-cols-1 gap-4 px-6 overflow-hidden md:grid-cols-2 lg:grid-cols-2 md:items-center md:py-10 md:justify-start text-brand-tertiary md:flex-row ">
-          <div className="relative flex flex-col flex-grow min-w-0 pt-6 ">
-            <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
-              Hi, I'm Ian
-            </h1>
-            <p className="mt-2 text-xl font-semibold lg:text-2xl text-brand-secondary">
-              A product designer, developer & illustrator
+        <div className="relative grid items-center flex-grow w-full h-screen grid-cols-1 gap-4 px-6 py-10 overflow-hidden md:items-start max-h-96 md:items-center md:py-16 md:justify-start text-brand-tertiary md:flex-row ">
+          <div className="relative flex flex-col flex-grow w-full min-w-0 pt-6 max-w-prose">
+            <h1 className="tracking-tight ">Hi, I'm Ian</h1>
+            <p className="mt-2 text-brand-tertiary-muted">
+              I am a product designer passionate about design systems, front-end
+              development and illustration.
             </p>
-            <p className="max-w-lg mt-2 leading-8">
-              I am building a digital core curriculum platform for K-12 schools
-              with the amazing folks at Imagine Learning Classroom
-            </p>
+            {/* <p className="max-w-lg mt-2 leading-8">
+              Currently, I am building a digital core curriculum platform for
+              K-12 schools with the amazing folks at Imagine Learning Classroom
+            </p> */}
           </div>
 
-          <Image
+          {/* <Image
             className="flex-shrink-0 w-3/4 col-span-1 mx-auto drop-shadow-lg aspect-square"
             src={HeroImg}
             alt="Redesigned reports page"
             priority
-          />
+          /> */}
           <div className="absolute -mt-4 transform -translate-x-1/2 left-1/2 md:hidden bottom-2 ">
             <div className="flex items-center justify-center flex-shrink-0 p-2 origin-top bg-opacity-50 rounded-full md:hidden shadow-zinc-900 animate-bounce bg-brand-primary border-brand-primary text-brand-tertiary ">
               <svg
