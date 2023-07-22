@@ -11,22 +11,29 @@ function App() {
           alt="A low-fidelity sketch of early grading layouts"
           width={200}
           height={200}
-          className="w-full rounded-lg md:w-auto"
+          className="w-full mx-auto rounded-lg md:w-auto"
         />
         <div className="flex flex-col max-w-prose">
           <h1 className="mx-auto mt-10 md:mx-0"> About Me</h1>
 
           <p className="mt-10">Hey there, friend 👋 </p>
           <p>
-            I am a principal product designer on the{" "}
-            <span className="font-bold">
-              Classroom team at Imagine Learning
-            </span>
-            . Our team focuses on providing classrooms across the country with a
-            high quality curriculum platform that helps teachers and students
+            I am a principal product designer based in southern Illinois.
+            Currently, I am on the <span className="font-bold">Classroom</span>{" "}
+            team at <span className="font-bold">Imagine Learning</span>. We are
+            focused on providing classrooms across the country with a high
+            quality curriculum platform that helps teachers and students
             facilitate learning through planning, teaching, assigning, grading
             and more. I have a sweet-tooth for vector illustration and 3D
             renders.
+          </p>
+
+          <h2 className="mt-10">Working together</h2>
+          <p>
+            <span className="font-bold">Teamwork makes the dream work.</span> I
+            value teams without egos. Who play to their strengths, work to
+            improve their weaknesses, and spread their knowledge with the rest
+            of the team so that we can all grow together.
           </p>
 
           <h2 className="mt-10">But like... what about NOT work stuff? </h2>
