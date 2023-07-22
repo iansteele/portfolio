@@ -39,12 +39,14 @@ function App() {
           <h2 className="mt-10">But like... what about NOT work stuff? </h2>
           <p>
             I am a husband, father of 3, lover of the outdoors, huge fan of all
-            things spooky, and a 4-stripe white belt in Brazillian Jiu Jitsu.
-            Currently cycling through Knocked Loose, Kendrick, and Brand New.
+            things spooky, and a 4-stripe white belt in Brazillian Jiu Jitsu. If
+            I could only eat 🌮 for the rest of my life, I'd be perfectly ok
+            with it. Currently cycling through Knocked Loose, Kendrick, and
+            Brand New.
           </p>
           <p className="font-bold">
             I'm a life-long learner who enjoys tinkering, problem-solving, and
-            being a part of a team.
+            not taking myself too seriously.
           </p>
           <p>Want to know anything else? Feel free to reach out!</p>
         </div>
