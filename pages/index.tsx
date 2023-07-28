@@ -24,7 +24,7 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative flex items-center flex-grow w-full h-full max-w-screen-xl gap-4 px-6 min-h-[33vh] py-8 md:items-center md:justify-start text-brand-tertiary md:flex-row">
+        <div className="relative flex items-center flex-grow w-full h-full max-w-screen-xl gap-4 px-6 min-h-[33vh] md:min-h-[50vh] lg:min-h-[66vh] py-8 md:items-center md:justify-start text-brand-tertiary md:flex-row">
           <div className="relative flex flex-col flex-grow w-full min-w-0 max-w-prose">
             <h1 className="tracking-tight ">Hi, I'm Ian</h1>
             <p className="mt-2 text-brand-tertiary-muted max-w-prose">
