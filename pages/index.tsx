@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { PageWrapper } from "../components/ComponentIndex";
+import { PageWrapper, About } from "../components/ComponentIndex";
 import Projects from "../components/Projects";
 import HeroImg from "public/img/hero.png";
 import { Inter } from "next/font/google";
@@ -31,18 +31,7 @@ export default function Home() {
               I'm product designer passionate about design systems, front-end
               development and illustration.
             </p>
-            {/* <p className="max-w-lg mt-2 leading-8">
-              Currently, I am building a digital core curriculum platform for
-              K-12 schools with the amazing folks at Imagine Learning Classroom
-            </p> */}
           </div>
-
-          {/* <Image
-            className="flex-shrink-0 w-3/4 col-span-1 mx-auto drop-shadow-lg aspect-square"
-            src={HeroImg}
-            alt="Redesigned reports page"
-            priority
-          /> */}
           <div className="absolute -mt-4 transform -translate-x-1/2 left-1/2 md:hidden bottom-2 ">
             <div className="flex items-center justify-center flex-shrink-0 p-2 origin-top bg-opacity-50 rounded-full md:hidden shadow-zinc-900 animate-bounce bg-brand-primary border-brand-primary text-brand-tertiary ">
               <svg
@@ -57,6 +46,7 @@ export default function Home() {
           </div>
         </div>
         <Projects />
+        <About />
       </PageWrapper>
     </>
   );

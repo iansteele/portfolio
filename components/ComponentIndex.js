@@ -3,6 +3,7 @@ export { default as Header } from "../components/layout/Header";
 export { default as BlurImage } from "../components/layout/BlurImage";
 export { default as ImgFullBleed } from "../components/layout/ImgFullBleed";
 export { default as ProjectWrapper } from "../components/layout/ProjectWrapper";
+export { default as About } from "../components/layout/About";
 export { default as ProjectHeading } from "../components/ProjectHeading";
 export { default as PrevNextProject } from "../components/PrevNextProject";
 export { default as Footer } from "../components/layout/Footer";
