@@ -16,10 +16,8 @@ export default function About() {
           </div>
         </div>
 
-        <div className="flex flex-col flex-grow col-span-1 pt-12 pb-20 lg:col-span-2 md:pt-24 max-w-prose">
-          <h1 className="mx-automd:mx-0 "> About Me</h1>
-
-          <p className="mt-4 ">Hey there, friend 👋 </p>
+        <div className="flex flex-col flex-grow col-span-1 px-4 pt-10 pb-20 lg:col-span-2 md:pt-24 max-w-prose">
+          <h1> About Me</h1>
           <p>
             I am a principal product designer with 10+ years of experience based
             in southern Illinois. I am currently working remotely with the{" "}

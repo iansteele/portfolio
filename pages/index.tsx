@@ -24,16 +24,19 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative flex items-center flex-grow w-full h-full max-w-screen-xl gap-4 px-6 min-h-[33vh] md:min-h-[50vh] lg:min-h-[66vh] py-8 md:items-center md:justify-start text-brand-tertiary md:flex-row">
+        <div className="relative flex items-center flex-grow w-full max-w-screen-xl gap-4 px-6 max-h-[700px] h-[33vh] md:h-[50vh] lg:h-[66vh] py-8 md:items-center md:justify-start text-brand-tertiary md:flex-row">
           <div className="relative flex flex-col flex-grow w-full min-w-0 max-w-prose">
-            <h1 className="tracking-tight ">Hi, I'm Ian</h1>
-            <p className="mt-2 text-brand-tertiary-muted max-w-prose">
-              I'm product designer passionate about design systems, front-end
-              development and illustration.
+            <h1 className="tracking-tight text-8xl">Hi, I'm Ian</h1>
+            <p className="mt-10 text-2xl text-brand-tertiary-muted max-w-prose">
+              I'm product designer passionate about{" "}
+              <span className="highlight">design systems</span>,{" "}
+              <span className="highlight">front-end development</span> and{" "}
+              <span className="highlight">illustration</span>.
             </p>
           </div>
-          <div className="absolute -mt-4 transform -translate-x-1/2 left-1/2 md:hidden bottom-2 ">
-            <div className="flex items-center justify-center flex-shrink-0 p-2 origin-top bg-opacity-50 rounded-full md:hidden shadow-zinc-900 animate-bounce bg-brand-primary border-brand-primary text-brand-tertiary ">
+
+          <div className="absolute -mt-4 transform -translate-x-1/2 left-1/2 bottom-2 ">
+            <div className="flex items-center justify-center flex-shrink-0 p-2 origin-top bg-opacity-50 rounded-full shadow-zinc-900 animate-bounce bg-brand-secondary border-brand-primary text-brand-primary ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
