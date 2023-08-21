@@ -114,7 +114,7 @@ function Grading(props) {
           </ul>
         </SectionWrapper>
 
-        <SectionWrapper>
+        {/* <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
           <p>
             After speaking with teachers, it was clear that there were a lot of
@@ -134,7 +134,7 @@ function Grading(props) {
             src={gradingIconSketch}
             alt="Examples of iconography portraying student score"
           />
-        </div>
+        </div> */}
         <SectionWrapper>
           <SectionHeading>What we delivered</SectionHeading>
           <p>
@@ -168,7 +168,7 @@ function Grading(props) {
         <div className="w-full mt-8 text-center sm:p-2 ">
           <img
             className="flex-1 min-w-0 rounded-lg"
-            src={"../img/grading/student-submissions.jpg"}
+            src={"../img/grading/Student Submissions.jpg"}
             alt="The student submissions table displaying scores on an assignment."
           />
         </div>
@@ -183,11 +183,20 @@ function Grading(props) {
           </p>
         </SectionWrapper>
         <div className="w-full space-y-8 text-center sm:p-2 ">
+          <video
+            className=" rounded-xl"
+            src={"../img/grading/Quick Grader.mp4"}
+            autoPlay
+            muted
+            loop
+            playsInline
+          ></video>
           <Image
-            src={"/img/grading/Grading.png"}
+            src={"/img/grading/Grading.jpg"}
             alt="Redesigned reports page"
             width={1440}
             height={810}
+            className="rounded-xl"
           />
           {/* <Image
             src={"/img/grading/Tips.png"}
@@ -202,14 +211,14 @@ function Grading(props) {
             height={810}
             className="rounded-xl"
           />
-          <video
-            className=" rounded-xl"
-            src={"../img/grading/Quick Grader.mp4"}
-            autoPlay
-            muted
-            loop
-            playsInline
-          ></video>
+
+          <Image
+            src={"/img/grading/Tips.jpg"}
+            alt="Screenshot of a modal showcasing keyboard shortcuts in the grading experience"
+            width={1440}
+            height={810}
+            className="rounded-xl"
+          />
         </div>
       </ProjectWrapper>
     </PageWrapper>

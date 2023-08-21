@@ -236,6 +236,11 @@ function Annotations(props) {
             src={"../img/annotation/inclass-annotations.jpg"}
             alt="Redesigned reports page"
           />
+          <img
+            className="rounded-lg aspect-auto"
+            src={"../img/annotation/drawing-card.png"}
+            alt="Annotations drawing tool on a lesson card"
+          />
         </div>
         <div className="mx-auto max-w-prose">
           <SectionHeading>What's next</SectionHeading>

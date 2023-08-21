@@ -26,9 +26,9 @@ export default function Home() {
         </Head>
         <div className="relative flex flex-col items-center flex-grow w-full max-w-screen-xl gap-10 px-6 py-10 h-fit min-h-[50vh] md:items-start md:justify-start text-brand-tertiary">
           <div className="relative flex flex-col justify-center flex-grow w-full min-w-0 max-w-prose">
-            <h1 className="tracking-tight lg:text-8xl">Hi, I'm Ian</h1>
+            <h1 className="tracking-tight lg:text-7xl">Hi, I'm Ian</h1>
             <p className="lg:text-2xl text-brand-tertiary-muted max-w-prose">
-              I'm product designer passionate about{" "}
+              and I'm product designer passionate about{" "}
               <span className="highlight">design systems</span>,{" "}
               <span className="highlight">front-end development</span> and{" "}
               <span className="highlight">illustration</span>.
