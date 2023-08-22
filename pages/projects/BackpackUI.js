@@ -102,7 +102,7 @@ function BackpackUI(props) {
             alt="A low-fidelity sketch of early grading layouts"
             width={1440}
             height={1024}
-            className="mt-4 rounded-lg"
+            className="mt-10 rounded-lg"
           />
           <Image
             src="/img/backpack/breakpoints.jpg"
@@ -116,7 +116,7 @@ function BackpackUI(props) {
             alt="A low-fidelity sketch of early grading layouts"
             width={1440}
             height={1024}
-            className="mt-10 rounded-lg"
+            className="mt-4 rounded-lg"
           />
           <SectionWrapper>
             <SectionHeading>Atoms, molecules, and more</SectionHeading>
