@@ -20,17 +20,18 @@ export default function About() {
           <h1> About Me</h1>
           <p>
             I am a principal product designer with 10+ years of experience based
-            in southern Illinois. I am currently working remotely with the{" "}
+            in southern Illinois. I am currently working remotely on the{" "}
             <span className="font-bold">Classroom</span> team at{" "}
-            <span className="font-bold">Imagine Learning</span>. We are focused
-            on providing classrooms across the country with a high quality
-            curriculum platform that facilitates learning through planning,
-            teaching, assigning, grading and more.
+            <span className="font-bold">Imagine Learning</span>. We provide
+            classrooms across the country with a high quality curriculum
+            platform that facilitates learning through planning, teaching,
+            assigning, grading and more.
           </p>
 
           <p className="font-bold ">
-            I'm a life-long learner who enjoys tinkering, problem-solving, and
-            not taking myself too seriously.
+            I'm a life-long learner who enjoys understanding the inner-workings,
+            learning the hot-keys, problem-solving, and pursuing challenges of
+            all types.
           </p>
           <p>Want to know anything else? Feel free to reach out!</p>
         </div>
