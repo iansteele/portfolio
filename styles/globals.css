@@ -45,18 +45,18 @@
   }
 
   h1 {
-    @apply text-5xl lg:text-6xl font-bold;
+    @apply text-6xl font-bold;
   }
   h2 {
-    @apply text-sm font-bold text-brand-secondary uppercase tracking-widest;
+    @apply text-3xl mt-10 font-bold text-brand-secondary uppercase tracking-widest;
   }
 
   h3 {
-    @apply text-xl font-bold  my-8 text-brand-tertiary font-display;
+    @apply text-xl font-bold  mt-10 mb-6 text-brand-tertiary font-display;
   }
 
   h4 {
-    @apply text-xl lg:text-2xl;
+    @apply text-xl;
   }
 
   p,

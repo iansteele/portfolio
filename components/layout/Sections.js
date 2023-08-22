@@ -4,14 +4,12 @@ import React from "react";
 
 function SectionWrapper(props) {
   return (
-    <section className="mx-auto mt-16 max-w-prose">{props.children}</section>
+    <section className="mx-auto mt-8 max-w-prose">{props.children}</section>
   );
 }
 
 function SectionHeading(props) {
-  return (
-    <h2 className="inline-flex mt-8 mb-4 max-w-prose">{props.children}</h2>
-  );
+  return <h2 className="inline-flex mb-6 max-w-prose">{props.children}</h2>;
 }
 
 export { SectionWrapper, SectionHeading };

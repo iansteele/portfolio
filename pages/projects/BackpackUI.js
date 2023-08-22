@@ -28,7 +28,7 @@ function BackpackUI(props) {
         </div>
         <SectionWrapper>
           <SectionHeading>The goal</SectionHeading>
-          <span className="block mt-4 text-5xl text-brand-tertiary leading-12 lg:text-6xl font-display">
+          <span className="block text-4xl text-brand-tertiary leading-12 font-display">
             Reduce inconsistencies between design and development
           </span>
         </SectionWrapper>
@@ -119,7 +119,7 @@ function BackpackUI(props) {
             className="mt-4 rounded-lg"
           />
           <SectionWrapper>
-            <SectionHeading>Leveraging atomic methodologies</SectionHeading>
+            <SectionHeading>Atoms, molecules, and more</SectionHeading>
             <h3>Starting small</h3>
             <p>
               For the initial release, I created Figma components from our 50
@@ -149,7 +149,7 @@ function BackpackUI(props) {
                 className="rounded-lg"
               />
             </div>
-            <h3 className="mt-16">Combining components</h3>
+            <h3 className="mt-16">Code parity</h3>
             <p>
               After fine-tuning the core components, I built out the next set of
               components that were most frequently used in our product and fall
@@ -161,7 +161,7 @@ function BackpackUI(props) {
               tested the components in real-world scenarios to ensure that they
               functioned as expected.
             </p>
-            <div className="mt-10 space-y-4">
+            <div className="mt-16 space-y-4">
               <Image
                 src="/img/backpack/molecule-card.jpg"
                 alt="An example of a card component using slots to provide flexible content"
