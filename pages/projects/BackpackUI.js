@@ -98,13 +98,6 @@ function BackpackUI(props) {
             styles.
           </p>
           <Image
-            src="/img/backpack/tokens-color.jpg"
-            alt="A low-fidelity sketch of early grading layouts"
-            width={1440}
-            height={1024}
-            className="mt-10 rounded-lg"
-          />
-          <Image
             src="/img/backpack/color-tokens.jpg"
             alt="A low-fidelity sketch of early grading layouts"
             width={1440}
@@ -117,6 +110,13 @@ function BackpackUI(props) {
             width={1440}
             height={886}
             className="mt-4 rounded-lg"
+          />
+          <Image
+            src="/img/backpack/tokens-color.jpg"
+            alt="A low-fidelity sketch of early grading layouts"
+            width={1440}
+            height={1024}
+            className="mt-10 rounded-lg"
           />
           <SectionWrapper>
             <SectionHeading>Atoms, molecules, and more</SectionHeading>
