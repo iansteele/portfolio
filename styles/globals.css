@@ -17,9 +17,9 @@
 
   .light {
     --color-black: #1a151b;
-    --color-white: #f5fffa;
+    --color-white: #ffffff;
     --color-gray: #5dadb3;
-    --color-brand-primary: #f1f7f4;
+    --color-brand-primary: #fefefe;
     --color-brand-secondary: #127c42;
     --color-brand-tertiary: #242429;
     --color-brand-tertiary--muted: #f1f7f40d;

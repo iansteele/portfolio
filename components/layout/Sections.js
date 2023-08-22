@@ -9,7 +9,7 @@ function SectionWrapper(props) {
 }
 
 function SectionHeading(props) {
-  return <h2 className="inline-flex mb-6 max-w-prose">{props.children}</h2>;
+  return <h2 className="inline-flex max-w-prose">{props.children}</h2>;
 }
 
 export { SectionWrapper, SectionHeading };
