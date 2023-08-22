@@ -32,12 +32,16 @@ function Grading(props) {
         </div>
 
         <SectionWrapper>
-          <SectionHeading>Overview</SectionHeading>
-          <span className="block mt-4 text-5xl leading-tight text-brand-tertiary lg:text-6xl lg:leading-tight font-display">
-            Less time grading, more time growing
+          <SectionHeading>The goal</SectionHeading>
+          <span className="block text-4xl leading-tight text-brand-tertiary font-display">
+            Less homework for teachers
           </span>
+        </SectionWrapper>
+        <SectionWrapper>
+          <SectionHeading>Overview</SectionHeading>
+
           <p>
-            a Imagine Learning Classroom is a digital K-12 curriculum platform
+            Imagine Learning Classroom is a digital K-12 curriculum platform
             that supports teachers from planning through grading and
             remediation. In 2021, the grading experience held several pain
             points that resulted in limited use or abandonment altogether.
@@ -52,11 +56,11 @@ function Grading(props) {
         <SectionWrapper>
           <SectionHeading>My role</SectionHeading>
           <p>
-            I worked with closely with a PM and an engineer. takeholders
-            directly involved in this work were two customer success
-            stakeholders to define and frame in-scope problems. My role within
-            the team was to facilitate user workshops/interviews and serve as
-            design lead from research to design handoff.
+            I worked closely with a PM and an engineer. Stakeholders directly
+            involved in this work were two customer success stakeholders to
+            define and frame in-scope problems. My role within the team was to
+            facilitate user workshops/interviews and serve as design lead from
+            research through feature release.
           </p>
         </SectionWrapper>
         <SectionWrapper>

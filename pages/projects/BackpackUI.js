@@ -28,7 +28,7 @@ function BackpackUI(props) {
         </div>
         <SectionWrapper>
           <SectionHeading>The goal</SectionHeading>
-          <span className="block text-4xl text-brand-tertiary leading-12 font-display">
+          <span className="block text-4xl leading-tight text-brand-tertiary font-display">
             Reduce inconsistencies between design and development
           </span>
         </SectionWrapper>
