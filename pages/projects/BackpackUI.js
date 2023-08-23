@@ -169,6 +169,13 @@ function BackpackUI(props) {
                 height={480}
                 className="rounded-lg"
               />
+              <Image
+                src="/img/backpack/anatomy.jpg"
+                alt="An example of a card component using slots to provide flexible content"
+                width={1440}
+                height={480}
+                className="rounded-lg"
+              />
             </div>
           </SectionWrapper>
         </SectionWrapper>
