@@ -5,8 +5,37 @@ import Image from "next/image";
 function Thumbnail(props) {
   return (
     <li className="opacity-100">
-      <Link className="outline-none group" href={props.link}>
-        <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu group-hover:rotate-[0.5deg] dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 dark:group-hover:border-brand-secondary aspect-auto rounded-xl focus-base">
+      <Link className="relative outline-none group" href={props.link}>
+        <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu group-hover:rotate-[0.5deg] dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 scale-[102%] dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto  rounded-[.875rem] focus-base">
+          <span className="duration-1000 animate-[spin_7s_ease_infinite]">
+            <svg
+              width="739"
+              height="798"
+              viewBox="0 0 739 798"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="transform opacity-0 duration-800 text-secondary blur-3xl group-hover:opacity-100 scale-101 "
+            >
+              <g clip-path="url(#clip0_1524_25704)">
+                <path
+                  d="M0 134C0 59.9938 59.9938 0 134 0C208.006 0 268 59.9938 268 134C268 208.006 208.006 268 134 268C59.9938 268 0 208.006 0 134Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 549.5C0 412.257 111.257 301 248.5 301C248.669 301 248.839 301 249.008 301.001C250.082 166.611 359.357 58 494 58C629.31 58 739 167.69 739 303C739 437.31 630.925 546.377 496.995 547.982C496.998 548.488 497 548.994 497 549.5C497 686.743 385.743 798 248.5 798C111.257 798 0 686.743 0 549.5Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1524_25704">
+                  <rect width="739" height="798" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </span>
+        </div>
+        <div className="absolute inset-0 flex flex-col w-full h-full overflow-hidden bg-brand-primary aspect-auto rounded-xl transform-gpu group-hover:rotate-[0.5deg]   group-hover:-translate-y-1 group-hover:border-opacity-90 group-active:translate-y-0"></div>
+        <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu group-hover:rotate-[0.5deg] dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50  aspect-auto rounded-xl focus-base">
           <div className="w-full h-auto overflow-hidden rounded-md will-change-transform">
             <Image
               src={props.image}
