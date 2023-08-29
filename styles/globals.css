@@ -93,6 +93,10 @@
   .highlight {
     @apply underline tracking-wider underline-offset-2  decoration-brand-secondary decoration-2 font-bold;
   }
+
+  .card:hover .card-glow {
+    @apply duration-1000 animate-[spin_7s_ease_infinite];
+  }
 }
 
 @layer components {
