@@ -32,7 +32,7 @@ const Project = [
       "UI components that were created to improve the grading experience at Imagine Learning Classroom",
     roles: ["User research", "Design Thinking", "Prototyping"],
     client: "Imagine Learning Classroom",
-    description: "How we supercharged the assignment grading experience",
+    description: "Reimagining our grading workflow",
   },
 
   {
