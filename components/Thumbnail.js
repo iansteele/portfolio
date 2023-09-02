@@ -4,9 +4,34 @@ import Image from "next/image";
 
 function Thumbnail(props) {
   return (
-    <li className="opacity-100">
-      <Link className="outline-none group" href={props.link}>
-        <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu group-hover:rotate-[0.5deg] dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 dark:group-hover:border-brand-secondary aspect-auto rounded-xl focus-base">
+    <li className="flex opacity-100">
+      <Link
+        className="relative flex-grow-0 outline-none group card"
+        href={props.link}
+      >
+        <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform group-hover:rotate-[0.5deg] dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 group-active:rotate-0 group-hover:scale-[102%] group-active:scale-100 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto  rounded-[1rem] group-active:opacity-0 focus-base">
+          <span className="card-glow">
+            <svg
+              width="739"
+              height="798"
+              viewBox="0 0 739 798"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="transform scale-105 opacity-25 dark:opacity-0 duration-800 text-brand-secondary dark:text-secondary blur-3xl dark:group-hover:opacity-100 "
+            >
+              <rect
+                x="40"
+                y="40"
+                width="659"
+                height="718"
+                rx="32"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+        </div>
+        <div className="absolute inset-0 flex flex-col w-full h-full transition-all overflow-hidden bg-brand-primary aspect-auto rounded-xl group-active:shadow-none transform-gpu group-hover:rotate-[0.5deg] group-active:rotate-0  group-hover:-translate-y-1 group-hover:border-opacity-90 group-active:translate-y-0"></div>
+        <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu group-hover:rotate-[0.5deg] dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-active:rotate-0 group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto rounded-xl focus-base">
           <div className="w-full h-auto overflow-hidden rounded-md will-change-transform">
             <Image
               src={props.image}
