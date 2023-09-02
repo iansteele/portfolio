@@ -4,9 +4,12 @@ import Image from "next/image";
 
 function Thumbnail(props) {
   return (
-    <li className="opacity-100">
-      <Link className="relative outline-none group card" href={props.link}>
-        <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu group-hover:rotate-[0.5deg] dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 group-active:rotate-0 group-hover:scale-[102%] group-active:scale-100 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto  rounded-[1rem] group-active:opacity-0 focus-base">
+    <li className="flex opacity-100">
+      <Link
+        className="relative flex-grow-0 outline-none group card"
+        href={props.link}
+      >
+        <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform group-hover:rotate-[0.5deg] dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 group-active:rotate-0 group-hover:scale-[102%] group-active:scale-100 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto  rounded-[1rem] group-active:opacity-0 focus-base">
           <span className="card-glow">
             <svg
               width="739"
