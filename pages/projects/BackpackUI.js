@@ -161,24 +161,24 @@ function BackpackUI(props) {
               tested the components in real-world scenarios to ensure that they
               functioned as expected.
             </p>
-            <div className="mt-16 space-y-4">
-              <Image
-                src="/img/backpack/molecule-card.jpg"
-                alt="An example of a card component using slots to provide flexible content"
-                width={1440}
-                height={480}
-                className="rounded-lg"
-              />
-              <Image
-                src="/img/backpack/Anatomy.jpg"
-                alt="An example of a card component using slots to provide flexible content"
-                width={1440}
-                height={480}
-                className="rounded-lg"
-              />
-            </div>
           </SectionWrapper>
         </SectionWrapper>
+        <div className="mt-16 space-y-4">
+          <Image
+            src="/img/backpack/molecule-card.jpg"
+            alt="An example of a card component using slots to provide flexible content"
+            width={1440}
+            height={480}
+            className="rounded-lg"
+          />
+          <Image
+            src="/img/backpack/Anatomy.jpg"
+            alt="An example of a card component using slots to provide flexible content"
+            width={1440}
+            height={480}
+            className="rounded-lg"
+          />
+        </div>
         <SectionWrapper>
           <SectionHeading>The results</SectionHeading>
           <p>
