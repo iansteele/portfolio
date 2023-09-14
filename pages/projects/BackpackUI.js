@@ -181,21 +181,53 @@ function BackpackUI(props) {
         </div>
         <SectionWrapper>
           <SectionHeading>The results</SectionHeading>
-          <p>
-            Backpack UI has been a huge success for the team. Designers now have
-            a clear set of guidelines and standards to follow, which has reduced
-            design time and improved consistency in design and development. It
-            has helped to streamline the design process by clearly showcasing
-            what components designers have available to them, increased
-            consistency across the product, and drastically improved
-            communication and collaboration between the design and development
-            teams.
-          </p>
-          <p>
-            The structure and functionality of Backpack UI has received praise
-            from the larger Imagine Learning organization, influencing other
-            design teams approach to maintaining their own component libraries.
-          </p>
+          <div className="grid items-stretch grid-cols-1 gap-10 mt-8 auto-rows-max">
+            <div className="relative px-4 py-6 rounded-md bg-brand-muted text-brand-tertiary">
+              <span className="absolute text-5xl top-3 left-3 text-brand-secondary">
+                "
+              </span>
+              <p className="font-bold">
+                Ian single-handedly created our Backpack UI system increasing
+                our team productivity, creating consistency across design files
+                and allowed us to create a cohesive brand language for our app
+              </p>
+              <p className="mt-2 text-base text-brand-tertiary">
+                - Peer Product designer
+              </p>
+            </div>
+            <div className="relative px-4 py-6 rounded-md bg-brand-muted text-brand-tertiary">
+              <span className="absolute text-5xl top-3 left-3 text-brand-secondary">
+                "
+              </span>
+              <p className="font-bold">
+                Ian has gone the extra mile by creating parity between Figma and
+                app code by introducing intentional naming conventions for
+                components and properties that mirror what we see in our code
+              </p>
+              <p className="mt-2 text-base text-brand-tertiary">
+                - Senior Engineer
+              </p>
+            </div>
+            <div>
+              <p className="mt-0">
+                Backpack UI has been a huge success for the team. Designers now
+                have a clear set of guidelines and standards to follow, which
+                has reduced design time and improved consistency in design and
+                development. It has helped to streamline the design process by
+                clearly showcasing what components designers have available to
+                them, increased consistency across the product, and drastically
+                improved communication and collaboration between the design and
+                development teams.
+              </p>
+
+              <p>
+                The structure and functionality of Backpack UI has received
+                praise from the larger Imagine Learning organization,
+                influencing other design teams approach to maintaining their own
+                component libraries.
+              </p>
+            </div>
+          </div>
         </SectionWrapper>
         <div className="mt-10 space-y-4">
           <Image

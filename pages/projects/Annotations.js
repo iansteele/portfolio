@@ -90,41 +90,41 @@ function Annotations(props) {
             <h3>Key insights</h3>
             <div className="grid items-stretch grid-cols-1 gap-2 mt-8 sm:grid-cols-2 auto-rows-max">
               {/* Comment */}
-              <div className="relative px-4 py-8 rounded-md bg-neutral-50 dark:bg-brand-muted text-brand-tertiary">
-                <span className="absolute text-4xl top-1 left-2 text-brand-secondary">
+              <div className="relative px-4 py-6 rounded-lg bg-brand-muted dark:bg-brand-muted text-brand-tertiary">
+                <span className="absolute text-4xl font-bold top-2 left-2 text-brand-secondary">
                   "
                 </span>
-                <p className="text-lg leading-6">
+                <p className="text-lg font-bold leading-6">
                   I spend so much time recreating lesson slides because I can’t
                   draw on top of them when presenting to my classroom.
                 </p>
               </div>
               {/* Comment */}
-              <div className="relative px-4 py-8 rounded-md bg-neutral-50 dark:bg-brand-muted text-brand-tertiary">
-                <span className="absolute text-4xl top-1 left-2 text-brand-secondary">
+              <div className="relative px-4 py-6 rounded-lg bg-brand-muted dark:bg-brand-muted text-brand-tertiary">
+                <span className="absolute text-4xl font-bold top-2 left-2 text-brand-secondary">
                   "
                 </span>
-                <p className="text-lg leading-6">
+                <p className="text-lg font-bold leading-6">
                   I know I can edit and save slides, but is there a way to write
                   on them DURING the lesson as I present to my class?
                 </p>
               </div>
               {/* Comment */}
-              <div className="relative px-4 py-8 rounded-md bg-neutral-50 dark:bg-brand-muted text-brand-tertiary">
-                <span className="absolute text-4xl top-1 left-2 text-brand-secondary">
+              <div className="relative px-4 py-6 rounded-lg bg-brand-muted dark:bg-brand-muted text-brand-tertiary">
+                <span className="absolute text-4xl font-bold top-2 left-2 text-brand-secondary">
                   "
                 </span>
-                <p className="text-lg leading-6">
+                <p className="text-lg font-bold leading-6">
                   Is there a way that I can annotate over the lesson cards when
                   presenting? Is there a tool in the platform for this?
                 </p>
               </div>
               {/* Comment */}
-              <div className="relative px-4 py-8 rounded-md bg-neutral-50 dark:bg-brand-muted text-brand-tertiary">
-                <span className="absolute text-4xl top-1 left-2 text-brand-secondary">
+              <div className="relative px-4 py-6 rounded-lg bg-brand-muted dark:bg-brand-muted text-brand-tertiary">
+                <span className="absolute text-4xl font-bold top-2 left-2 text-brand-secondary">
                   "
                 </span>
-                <p className="text-lg leading-6">
+                <p className="text-lg font-bold leading-6">
                   I use my smartboard to draw on your slides, but when I scroll
                   or move the page, my annotations do not move with the content.
                 </p>
