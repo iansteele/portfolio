@@ -18,8 +18,10 @@ function Header(props) {
 
       if (currScrollPos > prevScrollPos) {
         navBar.style.transform = `translateY(-105%)`;
-      } else {
-        navBar.style.transform = `translateY(0%)`;
+      }
+
+      if (currScrollPos < 100) {
+        navBar.style.transform = `translateY(0px)`;
       }
 
       prevScrollPos = currScrollPos;
@@ -37,8 +39,15 @@ function Header(props) {
   return (
     <header
       id="navbar"
-      className="fixed top-0 left-0 z-10 flex items-center w-full h-20 max-w-screen-xl p-6 transition-all duration-500 transform transitiono bg-brand-primary text-primary"
-      style={{ transitionDuration: "1s", transitionDelay: ".125s" }}
+      className="fixed top-0 left-0 z-10 flex items-center w-full h-20 p-6 transition-all duration-500 transform transitiono bg-brand-primary text-primary"
+      style={{
+        transitionDuration: "1s",
+        transitionDelay: ".125s",
+        WebkitTransform: "translate3d(0, 0, 0)", // Add Webkit prefix here
+        transform: "translate3d(0, 0, 0)", // Standard transform property
+        WebkitTransition: "WebkitTransform 0.3s ease", // Add Webkit prefix here
+        transition: "transform 0.3s ease", // Standard transition property
+      }}
     >
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
