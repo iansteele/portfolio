@@ -49,7 +49,9 @@ export default function PageWrapper({ children, ...customMeta }) {
       </Head>
 
       <Header />
-      <main className="flex flex-col items-center min-w-full">{children}</main>
+      <main className="flex flex-col items-center min-w-full pt-20">
+        {children}
+      </main>
       <Footer />
       <ThemeButton />
     </div>
