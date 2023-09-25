@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   PageWrapper,
   ProjectWrapper,
@@ -47,21 +48,15 @@ function Annotations(props) {
         </SectionWrapper>
 
         <SectionWrapper>
-          <h3>The team</h3>
-          <p>
-            Our team consisted of myself as lead designer, a product manager, an
-            engineer, a supporting designer, director of product marketing, and
-            a customer success manager.
-          </p>
-          <h3>My responsibilities included:</h3>
+          <h3>Timeline</h3>
+          <p>Back to school 2022</p>
+          <h3>My role:</h3>
           <ul className="pl-5 space-y-4 list-disc">
-            <li>
-              Conducting surveys and moderated user interviews with customers
-            </li>
+            <li>Conduct surveys and moderated user interviews</li>
             <li>Competitive research & analysis</li>
             <li>Led brainstorming workshops</li>
             <li>Prototyping & testing</li>
-            <li>Collaborating and writing production code</li>
+            <li>Front-end development </li>
           </ul>
         </SectionWrapper>
 
@@ -70,7 +65,9 @@ function Annotations(props) {
           <p>
             Through customer interviews, fullstory recordings, and feedback from
             customer support, our team sought to understand the classroom
-            environment post-COVID.
+            environment post-COVID. How were they presenting content to
+            students, what tools were teachers using to instruct? What tools
+            were students using to demonstrate their understanding?
           </p>
 
           <ol className="pl-5 space-y-4 list-disc">
@@ -85,7 +82,16 @@ function Annotations(props) {
               with the teacher.
             </li>
           </ol>
+        </SectionWrapper>
 
+        <Image
+          className="w-full mt-16 sm:rounded-xl sm:mx-0"
+          src={"/img/annotation/in-class.jpg"}
+          alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
+          width={1440}
+          height={480}
+        />
+        <SectionWrapper>
           <div className="space-y-8 transition-colors duration-500 ">
             <h3>Key insights</h3>
             <div className="grid items-stretch grid-cols-1 gap-2 mt-8 sm:grid-cols-2 auto-rows-max">
@@ -125,17 +131,12 @@ function Annotations(props) {
                   "
                 </span>
                 <p className="text-lg font-bold leading-6">
-                  I use my smartboard to draw on your slides, but when I scroll
-                  or move the page, my annotations do not move with the content.
+                  I use my smartboard to draw on slides, but when I scroll or
+                  move the page, my annotations do not move with the content.
                 </p>
               </div>
             </div>
           </div>
-          <img
-            className="w-full mt-16 sm:rounded-xl sm:mx-0"
-            src={"../img/annotation/in-class.jpg"}
-            alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
-          />
         </SectionWrapper>
 
         <SectionWrapper>
@@ -173,12 +174,12 @@ function Annotations(props) {
               alt="Redesigned reports page"
             />
           </div>
-          <div className="grid items-start gap-2 mt-16 sm:grid-cols-2 sm:flex-row">
-            <img
-              className="rounded-lg aspect-auto"
-              src={"../img/annotation/Card break.jpg"}
-              alt="Redesigned reports page"
-            />
+          <img
+            className="mt-2 rounded-lg aspect-auto"
+            src={"../img/annotation/Card break.jpg"}
+            alt="Redesigned reports page"
+          />
+          <div className="grid items-start gap-2 mt-2 sm:grid-cols-2 sm:flex-row">
             <img
               className="rounded-lg aspect-auto"
               src={"../img/annotation/sketches1.jpg"}
@@ -217,7 +218,7 @@ function Annotations(props) {
           </p>
         </div>
 
-        <div className="grid items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid items-start gap-4 sm:grid-cols-2">
           <video
             className=" rounded-xl aspect-square"
             src={"../img/annotation/colorpicker.mp4"}
@@ -226,6 +227,13 @@ function Annotations(props) {
             loop
             playsInline
           ></video>
+          <Image
+            className="rounded-lg aspect-auto"
+            src={"/img/annotation/drawing-card.jpg"}
+            width={480}
+            height={480}
+            alt="Annotations drawing tool on a lesson card"
+          />
           <img
             className=" rounded-xl aspect-square"
             src={"../img/annotation/inclass-annotations.png"}
@@ -235,11 +243,6 @@ function Annotations(props) {
             className=" rounded-xl aspect-square"
             src={"../img/annotation/inclass-annotations.jpg"}
             alt="Redesigned reports page"
-          />
-          <img
-            className="rounded-lg aspect-auto"
-            src={"../img/annotation/drawing-card.png"}
-            alt="Annotations drawing tool on a lesson card"
           />
         </div>
         <div className="mx-auto max-w-prose">
