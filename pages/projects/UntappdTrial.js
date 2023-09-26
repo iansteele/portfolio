@@ -42,6 +42,17 @@ function UntappdTrial(props) {
           </p>
         </SectionWrapper>
         <SectionWrapper>
+          <h3>Timeline</h3>
+          <p>Fall 2021</p>
+          <h3>My role:</h3>
+          <ul className="pl-5 space-y-4 list-disc">
+            <li>Competitive research & analysis</li>
+            <li>Facilitate user interviews</li>
+            <li>Wireframing</li>
+            <li>Prototyping & testing</li>
+          </ul>
+        </SectionWrapper>
+        <SectionWrapper>
           <SectionHeading>The opportunity</SectionHeading>
           <p>
             {" "}
@@ -75,6 +86,9 @@ function UntappdTrial(props) {
           <p>
             UTFB is used by a wide variety of businesses ranging from
             small-medium breweries all the way to enterprise-level franchises.
+            For v1 of the trial, our target audience were these small-med
+            businesses who were crunched for time / personel resources looking
+            for a one-stop location to manage their menus.
           </p>
           {/* Describe persona's and how they differed/overlapped. what did we choose to solve for */}
           <div className="space-y-8">

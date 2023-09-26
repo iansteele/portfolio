@@ -53,16 +53,20 @@ function Grading(props) {
             planning and remediaton for their students.
           </p>
         </SectionWrapper>
+
         <SectionWrapper>
-          <SectionHeading>My role</SectionHeading>
-          <p>
-            I worked closely with a PM and an engineer. Stakeholders directly
-            involved in this work were two customer success stakeholders to
-            define and frame in-scope problems. My role within the team was to
-            facilitate user workshops/interviews and serve as design lead from
-            research through feature release.
-          </p>
+          <h3>Timeline</h3>
+          <p>Back to school 2022</p>
+          <h3>My role:</h3>
+          <ul className="pl-5 space-y-4 list-disc">
+            <li>Facilitate user interviews</li>
+            <li>Competitive research & analysis</li>
+            <li>Led brainstorming workshops</li>
+            <li>Prototyping & testing</li>
+            <li>Front-end development </li>
+          </ul>
         </SectionWrapper>
+
         <SectionWrapper>
           <SectionHeading>The Challenge</SectionHeading>
           <p>
@@ -81,10 +85,13 @@ function Grading(props) {
             Our assessments were built with a third-party authoring platform
             that placed restrictions on what was possible with student
             responses.{" "}
-            <span className="highlight">
-              This includes but is not limited to the speed in which scores
-              saved and the number of responses we could display.
-            </span>
+            <ul className="pl-5 space-y-4 list-disc">
+              <li>
+                Unable to show multiple student responses at the same time
+              </li>
+              <li>Delay in score calculation when grading a question</li>
+              <li>Delay in score calculation when grading a question</li>
+            </ul>
           </p>
         </SectionWrapper>
 
