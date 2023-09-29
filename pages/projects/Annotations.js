@@ -152,6 +152,15 @@ function Annotations(props) {
             We leveraged a third-party annotation tool to get us up and running
             quickly to test these hypothesis.
           </p>
+        </SectionWrapper>
+        <div className="flex items-centerflex-grow h-full mt-16 p-4 bg-[#EFF2FB] rounded-lg">
+          <img
+            className="shadow-lg rounded-xl"
+            src={"../img/annotation/Annotation_mvp.gif"}
+            alt="Redesigned reports page"
+          />
+        </div>
+        <SectionWrapper>
           <h3 className="w-auto font-bold">Testing takeaways</h3>
           <ul className="pl-5 space-y-4 list-disc ">
             <li>
@@ -167,15 +176,9 @@ function Annotations(props) {
               Learned how long teachers expected annotations to be visible.
             </li>
           </ul>
-          <div className="flex items-center mt-16 flex-grow h-full p-4 bg-[#EFF2FB] rounded-lg">
-            <img
-              className="shadow-lg rounded-xl"
-              src={"../img/annotation/Annotation_mvp.gif"}
-              alt="Redesigned reports page"
-            />
-          </div>
+
           <img
-            className="mt-2 rounded-lg aspect-auto"
+            className="mt-16 rounded-lg aspect-auto"
             src={"../img/annotation/Card break.jpg"}
             alt="Redesigned reports page"
           />
@@ -218,7 +221,26 @@ function Annotations(props) {
           </p>
         </div>
 
-        <div className="grid items-start gap-4 sm:grid-cols-2">
+        <div className="grid items-start grid-flow-row grid-cols-1 gap-4 md:grid-cols-3">
+          <Image
+            className="col-span-3 rounded-lg aspect-auto"
+            src={"/img/annotation/drawing-card.jpg"}
+            width={1440}
+            height={900}
+            alt="Annotations drawing tool on a lesson card"
+          />
+          <Image
+            className="rounded-lg aspect-auto"
+            src={"/img/annotation/inclass-annotations.png"}
+            width={1440}
+            height={900}
+            alt="Annotations drawing tool on a lesson card"
+          />
+          <img
+            className=" rounded-xl aspect-square"
+            src={"../img/annotation/inclass-annotations.jpg"}
+            alt="Redesigned reports page"
+          />
           <video
             className=" rounded-xl aspect-square"
             src={"../img/annotation/colorpicker.mp4"}
@@ -227,23 +249,6 @@ function Annotations(props) {
             loop
             playsInline
           ></video>
-          <Image
-            className="rounded-lg aspect-auto"
-            src={"/img/annotation/drawing-card.jpg"}
-            width={480}
-            height={480}
-            alt="Annotations drawing tool on a lesson card"
-          />
-          <img
-            className=" rounded-xl aspect-square"
-            src={"../img/annotation/inclass-annotations.png"}
-            alt="Redesigned reports page"
-          />
-          <img
-            className=" rounded-xl aspect-square"
-            src={"../img/annotation/inclass-annotations.jpg"}
-            alt="Redesigned reports page"
-          />
         </div>
         <div className="mx-auto max-w-prose">
           <SectionHeading>What's next</SectionHeading>

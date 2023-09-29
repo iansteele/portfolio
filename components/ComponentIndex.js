@@ -9,4 +9,4 @@ export { default as PrevNextProject } from "../components/PrevNextProject";
 export { default as Footer } from "../components/layout/Footer";
 export { SectionHeading, SectionWrapper } from "./layout/Sections";
 export { default as ThemeButton } from "./layout/ThemeButton";
-export { default as Project } from "./Project";
+export { default as Project } from "./ProjectData";

@@ -61,7 +61,7 @@ const Project = [
     altLabel: "Illustration of a headstone that reads Die Trying",
     roles: [],
     client: "",
-    description: "",
+    description: "Sometimes you just gotta create things, you know?",
   },
   {
     title: "Digital Menus",

@@ -1,6 +1,6 @@
 import React from "react";
 import Thumbnail from "./Thumbnail.js";
-import Project from "./Project.js";
+import Project from "./ProjectData.js";
 
 export default function ProjectList() {
   const thumbnails = Project.filter((Project) => !Project.draft).map(

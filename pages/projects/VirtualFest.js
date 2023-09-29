@@ -4,6 +4,7 @@ import {
   ProjectWrapper,
   ProjectHeading,
   SectionHeading,
+  SectionWrapper,
   Project,
   BlurImage,
 } from "../../components/ComponentIndex";
@@ -24,14 +25,16 @@ function VirtualFest(props) {
             priority
           />
         </div>
-        <div className="mx-auto mt-10 max-w-prose">
+
+        <SectionWrapper>
           <SectionHeading>The Challenge</SectionHeading>
           <p className="mt-4 ">
             {" "}
             During the middle of the COVID-19 pandemic, Untappd cancelled the
             2nd Annual Beer Festival. Given that the service industry had been
             hit so hard, Untappd pivoted to host our first Virtual Beer Festival
-            in order to raise money for the
+            in order to raise money to support restaurant owners and employees
+            during Covid via the{" "}
             <a
               className="button--text"
               href="https://www.restaurantstrong.org/index.html"
@@ -40,15 +43,19 @@ function VirtualFest(props) {
             </a>
             .
           </p>
-          <p className="mt-4 ">
-            {" "}
-            I was tasked with creating the illustration elements for the event,
-            while the Untappd consumer designer handled layout for the virtual
-            festival marketing site. Due to our tight deadline, I focused on the
-            graphics of the page, while Rob tackled the typography and
-            development. Together we explored the organization of page content.
-          </p>
-        </div>
+        </SectionWrapper>
+
+        <SectionWrapper>
+          <h3>Timeline</h3>
+          <p>Back to school 2022</p>
+          <h3>My role:</h3>
+          <ul className="pl-5 space-y-4 list-disc">
+            <li>Illustration design</li>
+            <li>Assist lead designer with web layout + illustration use</li>
+            <li>Printed cards</li>
+          </ul>
+        </SectionWrapper>
+
         <div className="flex flex-col mx-auto mt-10 sm:flex-row">
           <img
             className="w-full h-auto sm:w-1/3"
@@ -66,7 +73,7 @@ function VirtualFest(props) {
             alt="Redesigned reports page"
           />
         </div>
-        <div className="mt-10 section">
+        <SectionWrapper>
           <div className="mx-auto max-w-prose">
             <SectionHeading>The Outcome</SectionHeading>
             <p className="mt-4 ">
@@ -76,18 +83,18 @@ function VirtualFest(props) {
               we were able to accomplish the following:
             </p>
           </div>
-          <div className="flex mt-10">
+          <div className="flex flex-col gap-8 mt-10 sm:flex-row">
             <div className="flex flex-col items-center flex-grow ">
-              <h2>$12,000+</h2>
-              <p className="text-gray">Donated to RSF</p>
+              <span class="text-4xl text-brand-secondary">$12,000+</span>
+              <p className="text-brand-tertiary">Donated to RSF</p>
             </div>
             <div className="flex flex-col items-center justify-center flex-grow">
-              <h2>2,050</h2>
-              <p className="text-gray">Tickets sold</p>
+              <span class="text-4xl text-brand-secondary">2,050</span>
+              <p className="text-brand-tertiary">Tickets sold</p>
             </div>
             <div className="flex flex-col items-center justify-center flex-grow">
-              <h2>15,000+</h2>
-              <p className="text-gray">Chat messages</p>
+              <span class="text-4xl text-brand-secondary">15,000+</span>
+              <p className="text-brand-tertiary">Chat messages</p>
             </div>
           </div>
           <img
@@ -95,7 +102,7 @@ function VirtualFest(props) {
             src={"../img/ut/v-fest/fullpage.png"}
             alt="Redesigned reports page"
           />
-        </div>
+        </SectionWrapper>
       </ProjectWrapper>
     </PageWrapper>
   );
