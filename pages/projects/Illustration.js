@@ -130,6 +130,21 @@ function Illustration(props) {
           />
           <Image
             className="rounded-xl"
+            src={"/img/illustrations/wu.jpg"}
+            width="800"
+            height="800"
+            alt="A vector illustration of a glowing radio in the night sky"
+          />
+
+          <Image
+            className="rounded-xl"
+            src={"/img/illustrations/sota.jpg"}
+            width="800"
+            height="800"
+            alt="A vector illustration of a glowing radio in the night sky"
+          />
+          <Image
+            className="rounded-xl"
             src={"/img/illustrations/LZ_characters.jpg"}
             width="800"
             height="800"
