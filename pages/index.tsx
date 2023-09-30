@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 import Image from "next/image";
 import { PageWrapper, About } from "../components/ComponentIndex";
 import Projects from "../components/Projects";
@@ -60,6 +61,7 @@ export default function Home() {
         <Projects />
         <About />
       </PageWrapper>
+      <Analytics />
     </>
   );
 }

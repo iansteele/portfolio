@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 import {
   PageWrapper,
   ProjectWrapper,
@@ -14,84 +16,123 @@ function Illustration(props) {
       <ProjectWrapper>
         <ProjectHeading project={project} />
         <div className="grid gap-4 mt-10 sm:grid-cols-2 place-items-center lg:grid-cols-3 auto-rows-max">
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/Kitchen-Lighting.jpg"}
+            src={"/img/illustrations/bullet-bill.jpeg"}
+            width="800"
+            height="800"
             alt="A 3D rendering of an isometric kitchen scene"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/got.jpg"}
+            src={"/img/illustrations/Kitchen-Lighting.jpg"}
+            width="800"
+            height="800"
+            alt="A 3D rendering of an isometric kitchen scene"
+          />
+          <Image
+            className="rounded-xl"
+            src={"/img/illustrations/got.jpg"}
+            width="800"
+            height="800"
             alt="Jon Snow Didn't kill the Night King"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/hellyeah.jpg"}
+            src={"/img/illustrations/hellyeah.jpg"}
+            width="800"
+            height="800"
             alt="Hell Yeah Typography"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/cruel.jpg"}
+            src={"/img/illustrations/cruel.jpg"}
+            width="800"
+            height="800"
             alt="Inktober 2019 Illustration. Cruel: The Iron Bull"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/chicken.jpg"}
+            src={"/img/illustrations/chicken.jpg"}
+            width="800"
+            height="800"
             alt="Inktober 2019 Illustration: Sacrificial chicken"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/exhausted.jpg"}
+            src={"/img/illustrations/exhausted.jpg"}
+            width="800"
+            height="800"
             alt="Illustration of a clock with a dagger through it"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/poison.png"}
+            src={"/img/illustrations/poison.png"}
+            width="800"
+            height="800"
             alt="Illustration of a bottle of poison"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/admiral.jpg"}
+            src={"/img/illustrations/admiral.jpg"}
+            width="800"
+            height="800"
             alt="Illustration of Admiral Ackbar. It's a trap!"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/astronaut.png"}
+            src={"/img/illustrations/astronaut.png"}
+            width="800"
+            height="800"
             alt="Beer label illustration of an astronaut attached to a broken piece of their ship"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/bbc.jpg"}
+            src={"/img/illustrations/bbc.jpg"}
+            width="800"
+            height="800"
             alt="Big Bird Crew logo: Big Bird wearing a beer helmet"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/atat.jpg"}
+            src={"/img/illustrations/atat.jpg"}
+            width="800"
+            height="800"
             alt="Star Wars ATAT illustration with a sun in the background"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/witchinghour.jpg"}
+            src={"/img/illustrations/witchinghour.jpg"}
+            width="800"
+            height="800"
             alt="Illustration of an evil night stand. Clock reads 3:00am... the witching hour"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/spacedout.jpg"}
+            src={"/img/illustrations/spacedout.jpg"}
+            width="800"
+            height="800"
             alt="Illustration of an astronaut making it all the way to outer space and only caring about their phone"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/launch.png"}
+            src={"/img/illustrations/launch.png"}
+            width="800"
+            height="800"
             alt="A happy looking rocket"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/LZ_characters.jpg"}
+            src={"/img/illustrations/Arcade.jpg"}
+            width="800"
+            height="800"
             alt="Redesigned reports page"
           />
-          <img
+          <Image
             className="rounded-xl"
-            src={"../img/illustrations/Arcade.jpg"}
+            src={"/img/illustrations/LZ_characters.jpg"}
+            width="800"
+            height="800"
             alt="Redesigned reports page"
           />
         </div>
