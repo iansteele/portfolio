@@ -37,8 +37,8 @@ function Thumbnail(props) {
               src={props.image}
               alt={props.alt}
               className={`overflow-hidden pointer-events-none ease-in-out transition-transform duration-500 transform-gpu group-hover:scale-101 group-focus-visible:scale-101`}
-              width={800}
-              height={600}
+              width={400}
+              height={400}
             />
           </div>
           <div className="flex flex-col justify-center flex-grow px-2 pt-4 pb-2">
