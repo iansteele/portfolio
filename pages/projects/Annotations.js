@@ -8,6 +8,7 @@ import {
   SectionWrapper,
   Project,
   BlurImage,
+  Quotation,
 } from "../../components/ComponentIndex";
 
 function Annotations(props) {
@@ -82,6 +83,29 @@ function Annotations(props) {
               with the teacher.
             </li>
           </ol>
+          <div className="space-y-8 transition-colors duration-500 ">
+            <h3>Key insights</h3>
+            <div className="grid items-stretch grid-cols-1 gap-2 mt-8 sm:grid-cols-2 auto-rows-max">
+              {/* Comment */}
+              <Quotation
+                quote="I spend so much time recreating lesson slides because I can’t
+                  draw on top of them when presenting to my classroom."
+              />
+              {/* Comment */}
+              <Quotation
+                quote="I know I can edit and save slides, but is there a way to write
+                on them DURING the lesson as I present to my class?"
+              />
+              <Quotation
+                quote="Is there a way that I can annotate over the lesson cards when
+                presenting? Is there a tool in the platform for this?"
+              />
+              <Quotation
+                quote="I use my smartboard to draw on slides, but when I scroll or
+                move the page, my annotations do not move with the content."
+              />
+            </div>
+          </div>
         </SectionWrapper>
 
         <Image
@@ -91,53 +115,6 @@ function Annotations(props) {
           width={1440}
           height={480}
         />
-        <SectionWrapper>
-          <div className="space-y-8 transition-colors duration-500 ">
-            <h3>Key insights</h3>
-            <div className="grid items-stretch grid-cols-1 gap-2 mt-8 sm:grid-cols-2 auto-rows-max">
-              {/* Comment */}
-              <div className="relative px-4 py-6 rounded-lg bg-brand-muted dark:bg-brand-muted text-brand-tertiary">
-                <span className="absolute text-4xl font-bold top-2 left-2 text-brand-secondary">
-                  "
-                </span>
-                <p className="text-lg font-bold leading-6">
-                  I spend so much time recreating lesson slides because I can’t
-                  draw on top of them when presenting to my classroom.
-                </p>
-              </div>
-              {/* Comment */}
-              <div className="relative px-4 py-6 rounded-lg bg-brand-muted dark:bg-brand-muted text-brand-tertiary">
-                <span className="absolute text-4xl font-bold top-2 left-2 text-brand-secondary">
-                  "
-                </span>
-                <p className="text-lg font-bold leading-6">
-                  I know I can edit and save slides, but is there a way to write
-                  on them DURING the lesson as I present to my class?
-                </p>
-              </div>
-              {/* Comment */}
-              <div className="relative px-4 py-6 rounded-lg bg-brand-muted dark:bg-brand-muted text-brand-tertiary">
-                <span className="absolute text-4xl font-bold top-2 left-2 text-brand-secondary">
-                  "
-                </span>
-                <p className="text-lg font-bold leading-6">
-                  Is there a way that I can annotate over the lesson cards when
-                  presenting? Is there a tool in the platform for this?
-                </p>
-              </div>
-              {/* Comment */}
-              <div className="relative px-4 py-6 rounded-lg bg-brand-muted dark:bg-brand-muted text-brand-tertiary">
-                <span className="absolute text-4xl font-bold top-2 left-2 text-brand-secondary">
-                  "
-                </span>
-                <p className="text-lg font-bold leading-6">
-                  I use my smartboard to draw on slides, but when I scroll or
-                  move the page, my annotations do not move with the content.
-                </p>
-              </div>
-            </div>
-          </div>
-        </SectionWrapper>
 
         <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
@@ -152,37 +129,12 @@ function Annotations(props) {
             We leveraged a third-party annotation tool to get us up and running
             quickly to test these hypothesis.
           </p>
-        </SectionWrapper>
-        <div className="flex items-centerflex-grow h-full mt-16 p-4 bg-[#EFF2FB] rounded-lg">
-          <img
-            className="shadow-lg rounded-xl"
-            src={"../img/annotation/Annotation_mvp.gif"}
-            alt="Redesigned reports page"
-          />
-        </div>
-        <SectionWrapper>
-          <h3 className="w-auto font-bold">Testing takeaways</h3>
-          <ul className="pl-5 space-y-4 list-disc ">
-            <li>
-              Annotations quickly fell apart with our reording of content on
-              smaller screens
-            </li>
-            <li>
-              Prioritzation and understanding of the iconography and
-              functionality of tools
-            </li>
-            <li>Where teachers and students expected to annotate</li>
-            <li>
-              Learned how long teachers expected annotations to be visible.
-            </li>
-          </ul>
-
-          <img
-            className="mt-16 rounded-lg aspect-auto"
-            src={"../img/annotation/Card break.jpg"}
-            alt="Redesigned reports page"
-          />
           <div className="grid items-start gap-2 mt-2 sm:grid-cols-2 sm:flex-row">
+            <img
+              className="col-span-2 shadow-lg rounded-xl"
+              src={"../img/annotation/Annotation_mvp.gif"}
+              alt="Redesigned reports page"
+            />
             <img
               className="rounded-lg aspect-auto"
               src={"../img/annotation/sketches1.jpg"}
@@ -206,6 +158,28 @@ function Annotations(props) {
           </div>
         </SectionWrapper>
 
+        <SectionWrapper>
+          <SectionHeading>Testing our assumptions</SectionHeading>
+          <ul className="pl-5 space-y-4 list-disc ">
+            <li>
+              When card content responded to the browser width, annotations
+              would decouple from their intended place
+            </li>
+            <li>
+              Prioritzation and understanding of the iconography and
+              functionality of tools
+            </li>
+            <li>Where teachers and students expected to annotate</li>
+            <li>Learn how long teachers expected annotations to be visible.</li>
+          </ul>
+
+          <img
+            className="mt-16 rounded-lg aspect-auto"
+            src={"../img/annotation/responsive-break.jpg"}
+            alt="Redesigned reports page"
+          />
+        </SectionWrapper>
+
         <div className="mx-auto max-w-prose">
           <SectionHeading>What we delivered</SectionHeading>
           <p>
@@ -216,30 +190,25 @@ function Annotations(props) {
           </p>
           <p>
             Teachers are able to annotate both in class settings as well as in
-            the teacher-led Live Learn feature where Annotations would appear on
-            student devices in real-time.
+            the teacher-led Live Learn experience where teacher-created
+            annotations appear on student devices in real-time.
           </p>
         </div>
 
-        <div className="grid items-start grid-flow-row grid-cols-1 gap-4 md:grid-cols-3">
+        <div className="grid items-start grid-flow-row gap-4 grid-cols-auto md:grid-cols-3">
           <Image
-            className="col-span-3 rounded-lg aspect-auto"
+            className="rounded-lg md:col-span-3 aspect-auto"
             src={"/img/annotation/drawing-card.jpg"}
             width={1440}
             height={900}
             alt="Annotations drawing tool on a lesson card"
           />
           <Image
-            className="rounded-lg aspect-auto"
-            src={"/img/annotation/inclass-annotations.png"}
+            className="rounded-lg aspect-square"
+            src={"/img/annotation/tool-list.jpg"}
             width={1440}
             height={900}
             alt="Annotations drawing tool on a lesson card"
-          />
-          <img
-            className=" rounded-xl aspect-square"
-            src={"../img/annotation/inclass-annotations.jpg"}
-            alt="Redesigned reports page"
           />
           <video
             className=" rounded-xl aspect-square"
@@ -249,8 +218,46 @@ function Annotations(props) {
             loop
             playsInline
           ></video>
+          <Image
+            className="rounded-lg aspect-auto"
+            src={"/img/annotation/inclass-annotations.png"}
+            width={1440}
+            height={900}
+            alt="Annotations drawing tool on a lesson card"
+          />
+          <img
+            className="col-span-3 rounded-xl aspect-square"
+            src={"../img/annotation/inclass-annotations.jpg"}
+            alt="Redesigned reports page"
+          />
         </div>
-        <div className="mx-auto max-w-prose">
+        <SectionWrapper>
+          <SectionHeading>Outcomes</SectionHeading>
+          <p>
+            Annotations had been one of our most requested features leading up
+            to this work. Our customer success reps were met with overwhelming
+            excitement to play with Annotations in preporation for the upcoming
+            school year.
+          </p>
+        </SectionWrapper>
+        <SectionWrapper>
+          <SectionHeading>Stories from our customers</SectionHeading>
+          <div className="mt-8 space-y-4">
+            <Quotation
+              quote="This is fantastic on so many levels! I love how my annotations move with the page as I scroll."
+              author="7th grade math teacher"
+            />
+            <Quotation
+              quote="I really like annotations because it helps us learn better!"
+              author="California elementary student"
+            />
+            <Quotation
+              quote="Our teachers are able to spend far less time trying to work-around technical limitations in the classroom. The ability to quickly highlight key points or have students show their thinking has helped the classroom keep the focus on learning and not the tooling."
+              author="Illinois public school admin"
+            />
+          </div>
+        </SectionWrapper>
+        <SectionWrapper>
           <SectionHeading>What's next</SectionHeading>
           <p>
             Over the course of 2023, we are monitoring annotation usage via
@@ -263,7 +270,7 @@ function Annotations(props) {
             leverage annotations when reviewing student work in order to mark up
             student responses.
           </p>
-        </div>
+        </SectionWrapper>
       </ProjectWrapper>
       {/* <PrevNextProject project={Project} currentProject={project} /> */}
     </PageWrapper>
