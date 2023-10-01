@@ -6,6 +6,7 @@ export { default as ProjectWrapper } from "../components/layout/ProjectWrapper";
 export { default as About } from "../components/layout/About";
 export { default as ProjectHeading } from "../components/ProjectHeading";
 export { default as PrevNextProject } from "../components/PrevNextProject";
+export { default as Quotation } from "../components/Quotation";
 export { default as Footer } from "../components/layout/Footer";
 export { SectionHeading, SectionWrapper } from "./layout/Sections";
 export { default as ThemeButton } from "./layout/ThemeButton";
