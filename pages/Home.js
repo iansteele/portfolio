@@ -24,11 +24,6 @@ function Home(props) {
             src={"../img/hero.png"}
             alt="Redesigned reports page"
           />
-          {/* <img
-            className="flex-shrink-0 w-full mx-auto aspect-square"
-            src={"../img/ian-splatters-2.png"}
-            alt="Redesigned reports page"
-          /> */}
         </div>
       </div>
       <Projects />

@@ -10,8 +10,8 @@ export default function About() {
             <Image
               src="/img/ian-splatters-2.png"
               alt="A low-fidelity sketch of early grading layouts"
-              objectFit="cover"
-              layout="fill"
+              fill
+              sizes="(max-width: 400px)"
             />
           </div>
         </div>
