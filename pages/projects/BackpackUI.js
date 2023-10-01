@@ -7,6 +7,7 @@ import {
   SectionHeading,
   SectionWrapper,
   Project,
+  Quotation,
   BlurImage,
 } from "../../components/ComponentIndex";
 
@@ -182,32 +183,23 @@ function BackpackUI(props) {
         <SectionWrapper>
           <SectionHeading>The results</SectionHeading>
           <div className="grid items-stretch grid-cols-1 gap-10 mt-8 auto-rows-max">
-            <div className="relative px-4 py-6 rounded-md bg-brand-muted text-brand-tertiary">
-              <span className="absolute text-5xl top-3 left-3 text-brand-secondary">
-                "
-              </span>
-              <p className="font-bold">
-                Ian single-handedly created our Backpack UI system increasing
+            <Quotation
+              quote="Ian single-handedly created our Backpack UI system increasing
                 our team productivity, creating consistency across design files
-                and allowed us to create a cohesive brand language for our app
-              </p>
-              <p className="mt-2 text-base text-brand-tertiary">
-                - Peer Product designer
-              </p>
-            </div>
-            <div className="relative px-4 py-6 rounded-md bg-brand-muted text-brand-tertiary">
-              <span className="absolute text-5xl top-3 left-3 text-brand-secondary">
-                "
-              </span>
-              <p className="font-bold">
-                Ian has gone the extra mile by creating parity between Figma and
-                app code by introducing intentional naming conventions for
-                components and properties that mirror what we see in our code
-              </p>
-              <p className="mt-2 text-base text-brand-tertiary">
-                - Senior Engineer
-              </p>
-            </div>
+                and allowed us to create a cohesive brand language for our app"
+              author="Peer Principal Product Designer"
+            />
+            <Quotation
+              quote="Ian has gone the extra mile by creating parity between Figma and
+              app code by introducing intentional naming conventions for
+              components and properties that mirror what we see in our code"
+              author="Senior Engineer"
+            />
+            <Quotation
+              quote="The work Ian has put into Backpack UI has been a major inspiration for other teams at Imagine Learning. The components are not only well organized and easy to use for both designers and developers, but the way they pair so closely with the code is incredible. Backpack is lightyears ahead of what our other design teams have access to."
+              author="Design ops"
+            />
+
             <div>
               <p className="mt-0">
                 Backpack UI has been a huge success for the team. Designers now
