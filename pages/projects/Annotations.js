@@ -197,21 +197,21 @@ function Annotations(props) {
 
         <div className="grid items-start grid-flow-row gap-4 grid-cols-auto md:grid-cols-3">
           <Image
-            className="rounded-lg md:col-span-3 aspect-auto"
+            className="col-span-3 rounded-lg aspect-auto"
             src={"/img/annotation/drawing-card.jpg"}
             width={1440}
             height={900}
             alt="Annotations drawing tool on a lesson card"
           />
           <Image
-            className="rounded-lg aspect-square"
+            className="col-span-3 rounded-lg sm:col-span-1 aspect-square"
             src={"/img/annotation/tool-list.jpg"}
             width={1440}
             height={900}
             alt="Annotations drawing tool on a lesson card"
           />
           <video
-            className=" rounded-xl aspect-square"
+            className="col-span-3  rounded-xl sm:col-span-1 aspect-square"
             src={"../img/annotation/colorpicker.mp4"}
             autoPlay
             muted
@@ -219,7 +219,7 @@ function Annotations(props) {
             playsInline
           ></video>
           <Image
-            className="rounded-lg aspect-auto"
+            className="col-span-3 rounded-lg sm:col-span-1 aspect-auto"
             src={"/img/annotation/inclass-annotations.png"}
             width={1440}
             height={900}

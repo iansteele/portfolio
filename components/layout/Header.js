@@ -52,7 +52,7 @@ function Header(props) {
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           href="/"
-          className="inline-flex items-center flex-grow-0 gap-3 transition-colors duration-500 rounded group focus-base text-brand-tertiary"
+          className="inline-flex items-center flex-grow-0 gap-3 transition-colors duration-500 rounded cursor-pointer group focus-base text-brand-tertiary"
         >
           <svg
             className="flex-shrink-0 w-8 h-8 transition-all duration-500 transform group-hover:scale-110 group-hover:fill-brand-secondary fill-brand-tertiary"

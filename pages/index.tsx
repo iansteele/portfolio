@@ -28,7 +28,7 @@ export default function Home() {
         <div className="relative flex flex-col items-center flex-grow w-full max-w-screen-xl gap-10 px-6 py-10 h-fit min-h-[50vh] md:items-start md:justify-start text-brand-tertiary">
           <div className="relative flex flex-col justify-center flex-grow w-full min-w-0 max-w-prose">
             <h1 className="tracking-tight lg:text-7xl">Hi, I'm Ian</h1>
-            <p className="text-2xl text-brand-tertiary-muted max-w-prose">
+            <p className="text-2xl text-brand-tertiary-muted max-w-prose whitespace-nowrap">
               I'm a product designer passionate about{" "}
               <span className="font-semibold underline underline-offset-2 decoration-brand-secondary">
                 design systems
