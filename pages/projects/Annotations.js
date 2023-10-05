@@ -129,31 +129,42 @@ function Annotations(props) {
             We leveraged a third-party annotation tool to get us up and running
             quickly to test these hypothesis.
           </p>
-          <div className="grid items-start gap-2 mt-2 sm:grid-cols-2 sm:flex-row">
-            <img
-              className="col-span-2 shadow-lg rounded-xl"
-              src={"../img/annotation/Annotation_mvp.gif"}
+          <div className="grid items-start gap-2 mt-10 sm:grid-cols-2 sm:flex-row">
+            <Image
+              className="w-full col-span-2 shadow-lg rounded-xl"
+              src={"/img/annotation/Annotation_mvp.gif"}
               alt="Redesigned reports page"
+              width="640"
+              height="800"
+              sizes="(min-width: 100%) 100vw"
             />
-            <img
+            <Image
               className="rounded-lg aspect-auto"
-              src={"../img/annotation/sketches1.jpg"}
+              src={"/img/annotation/sketches1.jpg"}
               alt="Redesigned reports page"
+              width="400"
+              height="400"
             />
-            <img
+            <Image
               className="rounded-lg aspect-auto"
-              src={"../img/annotation/Style exploration.jpg"}
+              src={"/img/annotation/Style exploration.jpg"}
               alt="Redesigned reports page"
+              width="400"
+              height="400"
             />
-            <img
+            <Image
               className="rounded-lg aspect-auto"
-              src={"../img/annotation/Style exploration2.jpg"}
+              src={"/img/annotation/Style exploration2.jpg"}
               alt="Redesigned reports page"
+              width="400"
+              height="400"
             />
-            <img
+            <Image
               className="rounded-lg aspect-auto"
-              src={"../img/annotation/text-highlighting.jpg"}
+              src={"/img/annotation/text-highlighting.jpg"}
               alt="Redesigned reports page"
+              width="400"
+              height="400"
             />
           </div>
         </SectionWrapper>
@@ -173,10 +184,12 @@ function Annotations(props) {
             <li>Learn how long teachers expected annotations to be visible.</li>
           </ul>
 
-          <img
-            className="mt-16 rounded-lg aspect-auto"
-            src={"../img/annotation/responsive-break.jpg"}
+          <Image
+            className="w-full mt-16 rounded-lg aspect-auto"
+            src={"/img/annotation/responsive-break.jpg"}
             alt="Redesigned reports page"
+            width="400"
+            height="300"
           />
         </SectionWrapper>
 
@@ -197,10 +210,10 @@ function Annotations(props) {
 
         <div className="grid items-start grid-flow-row gap-4 grid-cols-auto md:grid-cols-3">
           <Image
-            className="col-span-3 rounded-lg aspect-auto"
+            className="w-full col-span-3 rounded-lg aspect-auto"
             src={"/img/annotation/drawing-card.jpg"}
-            width={1440}
-            height={900}
+            width={720}
+            height={450}
             alt="Annotations drawing tool on a lesson card"
           />
           <Image
@@ -211,7 +224,7 @@ function Annotations(props) {
             alt="Annotations drawing tool on a lesson card"
           />
           <video
-            className="col-span-3  rounded-xl sm:col-span-1 aspect-square"
+            className="col-span-3 rounded-xl sm:col-span-1 aspect-square"
             src={"../img/annotation/colorpicker.mp4"}
             autoPlay
             muted
@@ -225,10 +238,12 @@ function Annotations(props) {
             height={900}
             alt="Annotations drawing tool on a lesson card"
           />
-          <img
-            className="col-span-3 rounded-xl aspect-square"
-            src={"../img/annotation/inclass-annotations.jpg"}
+          <Image
+            className="w-full col-span-3 rounded-xl aspect-square"
+            src={"/img/annotation/inclass-annotations.jpg"}
             alt="Redesigned reports page"
+            width={720}
+            height={450}
           />
         </div>
         <SectionWrapper>
