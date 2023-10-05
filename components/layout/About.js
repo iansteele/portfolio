@@ -8,9 +8,11 @@ export default function About() {
         <div className="grid w-full mt-24 place-self-start">
           <div className="relative flex flex-shrink-0 w-1/2 col-span-1 mx-auto overflow-hidden rounded-full md:w-2/3 aspect-square ring-8 ring-brand-muted min-w-max bg-brand-tertiary dark:bg-brand-primary">
             <Image
+              className="w-full h-full aspect-square"
               src="/img/ian-splatters-2.png"
               alt="A low-fidelity sketch of early grading layouts"
               fill
+              sizes="(max-width: 480px) 100vw"
             />
           </div>
         </div>
