@@ -10,8 +10,7 @@ export default function About() {
             <Image
               src="/img/ian-splatters-2.png"
               alt="A low-fidelity sketch of early grading layouts"
-              width="400"
-              height="400"
+              fill
             />
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import Projects from "../components/Projects.js";
 
 function Home(props) {
@@ -18,11 +18,12 @@ function Home(props) {
             with the amazing folks at Imagine Learning Classroom
           </p>
         </div>
-        <div className="flex-grow w-full max-w-sm mx-auto overflow-hidden md:max-w-full md:w-1/2 ">
-          <img
+        <div className="flex flex-grow w-full max-w-sm mx-auto overflow-hidden md:max-w-full md:w-1/2 ">
+          <Image
             className="flex-shrink-0 w-full mx-auto drop-shadow-lg aspect-square"
             src={"../img/hero.png"}
             alt="Redesigned reports page"
+            fill
           />
         </div>
       </div>
