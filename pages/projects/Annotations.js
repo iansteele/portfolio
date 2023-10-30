@@ -64,11 +64,12 @@ function Annotations(props) {
         <SectionWrapper>
           <SectionHeading>Understanding the classroom</SectionHeading>
           <p>
-            Through customer interviews, fullstory recordings, and feedback from
-            customer support, our team sought to understand the classroom
-            environment post-COVID. How were they presenting content to
-            students, what tools were teachers using to instruct? What tools
-            were students using to demonstrate their understanding?
+            Our team sought to understand the classroom environment through
+            teacher interviews, analaytics, and fullstory recordings. How have
+            classrooms adjusted in a post-pandemic world? We sought to learn
+            about what was happening outside of our product and when. How were
+            teachers presenting content to students, what tools were they using
+            to instruct? How were students sharing their thoughts?
           </p>
 
           <ol className="pl-5 space-y-4 list-disc">
@@ -87,6 +88,8 @@ function Annotations(props) {
             <h3>Key insights</h3>
             <div className="grid items-stretch grid-cols-1 gap-2 mt-8 sm:grid-cols-2 auto-rows-max">
               {/* Comment */}
+              <Quotation quote="Teachers struggled to keep students on task when students had their own device." />
+              <Quotation quote="Teachers encouraged students to THINK, PAIR, SHARE." />
               <Quotation
                 quote="I spend so much time recreating lesson slides because I can’t
                   draw on top of them when presenting to my classroom."
@@ -114,6 +117,26 @@ function Annotations(props) {
           alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
           width={1440}
           height={480}
+        />
+
+        <SectionWrapper>
+          <SectionHeading>Defining the problem</SectionHeading>
+          <p>
+            Our team sought to understand the classroom environment through
+            teacher interviews, analaytics, and fullstory recordings. How have
+            classrooms adjusted in a post-pandemic world? We sought to learn
+            about what was happening outside of our product and when. How were
+            teachers presenting content to students, what tools were they using
+            to instruct? How were students sharing their thoughts?
+          </p>
+        </SectionWrapper>
+        <Image
+          className="w-full h-auto col-span-2 shadow-lg rounded-xl"
+          src={"/img/annotation/userflow.png"}
+          alt="Redesigned reports page"
+          width="800"
+          height="640"
+          sizes="(min-width: 100%) 100vw"
         />
 
         <SectionWrapper>
@@ -184,13 +207,13 @@ function Annotations(props) {
             <li>Learn how long teachers expected annotations to be visible.</li>
           </ul>
 
-          <Image
+          {/* <Image
             className="w-full mt-16 rounded-lg aspect-auto"
             src={"/img/annotation/responsive-break.jpg"}
             alt="Redesigned reports page"
             width="400"
             height="300"
-          />
+          /> */}
         </SectionWrapper>
 
         <div className="mx-auto max-w-prose">
