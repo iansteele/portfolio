@@ -12,7 +12,7 @@ const Project = [
     altLabel: "IL Classroom's UI Kit",
     roles: ["Design ops", "Design Systems"],
     client: "Imagine Learning Classroom",
-    description: "Helping designers play nice with developers",
+    description: "Bridging the gap between design and dev",
   },
   {
     title: "Annotations",
