@@ -20,8 +20,8 @@ export default function About() {
         <div className="flex flex-col flex-grow col-span-1 px-4 pt-10 pb-20 lg:col-span-2 md:pt-24 max-w-prose">
           <h1> About Me</h1>
           <p>
-            I am a principal product designer with 10+ years of experience based
-            in southern Illinois. I am currently working remotely on the{" "}
+            I am a principal product designer with 11+ years of experience based
+            in Illinois. I am working remotely on the{" "}
             <span className="font-bold">Classroom</span> team at{" "}
             <span className="font-bold">Imagine Learning</span>. We provide
             classrooms across the country with a high quality curriculum

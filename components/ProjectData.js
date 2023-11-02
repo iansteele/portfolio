@@ -25,14 +25,14 @@ const Project = [
     description: "Promoting dialogue during classroom discussion",
   },
   {
-    title: "Grading Redux",
+    title: "Grading Revamp",
     link: "/projects/Grading",
     image: "/img/grading/grading-thumb.jpg",
     altLabel:
       "UI components that were created to improve the grading experience at Imagine Learning Classroom",
     roles: ["User research", "Design Thinking", "Prototyping"],
     client: "Imagine Learning Classroom",
-    description: "Reimagining our grading workflow",
+    description: "Giving teachers their time back",
   },
 
   {
@@ -42,7 +42,7 @@ const Project = [
     altLabel: "Screenshots of the Untappd for Business free trial experience",
     roles: ["UX", "Product Design"],
     client: "Untappd for Business",
-    description: "Connecting businesses & customers",
+    description: "Reducing the customer aquisition cost",
   },
   {
     title: "Untappd Virtual Fest",
@@ -52,7 +52,7 @@ const Project = [
       "Website design and marketing adds for the Untappd Virtual Festival campaign",
     roles: ["Illustration"],
     client: "Untappd",
-    description: "Celebrating beer... pandemic style",
+    description: "Celebrating beer... in the middle of a pandemic",
   },
   {
     title: "Illustrations",

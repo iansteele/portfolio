@@ -16,7 +16,7 @@ export default function Home() {
           <title>Ian Steele - Digital product designer and Illustrator</title>
           <meta
             name="description"
-            content="An Illinois-based digital product designer & Illustrator with 10+ years of experience. Get in touch with me to know more."
+            content="An Illinois-based digital product designer & Illustrator with 11+ years of experience. Get in touch with me to know more."
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
