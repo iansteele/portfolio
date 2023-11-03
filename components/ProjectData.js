@@ -25,7 +25,7 @@ const Project = [
     description: "Promoting dialogue during classroom discussion",
   },
   {
-    title: "Grading Revamp",
+    title: "Assignment Grading",
     link: "/projects/Grading",
     image: "/img/grading/grading-thumb.jpg",
     altLabel:

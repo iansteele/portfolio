@@ -14,7 +14,7 @@ import {
 } from "../../components/ComponentIndex";
 
 function Grading(props) {
-  const project = Project.find((p) => p.title === "Grading Redux");
+  const project = Project.find((p) => p.title === "Assignment Grading");
 
   return (
     <PageWrapper>
@@ -85,14 +85,12 @@ function Grading(props) {
             Our assessments were built with a third-party authoring platform
             that placed restrictions on what was possible with student
             responses.{" "}
-            <ul className="pl-5 space-y-4 list-disc">
-              <li>
-                Unable to show multiple student responses at the same time
-              </li>
-              <li>Delay in score calculation when grading a question</li>
-              <li>Delay in score calculation when grading a question</li>
-            </ul>
           </p>
+          <ul className="pl-5 space-y-4 list-disc">
+            <li>Unable to show multiple student responses at the same time</li>
+            <li>Delay in score calculation when grading a question</li>
+            <li>Delay in score calculation when grading a question</li>
+          </ul>
         </SectionWrapper>
 
         <SectionWrapper>
