@@ -63,7 +63,7 @@ function Grading(props) {
             <li>Competitive research & analysis</li>
             <li>Led brainstorming workshops</li>
             <li>Prototyping & testing</li>
-            <li>Front-end development </li>
+            <li>Front-end development</li>
           </ul>
         </SectionWrapper>
 

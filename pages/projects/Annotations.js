@@ -57,7 +57,7 @@ function Annotations(props) {
             <li>Competitive research & analysis</li>
             <li>Led brainstorming workshops</li>
             <li>Prototyping & testing</li>
-            <li>Front-end development </li>
+            <li>Front-end development of styling and toolbar interactions </li>
           </ul>
         </SectionWrapper>
 
@@ -154,23 +154,8 @@ function Annotations(props) {
           </p>
           <div className="grid items-start gap-2 mt-10 sm:grid-cols-2 sm:flex-row">
             <Image
-              className="w-full col-span-2 shadow-lg rounded-xl"
-              src={"/img/annotation/Annotation_mvp.gif"}
-              alt="Redesigned reports page"
-              width="640"
-              height="800"
-              sizes="(min-width: 100%) 100vw"
-            />
-            <Image
               className="rounded-lg aspect-auto"
               src={"/img/annotation/sketches1.jpg"}
-              alt="Redesigned reports page"
-              width="400"
-              height="400"
-            />
-            <Image
-              className="rounded-lg aspect-auto"
-              src={"/img/annotation/Style exploration.jpg"}
               alt="Redesigned reports page"
               width="400"
               height="400"
@@ -184,10 +169,26 @@ function Annotations(props) {
             />
             <Image
               className="rounded-lg aspect-auto"
+              src={"/img/annotation/Style exploration.jpg"}
+              alt="Redesigned reports page"
+              width="400"
+              height="400"
+            />
+
+            <Image
+              className="rounded-lg aspect-auto"
               src={"/img/annotation/text-highlighting.jpg"}
               alt="Redesigned reports page"
               width="400"
               height="400"
+            />
+            <Image
+              className="w-full col-span-2 shadow-lg rounded-xl"
+              src={"/img/annotation/Annotation_mvp.gif"}
+              alt="Redesigned reports page"
+              width="640"
+              height="800"
+              sizes="(min-width: 100%) 100vw"
             />
           </div>
         </SectionWrapper>
@@ -274,12 +275,10 @@ function Annotations(props) {
           <p>
             Annotations had been one of our most requested features leading up
             to this work. Our customer success reps were met with overwhelming
-            excitement to play with Annotations in preporation for the upcoming
-            school year.
+            excitement from districts and teachers looking forward to using the
+            annotation tools.
           </p>
-        </SectionWrapper>
-        <SectionWrapper>
-          <SectionHeading>Stories from our customers</SectionHeading>
+          <h3>Stories from our customers</h3>
           <div className="mt-8 space-y-4">
             <Quotation
               quote="This is fantastic on so many levels! I love how my annotations move with the page as I scroll."
