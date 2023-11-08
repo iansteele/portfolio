@@ -131,11 +131,11 @@ function Annotations(props) {
           </p>
         </SectionWrapper>
         <Image
-          className="w-full h-auto col-span-2 shadow-lg rounded-xl"
-          src={"/img/annotation/userflow.png"}
-          alt="Redesigned reports page"
-          width="800"
-          height="640"
+          className="w-full col-span-2 rounded-xl"
+          src={"/img/annotation/DotVote.svg"}
+          alt="Graphic illustration representing the dot voting exercise the team used to prioritize hypothesis statements"
+          width="640"
+          height="160"
           sizes="(min-width: 100%) 100vw"
         />
 
@@ -152,6 +152,14 @@ function Annotations(props) {
             We leveraged a third-party annotation tool to get us up and running
             quickly to test these hypothesis.
           </p>
+          <Image
+            className="w-full h-auto col-span-2 mt-10 rounded-xl"
+            src={"/img/annotation/userflow.png"}
+            alt="Redesigned reports page"
+            width="800"
+            height="640"
+            sizes="(min-width: 100%) 100vw"
+          />
           <div className="grid items-start gap-2 mt-10 sm:grid-cols-2 sm:flex-row">
             <Image
               className="rounded-lg aspect-auto"
@@ -162,14 +170,22 @@ function Annotations(props) {
             />
             <Image
               className="rounded-lg aspect-auto"
-              src={"/img/annotation/Style exploration2.jpg"}
+              src={"/img/annotation/Style exploration.jpg"}
+              alt="Redesigned reports page"
+              width="400"
+              height="400"
+            />
+
+            <Image
+              className="rounded-lg aspect-auto"
+              src={"/img/annotation/original-cards.jpg"}
               alt="Redesigned reports page"
               width="400"
               height="400"
             />
             <Image
               className="rounded-lg aspect-auto"
-              src={"/img/annotation/Style exploration.jpg"}
+              src={"/img/annotation/Style exploration2.jpg"}
               alt="Redesigned reports page"
               width="400"
               height="400"
