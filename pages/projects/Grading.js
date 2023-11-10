@@ -34,7 +34,7 @@ function Grading(props) {
         <SectionWrapper>
           <SectionHeading>The goal</SectionHeading>
           <span className="block text-4xl leading-tight text-brand-tertiary font-display">
-            Less homework for teachers
+            Less time grading, more time... well, for anything
           </span>
         </SectionWrapper>
         <SectionWrapper>
@@ -81,15 +81,22 @@ function Grading(props) {
           </p>
 
           <h3>Constraints</h3>
-          <p className="">
+          <p>
             Our assessments were built with a third-party authoring platform
             that placed restrictions on what was possible with student
-            responses.{" "}
+            responses.
           </p>
           <ul className="pl-5 space-y-4 list-disc">
             <li>Unable to show multiple student responses at the same time</li>
-            <li>Delay in score calculation when grading a question</li>
-            <li>Delay in score calculation when grading a question</li>
+            <li>
+              Delay in score calculation when grading a question required
+              teachers to wait several seconds before moving onto the next
+              question.
+            </li>
+            <li>
+              Grading happened inside of a modal that required several touch
+              points to get in and out of a student's response.
+            </li>
           </ul>
         </SectionWrapper>
 
@@ -121,6 +128,48 @@ function Grading(props) {
               identify patterns
             </li>
           </ul>
+          <Image
+            src={"/img/grading/empathymapping.png"}
+            width="1000"
+            height="1000"
+            className="mt-10 rounded-lg"
+            alt="Examples of iconography portraying student score"
+          />
+        </SectionWrapper>
+
+        <SectionWrapper>
+          <SectionHeading>Ideation</SectionHeading>
+          <p>
+            The product manager and I facilitating customer satisfaction
+            interviews to learn about the frequency in which teachers assigned
+            and graded student work. During these conversations with teachers
+            our goal was to build an understanding of what is and what wasn't
+            working in the grading workflow.
+          </p>
+          <p>
+            Teachers were using a variety of methods to annotate on top of our
+            content. This ranged from smartboards, to whiteboards, to overhead
+            projectors. To promote classroom participation and classroom
+            management, students did not have access to devices but instead
+            followed along with the teacher.
+          </p>
+          <div className="grid grid-cols-1 gap-4 mt-16 md:grid-cols-3 md:flex-row">
+            <Image
+              src={gradingFlowSketch}
+              className="rounded-lg"
+              alt="A low-fidelity sketch of early grading layouts"
+            />
+            <Image
+              src={gradingModalSketch}
+              className="rounded-lg"
+              alt="Original grading modal sketch "
+            />
+            <Image
+              src={gradingIconSketch}
+              className="rounded-lg"
+              alt="Examples of iconography portraying student score"
+            />
+          </div>
         </SectionWrapper>
 
         {/* <SectionWrapper>
@@ -168,10 +217,12 @@ function Grading(props) {
           />
         </div>
         <SectionWrapper>
-          <h3>A bird's-eye view</h3>
+          <h3>Performance overview</h3>
           <p className="mt-4">
             During interviews, we learned of several opportunities to improve
-            this overhead view of assignments.
+            this overhead view of assignments. These updates included softer
+            color scheme for lower scores, more sorting options for the scoring
+            table, bulk actions, and more.
           </p>
         </SectionWrapper>
         <div className="w-full mt-8 text-center sm:p-2 ">
@@ -201,7 +252,7 @@ function Grading(props) {
             playsInline
           ></video>
           <Image
-            src={"/img/grading/Grading.jpg"}
+            src={"/img/grading/Grading.png"}
             alt="Redesigned reports page"
             width={1440}
             height={810}
