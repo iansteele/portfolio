@@ -212,7 +212,7 @@ function Grading(props) {
         <div className="w-full mt-8 text-center sm:p-2 ">
           <img
             className="flex-1 min-w-0 rounded-lg"
-            src={"../img/grading/assignment-cards.jpg"}
+            src={"../img/grading/assignment-cards.png"}
             alt="Assignment list items portraying student activity"
           />
         </div>
@@ -243,6 +243,13 @@ function Grading(props) {
           </p>
         </SectionWrapper>
         <div className="w-full space-y-8 text-center sm:p-2 ">
+          <Image
+            src={"/img/grading/Grading.png"}
+            alt="Redesigned reports page"
+            width={1440}
+            height={810}
+            className="rounded-xl"
+          />
           <video
             className=" rounded-xl"
             src={"../img/grading/Quick Grader.mp4"}
@@ -250,13 +257,6 @@ function Grading(props) {
             muted
             loop
             playsInline
-          ></video>
-          <Image
-            src={"/img/grading/Grading.png"}
-            alt="Redesigned reports page"
-            width={1440}
-            height={810}
-            className="rounded-xl"
           />
           {/* <Image
             src={"/img/grading/Tips.png"}
@@ -265,7 +265,7 @@ function Grading(props) {
             height={300}
           /> */}
           <Image
-            src={"/img/grading/quickgrader.jpg"}
+            src={"/img/grading/quickgrader.png"}
             alt="Overview of the response card component structure"
             width={1440}
             height={810}
@@ -273,7 +273,7 @@ function Grading(props) {
           />
 
           <Image
-            src={"/img/grading/Tips.jpg"}
+            src={"/img/grading/Tips.png"}
             alt="Screenshot of a modal showcasing keyboard shortcuts in the grading experience"
             width={1440}
             height={810}
