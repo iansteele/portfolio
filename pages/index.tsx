@@ -30,18 +30,11 @@ export default function Home() {
             <h1 className="tracking-tight lg:text-7xl">Hi, I'm Ian</h1>
             <p className="text-2xl text-brand-tertiary-muted max-w-prose ">
               I'm a product designer passionate about{" "}
-              <span className="font-semibold underline underline-offset-2 decoration-brand-secondary">
-                design systems
-              </span>
-              ,{" "}
-              <span className="font-semibold underline whitespace-nowrap underline-offset-2 decoration-brand-secondary">
+              <span className="font-semibold ">design systems</span>,{" "}
+              <span className="font-semibold whitespace-nowrap ">
                 front-end development
               </span>{" "}
-              and{" "}
-              <span className="font-semibold underline underline-offset-2 decoration-brand-secondary">
-                illustration
-              </span>
-              .
+              and <span className="font-semibold ">illustration</span>.
             </p>
           </div>
 

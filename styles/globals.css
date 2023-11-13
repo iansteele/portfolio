@@ -91,7 +91,7 @@
   }
 
   .highlight {
-    @apply underline tracking-wider underline-offset-2  decoration-brand-secondary decoration-2 font-bold;
+    @apply tracking-wider  font-bold;
   }
 
   .card:hover .card-glow {
