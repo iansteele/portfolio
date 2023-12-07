@@ -6,7 +6,7 @@ import Button from "../Button";
 function Footer(props) {
   return (
     <footer className="flex flex-col items-center justify-center w-full px-6 py-16 text-center text-brand-tertiary">
-      <span className="text-2xl font-bold ">Don't be a stranger</span>
+      <p className="text-2xl font-bold ">Don't be a stranger</p>
 
       <Social />
       <a

@@ -29,7 +29,7 @@ function Annotations(props) {
           />
         </div>
         <SectionWrapper>
-          <SectionHeading>Overview</SectionHeading>
+          <SectionHeading>The goal</SectionHeading>
 
           <p className="text-5xl font-light leading-tight tracking-tight">
             <span className="font-bold">Expand on ideas</span> and{" "}
@@ -50,7 +50,7 @@ function Annotations(props) {
 
         <SectionWrapper>
           <h3>Timeline</h3>
-          <p>Back to school 2022</p>
+          <p>5 months</p>
           <h3>My role:</h3>
           <ul className="pl-5 space-y-4 list-disc">
             <li>Conduct surveys and moderated user interviews</li>

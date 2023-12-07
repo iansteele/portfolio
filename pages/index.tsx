@@ -25,11 +25,16 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative flex flex-col items-center flex-grow w-full max-w-screen-xl gap-10 px-6 py-10 h-fit min-h-[50vh] md:items-start md:justify-start text-brand-tertiary">
+        <div className="relative flex flex-col items-center flex-grow w-full max-w-screen-2xl gap-10 px-6 py-10 h-fit min-h-[50vh] md:items-start md:justify-start text-brand-tertiary">
           <div className="relative flex flex-col justify-center flex-grow w-full min-w-0 max-w-prose">
-            <h1 className="tracking-tight lg:text-7xl">Hi, I'm Ian</h1>
-            <p className="text-2xl text-brand-tertiary-muted max-w-prose ">
-              I'm a product designer passionate about{" "}
+            <h1 className="text-5xl tracking-tight lg:text-7xl text-brand-tertiary">
+              I'm a principal product designer
+            </h1>
+            <h2 className="mt-4 mb-0 lg:mt-6 ">
+              Building on 11+ years of experience
+            </h2>
+            <p className="mt-4 lg:text-xl text-brand-tertiary-muted max-w-prose">
+              I geek out about{" "}
               <span className="font-semibold ">design systems</span>,{" "}
               <span className="font-semibold whitespace-nowrap ">
                 front-end development

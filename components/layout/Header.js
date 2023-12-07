@@ -49,7 +49,7 @@ function Header(props) {
         transition: "transform 0.3s ease", // Standard transition property
       }}
     >
-      <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
+      <div className="flex items-center justify-between w-full mx-auto max-w-screen-2xl">
         <Link
           href="/"
           className="inline-flex items-center flex-grow-0 gap-3 transition-colors duration-500 rounded cursor-pointer group focus-base text-brand-tertiary"

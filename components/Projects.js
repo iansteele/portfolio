@@ -18,7 +18,7 @@ export default function ProjectList() {
   );
 
   return (
-    <ul className="grid w-full max-w-screen-xl grid-cols-1 gap-4 px-4 pb-20 space-y-0 list-none auto-rows-max md:grid-cols-2 xl:grid-cols-3">
+    <ul className="grid w-full grid-cols-1 gap-4 px-4 pb-20 space-y-0 list-none max-w-screen-2xl auto-rows-max md:grid-cols-2 xl:grid-cols-3">
       {thumbnails}
     </ul>
   );

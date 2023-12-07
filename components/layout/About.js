@@ -23,10 +23,12 @@ export default function About() {
             I am a principal product designer with 11+ years of experience based
             in Illinois. I am working remotely on the{" "}
             <span className="font-bold">Classroom</span> team at{" "}
-            <span className="font-bold">Imagine Learning</span>. We provide
-            classrooms across the country with a high quality curriculum
-            platform that facilitates learning through planning, teaching,
-            assigning, grading and more.
+            <span className="font-bold whitespace-nowrap ">
+              Imagine Learning
+            </span>
+            . We provide classrooms across the country with a high quality
+            curriculum platform that facilitates learning through planning,
+            teaching, assigning, grading and more.
           </p>
 
           <p className="font-bold ">
@@ -34,7 +36,10 @@ export default function About() {
             learning the hot-keys, problem-solving, and pursuing challenges of
             all types.
           </p>
-          <p>Want to know anything else? Feel free to reach out!</p>
+          <p>
+            Want to know anything else? Feel free to{" "}
+            <a href="steeledesignco@gmail.com">reach out</a>!
+          </p>
         </div>
         {/* <Image
         src="/img/hero.png"

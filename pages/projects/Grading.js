@@ -33,7 +33,7 @@ function Grading(props) {
 
         <SectionWrapper>
           <SectionHeading>The goal</SectionHeading>
-          <span className="block text-4xl leading-tight text-brand-tertiary font-display">
+          <span className="block mt-4 text-5xl leading-snug text-brand-tertiary lg:text-6xl font-display">
             Less time grading, more time... well, for anything
           </span>
         </SectionWrapper>

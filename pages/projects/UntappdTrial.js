@@ -27,9 +27,9 @@ function UntappdTrial(props) {
           />
         </div>
         <SectionWrapper>
-          <SectionHeading>Overview</SectionHeading>
+          <SectionHeading>The goal</SectionHeading>
           <span className="block mt-4 text-5xl text-brand-tertiary leading-12 lg:text-6xl font-display">
-            Responsibly connect restaurants with customers
+            Connect business with customers
           </span>
           <p>
             Untappd for Business (UTFB) offers a single platform to manage menus
@@ -74,11 +74,6 @@ function UntappdTrial(props) {
             customer churn.
           </p>
         </SectionWrapper>
-        <img
-          className="flex-shrink-0 w-full h-auto"
-          src={"../img/ut/trial/journeymap.jpg"}
-          alt="Redesigned reports page"
-        />
         <SectionWrapper>
           <SectionHeading className="text-3xl text-brand-secondary font-display">
             Empathizing with businesses
@@ -134,10 +129,7 @@ function UntappdTrial(props) {
               marketing team to A/B test site layouts that simplified the steps
               required to start a trial.
             </p>
-            <p className="highlight">
-              The new design reduced the fields required to contact sales/start
-              a trial from 12 down to 1.
-            </p>
+            <p className="highlight">Inputs 12 {" < "} 1 input</p>
           </div>
         </SectionWrapper>
         <ImgFullBleed>

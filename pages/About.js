@@ -18,11 +18,13 @@ function App() {
 
           <p className="mt-10">Hey there, friend 👋 </p>
           <p>
-            I am a principal product designer based in southern Illinois.
-            Currently, I am on the <span className="font-bold">Classroom</span>{" "}
-            team at <span className="font-bold">Imagine Learning</span>. We are
-            focused on providing classrooms across the country with a high
-            quality curriculum platform that helps teachers and students
+            I am a principal product designer based in Illinois. Currently, I am
+            on the <span className="font-bold">Classroom</span> team at{" "}
+            <span className="font-bold whitespace-nowrap ">
+              Imagine Learning
+            </span>
+            . We are focused on providing classrooms across the country with a
+            high quality curriculum platform that helps teachers and students
             facilitate learning through planning, teaching, assigning, grading
             and more. I have a sweet-tooth for vector illustration and 3D
             renders.

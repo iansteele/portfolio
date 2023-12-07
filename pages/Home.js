@@ -8,7 +8,7 @@ function Home(props) {
       <div className="relative flex flex-col-reverse items-start justify-center flex-grow w-full max-w-screen-xl gap-8 px-6 pb-8 overflow-hidden md:items-center md:py-10 md:rounded-2xl md:justify-start text-brand-tertiary md:flex-row ">
         <div className="relative flex flex-col flex-grow min-w-0 gap-4 md:w-2/3 ">
           <h1 className="text-6xl font-bold tracking-tight md:text-7xl lg:text-8xl ">
-            Hi, I'm Ian
+            Principal Product Designer with 11+ years of experience
           </h1>
           <p className="text-2xl font-bold text-brand-secondary">
             A product designer, front-end dev & illustrator
