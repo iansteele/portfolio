@@ -48,7 +48,7 @@
     @apply text-6xl font-bold;
   }
   h2 {
-    @apply text-xl mt-10 mb-6 font-bold text-brand-secondary uppercase tracking-widest;
+    @apply text-xl mt-10 mb-6 font-bold text-brand-secondary uppercase tracking-wide;
   }
 
   h3 {
@@ -67,7 +67,7 @@
 
   p,
   li {
-    @apply text-lg leading-relaxed lg:text-xl lg:leading-relaxed opacity-90 font-light;
+    @apply text-lg leading-relaxed lg:text-xl lg:leading-relaxed opacity-90 font-normal;
   }
 
   ul {

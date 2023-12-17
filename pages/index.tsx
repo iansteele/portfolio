@@ -28,11 +28,12 @@ export default function Home() {
         <div className="relative flex flex-col items-center flex-grow w-full max-w-screen-2xl gap-10 px-6 py-10 h-fit min-h-[50vh] md:items-start md:justify-start text-brand-tertiary">
           <div className="relative flex flex-col justify-center flex-grow w-full min-w-0 max-w-prose">
             <h1 className="text-5xl tracking-tight lg:text-7xl text-brand-tertiary">
-              I'm a principal product designer
+              Hi, I'm Ian
             </h1>
-            <h2 className="mt-4 mb-0 lg:mt-6 ">
-              Building on 11+ years of experience
-            </h2>
+            <p className="mt-2 mb-0 text-3xl font-bold lg:mt-4 opacity-70 ">
+              A principal product designer building upon 11+ years of
+              experience.
+            </p>
             <p className="mt-4 lg:text-xl text-brand-tertiary-muted max-w-prose">
               I geek out about{" "}
               <span className="font-semibold ">design systems</span>,{" "}
@@ -43,7 +44,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="absolute self-center bottom-2">
+          <div className="absolute self-center bottom-2 landscape:-bottom-4">
             <div className="flex items-center justify-center flex-shrink-0 p-2 origin-top bg-opacity-50 rounded-full shadow-zinc-900 animate-bounce bg-brand-muted border-brand-primary text-brand-tertiary ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
