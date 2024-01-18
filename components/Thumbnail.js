@@ -30,9 +30,9 @@ function Thumbnail(props) {
             </svg>
           </span>
         </div>
-        <div className="absolute inset-0 flex flex-col w-full h-full overflow-hidden transition-all bg-brand-primary aspect-auto rounded-xl group-active:shadow-none transform-gpu group-hover:-translate-y-1 group-hover:border-opacity-90 group-active:translate-y-0"></div>
-        <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto rounded-xl focus-base">
-          <div className="flex w-full h-auto overflow-hidden aspect-[4/3] rounded-md min-h-max will-change-transform">
+        <div className="absolute inset-0 flex flex-col w-full h-full overflow-hidden transition-all bg-brand-primary aspect-auto rounded-2xl group-active:shadow-none transform-gpu group-hover:-translate-y-1 group-hover:border-opacity-90 group-active:translate-y-0"></div>
+        <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto rounded-2xl focus-base">
+          <div className="flex w-full h-auto overflow-hidden aspect-[4/3] rounded-xl min-h-max will-change-transform">
             <Image
               src={props.image}
               alt={props.alt}
@@ -43,11 +43,11 @@ function Thumbnail(props) {
             />
           </div>
           <div className="flex flex-col justify-center flex-grow px-2 pt-4 pb-2">
-            <span className="text-lg font-semibold leading-8 text-brand-tertiary">
+            <span className="text-xl font-semibold leading-8 text-brand-tertiary">
               {props.title}
             </span>
             {props.description ? ( // Conditionally render the second paragraph
-              <span className="text-base leading-6 text-brand-tertiary">
+              <span className="text-base leading-6 opacity-75 text-brand-tertiary">
                 {props.description}
               </span>
             ) : null}

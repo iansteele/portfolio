@@ -25,10 +25,8 @@ function ProjectHeading({ project }) {
         <p className="text-sm font-bold tracking-widest uppercase text-brand-secondary">
           {project.client}
         </p>
-        <h1 className="mt-2 font-bold tracking-tight font-display">
-          {project.title}
-        </h1>
-        <p className="mt-2 opacity-100 text-brand-tertiary max-w-prose">
+        <h1 className="mt-4 font-bold tracking-tight ">{project.title}</h1>
+        <p className="mt-0 text-brand-tertiary max-w-prose">
           {project.description}
         </p>
         <RoleList />

@@ -8,6 +8,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        texture: "url('/img/hero-background3.jpg')",
+      },
       gridTemplateRows: {
         layout: "200px minmax(900px, 1fr) 100px",
       },
@@ -27,7 +30,6 @@ module.exports = {
       },
     },
     fontFamily: {
-      display: ["Outfit", "serif"],
       body: ["Outfit", "sans-serif"],
     },
   },

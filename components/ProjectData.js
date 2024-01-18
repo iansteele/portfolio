@@ -6,15 +6,6 @@ function addIdsToProjects(projects) {
 
 const Project = [
   {
-    title: "Backpack UI",
-    link: "/projects/BackpackUI",
-    image: "/img/backpack/thumb.jpg",
-    altLabel: "IL Classroom's UI Kit",
-    roles: ["Design ops", "Design Systems"],
-    client: "Imagine Learning Classroom",
-    description: "Design & Dev's Trapper Keeper",
-  },
-  {
     title: "Annotations",
     link: "/projects/Annotations",
     image: "/img/annotation/project-thumb2.jpg",
@@ -23,6 +14,15 @@ const Project = [
     roles: ["UX", "Research", "UI", "Front-end dev"],
     client: "Imagine Learning Classroom",
     description: "Promoting dialogue during classroom discussion",
+  },
+  {
+    title: "Backpack UI",
+    link: "/projects/BackpackUI",
+    image: "/img/backpack/thumb.jpg",
+    altLabel: "IL Classroom's UI Kit",
+    roles: ["Design ops", "Design Systems"],
+    client: "Imagine Learning Classroom",
+    description: "Design & Dev's Trapper Keeper",
   },
   {
     title: "Assignment Grading",

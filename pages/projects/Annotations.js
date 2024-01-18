@@ -32,8 +32,9 @@ function Annotations(props) {
           <SectionHeading>The goal</SectionHeading>
 
           <p className="text-5xl font-light leading-tight tracking-tight">
-            <span className="font-bold">Expand on ideas</span> and{" "}
-            <span className="font-bold">demonstrate understanding</span>
+            <span className="font-bold">
+              Promote in-the-moment learning and engagement
+            </span>
           </p>
           <p>
             {" "}
@@ -223,14 +224,6 @@ function Annotations(props) {
             <li>Where teachers and students expected to annotate</li>
             <li>Learn how long teachers expected annotations to be visible.</li>
           </ul>
-
-          {/* <Image
-            className="w-full mt-16 rounded-lg aspect-auto"
-            src={"/img/annotation/responsive-break.jpg"}
-            alt="Redesigned reports page"
-            width="400"
-            height="300"
-          /> */}
         </SectionWrapper>
 
         <div className="mx-auto max-w-prose">
@@ -289,10 +282,8 @@ function Annotations(props) {
         <SectionWrapper>
           <SectionHeading>Outcomes</SectionHeading>
           <p>
-            Annotations had been one of our most requested features leading up
-            to this work. Our customer success reps were met with overwhelming
-            excitement from districts and teachers looking forward to using the
-            annotation tools.
+            Our customer success team has received overwhelming excitement from
+            districts, teachers and students about our annotation tools.
           </p>
           <h3>Stories from our customers</h3>
           <div className="mt-8 space-y-4">

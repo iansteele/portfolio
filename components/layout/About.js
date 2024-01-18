@@ -36,6 +36,14 @@ export default function About() {
             inner-workings, learning the hot-keys, problem-solving, and pursuing
             challenges of all types.
           </p>
+          {/* <p className="mt-4 opacity-75 lg:text-xl text-brand-tertiary-muted max-w-prose">
+            I geek out about{" "}
+            <span className="font-semibold ">design systems</span>,{" "}
+            <span className="font-semibold whitespace-nowrap ">
+              front-end development
+            </span>{" "}
+            and <span className="font-semibold ">illustration</span>.
+          </p> */}
           <p>
             Want to know anything else? Feel free to{" "}
             <a href="steeledesignco@gmail.com">reach out</a>!
