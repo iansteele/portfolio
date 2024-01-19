@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <PageWrapper className="ease-linear scroll-smooth ">
+      <PageWrapper>
         <Head>
           <title>Ian Steele - Digital product designer and Illustrator</title>
           <meta
