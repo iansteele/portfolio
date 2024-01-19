@@ -45,7 +45,7 @@
   }
 
   h1 {
-    @apply text-6xl font-bold;
+    @apply text-6xl font-bold leading-relaxed;
   }
   h2 {
     @apply text-xl mt-10 mb-6 font-bold text-brand-secondary uppercase tracking-wide;
