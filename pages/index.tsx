@@ -10,12 +10,26 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
+      <style>
+        {`
+    @keyframes slideInFromLeft {
+      0% {
+        transform: translateY(25%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 100%:
+      }
+    }
+  `}
+      </style>
       <PageWrapper>
         <Head>
           <title>Ian Steele - Digital product designer and Illustrator</title>
           <meta
             name="description"
-            content="An Illinois-based digital product designer & Illustrator with 11+ years of experience. Get in touch with me to know more."
+            content="An Illinois-based digital product designer & Illustrator with 12+ years of experience. Get in touch with me to know more."
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
@@ -24,7 +38,7 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative flex flex-col lg:flex-row backdrop-filter gap-8 lg:gap-16 items-start lg:items-center px-6 md:px-16 pt-8 md:pt-16 flex-grow w-full max-w-screen-2xl h-fit min-h-[50vh] text-brand-tertiary">
+        <div className="relative flex flex-col lg:flex-row backdrop-filter gap-4 z-0 lg:gap-16 items-start lg:items-center px-6 md:px-16 pt-8 md:pt-16 flex-grow w-full max-w-screen-2xl h-fit min-h-[50vh] text-brand-tertiary">
           <Image
             className="w-1/2 max-w-[160px] shadow-lg lg:max-w-xl rounded-full lg:rounded-full border-8 border-brand-muted mix-blend-multiply dark:mix-blend-luminosity lg:w-1/4"
             src={"/img/hero-modern.jpg"}
@@ -32,19 +46,10 @@ export default function Home() {
             width={600}
             height={600}
           />
-          {/* <div className="relative flex items-end self-stretch flex-shrink-0 w-full min-w-0 transition-colors h-96 md:absolute lg:pr-20 md:right-4 top-16 bottom-8 md:w-2/3 ">
-            <span className="absolute border-brand-secondary rounded-l-3xl overflow-hidden border-r-[16px] flex items-end self-stretch flex-shrink-0 w-full min-w-0 transition-colors lg:pr-20 md:right-4 top-8 bottom-8 z-0 bg-brand-muted md:w-2/3 ">
-              <span className="absolute inset-0 bg-cover mix-blend-luminosity bg-texture"></span>
-            </span>
-            <Image
-              className="absolute bottom-0 z-10 w-auto mb-8 ml-auto -mt-16 right-8 lg:right-20 aspect-square"
-              src={"/img/hero-photo-color.png"}
-              alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
-              width={600}
-              height={600}
-            />
-          </div> */}
-          <div className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 overflow-hidden lg:max-w-1/2 max-w-prose">
+          <div
+            style={{ animation: ".75s ease-out 0s 1 slideInFromLeft" }}
+            className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 overflow-hidden lg:max-w-1/2 max-w-prose"
+          >
             <p className="mb-0 font-bold leading-7 opacity-50 md:text-md">
               Hey there,
             </p>
@@ -52,7 +57,7 @@ export default function Home() {
               I'm Ian.
             </h1>
             <p className="mt-4 mb-0 font-normal leading-7 md:text-xl">
-              I'm a multi-disciplinary product designer building upon 11+ years
+              I'm a multi-disciplinary product designer building upon 12+ years
               of experience crafting B2B software.
             </p>
             <p className="mt-4 md:text-xl text-brand-tertiary-muted max-w-prose">
