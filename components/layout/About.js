@@ -10,7 +10,7 @@ export default function About() {
             <Image
               className="w-full h-full aspect-square"
               src="/img/hero.png"
-              alt="A low-fidelity sketch of early grading layouts"
+              alt="Ian Steele (That's me) trying to look hip and modern"
               fill
               sizes="(max-width: 480px) 100vw"
             />

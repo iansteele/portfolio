@@ -39,15 +39,7 @@ function Header(props) {
   return (
     <header
       id="navbar"
-      className="fixed top-0 left-0 z-10 flex items-center w-full h-20 p-6 transition-all duration-500 transform transitiono bg-brand-primary text-primary"
-      style={{
-        transitionDuration: "1s",
-        transitionDelay: ".125s",
-        WebkitTransform: "translate3d(0, 0, 0)", // Add Webkit prefix here
-        transform: "translate3d(0, 0, 0)", // Standard transform property
-        WebkitTransition: "WebkitTransform 0.3s ease", // Add Webkit prefix here
-        transition: "transform 0.3s ease", // Standard transition property
-      }}
+      className="fixed top-0 left-0 z-10 flex items-center w-full h-20 p-6 transition-all duration-500 transform bg-brand-primary text-primary"
     >
       <div className="flex items-center justify-between w-full mx-auto max-w-screen-2xl">
         <Link
@@ -76,7 +68,14 @@ function Header(props) {
             <span className="absolute left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary -bottom-1 group-hover:w-full"></span>
           </div>
         </Link>
-        <nav className="flex items-center space-x-3 text-xs font-bold tracking-widest md:space-x-4 ">
+        <nav className="flex items-center gap-6 text-xs font-bold tracking-widest ">
+          <a
+            className="relative px-1 py-3 uppercase transition-all transform rounded focus-base text-brand-secondary hover:text-brand-tertiary focus-visible:text-brand-tertiary group active:scale-90"
+            href="/About"
+          >
+            About
+            <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
+          </a>
           <a
             className="relative px-1 py-3 uppercase transition-all transform rounded focus-base text-brand-secondary hover:text-brand-tertiary focus-visible:text-brand-tertiary group active:scale-90"
             href="https://www.notion.so/Ian-Steele-ca6f009ed2204389be0a2d3a0ee99788"
