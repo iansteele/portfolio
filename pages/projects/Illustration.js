@@ -164,6 +164,13 @@ function Illustration(props) {
             height="800"
             alt="Fun illustrated characters depicitng a Desk-dog, pencil, and Pearl eraser created by Ian Steele"
           />
+          <Image
+            className="rounded-xl"
+            src={"/img/illustrations/dietrying.jpg"}
+            width="800"
+            height="800"
+            alt="Illustration of a headstone on a pink background with a skull that reads, 'Die trying' created by Ian Steele"
+          />
         </div>
       </ProjectWrapper>
     </PageWrapper>

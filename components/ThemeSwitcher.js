@@ -15,10 +15,7 @@ function ThemeSwitcher(props) {
   };
 
   return (
-    <button
-      className="fixed bottom-0 right-0 z-50 p-4 rounded-tl-lg cursor-pointer bg-brand-tertiary drop-shadow-md group"
-      onClick={toggleDarkMode}
-    >
+    <button className="z-50 p-4 cursor-pointer group" onClick={toggleDarkMode}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

@@ -97,6 +97,26 @@
   .card:hover .card-glow {
     @apply duration-1000 animate-[spin_7s_ease_infinite];
   }
+
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(25%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 100%;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
 }
 
 @layer components {

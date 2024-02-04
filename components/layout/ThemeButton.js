@@ -10,7 +10,7 @@ const Button = () => {
     <button
       aria-label="Toggle light/dark mode"
       onClick={() => (theme == "dark" ? setTheme("light") : setTheme("dark"))}
-      className="box-content fixed bottom-0 right-0 flex items-center justify-center transition-all rounded-tl-lg w-11 h-11 group r-0 text-brand-primary bg-brand-tertiary "
+      className="box-content flex items-center justify-center transition-all w-11 h-11 group"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ const Button = () => {
         viewBox="0 0 24 24"
         strokeWidth="2"
         stroke="currentColor"
-        className="w-5 h-5 group-hover:transition-colors dark:text-brand-primary text-brand-primary "
+        className="w-5 h-5 group-hover:transition-colors dark:text-brand-tertiary text-brand-tertiary "
       >
         <path
           className="hidden transition-all origin-center opacity-0 group-active:scale-0 dark:opacity-100 dark:block group-active:fill-current group-hover:fill-current animate group-hover:animate-spin"

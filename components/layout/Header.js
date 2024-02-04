@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Link from "next/link"; // Import the Link component
+import { ThemeButton } from "../../components/ComponentIndex";
 
 function Header(props) {
   useEffect(() => {
@@ -83,6 +84,7 @@ function Header(props) {
             Resume
             <span className="absolute rounded-full left-0 w-0 h-1 transition-all duration-500 ease-in-out bg-brand-secondary -bottom-0.5 group-hover:w-full"></span>
           </a>
+          <ThemeButton />
         </nav>
       </div>
     </header>

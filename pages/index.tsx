@@ -10,29 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <style>
-        {`
-    @keyframes slideInFromBottom {
-      0% {
-        transform: translateY(25%);
-        opacity: 0;
-      }
-      100% {
-        transform: translateY(0);
-        opacity: 100%:
-      }
-    }
-
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 100%:
-      }
-    }
-  `}
-      </style>
       <PageWrapper>
         <Head>
           <title>Ian Steele - Digital product designer and Illustrator</title>
@@ -83,7 +60,7 @@ export default function Home() {
                 front-end development
               </a>{" "}
               and{" "}
-              <a href="/projects/Illustrations" className="font-semibold ">
+              <a href="/projects/Illustration" className="font-semibold ">
                 illustration
               </a>
               .

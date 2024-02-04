@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Script from "next/script";
-import { Header, Footer, ThemeButton } from "../../components/ComponentIndex";
+import { Header, Footer } from "../../components/ComponentIndex";
 import { useRouter } from "next/router";
 
 export default function PageWrapper({ children, ...customMeta }) {
@@ -53,7 +53,6 @@ export default function PageWrapper({ children, ...customMeta }) {
         {children}
       </main>
       <Footer />
-      <ThemeButton />
     </div>
   );
 }
