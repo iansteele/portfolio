@@ -5,16 +5,9 @@ import { PageWrapper } from "../components/ComponentIndex";
 function App() {
   return (
     <PageWrapper>
-      <div className="flex flex-col items-center px-6 py-8 md:items-start ">
-        <Image
-          src="/img/About/beach.jpeg"
-          alt="Me and my family at the beach"
-          width={200}
-          height={200}
-          className="w-full rounded-full md:w-auto"
-        />
-        <div className="flex flex-col max-w-prose">
-          <h1 className="mx-auto mt-10 md:mx-0"> About Me</h1>
+      <div className="flex flex-col items-center gap-20 px-0 py-8 max-w-7xl md:items-start">
+        <div className="flex flex-col px-6 lg:w-2/3 max-w-prose">
+          <h1 className="w-full mx-auto md:mx-0"> About Me</h1>
           <p>
             I am a principal product designer based in Illinois. Currently, I am
             on the <span className="font-bold">Classroom</span> team at{" "}
@@ -35,35 +28,48 @@ function App() {
             improve their weaknesses, and spread their knowledge with others so
             we can all grow together.
           </p>
-          <h2 className="mt-20">But like... what about NON-work stuff? </h2>I am
-          a husband, father of 3, lover of the outdoors, huge fan of all things
-          spooky, and a 4-stripe white belt in Brazillian Jiu Jitsu. If I could
-          only eat 🌮 for the rest of my life, I'd be perfectly ok with it.
-          <span className="mt-10">Currently listening to</span>
-          <ul>
-            <li>
-              <a href="https://open.spotify.com/artist/4qrHkx5cgWIslciLXUMrYw?si=uIy8PpfORwGy-yyupG6TVA">
-                Knocked Loose
-              </a>
-            </li>
-            <li>
-              <a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg?si=oenGujseQhGsu83o_La92Q">
-                Kendrick
-              </a>
-            </li>
-            <li>
-              <a href="https://open.spotify.com/artist/1r1uxoy19fzMxunt3ONAkG?si=Ue1T5IHlTzmNc5IX-T1ggQ">
-                Phoebe Bridgers
-              </a>
-            </li>
-          </ul>
-          <p className="mt-10 font-bold">
-            I'm a life-long learner who enjoys tinkering, problem-solving, and
-            not taking myself too seriously.
+          <h2 className="mt-20">But like... what about NON-work stuff? </h2>
+          <p>
+            I am a husband, father of 3, lover of the outdoors, huge fan of all
+            things spooky, and a 4-stripe white belt in Brazillian Jiu Jitsu. If
+            I could only eat 🌮 for the rest of my life, I'd be perfectly ok
+            with it.
           </p>
           <p className="mt-10">
             Want to know anything else? Feel free to reach out!
           </p>
+        </div>
+        <div className="flex gap-4 px-4 pb-4 overflow-x-scroll lg:w-full scroll-smooth">
+          <div className="flex flex-row w-full gap-4 ">
+            <Image
+              src="/img/About/beach.jpeg"
+              alt="Me and my family at the beach"
+              width={400}
+              height={400}
+              className="w-3/4 flex-shrink-0 lg:w-1/5 max-w-[400px] shadow-lg lg:max-w-4xl rounded-lg"
+            />
+            <Image
+              src="/img/About/bjj.jpeg"
+              alt="Receiving my bluebelt in brazilian jiu jitsu"
+              width={400}
+              height={400}
+              className="w-3/4 flex-shrink-0 lg:w-1/5 max-w-[400px] shadow-lg lg:max-w-4xl rounded-lg"
+            />
+            <Image
+              src="/img/About/sisters.jpeg"
+              alt="A photo of Ian's daughter and her best friend... her dog."
+              width={400}
+              height={400}
+              className="w-3/4 flex-shrink-0 lg:w-1/5 max-w-[400px] shadow-lg lg:max-w-4xl rounded-lg"
+            />
+            <Image
+              src="/img/About/rollercoaster.jpeg"
+              alt="Ian's family in front of the Hulk at Universal Studios Orlando"
+              width={400}
+              height={400}
+              className="w-3/4 flex-shrink-0 lg:w-1/5 max-w-[400px] shadow-lg lg:max-w-4xl rounded-lg"
+            />
+          </div>
         </div>
       </div>
     </PageWrapper>
