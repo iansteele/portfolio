@@ -6,6 +6,16 @@ function addIdsToProjects(projects) {
 
 const Project = [
   {
+    title: "Data Insights",
+    link: "/projects/Data-Insights",
+    image: "/img/fill-image.png",
+    altLabel: "Data representing student scores",
+    roles: ["UX", "Research", "UI", "Front-end dev"],
+    client: "Imagine Learning Classroom",
+    description: "Informing instruction & support through data",
+    draft: true,
+  },
+  {
     title: "Annotations",
     link: "/projects/Annotations",
     image: "/img/annotation/project-thumb2.jpg",
