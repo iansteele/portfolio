@@ -4,15 +4,18 @@ import {
   PageWrapper,
   ProjectWrapper,
   ProjectHeading,
+  projects,
   SectionHeading,
   SectionWrapper,
-  Project,
   BlurImage,
   Quotation,
+  ProjectSwitcher,
 } from "../../components/ComponentIndex";
 
-function Annotations(props) {
-  const project = Project.find((p) => p.title === "Annotations");
+function Annotations({ projectIndex }) {
+  const project = projects.find((p) => p.title === "Annotations");
+  const currentProject = projects[Annotations];
+  console.log("Expected Dynamic Parameter:", projectLink);
 
   return (
     <PageWrapper>
@@ -316,8 +319,20 @@ function Annotations(props) {
           </p>
         </SectionWrapper>
       </ProjectWrapper>
+      <ProjectSwitcher currentProject={Annotations} />
     </PageWrapper>
   );
+}
+
+export async function getServerSideProps(context) {
+  // Fetch the projectIndex from the route params
+  const projectIndex = parseInt(context.params.projectIndex, 10);
+
+  return {
+    props: {
+      projectIndex,
+    },
+  };
 }
 
 export default Annotations;

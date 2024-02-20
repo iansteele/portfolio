@@ -91,11 +91,19 @@
   }
 
   .highlight {
-    @apply tracking-wider  font-bold;
+    @apply tracking-wider font-bold;
   }
 
   .card:hover .card-glow {
     @apply duration-1000 animate-[spin_7s_ease_infinite];
+  }
+
+  .proj-switcher_img {
+    @apply w-full rounded-lg overflow-hidden h-40 relative;
+  }
+
+  .proj-switcher_img img {
+    @apply opacity-50 flex-shrink-0 origin-center h-full transition-all duration-500 transform group-hover:opacity-100 group-hover:scale-105 group-hover:grayscale-0 filter grayscale;
   }
 
   @keyframes slideInFromBottom {
