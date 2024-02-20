@@ -85,15 +85,15 @@ function VirtualFest(props) {
           </div>
           <div className="flex flex-col gap-8 mt-10 sm:flex-row">
             <div className="flex flex-col items-center flex-grow ">
-              <span class="text-4xl text-brand-secondary">$12,000+</span>
+              <span className="text-4xl text-brand-secondary">$12,000+</span>
               <p className="text-brand-tertiary">Donated to RSF</p>
             </div>
             <div className="flex flex-col items-center justify-center flex-grow">
-              <span class="text-4xl text-brand-secondary">2,050</span>
+              <span className="text-4xl text-brand-secondary">2,050</span>
               <p className="text-brand-tertiary">Tickets sold</p>
             </div>
             <div className="flex flex-col items-center justify-center flex-grow">
-              <span class="text-4xl text-brand-secondary">15,000+</span>
+              <span className="text-4xl text-brand-secondary">15,000+</span>
               <p className="text-brand-tertiary">Chat messages</p>
             </div>
           </div>

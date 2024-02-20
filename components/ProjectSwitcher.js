@@ -1,10 +1,10 @@
 import { useRouter } from "next/router";
-import projects from "../components/ProjectData";
+import project from "../components/ProjectData";
 import Image from "next/image";
 
 const ProjectSwitcher = () => {
   const router = useRouter();
-  const nonDraftProjects = projects.filter((project) => !project.draft);
+  const nonDraftProjects = project.filter((project) => !project.draft);
   const currentProjectIndex = nonDraftProjects.findIndex(
     (project) => project.link === router.pathname
   );
