@@ -51,7 +51,7 @@ const ProjectSwitcher = () => {
           {nextProject && (
             <a
               key={nextProject.link}
-              className="relative flex flex-wrap items-center flex-grow w-full col-span-1 gap-4 p-4 cursor-pointer md:flex-row-reverse text-brand-tertiary basis-1/2 rounded-xl group"
+              className="relative flex flex-wrap items-center flex-grow w-full col-span-1 col-start-2 gap-4 p-4 cursor-pointer md:flex-row-reverse text-brand-tertiary basis-1/2 rounded-xl group"
               onClick={() => navigateToProject(nextProject)}
             >
               <div className="w-full overflow-hidden proj-switcher_img">
