@@ -40,7 +40,7 @@ function Header(props) {
   return (
     <header
       id="navbar"
-      className="fixed top-0 left-0 z-10 flex items-center w-full h-20 p-6 transition-all duration-500 transform bg-brand-primary text-primary"
+      className="fixed top-0 left-0 z-10 flex items-center w-full h-20 p-6 transition-all duration-500 transform drop-shadow-sm bg-brand-primary text-primary"
     >
       <div className="flex items-center justify-between w-full mx-auto max-w-screen-2xl">
         <Link

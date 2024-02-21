@@ -244,8 +244,8 @@ function Grading(props) {
         </SectionWrapper>
         <div className="w-full space-y-8 text-center sm:p-2 ">
           <Image
-            src={"/img/grading/Grading.png"}
-            alt="Redesigned reports page"
+            src={"/img/grading/quickgrader.png"}
+            alt="Overview of the response card component structure"
             width={1440}
             height={810}
             className="rounded-xl"
@@ -258,23 +258,9 @@ function Grading(props) {
             loop
             playsInline
           />
-          {/* <Image
-            src={"/img/grading/Tips.png"}
+          <Image
+            src={"/img/grading/Grading.png"}
             alt="Redesigned reports page"
-            width={400}
-            height={300}
-          /> */}
-          <Image
-            src={"/img/grading/quickgrader.png"}
-            alt="Overview of the response card component structure"
-            width={1440}
-            height={810}
-            className="rounded-xl"
-          />
-
-          <Image
-            src={"/img/grading/Tips.png"}
-            alt="Screenshot of a modal showcasing keyboard shortcuts in the grading experience"
             width={1440}
             height={810}
             className="rounded-xl"

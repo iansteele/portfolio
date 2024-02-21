@@ -40,9 +40,7 @@ export default function Home() {
             <p className="mb-0 font-bold leading-7 opacity-50 md:text-md">
               Hey there,
             </p>
-            <h1 className="text-5xl leading-tight tracking-tight lg:text-7xl text-brand-tertiary">
-              I'm Ian
-            </h1>
+            <h1 className="text-brand-tertiary">I'm Ian</h1>
             <p className="mt-4 mb-0 font-normal leading-7 md:text-xl">
               I'm a multi-disciplinary designer building upon 12+ years of
               experience crafting B2B software.

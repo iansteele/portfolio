@@ -24,13 +24,13 @@ const ProjectSwitcher = () => {
   };
 
   return (
-    <div className="grid w-full grid-cols-2 md:gap-4 place-items-stretch justify-items-stretch grid-auto-rows">
+    <div className="grid w-full grid-cols-2 gap-4 place-items-stretch justify-items-stretch grid-auto-rows">
       {hasProjects && (
         <>
           {prevProject && (
             <a
               key={prevProject.link}
-              className="relative flex flex-wrap items-center flex-grow w-full col-span-1 gap-4 p-4 cursor-pointer md:flex-row-reverse text-brand-tertiary basis-1/2 rounded-xl group"
+              className="relative flex flex-wrap items-center flex-grow w-full col-span-1 gap-4 cursor-pointer md:flex-row-reverse text-brand-tertiary basis-1/2 rounded-xl group"
               onClick={() => navigateToProject(prevProject)}
             >
               <div className="w-full overflow-hidden proj-switcher_img">
@@ -51,7 +51,7 @@ const ProjectSwitcher = () => {
           {nextProject && (
             <a
               key={nextProject.link}
-              className="relative flex flex-wrap items-center flex-grow w-full col-span-1 col-start-2 gap-4 p-4 cursor-pointer md:flex-row-reverse text-brand-tertiary basis-1/2 rounded-xl group"
+              className="relative flex flex-wrap items-center flex-grow w-full col-span-1 col-start-2 gap-4 cursor-pointer md:flex-row-reverse text-brand-tertiary basis-1/2 rounded-xl group"
               onClick={() => navigateToProject(nextProject)}
             >
               <div className="w-full overflow-hidden proj-switcher_img">

@@ -21,11 +21,11 @@ function ProjectHeading({ project }) {
 
   return (
     <>
-      <div className="col-span-2">
+      <div className="col-span-2 mt-16">
         <p className="text-sm font-bold tracking-widest uppercase text-brand-secondary">
           {project.client}
         </p>
-        <h1 className="mt-4 font-bold tracking-tight ">{project.title}</h1>
+        <h1 className="font-bold tracking-tight ">{project.title}</h1>
         <p className="mt-0 text-brand-tertiary max-w-prose">
           {project.description}
         </p>
