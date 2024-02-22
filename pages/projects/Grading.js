@@ -244,7 +244,7 @@ function Grading(props) {
         </SectionWrapper>
         <div className="w-full space-y-8 text-center sm:p-2 ">
           <Image
-            src={"/img/grading/quickgrader.png"}
+            src={"/img/grading/quickgrader.jpg"}
             alt="Overview of the response card component structure"
             width={1440}
             height={810}
@@ -259,7 +259,7 @@ function Grading(props) {
             playsInline
           />
           <Image
-            src={"/img/grading/Grading.png"}
+            src={"/img/grading/Grading.jpg"}
             alt="Redesigned reports page"
             width={1440}
             height={810}
