@@ -23,7 +23,7 @@ function MetricBlock(props) {
       <ul className="grid w-full gap-2 pl-0 list-none md:grid-cols-3">
         {metrics.map((metric, index) => (
           <li key={index} className="flex flex-col m-0">
-            <span className="opacity-50 text-brand-tertiary">
+            <span className="opacity-75 text-brand-tertiary">
               {metric.label}
             </span>
             <span className="text-5xl font-bold leading-none">
