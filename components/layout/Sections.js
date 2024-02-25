@@ -19,7 +19,7 @@ function KeyMetrics(props) {
 
   return (
     <SectionWrapper>
-      <SectionHeading>Key metrics</SectionHeading>
+      <h3>{props.heading}</h3>
       <ul className="grid w-full gap-2 pl-0 list-none md:grid-cols-3">
         {metrics.map((metric, index) => (
           <li key={index} className="flex flex-col m-0">
