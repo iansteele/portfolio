@@ -8,6 +8,6 @@ export { default as ProjectHeading } from "../components/ProjectHeading";
 export { default as ProjectSwitcher } from "../components/ProjectSwitcher";
 export { default as Quotation } from "../components/Quotation";
 export { default as Footer } from "../components/layout/Footer";
-export { SectionHeading, SectionWrapper, KeyMetrics } from "./layout/Sections";
+export { SectionHeading, SectionWrapper, MetricBlock } from "./layout/Sections";
 export { default as ThemeButton } from "./layout/ThemeButton";
 export { default as Project } from "../components/ProjectData";

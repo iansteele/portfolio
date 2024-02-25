@@ -12,7 +12,7 @@ function SectionHeading(props) {
   return <h2 className="inline-flex max-w-prose">{props.children}</h2>;
 }
 
-function KeyMetrics(props) {
+function MetricBlock(props) {
   const { metrics = [] } = props;
 
   console.log("Metrics:", metrics);
@@ -36,4 +36,4 @@ function KeyMetrics(props) {
   );
 }
 
-export { SectionWrapper, SectionHeading, KeyMetrics };
+export { SectionWrapper, SectionHeading, MetricBlock };
