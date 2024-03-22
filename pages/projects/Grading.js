@@ -128,13 +128,6 @@ function Grading(props) {
               identify patterns
             </li>
           </ul>
-          <Image
-            src={"/img/grading/empathymapping.png"}
-            width="1000"
-            height="1000"
-            className="mt-10 rounded-lg"
-            alt="Examples of iconography portraying student score"
-          />
         </SectionWrapper>
 
         <SectionWrapper>
