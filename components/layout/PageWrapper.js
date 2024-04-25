@@ -9,8 +9,8 @@ export default function PageWrapper({ children, ...customMeta }) {
 
   const meta = {
     title: "Ian Steele - Digital product designer and Illustrator",
-    description: `I am a digital product designer & Illustrator with 11+ years of experience. Get in touch with me to know more.`,
-    image: "/ian.png",
+    description: `I am a digital product designer & Illustrator with 12+ years of experience. Get in touch with me to know more.`,
+    image: "opengraph-image.jpg",
     type: "website",
     ...customMeta,
   };

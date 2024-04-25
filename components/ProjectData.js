@@ -52,7 +52,7 @@ const Project = [
     altLabel: "Screenshots of the Untappd for Business free trial experience",
     roles: ["UX", "Product Design"],
     client: "Untappd for Business",
-    description: "Reducing the customer aquisition cost",
+    description: "Reducing our customer aquisition cost",
   },
   {
     title: "Untappd Virtual Fest",

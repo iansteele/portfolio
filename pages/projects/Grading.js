@@ -146,7 +146,7 @@ function Grading(props) {
             management, students did not have access to devices but instead
             followed along with the teacher.
           </p>
-          <div className="grid grid-cols-1 gap-4 mt-16 md:grid-cols-3 md:flex-row">
+          <div className="grid grid-cols-1 gap-4 mt-16">
             <Image
               src={gradingFlowSketch}
               className="rounded-lg"

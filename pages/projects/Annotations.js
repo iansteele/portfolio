@@ -131,17 +131,18 @@ function Annotations(props) {
             to instruct? How were students sharing their thoughts?
           </p>
         </SectionWrapper>
-        <Image
-          className="w-full col-span-2 rounded-xl"
-          src={"/img/annotation/DotVote.svg"}
-          alt="Graphic illustration representing the dot voting exercise the team used to prioritize hypothesis statements"
-          width="640"
-          height="160"
-          sizes="(min-width: 100%) 100vw"
-        />
 
         <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>
+          <Image
+            className="w-full col-span-2 py-10 rounded-xl"
+            src={"/img/annotation/DotVote.svg"}
+            alt="Graphic illustration representing the dot voting exercise the team used to prioritize hypothesis statements"
+            width="640"
+            height="160"
+            sizes="(min-width: 100%) 100vw"
+          />
+          {/* FIXME: use this section to better explain what the screenshots below were seeking to achieve. What worked, what didn't? */}
           <p>
             We wanted to stress-test what annotating on our lesson cards would
             look like. How would the annotations scale with content? Would they
@@ -149,19 +150,15 @@ function Annotations(props) {
             in our product that have similar functionality? If there are any,
             can they fit our use case?
           </p>
-          <p className="mt-8">
-            We leveraged a third-party annotation tool to get us up and running
-            quickly to test these hypothesis.
-          </p>
-          <Image
+          {/* <Image
             className="w-full h-auto col-span-2 mt-10 rounded-xl"
             src={"/img/annotation/userflow.png"}
             alt="Redesigned reports page"
             width="800"
             height="640"
             sizes="(min-width: 100%) 100vw"
-          />
-          <div className="grid items-start gap-2 mt-10 sm:grid-cols-2 sm:flex-row">
+          /> */}
+          <div className="grid items-start gap-2 mt-20 sm:grid-cols-2 sm:flex-row">
             <Image
               className="rounded-lg aspect-auto"
               src={"/img/annotation/sketches1.jpg"}
@@ -172,14 +169,6 @@ function Annotations(props) {
             <Image
               className="rounded-lg aspect-auto"
               src={"/img/annotation/Style exploration.jpg"}
-              alt="Redesigned reports page"
-              width="400"
-              height="400"
-            />
-
-            <Image
-              className="rounded-lg aspect-auto"
-              src={"/img/annotation/original-cards.jpg"}
               alt="Redesigned reports page"
               width="400"
               height="400"
@@ -200,18 +189,31 @@ function Annotations(props) {
               height="400"
             />
             <Image
-              className="w-full col-span-2 shadow-lg rounded-xl"
-              src={"/img/annotation/Annotation_mvp.gif"}
+              className="rounded-lg aspect-auto"
+              src={"/img/annotation/original-cards.jpg"}
               alt="Redesigned reports page"
-              width="640"
-              height="800"
-              sizes="(min-width: 100%) 100vw"
+              width="400"
+              height="400"
             />
           </div>
         </SectionWrapper>
 
         <SectionWrapper>
           <SectionHeading>Testing our assumptions</SectionHeading>
+
+          <p>
+            We leveraged a third-party annotation tool to get us up and running
+            quickly to test these hypothesis.
+          </p>
+          <Image
+            className="w-full col-span-2 mt-10 shadow-lg rounded-xl"
+            src={"/img/annotation/Annotation_mvp.gif"}
+            alt="Redesigned reports page"
+            width="640"
+            height="800"
+            sizes="(min-width: 100%) 100vw"
+          />
+          <h3 className="mt-20">Key findings</h3>
           <ul className="pl-5 space-y-4 list-disc ">
             <li>
               When card content responded to the browser width, annotations
