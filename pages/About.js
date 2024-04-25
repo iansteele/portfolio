@@ -35,7 +35,10 @@ function App() {
             only eat 🌮 for the rest of my life, I'd be perfectly ok with it.
           </p>
           <p className="mt-10">
-            Want to know anything else? Feel free to reach out!
+            Want to know anything else?{" "}
+            <a href="mailto:steeledesignco@gmail.com">
+              Feel free to reach out!
+            </a>
           </p>
         </div>
       </div>
