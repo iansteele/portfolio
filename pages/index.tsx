@@ -24,10 +24,10 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative flex flex-col lg:flex-row backdrop-filter gap-4 z-0 lg:gap-16 items-start lg:items-center px-6 md:px-16 pt-8 md:pt-16 flex-grow w-full max-w-screen-2xl h-fit min-h-[50vh] text-brand-tertiary">
+        <div className="relative flex pt-6 flex-col  backdrop-filter gap-4 lg:flex-row-reverse z-0 lg:gap-16 items-start lg:items-center  flex-grow w-full max-w-screen-2xl h-fit min-h-[50vh] text-brand-tertiary">
           <Image
             style={{ animation: "2s ease 0s 1 fadeIn" }}
-            className="w-1/2 max-w-[160px] shadow-lg lg:max-w-xl rounded-full lg:rounded-full border-8 lg:border-[16px] border-brand-muted mix-blend-multiply dark:mix-blend-luminosity lg:w-1/4"
+            className="w-1/2 max-w-[160px] shadow-lg lg:max-w-2xl rounded-full rounded-bl-none border-8 lg:border-[16px] border-brand-muted mix-blend-multiply dark:mix-blend-luminosity lg:w-1/3"
             src={"/img/hero-modern.jpg"}
             alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
             width={600}
@@ -35,12 +35,14 @@ export default function Home() {
           />
           <div
             style={{ animation: "1.5s ease 0s 1 slideInFromBottom" }}
-            className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 overflow-hidden lg:max-w-1/2 max-w-prose"
+            className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 mr-auto overflow-hidden max-w-prose"
           >
+            <h1 className="text-brand-tertiary">
+              Bridging the gap between design & dev
+            </h1>
             <p className="mb-0 font-bold leading-7 opacity-50 md:text-md">
-              Hey there,
+              Hey there, I'm Ian.
             </p>
-            <h1 className="text-brand-tertiary">I'm Ian</h1>
             <p className="mt-4 mb-0 font-normal leading-7 md:text-xl">
               I'm a multi-disciplinary designer building upon 12+ years of
               experience crafting B2B software.
@@ -63,11 +65,11 @@ export default function Home() {
               </a>
               .
             </p>
-            <div className="flex flex-col gap-2 mt-4">
+            <div className="flex gap-2 mt-4">
               <p>Check out my work</p>
               <a
                 href="#projects"
-                className="flex items-center justify-center flex-shrink-0 p-2 mt-4 origin-top bg-opacity-50 rounded-full max-w-max shadow-zinc-900 animate-bounce bg-brand-tertiary border-brand-primary text-brand-primary "
+                className="flex items-center justify-center flex-shrink-0 p-2 mt-4 origin-top rounded-full max-w-max shadow-zinc-900 animate-bounce text-brand-tertiary "
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

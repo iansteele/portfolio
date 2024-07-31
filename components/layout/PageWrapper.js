@@ -15,7 +15,7 @@ export default function PageWrapper({ children, ...customMeta }) {
     ...customMeta,
   };
   return (
-    <div className="flex flex-col items-center w-full min-h-screen mx-auto overflow-x-hidden overflow-y-auto transition-colors duration-500 bg-brand-primary">
+    <div className="flex flex-col items-center w-full min-h-screen px-6 mx-auto overflow-x-hidden overflow-y-auto transition-colors duration-500 bg-brand-primary">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
