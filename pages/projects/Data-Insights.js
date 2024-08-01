@@ -21,7 +21,7 @@ function DataInsights(props) {
         <div className="-mx-6 sm:mx-0  overflow-hidden sm:rounded-xl aspect-[4/3]">
           <BlurImage
             className="w-full h-auto "
-            src={"/img/fill-image.png"}
+            src={"/img/data/thumb.jpg"}
             alt="Redesigned reports page"
             width={1440}
             height={810}
