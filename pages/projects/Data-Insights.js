@@ -18,10 +18,10 @@ function DataInsights(props) {
     <PageWrapper>
       <ProjectWrapper>
         <ProjectHeading project={project} />
-        <div className="-mx-6 overflow-hidden sm:mx-0">
-          <Image
-            className="w-full h-auto md:rounded-xl"
-            src={"/img/data/Thumb2.jpg"}
+        <div className="-mx-6 sm:mx-0  overflow-hidden sm:rounded-xl aspect-[4/3]">
+          <BlurImage
+            className="w-full h-auto "
+            src={"/img/data/thumb.jpg"}
             alt="Redesigned reports page"
             width={1440}
             height={810}

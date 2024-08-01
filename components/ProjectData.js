@@ -13,7 +13,6 @@ const Project = [
     roles: ["UX", "Research", "UI", "Front-end dev"],
     client: "Imagine Learning Classroom",
     description: "Informing instruction & support through data",
-    draft: true,
   },
   {
     title: "Backpack UI",
