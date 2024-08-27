@@ -9,7 +9,7 @@ function Thumbnail(props) {
         className="relative flex-grow outline-none group card"
         href={props.link}
       >
-        <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white dark:border transform-gpu  dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0  group-hover:scale-[102%] group-active:scale-100 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto  rounded-[1.25rem] group-active:opacity-0 focus-base">
+        <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white dark:border transform-gpu  dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 group-hover:scale-[102%] group-active:scale-100 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-lime-200/50 aspect-auto  rounded-[1.25rem] group-active:opacity-0 focus-base">
           <span className="card-glow">
             <svg
               width="739"
@@ -17,7 +17,7 @@ function Thumbnail(props) {
               viewBox="0 0 739 798"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="scale-105 opacity-25 text-emerald-400 transform-gpu dark:opacity-0 duration-800 dark:text-secondary blur-3xl dark:group-hover:opacity-100 "
+              className="scale-105 text-brand-primary transform-gpu dark:opacity-0 duration-800 dark:text-lime-400 blur-3xl dark:group-hover:opacity-100 "
             >
               <rect
                 x="40"
@@ -31,7 +31,7 @@ function Thumbnail(props) {
           </span>
         </div>
         <div className="absolute inset-0 flex flex-col w-full h-full overflow-hidden transition-all bg-brand-primary aspect-auto rounded-2xl group-active:shadow-none transform-gpu group-hover:-translate-y-1 group-hover:border-opacity-90 group-active:translate-y-0"></div>
-        <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-emerald-400/50 aspect-auto rounded-2xl focus-base">
+        <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-lime-400/50 aspect-auto rounded-2xl focus-base">
           <div className="flex w-full h-auto overflow-hidden aspect-[4/3] rounded-xl min-h-max will-change-transform">
             <Image
               src={props.image}

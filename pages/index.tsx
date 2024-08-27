@@ -39,19 +39,28 @@ export default function Home() {
             </p>
             <p className="mt-4 md:text-xl text-brand-tertiary-muted max-w-prose">
               I geek out about{" "}
-              <a href="/projects/BackpackUI" className="font-semibold ">
+              <a
+                href="/projects/BackpackUI"
+                className="relative font-semibold group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
+              >
                 design systems
+                <span className="absolute left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary -bottom-1 group-hover:w-full"></span>
               </a>
               ,{" "}
               <a
                 href="https://www.github.com/iansteele"
-                className="font-semibold whitespace-nowrap "
+                className="relative font-semibold whitespace-nowrap group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
               >
+                <span className="absolute left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary -bottom-1 group-hover:w-full"></span>
                 front-end development
               </a>{" "}
               and{" "}
-              <a href="/projects/Illustration" className="font-semibold ">
+              <a
+                href="/projects/Illustration"
+                className="relative font-semibold group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
+              >
                 illustration
+                <span className="absolute left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary -bottom-1 group-hover:w-full"></span>
               </a>
               .
             </p>
@@ -72,12 +81,21 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="relative w-full ">
+          <div
+            className="relative w-full "
+            style={{ animation: "2s ease 0s 1 fadeIn" }}
+          >
             <span className="absolute w-1/3 h-auto transform -translate-x-1/2 -translate-y-1/2 rounded-full opacity-75 animate-pulse aspect-square -z-10 left-1/2 top-1/2 bg-brand-secondary blur-3xl" />
             <Image
-              style={{ animation: "2s ease 0s 1 fadeIn" }}
-              className="z-10 w-3/4 mx-auto "
-              src={"/img/hero2.png"}
+              className="z-10 hidden w-3/4 mx-auto dark:block"
+              src={"/img/hero3.png"}
+              alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
+              width={600}
+              height={600}
+            />
+            <Image
+              className="z-10 block w-3/4 mx-auto dark:hidden"
+              src={"/img/hero4.png"}
               alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
               width={600}
               height={600}

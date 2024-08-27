@@ -7,7 +7,7 @@ function App() {
     <PageWrapper>
       <div className="flex flex-col items-center flex-shrink-0 gap-20 px-0 py-8 max-w-7xl md:items-start">
         <div className="flex flex-col px-6 max-w-prose">
-          <h1 className="w-full mx-auto mt-16 md:mx-0"> About Me</h1>
+          <h1 className="w-full mx-auto mt-10 md:mx-0"> About Me</h1>
           <p>
             I am a principal product designer based in Illinois. Currently, I am
             on the <span className="font-bold">Classroom</span> team at{" "}
@@ -42,49 +42,49 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center w-full gap-4 px-4 pb-4 mt-20 overflow-x-scroll scroll-smooth">
-        <div className="flex flex-row gap-4 justify-self-center ">
+      <div className="flex justify-center w-full gap-4 pb-4 mt-20 -ml-12 -mr-12 overflow-x-scroll scroll-smooth">
+        <div className="grid w-full grid-cols-2 gap-4 md:grid-cols-3 max-w-7xl place-content-stretch justify-self-center ">
           <Image
             src="/img/About/beach.jpeg"
             alt="Me and my family at the beach"
             width={400}
             height={400}
-            className="flex-shrink-0 w-1/2 rounded-lg shadow-lg lg:w-1/4 aspect-sqaure lg:max-w-xl"
+            className="flex-shrink-0 w-full rounded-lg shadow-lg aspect-sqaure"
           />
           <Image
             src="/img/About/bjj.jpeg"
             alt="Receiving my bluebelt in brazilian jiu jitsu"
             width={400}
             height={400}
-            className="flex-shrink-0 w-1/2 rounded-lg shadow-lg lg:w-1/4 aspect-sqaure lg:max-w-xl"
+            className="flex-shrink-0 w-full rounded-lg shadow-lg aspect-sqaure"
           />
           <Image
             src="/img/About/draplin.jpeg"
             alt="Ian's family in front of the Hulk at Universal Studios Orlando"
             width={400}
             height={400}
-            className="flex-shrink-0 w-1/2 rounded-lg shadow-lg lg:w-1/4 aspect-sqaure lg:max-w-xl"
+            className="flex-shrink-0 w-full rounded-lg shadow-lg aspect-sqaure"
           />
           <Image
             src="/img/About/soccer.jpeg"
             alt="Me doing my best to wrangle kids as a pre-k soccer coach"
             width={400}
             height={400}
-            className="flex-shrink-0 w-1/2 rounded-lg shadow-lg lg:w-1/4 aspect-sqaure lg:max-w-xl"
+            className="flex-shrink-0 w-full rounded-lg shadow-lg aspect-sqaure"
           />
           <Image
             src="/img/About/rollercoaster.jpeg"
             alt="Ian's family in front of the Hulk at Universal Studios Orlando"
             width={400}
             height={400}
-            className="flex-shrink-0 w-1/2 rounded-lg shadow-lg lg:w-1/4 aspect-sqaure lg:max-w-xl"
+            className="flex-shrink-0 w-full rounded-lg shadow-lg aspect-sqaure"
           />
           <Image
             src="/img/About/tm.jpeg"
             alt="Ian's family in front of the Hulk at Universal Studios Orlando"
             width={400}
             height={400}
-            className="flex-shrink-0 w-1/2 rounded-lg shadow-lg lg:w-1/4 aspect-sqaure lg:max-w-xl"
+            className="flex-shrink-0 w-full rounded-lg shadow-lg aspect-sqaure"
           />
         </div>
       </div>
