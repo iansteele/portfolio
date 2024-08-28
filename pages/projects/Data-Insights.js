@@ -31,7 +31,7 @@ function DataInsights(props) {
         <SectionWrapper>
           <SectionHeading>Background</SectionHeading>
 
-          <p className="text-5xl font-light leading-tight tracking-tight">
+          <p className="font-light leading-tight tracking-tight headline">
             <span className="font-bold">
               Utilize assignment data to inform instruction and support
             </span>

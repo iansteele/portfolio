@@ -28,8 +28,8 @@ function UntappdTrial(props) {
         </div>
         <SectionWrapper>
           <SectionHeading>The goal</SectionHeading>
-          <span className="block mt-4 text-5xl text-brand-tertiary leading-12 lg:text-6xl font-display">
-            Connect business with customers
+          <span className="block mt-4 headline font-display">
+            Responsibly connect businesses with customers
           </span>
           <p>
             Untappd for Business (UTFB) offers a single platform to manage menus
@@ -123,7 +123,7 @@ function UntappdTrial(props) {
             </SectionHeading>
           </div>
           <div className="space-y-8">
-            <h3>A marketing site facelift</h3>
+            <h3 className="mt-0">A marketing site facelift</h3>
             <p>
               As the first part of our work, we worked closely with the
               marketing team to A/B test site layouts that simplified the steps

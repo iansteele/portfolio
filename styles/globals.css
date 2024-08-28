@@ -45,7 +45,7 @@
   }
 
   h1 {
-    @apply text-6xl font-bold leading-tight;
+    @apply text-4xl md:text-6xl font-bold leading-tight;
   }
   h2 {
     @apply text-xl mt-10 mb-6 font-bold text-brand-secondary uppercase tracking-wide;
@@ -92,6 +92,10 @@
 
   .highlight {
     @apply tracking-wider font-bold;
+  }
+
+  .headline {
+    @apply text-3xl md:text-5xl font-bold;
   }
 
   .card:hover .card-glow {

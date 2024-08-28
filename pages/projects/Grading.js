@@ -33,7 +33,7 @@ function Grading(props) {
 
         <SectionWrapper>
           <SectionHeading>The goal</SectionHeading>
-          <span className="block mt-4 text-5xl leading-snug text-brand-tertiary lg:text-6xl font-display">
+          <span className="block mt-4 headline text-brand-tertiary">
             Less time grading, more time... well, for anything
           </span>
         </SectionWrapper>
@@ -146,24 +146,24 @@ function Grading(props) {
             management, students did not have access to devices but instead
             followed along with the teacher.
           </p>
-          <div className="grid grid-cols-1 gap-4 mt-16">
-            <Image
-              src={gradingFlowSketch}
-              className="rounded-lg"
-              alt="A low-fidelity sketch of early grading layouts"
-            />
-            <Image
-              src={gradingModalSketch}
-              className="rounded-lg"
-              alt="Original grading modal sketch "
-            />
-            <Image
-              src={gradingIconSketch}
-              className="rounded-lg"
-              alt="Examples of iconography portraying student score"
-            />
-          </div>
         </SectionWrapper>
+        <div className="grid grid-cols-1 gap-4 mt-16 md:grid-cols-3">
+          <Image
+            src={gradingFlowSketch}
+            className="rounded-lg"
+            alt="A low-fidelity sketch of early grading layouts"
+          />
+          <Image
+            src={gradingModalSketch}
+            className="rounded-lg"
+            alt="Original grading modal sketch "
+          />
+          <Image
+            src={gradingIconSketch}
+            className="rounded-lg"
+            alt="Examples of iconography portraying student score"
+          />
+        </div>
 
         {/* <SectionWrapper>
           <SectionHeading>Ideation</SectionHeading>

@@ -31,7 +31,7 @@ function Annotations(props) {
         <SectionWrapper>
           <SectionHeading>The goal</SectionHeading>
 
-          <p className="text-5xl font-light leading-tight tracking-tight">
+          <p className="font-light leading-tight tracking-tight headline">
             <span className="font-bold">
               Promote in-the-moment learning and engagement
             </span>

@@ -77,7 +77,7 @@ function BackpackUI(props) {
         </SectionWrapper>
         <SectionWrapper>
           <SectionHeading>Planning</SectionHeading>
-          <h3>Getting a lay of the land</h3>
+          <h3 className="mt-4">Getting a lay of the land</h3>
           <p>
             To understand the scope of the problem, I first mapped out the
             production components and their Vue properties. From this audit, I
@@ -121,7 +121,7 @@ function BackpackUI(props) {
           />
           <SectionWrapper>
             <SectionHeading>Atoms, molecules, and more</SectionHeading>
-            <h3>Starting small</h3>
+            <h3 className="mt-4">Starting small</h3>
             <p>
               For the initial release, I created Figma components from our 50
               "Shared" vue components used in production. V1 consisted of the
@@ -182,7 +182,7 @@ function BackpackUI(props) {
         </div>
         <SectionWrapper>
           <SectionHeading>The results</SectionHeading>
-          <div className="grid items-stretch grid-cols-1 gap-10 mt-8 auto-rows-max">
+          <div className="grid items-stretch grid-cols-1 gap-4 mt-4 auto-rows-max">
             <Quotation
               quote="Ian single-handedly created our Backpack UI system increasing
                 our team productivity, creating consistency across design files
@@ -200,25 +200,23 @@ function BackpackUI(props) {
               author="Design ops"
             />
 
-            <div>
-              <p className="mt-0">
-                Backpack UI has been a huge success for the team. Designers now
-                have a clear set of guidelines and standards to follow, which
-                has reduced design time and improved consistency in design and
-                development. It has helped to streamline the design process by
-                clearly showcasing what components designers have available to
-                them, increased consistency across the product, and drastically
-                improved communication and collaboration between the design and
-                development teams.
-              </p>
+            <p>
+              Backpack UI has been a huge success for the team. Designers now
+              have a clear set of guidelines and standards to follow, which has
+              reduced design time and improved consistency in design and
+              development. It has helped to streamline the design process by
+              clearly showcasing what components designers have available to
+              them, increased consistency across the product, and drastically
+              improved communication and collaboration between the design and
+              development teams.
+            </p>
 
-              <p>
-                The structure and functionality of Backpack UI has received
-                praise from the larger Imagine Learning organization,
-                influencing other design teams approach to maintaining their own
-                component libraries.
-              </p>
-            </div>
+            <p>
+              The structure and functionality of Backpack UI has received praise
+              from the larger Imagine Learning organization, influencing other
+              design teams approach to maintaining their own component
+              libraries.
+            </p>
           </div>
         </SectionWrapper>
         <div className="mt-10 space-y-4">
