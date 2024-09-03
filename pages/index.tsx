@@ -41,26 +41,26 @@ export default function Home() {
               I geek out about{" "}
               <a
                 href="/projects/BackpackUI"
-                className="relative font-semibold group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
+                className="relative py-1 font-semibold group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
               >
                 design systems
-                <span className="absolute left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary -bottom-1 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary group-hover:w-full"></span>
               </a>
               ,{" "}
               <a
                 href="https://www.github.com/iansteele"
-                className="relative font-semibold whitespace-nowrap group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
+                className="relative py-1 font-semibold whitespace-nowrap group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
               >
-                <span className="absolute left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary -bottom-1 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary group-hover:w-full"></span>
                 front-end development
               </a>{" "}
               and{" "}
               <a
                 href="/projects/Illustration"
-                className="relative font-semibold group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
+                className="relative py-1 font-semibold group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
               >
                 illustration
-                <span className="absolute left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary -bottom-1 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary group-hover:w-full"></span>
               </a>
               .
             </p>
