@@ -25,6 +25,12 @@
     --color-brand-tertiary--muted: #f1f7f485;
   }
 
+  @property --rotate {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
   body {
     background: var(--color-brand-primary);
     margin: 0;
@@ -98,8 +104,32 @@
     @apply text-3xl md:text-5xl font-bold;
   }
 
+  .card {
+    position: relative;
+  }
+
   .card:hover .card-glow {
-    @apply duration-1000 animate-[spin_7s_ease_infinite];
+    position: absolute;
+    inset: 0;
+    &:before {
+      content: "";
+      background: conic-gradient(
+        from var(--rotate),
+        transparent 0%,
+        var(--color-brand-secondary) 5%,
+        transparent 10%
+      );
+      position: absolute;
+      inset: 0;
+      animation: rotate 1.75s linear infinite;
+    }
+    &:after {
+      content: "";
+      background: var(--blue);
+      position: absolute;
+      inset: 2px;
+      border-radius: calc(var(--radius) - 2px);
+    }
   }
 
   .proj-switcher_img {
@@ -127,6 +157,12 @@
     }
     100% {
       opacity: 100%;
+    }
+  }
+
+  @keyframes rotate {
+    to {
+      --rotate: 360deg;
     }
   }
 }

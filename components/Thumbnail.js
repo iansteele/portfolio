@@ -11,7 +11,7 @@ function Thumbnail(props) {
       >
         <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white dark:border transform-gpu  dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 group-hover:scale-[102%] group-active:scale-100 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-lime-200/50 aspect-auto  rounded-[1.25rem] group-active:opacity-0 focus-base">
           <span className="card-glow">
-            <svg
+            {/* <svg
               width="739"
               height="798"
               viewBox="0 0 739 798"
@@ -27,7 +27,7 @@ function Thumbnail(props) {
                 rx="32"
                 fill="currentColor"
               />
-            </svg>
+            </svg> */}
           </span>
         </div>
         <div className="absolute inset-0 flex flex-col w-full h-full overflow-hidden transition-all bg-brand-primary aspect-auto rounded-2xl group-active:shadow-none transform-gpu group-hover:-translate-y-1 group-hover:border-opacity-90 group-active:translate-y-0"></div>
