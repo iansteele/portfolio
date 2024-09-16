@@ -8,7 +8,7 @@ const Project = [
   {
     title: "Data Insights",
     link: "/projects/Data-Insights",
-    image: "/img/fill-image.png",
+    image: "/img/data/Thumb.jpg",
     altLabel: "Data representing student scores",
     roles: ["UX", "Research", "UI", "Front-end dev"],
     client: "Imagine Learning Classroom",

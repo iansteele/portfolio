@@ -9,26 +9,8 @@ function Thumbnail(props) {
         className="relative flex-grow outline-none group card"
         href={props.link}
       >
-        <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white dark:border transform-gpu  dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 group-hover:scale-[102%] group-active:scale-100 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-lime-200/50 aspect-auto  rounded-[1.25rem] group-active:opacity-0 focus-base">
-          <span className="card-glow">
-            {/* <svg
-              width="739"
-              height="798"
-              viewBox="0 0 739 798"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="scale-105 text-brand-primary transform-gpu dark:opacity-0 duration-800 dark:text-lime-400 blur-3xl dark:group-hover:opacity-100 "
-            >
-              <rect
-                x="40"
-                y="40"
-                width="659"
-                height="718"
-                rx="32"
-                fill="currentColor"
-              />
-            </svg> */}
-          </span>
+        <div className="absolute overflow-hidden opacity-0 group-hover:opacity-100 flex flex-col w-full h-full p-2 transition-all duration-500 bg-white dark:border transform-gpu  dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1  group-hover:border-opacity-90 group-active:translate-y-0 group-hover:scale-[102%] group-active:scale-100 dark:border-zinc-800 group-active:shadow-none dark:group-hover:shadow-lime-200/50 aspect-auto rounded-[1.25rem] group-active:opacity-0 focus-base">
+          <span className="card-glow"></span>
         </div>
         <div className="absolute inset-0 flex flex-col w-full h-full overflow-hidden transition-all bg-brand-primary aspect-auto rounded-2xl group-active:shadow-none transform-gpu group-hover:-translate-y-1 group-hover:border-opacity-90 group-active:translate-y-0"></div>
         <div className="relative flex flex-col w-full h-full p-2 transition-all duration-500 bg-white border transform-gpu dark:bg-brand-muted border-neutral-200 group-hover:-translate-y-1 group-hover:shadow-slate-200 group-hover:border-opacity-90 group-active:translate-y-0 dark:border-zinc-800 group-active:shadow-none group-hover:shadow-lg dark:group-hover:shadow-lime-400/50 aspect-auto rounded-2xl focus-base">
@@ -42,7 +24,7 @@ function Thumbnail(props) {
               priority
             />
           </div>
-          <div className="flex flex-col justify-center flex-grow px-2 pt-4 pb-2">
+          <div className="flex flex-col justify-center flex-grow px-2 pt-5 pb-3">
             <span className="text-xl font-semibold leading-8 text-brand-tertiary">
               {props.title}
             </span>

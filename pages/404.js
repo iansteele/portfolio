@@ -15,9 +15,7 @@ export function Custom404() {
             className="w-full rounded-b-2xl"
           />
         </span>
-        <h2 className="mt-4 text-center whitespace-nowrap sm:whitespace-normal">
-          Here lies the page you requested
-        </h2>
+        <h2 className="mt-4 text-center">Here lies the page you requested</h2>
       </div>
     </PageWrapper>
   );

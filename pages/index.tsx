@@ -29,7 +29,7 @@ export default function Home() {
             style={{ animation: "1.5s ease 0s 1 slideInFromBottom" }}
             className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 mr-auto overflow-hidden "
           >
-            <h1 className="text-4xl leading-tight text-brand-tertiary lg:text-7xl lg:leading-tight">
+            <h1 className="text-4xl text-brand-tertiary lg:text-7xl">
               Minding the gap between design & dev
             </h1>
 
@@ -64,12 +64,9 @@ export default function Home() {
               </a>
               .
             </p>
-            <div className="flex gap-2 mt-4">
+            <a href="#projects" className="flex mt-4 text-brand-tertiary">
               <p>Check out my work</p>
-              <a
-                href="#projects"
-                className="flex items-center justify-center flex-shrink-0 p-2 mt-4 origin-top rounded-full max-w-max shadow-zinc-900 animate-bounce text-brand-secondary "
-              >
+              <span className="flex items-center justify-center flex-shrink-0 p-2 mt-4 origin-top rounded-full max-w-max shadow-zinc-900 animate-bounce text-brand-secondary ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -78,11 +75,11 @@ export default function Home() {
                 >
                   <path d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" />
                 </svg>
-              </a>
-            </div>
+              </span>
+            </a>
           </div>
           <div
-            className="relative w-full "
+            className="relative w-full"
             style={{ animation: "2s ease 0s 1 fadeIn" }}
           >
             <span className="absolute w-1/3 h-auto transform -translate-x-1/2 -translate-y-1/2 rounded-full opacity-75 animate-pulse aspect-square -z-10 left-1/2 top-1/2 bg-brand-secondary blur-3xl" />
