@@ -49,7 +49,7 @@ export default function PageWrapper({ children, ...customMeta }) {
       </Head>
 
       <Header />
-      <main className="flex flex-col items-center w-full min-w-full pt-20">
+      <main className="flex flex-col items-center flex-grow w-full min-w-full pt-20">
         {children}
       </main>
       <Footer />
