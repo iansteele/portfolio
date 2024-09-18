@@ -5,15 +5,28 @@ import { PageWrapper } from "../components/ComponentIndex";
 function App() {
   return (
     <PageWrapper>
-      <div className="flex flex-col items-center flex-shrink-0 gap-20 px-0 mt-6 max-w-7xl md:items-start">
-        <div className="flex flex-col max-w-prose">
-          <span className="text-lg font-bold uppercase text-brand-secondary">
-            About me
-          </span>
-          <h1 className="w-full mx-auto mt-6 md:mx-0">
-            {" "}
-            Principal Product Designer. Family-man. BJJ blue belt.
-          </h1>
+      <div className="flex flex-col items-center flex-shrink-0 w-full max-w-screen-lg gap-10 px-0 mx-auto mt-6 md:items-start">
+        <div className="relative flex items-center w-full pb-10 border-b-4 md:pb-20 border-brand-muted">
+          <div className="flex flex-col w-2/3 pr-4 max-w-prose">
+            <span className="text-lg font-bold uppercase text-brand-secondary">
+              About me
+            </span>
+            <h1 className="w-full mx-auto mt-6 md:mx-0">
+              {" "}
+              Principal Product Designer. Dad. BJJ blue belt.
+            </h1>
+          </div>
+          <Image
+            src="/img/hero-modern.jpg"
+            alt="Me and my family at the beach"
+            width={400}
+            height={400}
+            priority
+            className="top-0 right-0 flex-shrink-0 w-1/3 h-auto mx-auto mt-10 rounded-full shadow-lg lg:w-1/4 lg:static aspect-square"
+          />
+        </div>
+        <div className="w-full mx-auto max-w-prose">
+          <h2>My current role</h2>
           <p className="mx-auto mt-6 rounded-lg shadow-lg">
             I am a principal product designer based in Illinois. Currently, I am
             on the <span className="font-bold">Classroom</span> team at{" "}
@@ -26,16 +39,7 @@ function App() {
             and more. I have a sweet-tooth for vector illustration and 3D
             renders.
           </p>
-          <Image
-            src="/img/hero-modern.jpg"
-            alt="Me and my family at the beach"
-            width={400}
-            height={400}
-            priority
-            className="flex-shrink-0 w-full mt-10 rounded-lg shadow-lg"
-          />
-
-          <h2 className="mt-20">Working together</h2>
+          <h2>Working together</h2>
           <p>
             I believe{" "}
             <span className="font-bold">teamwork makes the dream work</span>. I
@@ -43,20 +47,13 @@ function App() {
             improve their weaknesses, and spread their knowledge with others so
             we can all grow together.
           </p>
-          <h2 className="mt-20">What about NON-work stuff? </h2>
+          <h2>Beyond design</h2>
           <p>
-            I am a husband, father of 3, lover of the outdoors, huge fan of all
-            things spooky, and a blue belt in Brazillian Jiu Jitsu. If I could
-            only eat 🌮 for the rest of my life, I'd be perfectly ok with it.
+            I am a husband, father of 3, lover of the outdoors and making things
+            by hand. I am a huge fan of all things spooky, and a blue belt in
+            Brazillian Jiu Jitsu. I think tacos or BBQ are great... but BBQ
+            tacos are perfect.
           </p>
-          <p className="flex flex-col mt-20">Want to know anything else?</p>
-          <a
-            className="relative py-1 font-semibold max-w-max group hover:text-brand-tertiary focus-visible:text-brand-tertiary"
-            href="mailto:steeledesignco@gmail.com"
-          >
-            Reach out!
-            <span className="absolute bottom-0 left-0 w-0 h-1 transition-all duration-500 ease-in-out rounded-full bg-brand-secondary group-hover:w-full"></span>
-          </a>
         </div>
       </div>
       <div className="grid w-full grid-cols-2 gap-4 mt-20 md:grid-cols-4 max-w-7xl place-content-stretch justify-self-center ">
