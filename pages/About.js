@@ -27,7 +27,7 @@ function App() {
         </div>
         <div className="w-full mx-auto max-w-prose">
           <h2>My current role</h2>
-          <p className="mx-auto mt-6 rounded-lg shadow-lg">
+          <p className="mx-auto mt-6">
             I am a principal product designer based in Illinois. Currently, I am
             on the <span className="font-bold">Classroom</span> team at{" "}
             <span className="font-bold whitespace-nowrap ">
