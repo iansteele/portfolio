@@ -44,7 +44,7 @@ function UntappdTrial(props) {
         <SectionWrapper>
           <h3>Timeline</h3>
           <p>Fall 2021</p>
-          <h3>My role:</h3>
+          <h3>My role</h3>
           <ul className="pl-5 space-y-4 list-disc">
             <li>Competitive research & analysis</li>
             <li>Facilitate user interviews</li>

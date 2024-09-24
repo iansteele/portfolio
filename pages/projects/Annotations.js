@@ -52,7 +52,7 @@ function Annotations(props) {
         <SectionWrapper>
           <h3>Timeline</h3>
           <p>5 months</p>
-          <h3>My role:</h3>
+          <h3>My role</h3>
           <ul className="pl-5 space-y-4 list-disc">
             <li>Conduct surveys and moderated user interviews</li>
             <li>Competitive research & analysis</li>

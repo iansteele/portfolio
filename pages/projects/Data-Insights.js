@@ -33,7 +33,7 @@ function DataInsights(props) {
 
           <p className="text-5xl font-light leading-tight tracking-tight">
             <span className="font-bold">
-              Empowering educators with flexible data reports
+              Empower educators with flexible data reports
             </span>
           </p>
           <p className="mt-4 text-brand-tertiary ">

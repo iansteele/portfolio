@@ -57,7 +57,7 @@ function Grading(props) {
         <SectionWrapper>
           <h3>Timeline</h3>
           <p>Back to school 2022</p>
-          <h3>My role:</h3>
+          <h3>My role</h3>
           <ul className="pl-5 space-y-4 list-disc">
             <li>Facilitate user interviews</li>
             <li>Competitive research & analysis</li>

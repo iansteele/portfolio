@@ -47,8 +47,8 @@ function VirtualFest(props) {
 
         <SectionWrapper>
           <h3>Timeline</h3>
-          <p>Back to school 2022</p>
-          <h3>My role:</h3>
+          <p>2 months</p>
+          <h3>My role</h3>
           <ul className="pl-5 space-y-4 list-disc">
             <li>Illustration design</li>
             <li>Assist lead designer with web layout + illustration use</li>
