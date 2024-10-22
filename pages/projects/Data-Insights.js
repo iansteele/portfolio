@@ -149,7 +149,7 @@ function DataInsights(props) {
 
         <Image
           className="w-full mt-16 -mx-6 sm:rounded-xl sm:mx-0 "
-          src={"/img/Data/Thumb.jpg"}
+          src={"/img/data/Thumb.jpg"}
           alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
           width={1440}
           height={480}
