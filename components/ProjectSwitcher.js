@@ -24,7 +24,7 @@ const ProjectSwitcher = () => {
   };
 
   return (
-    <div className="grid w-full grid-cols-2 gap-4 place-items-stretch justify-items-stretch grid-auto-rows">
+    <div className="grid w-full max-w-screen-md grid-cols-2 gap-4 mx-auto place-items-stretch justify-items-stretch grid-auto-rows">
       {hasProjects && (
         <>
           {prevProject && (

@@ -3,7 +3,9 @@ function Quotation(props) {
   function Author() {
     if (hasAuthor) {
       return (
-        <p className="mt-2 text-base text-brand-tertiary">- {props.author}</p>
+        <p className="mt-2 text-sm opacity-70 text-brand-tertiary">
+          - {props.author}
+        </p>
       );
     }
     return null;

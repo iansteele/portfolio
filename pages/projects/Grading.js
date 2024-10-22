@@ -202,9 +202,9 @@ function Grading(props) {
             student progress and whether it required their attention.
           </p>
         </SectionWrapper>
-        <div className="w-full mt-8 text-center sm:p-2 ">
+        <div className="w-full mt-8 sm:p-2 ">
           <img
-            className="flex-1 min-w-0 rounded-lg"
+            className="flex-1 min-w-0 mx-auto rounded-lg"
             src={"../img/grading/assignment-cards.png"}
             alt="Assignment list items portraying student activity"
           />
@@ -218,9 +218,9 @@ function Grading(props) {
             table, bulk actions, and more.
           </p>
         </SectionWrapper>
-        <div className="w-full mt-8 text-center sm:p-2 ">
+        <div className="w-full mt-8 sm:p-2 ">
           <img
-            className="flex-1 min-w-0 rounded-lg"
+            className="flex-1 min-w-0 mx-auto rounded-lg"
             src={"../img/grading/Student Submissions.jpg"}
             alt="The student submissions table displaying scores on an assignment."
           />

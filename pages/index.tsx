@@ -24,10 +24,10 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative z-0 grid items-center w-full grid-cols-1 gap-4 pt-6 md:grid-cols-2 backdrop-filter lg:gap-16 max-w-screen-2xl h-fit text-brand-tertiary">
+        <div className="relative z-0 grid items-center w-full grid-cols-1 gap-4 pt-10 lg;pt-20 md:grid-cols-3 backdrop-filter lg:gap-16 max-w-screen-2xl h-fit text-brand-tertiary">
           <div
             style={{ animation: "1.5s ease 0s 1 slideInFromBottom" }}
-            className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 mr-auto overflow-hidden "
+            className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 col-span-2 mr-auto overflow-hidden "
           >
             <h1 className="text-4xl text-brand-tertiary lg:text-7xl">
               Minding the gap between design & dev
@@ -84,14 +84,14 @@ export default function Home() {
           >
             <span className="absolute w-1/3 h-auto transform -translate-x-1/2 -translate-y-1/2 rounded-full opacity-75 animate-pulse aspect-square -z-10 left-1/2 top-1/2 bg-brand-secondary blur-3xl" />
             <Image
-              className="z-10 hidden w-3/4 mx-auto dark:block"
+              className="z-10 hidden w-full mx-auto dark:block"
               src={"/img/hero3.png"}
               alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
               width={600}
               height={600}
             />
             <Image
-              className="z-10 block w-3/4 mx-auto dark:hidden"
+              className="z-10 block w-full mx-auto dark:hidden"
               src={"/img/hero4.png"}
               alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
               width={600}
