@@ -14,6 +14,7 @@ const Project = [
     client: "Imagine Learning Classroom",
     description: "Informing instruction & support through data",
     draft: true,
+    reqAuth: true,
   },
   {
     title: "Backpack UI",
@@ -33,6 +34,7 @@ const Project = [
     roles: ["UX", "Research", "UI", "Front-end dev"],
     client: "Imagine Learning Classroom",
     description: "Promoting dialogue during classroom discussion",
+    reqAuth: true,
   },
   {
     title: "Assignment Grading",
@@ -43,6 +45,7 @@ const Project = [
     roles: ["User research", "Design Thinking", "Prototyping"],
     client: "Imagine Learning Classroom",
     description: "Giving teachers their time back",
+    reqAuth: true,
   },
 
   {
