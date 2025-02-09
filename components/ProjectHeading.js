@@ -21,7 +21,7 @@ function ProjectHeading({ project }) {
 
   return (
     <>
-      <div className="max-w-screen-lg col-span-2 mx-auto mt-16">
+      <div className="max-w-screen-xl col-span-2 mx-auto mt-16">
         <p className="text-sm font-bold tracking-widest uppercase text-brand-secondary">
           {project.client}
         </p>

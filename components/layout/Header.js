@@ -42,7 +42,7 @@ function Header(props) {
       id="navbar"
       className="fixed top-0 left-0 z-10 flex items-center w-full h-20 p-6 transition-all duration-500 transform drop-shadow-sm bg-brand-primary text-primary"
     >
-      <div className="flex items-center justify-between w-full mx-auto max-w-screen-2xl">
+      <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link
           href="/"
           className="inline-flex items-center flex-grow-0 gap-3 transition-colors duration-500 rounded cursor-pointer group focus-base text-brand-tertiary"
