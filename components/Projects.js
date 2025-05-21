@@ -12,6 +12,7 @@ export default function ProjectList() {
         alt={Project.altLabel}
         key={Project.id}
         description={Project.description}
+        reqAuth={Project.reqAuth}
         // Pass other props as needed
       />
     )

@@ -45,7 +45,7 @@ const Project = [
     roles: ["User research", "Design Thinking", "Prototyping"],
     client: "Imagine Learning Classroom",
     description: "Giving teachers their time back",
-    reqAuth: true,
+    // reqAuth: true,
   },
 
   {

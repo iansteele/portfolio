@@ -13,9 +13,15 @@ import {
   BlurImage,
 } from "../../components/ComponentIndex";
 
-function Grading(props) {
+function Grading() {
+  // Fetch the specific project
   const project = Project.find((p) => p.title === "Assignment Grading");
 
+  if (!project) {
+    return <div>Project not found</div>;
+  }
+
+  // Wrap the project content in the ProjectWrapper to enforce authentication
   return (
     <PageWrapper>
       <ProjectWrapper>
