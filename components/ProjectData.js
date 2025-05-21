@@ -34,7 +34,7 @@ const Project = [
     roles: ["UX", "Research", "UI", "Front-end dev"],
     client: "Imagine Learning Classroom",
     description: "Promoting dialogue during classroom discussion",
-    reqAuth: true,
+    // reqAuth: true,
   },
   {
     title: "Assignment Grading",
