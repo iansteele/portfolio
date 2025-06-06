@@ -123,7 +123,7 @@
     );
     position: absolute;
     inset: 0;
-    animation: rotate 1.75s linear infinite;
+    animation: rotate 10s linear infinite;
   }
 
   .card:hover .card-glow:after {
