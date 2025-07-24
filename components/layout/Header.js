@@ -52,17 +52,11 @@ function Header(props) {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 200 180"
           >
-            <svg
-              className="flex-shrink-0 w-8 h-8 transition-all duration-500 transform group-hover:scale-110 group-hover:fill-brand-secondary fill-brand-tertiary"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 180"
-            >
-              <path
-                className="cls-1"
-                d="M140 160h10l-20 20H50l20-20h20v-10h20v10zM30 100h50V80H40L30 70l10-10h130l20-20h-80V20h20l20-20H70L50 20h40v20H30L10 60 0 70l10 10zm160 0l-20-20h-50v20h40l10 10-10 10h-50V70H90v50H30l-20 20h160l20-20 10-10z"
-                data-name="Layer 1"
-              />
-            </svg>{" "}
+            <path
+              className="cls-1"
+              d="M140 160h10l-20 20H50l20-20h20v-10h20v10zM30 100h50V80H40L30 70l10-10h130l20-20h-80V20h20l20-20H70L50 20h40v20H30L10 60 0 70l10 10zm160 0l-20-20h-50v20h40l10 10-10 10h-50V70H90v50H30l-20 20h160l20-20 10-10z"
+              data-name="Layer 1"
+            />
           </svg>
           <div className="relative hidden text-lg font-bold tracking-wider sm:block">
             IAN STEELE
