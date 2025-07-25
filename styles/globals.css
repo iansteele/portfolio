@@ -146,6 +146,24 @@
     @apply grid grid-cols-2 gap-6;
   }
 
+  .slide-in-bottom {
+    opacity: 0;
+    animation-name: slideInFromBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
   @keyframes slideInFromBottom {
     0% {
       transform: translateY(15%);

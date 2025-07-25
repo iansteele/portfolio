@@ -25,10 +25,7 @@ export default function Home() {
           />
         </Head>
         <div className="relative z-0 grid items-center w-full max-w-screen-xl grid-cols-1 gap-4 pt-10 md:grid-cols-3 backdrop-filter lg:gap-16 lg:pt-20 h-fit text-brand-tertiary">
-          <div
-            style={{ animation: "1.5s ease 0s 1 slideInFromBottom" }}
-            className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 col-span-2 mr-auto overflow-hidden "
-          >
+          <div className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 col-span-2 mr-auto overflow-hidden slide-in-bottom">
             <h1 className="text-4xl text-brand-tertiary lg:text-7xl">
               Minding the gap between design & dev
             </h1>
@@ -81,10 +78,7 @@ export default function Home() {
               </span>
             </a>
           </div>
-          <div
-            className="relative w-full"
-            style={{ animation: "2s ease 0s 1 fadeIn" }}
-          >
+          <div className="relative w-full fade-in">
             <span className="absolute w-1/3 h-auto transform -translate-x-1/2 -translate-y-1/2 rounded-full opacity-75 animate-pulse aspect-square -z-10 left-1/2 top-1/2 bg-brand-secondary blur-3xl" />
             <Image
               className="z-10 hidden w-full mx-auto dark:block"
