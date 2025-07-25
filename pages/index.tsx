@@ -66,15 +66,14 @@ export default function Home() {
             </p>
             <a
               href="#projects"
-              className="flex mt-4 max-w-max text-brand-tertiary"
+              className="flex items-center gap-4 py-2 pl-6 pr-4 mt-10 rounded-full bg-brand-secondary max-w-max text-brand-primary"
             >
-              <p>Check out my work</p>
-              <span className="flex items-center justify-center flex-shrink-0 p-2 mt-4 origin-top rounded-full max-w-max shadow-zinc-900 animate-bounce text-brand-secondary ">
+              <p className="mt-0 font-semibold">View my work</p>
+              <span className="flex items-center justify-center flex-shrink-0 w-5 h-5 origin-center rounded-full shadow-zinc-900 animate-bounce text-brand-primary ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="w-5 h-5"
                 >
                   <path d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" />
                 </svg>
