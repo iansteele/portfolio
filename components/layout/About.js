@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <div className="w-full bg-brand-muted ">
-      <div className="grid w-full grid-cols-1 gap-10 px-4 mx-auto space-y-0 list-none lg:gap-20 max-w-screen-2xl place-items-stretch auto-rows-max md:grid-cols-2 lg:grid-cols-3 ">
+      <div className="grid w-full grid-cols-1 gap-10 px-4 mx-auto space-y-0 list-none lg:gap-20 lg:pt-20 max-w-screen-2xl place-items-stretch auto-rows-max md:grid-cols-2 lg:grid-cols-3 ">
         <div className="grid w-full mt-24 place-self-start">
           <div className="relative flex flex-shrink-0 w-full col-span-1 mx-auto aspect-square min-w-max">
             <Image

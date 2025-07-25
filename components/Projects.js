@@ -20,7 +20,7 @@ export default function ProjectList() {
   return (
     <ul
       id="projects"
-      className="grid w-full max-w-screen-xl grid-cols-1 gap-4 px-0 pt-10 space-y-0 list-none lg:pt-20 auto-rows-max md:grid-cols-2 xl:grid-cols-3"
+      className="grid w-full max-w-screen-xl grid-cols-1 gap-4 px-0 pt-10 space-y-0 list-none auto-rows-max md:grid-cols-2 xl:grid-cols-3"
     >
       {thumbnails}
     </ul>
