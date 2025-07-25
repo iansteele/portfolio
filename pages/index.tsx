@@ -24,7 +24,7 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-        <div className="relative z-0 grid items-center w-full grid-cols-1 gap-4 pt-10 lg;pt-20 md:grid-cols-3 backdrop-filter lg:gap-16 max-w-screen-xl h-fit text-brand-tertiary">
+        <div className="relative z-0 grid items-center w-full max-w-screen-xl grid-cols-1 gap-4 pt-10 md:grid-cols-3 backdrop-filter lg:gap-16 h-fit text-brand-tertiary">
           <div
             style={{ animation: "1.5s ease 0s 1 slideInFromBottom" }}
             className="relative z-20 flex flex-col justify-center flex-grow w-full min-w-0 col-span-2 mr-auto overflow-hidden "
@@ -64,7 +64,10 @@ export default function Home() {
               </a>
               .
             </p>
-            <a href="#projects" className="flex mt-4 text-brand-tertiary">
+            <a
+              href="#projects"
+              className="flex mt-4 max-w-max text-brand-tertiary"
+            >
               <p>Check out my work</p>
               <span className="flex items-center justify-center flex-shrink-0 p-2 mt-4 origin-top rounded-full max-w-max shadow-zinc-900 animate-bounce text-brand-secondary ">
                 <svg
