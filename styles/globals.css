@@ -149,9 +149,9 @@
   .slide-in-bottom {
     opacity: 0;
     animation-name: slideInFromBottom;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.5s;
+    animation-duration: 1.25s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.35, 1);
+    animation-delay: 0.75s;
     animation-fill-mode: forwards;
   }
 
@@ -159,9 +159,13 @@
     opacity: 0;
     animation-name: fadeIn;
     animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.5s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.35, 1);
+    animation-delay: 1s;
     animation-fill-mode: forwards;
+    transform-origin: center bottom;
+    @media (min-width: 640px) {
+      transform-origin: right center;
+    }
   }
 
   @keyframes slideInFromBottom {
@@ -178,9 +182,11 @@
   @keyframes fadeIn {
     0% {
       opacity: 0;
+      scale: 50%;
     }
     100% {
       opacity: 100%;
+      scale: 100%;
     }
   }
 
