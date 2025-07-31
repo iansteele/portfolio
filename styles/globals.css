@@ -160,11 +160,12 @@
     animation-name: fadeIn;
     animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(0.5, 0, 0.35, 1);
-    animation-delay: 1s;
+    animation-delay: 0.75s;
     animation-fill-mode: forwards;
     transform-origin: center bottom;
     @media (min-width: 640px) {
-      transform-origin: right center;
+      transform-origin: bottom center;
+      animation-duration: 1.5s;
     }
   }
 
@@ -182,7 +183,7 @@
   @keyframes fadeIn {
     0% {
       opacity: 0;
-      scale: 50%;
+      scale: 90%;
     }
     100% {
       opacity: 100%;
