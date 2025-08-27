@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Image from "next/image";
 import { PageWrapper, About } from "../components/ComponentIndex";
@@ -100,6 +101,7 @@ export default function Home() {
         <Projects />
         {/* <About /> */}
       </PageWrapper>
+      <Analytics />
       <SpeedInsights />
     </>
   );
