@@ -100,7 +100,7 @@ export default function Home() {
         <Projects />
         {/* <About /> */}
       </PageWrapper>
-      <Analytics />
+      <SpeedInsights />
     </>
   );
 }
