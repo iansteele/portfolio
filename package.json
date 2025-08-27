@@ -16,12 +16,12 @@
     "@vercel/analytics": "^1.0.2",
     "@vercel/speed-insights": "^1.2.0",
     "eslint": "8.35.0",
-    "eslint-config-next": "13.2.1",
-    "next": "13.2.1",
+    "eslint-config-next": "^15.5.2",
+    "next": "^15.5.2",
     "next-google-fonts": "^2.2.0",
     "next-themes": "^0.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "typescript": "4.9.5"
   },
   "devDependencies": {
