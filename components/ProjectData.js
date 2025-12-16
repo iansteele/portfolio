@@ -6,6 +6,28 @@ function addIdsToProjects(projects) {
 
 const Project = [
   {
+    title: "Assessments",
+    link: "/projects/gm-assessments",
+    image: "/img/data/Thumb2.jpg",
+    altLabel: "Overhauling the GM Assessment flow",
+    roles: ["UX", "Research", "UI", "Front-end dev"],
+    client: "Great Minds",
+    description:
+      "Simplifying assessment management on the Great Minds platform",
+    draft: false,
+  },
+  {
+    title: "Pulse Check",
+    link: "/projects/pulse-check",
+    image: "/img/data/Thumb2.jpg",
+    altLabel: "In the moment progress checks",
+    roles: ["UX", "Research", "UI", "Front-end dev"],
+    client: "Imagine Learning Classroom",
+    description:
+      "Simplifying assessment management on the Great Minds platform",
+    draft: false,
+  },
+  {
     title: "Data Insights",
     link: "/projects/Data-Insights",
     image: "/img/data/Thumb2.jpg",
@@ -13,7 +35,7 @@ const Project = [
     roles: ["UX", "Research", "UI", "Front-end dev"],
     client: "Imagine Learning Classroom",
     description: "Informing instruction & support through data",
-    draft: true,
+    draft: false,
   },
   {
     title: "Backpack UI",
