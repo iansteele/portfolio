@@ -9,10 +9,39 @@
     --color-white: #f1f1f1;
     --color-gray: #5dadb3;
     /* --color-brand-primary: #242429; */
+    --color-brand-primary: var(--deep-space);
+    --color-brand-secondary: var(--ooze);
+    --color-brand-tertiary: #f6f6f6;
+    --color-brand-tertiary--muted: #f6f6f60d;
+
+    /* original
+
+    --color-black: #1a151b;
+    --color-white: #f1f1f1;
+    --color-gray: #5dadb3;
+    /* --color-brand-primary: #242429; 
     --color-brand-primary: #001418;
     --color-brand-secondary: #b0e13d;
     --color-brand-tertiary: #f6f6f6;
-    --color-brand-tertiary--muted: #f6f6f60d;
+    --color-brand-tertiary--muted: #f6f6f60d;*/
+
+    /* prims */
+
+    --deep-space: #001418;
+    --ooze: #b0e13d;
+
+    --icy-blue: #a4d8ff;
+    --gunmetal: #35393c;
+    --raspberry-red: #ee005a;
+    --deep-space-gray: #012641;
+    --shadow-grey: #272727;
+    --sandy-clay: #d4aa7d;
+    --lime-cream: #ddea78;
+    --vintage-grape: #433455;
+    --celadon: #a8d3a8;
+    --chocolate-plum: #553832;
+    --cherry-blossom: #f9a8bb;
+    --deep-twilight: #1a1265;
   }
 
   .light {
@@ -34,9 +63,19 @@
   body {
     background: var(--color-brand-primary);
     margin: 0;
-    font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI",
-      "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:
+      "Outfit",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      "Roboto",
+      "Oxygen",
+      "Ubuntu",
+      "Cantarell",
+      "Fira Sans",
+      "Droid Sans",
+      "Helvetica Neue",
+      sans-serif;
     height: 100%;
   }
 
@@ -50,15 +89,16 @@
     @apply transition-colors duration-100;
   }
 
+  /* Type scale from tailwind.config.js (Major Third 1.25) */
   h1 {
-    @apply text-4xl md:text-6xl font-bold leading-tight;
+    @apply text-3xl md:text-5xl font-bold;
   }
   h2 {
     @apply text-2xl md:text-3xl mt-10 mb-0 font-bold tracking-wide;
   }
 
   h3 {
-    @apply text-xl font-normal  mt-10 mb-0 text-brand-tertiary;
+    @apply text-xl font-normal mt-10 mb-0 text-brand-tertiary;
   }
 
   h4 {
@@ -73,7 +113,7 @@
 
   p,
   li {
-    @apply leading-relaxed lg:text-xl lg:leading-relaxed opacity-90 font-normal;
+    @apply lg:text-lg opacity-90 font-normal;
   }
 
   ul {
@@ -101,7 +141,7 @@
   }
 
   .headline {
-    @apply text-3xl md:text-5xl font-bold;
+    @apply text-2xl md:text-4xl font-bold;
   }
 
   .card {
