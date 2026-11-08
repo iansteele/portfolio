@@ -10,8 +10,8 @@
     --color-gray: #5dadb3;
     /* --color-brand-primary: #242429; */
     --color-brand-primary: var(--deep-space);
-    --color-brand-secondary: var(--ooze);
-    --color-brand-tertiary: #f6f6f6;
+    --color-brand-secondary: var(--ethereal-lilac);
+    --color-brand-tertiary: var(--steel-mist);
     --color-brand-tertiary--muted: #f6f6f60d;
 
     /* original
@@ -30,27 +30,35 @@
     --deep-space: #001418;
     --ooze: #b0e13d;
 
-    --icy-blue: #a4d8ff;
-    --gunmetal: #35393c;
     --raspberry-red: #ee005a;
     --deep-space-gray: #012641;
     --shadow-grey: #272727;
-    --sandy-clay: #d4aa7d;
-    --lime-cream: #ddea78;
-    --vintage-grape: #433455;
-    --celadon: #a8d3a8;
-    --chocolate-plum: #553832;
-    --cherry-blossom: #f9a8bb;
-    --deep-twilight: #1a1265;
+  
+
+    --nox-noir: #141414;
+    --royal-amethyst: #7e49b3;
+    --steel-mist: #cfcfcf;
+
+    --obsidian: #303030;
+    --orchid: #BA55D3;
+    --arctic: #87CEFA;
+
+    --void: #1B3100;
+    --plum: #8d3f7d;
+    --parchment: #FFF2C5;
+
+    --bloodwood-deep: #200D2D;
+    --ethereal-lilac: #BB95E4;
+    --golden-harvest: #ffd066;
   }
 
   .light {
     --color-black: #1a151b;
     --color-white: #ffffff;
     --color-gray: #5dadb3;
-    --color-brand-primary: #fefefe;
-    --color-brand-secondary: #235f60;
-    --color-brand-tertiary: #2a3439;
+    --color-brand-primary: #fcfcfc;
+    --color-brand-secondary: var(--royal-amethyst);
+    --color-brand-tertiary: var(--deep-space);
     --color-brand-tertiary--muted: #f1f7f485;
   }
 
@@ -78,6 +86,20 @@
       sans-serif;
     height: 100%;
   }
+
+  .bg-texture {
+    /* background-image: 
+    linear-gradient(to right, #e0e0e0 1px, transparent 1px),
+    linear-gradient(to bottom, #e0e0e0 1px, transparent 1px);
+    background-size: 20px 20px; */
+    /* PolkaDots */
+    background-color: transparent;
+    background-image: 
+      linear-gradient(90deg, #2c3e50 2px, transparent 2px),
+      linear-gradient(180deg, #2c3e50 2px, transparent 2px);
+    background-size: 24px 24px;
+  }
+  
 
   h1,
   h2,
@@ -113,7 +135,7 @@
 
   p,
   li {
-    @apply lg:text-lg opacity-90 font-normal;
+    @apply lg:text-xl font-normal;
   }
 
   ul {
@@ -158,18 +180,20 @@
     background: conic-gradient(
       from var(--rotate),
       transparent 0%,
-      var(--color-brand-secondary) 5%,
-      transparent 10%
+      var(--color-brand-secondary) 80%,
+      transparent 20%
     );
+    filter: blur(2rem);
     position: absolute;
     inset: 0;
-    animation: rotate 10s linear infinite;
+    animation: rotate 4s linear infinite;
   }
 
   .card:hover .card-glow:after {
     content: "";
-    background: var(--blue);
+    background: transparent;
     position: absolute;
+    filter: blur(3rem);
     inset: 2px;
     border-radius: calc(var(--radius) - 2px);
   }

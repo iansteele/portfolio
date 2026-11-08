@@ -4,43 +4,35 @@ import { ThemeButton } from "../../components/ComponentIndex";
 
 function Header(props) {
   useEffect(() => {
-    const navBar = document.querySelector("#navbar");
-    let prevScrollPos = window.scrollY;
-    let transitionDuration = "0.3s";
-
-    const handleScroll = () => {
-      let currScrollPos = window.scrollY;
-      const scrollSpeed = Math.abs(currScrollPos - prevScrollPos);
-
-      // Calculate the translation based on scroll speed
-      const translateY = -Math.min(scrollSpeed, 100); // Adjust the maximum translation amount as needed
-
-      navBar.style.transform = `translateY(${translateY}px)`;
-
-      if (currScrollPos > prevScrollPos) {
-        navBar.style.transform = `translateY(-105%)`;
-      }
-
-      if (currScrollPos < 100) {
-        navBar.style.transform = `translateY(0px)`;
-      }
-
-      prevScrollPos = currScrollPos;
-    };
-
+    // const navBar = document.querySelector("#navbar");
+    // let prevScrollPos = window.scrollY;
+    // let transitionDuration = "0.3s";
+    // const handleScroll = () => {
+    //   let currScrollPos = window.scrollY;
+    //   const scrollSpeed = Math.abs(currScrollPos - prevScrollPos);
+    //   // Calculate the translation based on scroll speed
+    //   const translateY = -Math.min(scrollSpeed, 100); // Adjust the maximum translation amount as needed
+    //   navBar.style.transform = `translateY(${translateY}px)`;
+    //   if (currScrollPos > prevScrollPos) {
+    //     navBar.style.transform = `translateY(-105%)`;
+    //   }
+    //   if (currScrollPos < 100) {
+    //     navBar.style.transform = `translateY(0px)`;
+    //   }
+    //   prevScrollPos = currScrollPos;
+    // };
     // Add the scroll event listener
-    window.addEventListener("scroll", handleScroll);
-
+    // window.addEventListener("scroll", handleScroll);
     // Return a cleanup function to remove the event listener
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    // return () => {
+    //   window.removeEventListener("scroll", handleScroll);
+    // };
   }, []);
 
   return (
     <header
       id="navbar"
-      className="fixed top-0 left-0 z-10 flex items-center w-full h-20 p-6 transition-all duration-500 transform drop-shadow-sm bg-brand-primary text-primary"
+      className="fixed top-0 left-0 z-10 flex items-center w-full h-20 p-6 transition-all duration-500 bg-brand-primary transform drop-shadow-sm backdrop-blur-[2px]    text-primary"
     >
       <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
         <Link

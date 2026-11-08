@@ -52,12 +52,12 @@ const Project = [
     altLabel: "Screenshots of the Untappd for Business free trial experience",
     roles: ["UX", "Product Design"],
     client: "Untappd for Business",
-    description: "Reducing our customer aquisition cost",
+    description: "Reducing our customer acquisition cost",
   },
   {
     title: "Untappd Virtual Fest",
     link: "/projects/VirtualFest",
-    image: "/img/ut/v-fest/thumb.jpg",
+    image: "/img/ut/v-fest/thumb2.jpg",
     altLabel:
       "Website design and marketing adds for the Untappd Virtual Festival campaign",
     roles: ["Illustration"],
@@ -67,11 +67,11 @@ const Project = [
   {
     title: "Illustrations",
     link: "/projects/Illustration",
-    image: "/img/illustrations/dietrying.jpg",
+    image: "/img/illustrations/LZ_characters_thumb.jpeg",
     altLabel: "Illustration of a headstone that reads Die Trying",
     roles: [],
     client: "",
-    description: "Sometimes you just gotta create things, you know?",
+    description: "Makers gonna make",
   },
   {
     title: "Digital Menus",

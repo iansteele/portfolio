@@ -48,9 +48,9 @@ function App() {
           <h2>Beyond design</h2>
           <p>
             I am a husband, father of 3, lover of the outdoors and making things
-            by hand. I am a huge fan of all things spooky, and a blue belt in
-            Brazillian Jiu Jitsu. Tacos and BBQ are great... but BBQ tacos are
-            perfect 🤌.
+            by hand. I am a huge fan of all things spooky, and a purple belt in
+            Brazillian Jiu Jitsu. Tacos are the
+            perfect food.
           </p>
         </div>
       </div>
