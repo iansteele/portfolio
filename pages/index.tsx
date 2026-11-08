@@ -82,7 +82,7 @@ export default function Home() {
           <div className="relative w-full fade-in">
             <span className="absolute w-1/3 h-auto transform -translate-x-1/2 -translate-y-1/2 rounded-full opacity-75 animate-pulse aspect-square -z-10 left-1/2 top-1/2 bg-brand-secondary blur-3xl" />
             <Image
-              className="z-10 block w-full mx-auto hue-rotate-60"
+              className="z-10 block w-full mx-auto hue-rotate-[80deg]"
               src={"/img/hero4.png"}
               alt="A teacher presenting a lesson to their classroom in an third-party app with screenshots of the ILClassroom course material."
               width={600}
